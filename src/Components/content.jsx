@@ -19,7 +19,7 @@ const movies = [
     { name: 'Aavesham', image: 'https://static.moviecrow.com/gallery/20240223/226542-aavesham.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Aavesham.mp4' },
     { name: 'Hi Nanna', image: 'https://tinyurl.com/ye76f2r4', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Hi_Nanna.mp4' },
     { name: 'Aranmanai 4', image: 'https://tinyurl.com/bdzam9p4', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Aranmanai_4.mp4'},
-    { name: 'PT SIR', image: 'https://tinyurl.com/3dapj4h8', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/PT_Sir.mp4' },
+    { name: 'Pt Sir', image: 'https://tinyurl.com/3dapj4h8', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/PT_Sir.mp4' },
     // { name: 'Premalu', image: 'https://tinyurl.com/yn5t9a9p', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Premalu.mp4' },
     // { name: 'Premalu', image: 'https://tinyurl.com/yn5t9a9p', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Premalu.mp4' },
     // { name: 'Premalu', image: 'https://tinyurl.com/yn5t9a9p', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Premalu.mp4' },
