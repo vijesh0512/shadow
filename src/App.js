@@ -60,15 +60,16 @@ const App = () => {
             onSongChange={handleSongChange} 
             onAudioChange={handleAudioChange} 
           />
-          {currentSong && (
-            <div className="songg">
-              <h3>Now Playing</h3>
-              <img src={currentSong.image} alt={currentSong.name} /><br/>
-              <button onClick={togglePlayPause} className="player-button">
-                {isPlaying ? 'Pause' : 'Play'}
-              </button>
-            </div>
-          )}
+          {currentSong && currentSong.image && (
+  <div className="songg">
+    <h3>Now Playing</h3>
+    <img src={currentSong.image} alt={currentSong.name} /><br/>
+    <button onClick={togglePlayPause} className="player-button">
+      {isPlaying ? 'Pause' : 'Play'}
+    </button>
+  </div>
+)}
+
         </>
       )}
       {/* {activeComponent === 'live' && <Livetv />} */}
