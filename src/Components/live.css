@@ -1,0 +1,113 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+}
+.play {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  gap: 9px;
+}
+.side-nav{
+  z-index: 2000;
+}
+.son {
+  min-width: 150px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+  box-shadow: 1px 1px 10px rgb(85, 83, 83);
+}
+.songs{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.son img {
+  width: 240px;
+  height: 210px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.son p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #b3a6a6;
+}
+.son:hover {
+  transform: scale(1.05);
+}
+
+.somgg{
+  padding: 100px;
+}
+@media (max-width: 768px) {
+  .play {
+      gap: 9px;
+  }
+
+  .son {
+      min-width: 90px;
+      margin-top: 30px;
+  }
+
+  .son img {
+      width: 90px;
+      height: 130px;
+  }
+
+  .son p {
+      margin-top: 3px;
+      font-size: 14px;
+  }
+
+  .plr {
+    width: 100%;
+}
+}
+
+
+video {
+  width: 100%;
+  height: auto;
+}
+.vlc{
+  color: rgb(244, 3, 3);
+  margin-left: 10px;
+  margin-right: 3px;
+}
+.vlc2{
+  margin-left: 8px;
+  color: rgb(183, 106, 255);
+}
+.bt{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  margin-top: 10px;
+
+}
+.btt{
+  height: 30px;
+  color:  #b3a6a6;
+  background-color: rgb(47, 45, 45);
+  border: none;
+  cursor: pointer;
+  padding-top: 7px;
+}
+
+.search-bar {
+  width: 92%;
+  padding: 8px;
+  margin-bottom: 16px;
+  margin-left: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: white;
+}
+
