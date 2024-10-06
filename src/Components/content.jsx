@@ -216,7 +216,7 @@ const Years = [
 ];
 const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
   const [selectedAlbum, setSelectedAlbum] = useState(null);
-  const [currentAudio, setCurrentAudio] = useState(null);
+  const [,setCurrentAudio] = useState(null);
   const audioRef = useRef(null);
 
   const handlePlay = async (song) => {
@@ -236,9 +236,6 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
     } catch (error) {
       console.error("Error playing audio:", error);
     }
-  };
-  const handleAlbumClick = (album) => {
-    setSelectedAlbum(album);
   };
   const renderSongs = (songsArray, containerId) => {
     const container = document.getElementById(containerId);
