@@ -318,7 +318,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
       renderSongs(singer, 'singer-player');
       renderSongs(Years, 'others-player');
       rendermov(movies, 'movie-player');
-      rendermov(stream, 'stream-player');
+      //rendermov(stream, 'stream-player');
       renderchannel(channels, 'live-player');
       renderdog(others, 'dog-player');
     }
@@ -351,10 +351,10 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
       ) : (
         <>
  
-          <div className="bt">
+          {/* <div className="bt">
           <h1 className='sideheading'>Live Events</h1>
           </div>
-        <div id='stream-player' className='player'></div>
+        <div id='stream-player' className='player'></div>*/}
 
           <div className="bt">
               <h1 className='sideheading'>Movies</h1>
