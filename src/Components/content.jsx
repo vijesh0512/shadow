@@ -351,10 +351,10 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
       ) : (
         <>
  
-          {<div className="bt">
+          <div className="bt">
           <h1 className='sideheading'>Live Events</h1>
           </div>
-        <div id='stream-player' className='player'></div>}
+        <div id='stream-player' className='player'></div>
 
           <div className="bt">
               <h1 className='sideheading'>Movies</h1>
