@@ -1,7 +1,8 @@
 import React, { useEffect, useState, useRef } from 'react';
 const stream = [
+  {name : 'BB LIVE' , image:'https://tinyurl.com/uhh56m7h' ,link:'https://tsneh.vercel.app/h-af99ovtbtt'},
   //{name: 'ISL', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://prod-sports-eng-gm.jiocinema.com/hls/live/2112600/hd_akamai_merged_avc_isl_eng_m2280924/master.m3u8' },
-  { name: 'IND vs BAN', image: 'https://sm.ign.com/t/ign_in/screenshot/default/india-vs-bangladesh_9cjt.1280.jpg', link: 'https://prod-sports-south-gm.jiocinema.com/hls/live/2109711/hd_akamai_iosmob_avc_tam_indvsban_061024/master.m3u8' },
+  //{ name: 'IND vs BAN', image: 'https://sm.ign.com/t/ign_in/screenshot/default/india-vs-bangladesh_9cjt.1280.jpg', link: 'https://prod-sports-south-gm.jiocinema.com/hls/live/2109711/hd_akamai_iosmob_avc_tam_indvsban_061024/master.m3u8' },
   //{ name: 'AUS vs ENG', image: 'https://fancode.com/skillup-uploads/prod-images/2024/09/ENG-vs-AUS.png', link: 'https://tsneh.vercel.app/8rmeupsekdn9' },
   //{ name: 'SL vs NZ', image: 'https://www.india.com/wp-content/uploads/2015/02/sri-and-new-flag.jpg', link: 'https://pubads.g.doubleclick.net/ssai/event/biQJgf06SJCitj-nd502ow/master.m3u8' },
   //{ name: 'AFG vs SA', image: 'https://www.shutterstock.com/image-vector/afghanistan-vs-south-africa-icc-260nw-2378122757.jpg', link: 'https://dai.google.com/linear/hls/event/Ek_Vtm5jRaWpjVxANvOhng/master.m3u8' },
@@ -317,7 +318,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
       renderSongs(singer, 'singer-player');
       renderSongs(Years, 'others-player');
       rendermov(movies, 'movie-player');
-      //rendermov(stream, 'stream-player');
+      rendermov(stream, 'stream-player');
       renderchannel(channels, 'live-player');
       renderdog(others, 'dog-player');
     }
@@ -350,10 +351,10 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
       ) : (
         <>
  
-                            {/* <div className="bt">
-          <h1 className='sideheading'>Live Sports</h1>
+          <div className="bt">
+          <h1 className='sideheading'>Live Events
           </div>
-        <div id='stream-player' className='player'></div> */}
+        <div id='stream-player' className='player'></div>
 
           <div className="bt">
               <h1 className='sideheading'>Movies</h1>
