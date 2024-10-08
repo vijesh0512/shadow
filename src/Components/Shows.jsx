@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import ReactPlayer from 'react-player';
 import './live.css';
 import './album.css';
-//https://tsneh.vercel.app/swfdtzxgzjgu
+
 
 const shows = [
   {
     name:"BB",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",
     shows:[
-      { name:"Day 0",img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",link:"https://livetv.hotstar.com/mp1/inallow-bigboss-tam-s8-1540032985/b41a65c8b1f74dc5935f9c2f55f889a8/index.mpd"},
+      { name:"Day 0",img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",link:"https://tsneh.vercel.app/swfdtzxgzjgu"},
       { name:"Day 1",img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",link:"https://tsneh.vercel.app/mjouto1dw2ub"},
     ]
   },
