@@ -3,48 +3,18 @@ import ReactPlayer from 'react-player';
 import './live.css';
 import './album.css';
 
+
 const shows = [
-  // {
-  //   name: 'CWC',
-  //   image: 'https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220',
-  //   shows: [
-  //       { name: "24/08/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/5xy66ujj" },
-  //       { name: "18/08/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/3cjhrwdy" },
-  //       { name: "17/08/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/63c8wb67" },
-  //       { name: "11/08/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/2x844mym" },
-  //       { name: "10/08/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/mrxmasx4" },
-  //       { name: "04/08/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/bdervm2w" },
-  //       { name: "03/08/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/ykfkvabj" },
-  //       { name: "28/07/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/3sz2sb29" },
-  //       { name: "27/07/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/359cc6kv" },
-  //       { name: "21/07/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/pmvbcsre" },
-  //       { name: "20/07/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/3w5t2aeb" },
-  //       { name: "14/07/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/3h735yv2" },
-  //       { name: "13/07/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/4yd6yp7s" },
-  //       { name: "07/07/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/4zeh9axd" },
-  //       { name: "06/07/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/3j3zr5as" },
-  //       { name: "30/06/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/j2ej5u9t" },
-  //       { name: "29/06/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/3yduu96c" },
-  //       { name: "23/06/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/mtr5dack" },
-  //       { name: "22/06/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/4953mzr5" },
-  //       { name: "16/06/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/7jks5sud" },
-  //       { name: "15/06/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/4kyyds7v" },
-  //       { name: "09/06/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/bdz7y22c" },
-  //       { name: "08/06/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/k4tda8d2" },
-  //       { name: "02/06/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/yjxrdfvh" },
-  //       { name: "01/06/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/4fnbfefm" },
-  //       { name: "26/05/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/a7vnmxb6" },
-  //       { name: "25/05/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/y2u6cm8b" },
-  //       { name: "19/05/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/43zv382a" },
-  //       { name: "18/05/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/2f7enhjw" },
-  //       { name: "12/05/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/mrxkrxnr" },
-  //       { name: "11/05/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/8kbxfn92" },
-  //       { name: "05/05/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/2fsbffkr" },
-  //       { name: "04/05/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/mrp5z3f7" },
-  //       { name: "28/04/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/3hfp89re" },
-  //       { name: "27/04/2024", img: "https://tse3.mm.bing.net/th?id=OIP.JYSw9iWAlUciZJAEwy90BgAAAA&pid=Api&P=0&h=220", link: "https://tinyurl.com/mhbzjxcr" }
-  //   ],
-  // },
+  {
+    name:"BB",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",
+    shows:[
+      { name:"Day 3",img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",link:"https://dls4.mrfooll.xyz/AgAD_22590493"},
+      { name:"Day 2",img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",link:"https://tsneh.vercel.app/8czyqm4edezp"},
+      { name:"Day 1",img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",link:"https://tsneh.vercel.app/mjouto1dw2ub"},
+      { name:"Day 0",img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",link:"https://tsneh.vercel.app/swfdtzxgzjgu"},
+    ]
+  },
   {
     name: "TCDC",
     image: 'https://sund-images.sunnxt.com/191731/640x360_TopCookuDupeCookuSeason1_191731_f0cdad79-9a4d-40c8-966c-e17449f0fd96.jpg',
