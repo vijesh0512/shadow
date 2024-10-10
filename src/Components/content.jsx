@@ -13,7 +13,7 @@ const stream = [
 
 ];
 const movies = [
-    { name: 'Star', image: 'https://tinyurl.com/5n8xc33v', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Star.mp4' },
+    { name: 'Goat', image: 'https://images.news18.com/ibnlive/uploads/2024/06/fotojet-2024-06-22t145736.232-2024-06-713c0097066abbd6ee404f96ef27a872.jpg?impolicy=website', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Goat.mp4' },
     { name: 'Blue Star', image: 'https://upload.wikimedia.org/wikipedia/en/2/2d/Blue_Star_%28film%29.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Blue_Star.mp4' },
     { name: 'Joe', image: 'https://tinyurl.com/y8bz26nm', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Joe.mp4' },
     { name: 'Ayalan', image: 'https://m.media-amazon.com/images/M/MV5BOWQ0NDI1MjAtODI0Yi00ODhjLWI2M2UtZjk2ZjYxMTVlZmMwXkEyXkFqcGdeQXVyMTQzNjQ4ODY0._V1_FMjpg_UX1000_.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Ayalaan.mp4' },
