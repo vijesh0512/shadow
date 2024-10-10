@@ -19,7 +19,7 @@ const movies = [
     { name: 'Thangalan', image: 'https://multicinema.in/assets1/2021MoviesPoster/Thangalaan.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Ayalaan.mp4' },
     { name: 'Aavesham', image: 'https://static.moviecrow.com/gallery/20240223/226542-aavesham.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Thangalaan.mp4' },
     { name: 'Hi Nanna', image: 'https://tinyurl.com/ye76f2r4', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Hi_Nanna.mp4' },
-    { name: 'Aranmanai 4', image: 'https://tinurl.com/bdzam9p4', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Aranmanai_4.mp4'},
+    //{ name: 'Aranmanai 4', image: 'https://tinurl.com/bdzam9p4', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Aranmanai_4.mp4'},
     { name: 'Boat', image: 'https://multicinema.in/assets1/2021MoviesPoster/Boat.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Boat.mp4' },
     { name: 'Premalu', image: 'https://tinyurl.com/yn5t9a9p', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Premalu.mp4' },
     // { name: 'Premalu', image: 'https://tinyurl.com/yn5t9a9p', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Premalu.mp4' },
@@ -366,12 +366,13 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
               <h1 className='sideheading'>Others</h1>
               {/* <button onClick={() => onNavClick('stream')} className='btt'>See All</button> */}
           </div>
+          <div id='dog-player' className='player'></div>
           <div className="bt">
               <h1 className='sideheading'>Live Tv (Install Vlc)</h1>
               <button onClick={() => onNavClick('vlc')} className='btt'>See All</button>
           </div>
           <div id='live-player' className='player'></div>
-          <div id='dog-player' className='player'></div>
+
           {/* <h1 className='sideheading'>Video Songs</h1>
           <div id='video-player' className='player'></div> */}
           <h1 className='sideheading'>Heros (Radio)</h1>
