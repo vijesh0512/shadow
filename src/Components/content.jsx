@@ -44,10 +44,10 @@ const channels = [
   //{ name: 'Vijay Super', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjonzzKzBGJJKpe1_FrbiyAwiMGAEGftloixlGuyIqiS6rRIkFTDArP4&s=10', link: 'https://tinyurl.com/yc3mav2k' },
   { name: 'Star Vijay', image: 'https://tinyurl.com/2heavac5', link: 'https://tinyurl.com/ycxsyc5f'},
   { name: 'Sun TV', image: 'https://tinyurl.com/55rjk5ka', link: 'https://tinyurl.com/3upjsfn8'},
-  { name: 'K TV', image: 'https://seeklogo.com/images/K/ktv-logo-703754480A-seeklogo.com.png', link: 'https://tsneh.vercel.app/fh2qaalwcsga'},
-  { name: 'Sun Music', image: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Sun_Music_%28No_Background%29.png', link: 'https://tsneh.vercel.app/hexa8dvnu9xs' },
+  { name: 'K TV', image: 'https://seeklogo.com/images/K/ktv-logo-703754480A-seeklogo.com.png', link: 'https://tsneh.vercel.app/iooxgg8uize4'},
+  { name: 'Sun Music', image: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Sun_Music_%28No_Background%29.png', link: 'https://tsneh.vercel.app/wyhzfb6t-_xk' },
   { name: 'Zee Tamil', image: 'https://www.ethnicchannels.com/images/channeldetail/zee-tamil/ZEE-TAMIL.png', link: 'https://tinyurl.com/yc5zn3hs' },
-  { name: 'Zee Thirai', image: 'https://vignette.wikia.nocookie.net/logopedia/images/c/c3/Zee_Thirai.png/revision/latest?cb=20200324034033', link: 'http://tv.cloudcdn.me/live.ts?channelId=78824&uid=14505&deviceMac=00:1A:79:A7:53:75' },
+  { name: 'Zee Thirai', image: 'https://vignette.wikia.nocookie.net/logopedia/images/c/c3/Zee_Thirai.png/revision/latest?cb=20200324034033', link: 'https://tsneh.vercel.app/6vqsrxjs_k9w' },
   { name: 'Colors Tamil', image: 'https://tinyurl.com/yc2kz4ck', link: 'https://tinyurl.com/5ew7vkmj' },
 ];
 // const video=[
