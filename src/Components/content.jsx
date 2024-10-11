@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 const stream = [
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://stream.vstartv.org:3511/hybrid/play.m3u8' },
+  { name:'UP vs BEN',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m3_111024/master.m3u8'},
   //{name: 'ISL', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://prod-sports-eng-gm.jiocinema.com/hls/live/2112600/hd_akamai_merged_avc_isl_eng_m2280924/master.m3u8' },
   //{ name: 'IND vs BAN', image: 'https://sm.ign.com/t/ign_in/screenshot/default/india-vs-bangladesh_9cjt.1280.jpg', link: 'https://prod-sports-south-gm.jiocinema.com/hls/live/2109711/hd_akamai_iosmob_avc_tam_indvsban_091024/master.m3u8' },
   //{ name: 'AUS vs ENG', image: 'https://fancode.com/skillup-uploads/prod-images/2024/09/ENG-vs-AUS.png', link: 'https://tsneh.vercel.app/8rmeupsekdn9' },
