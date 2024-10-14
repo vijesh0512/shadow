@@ -6,7 +6,7 @@ const stream = [
   //https://tsneh.vercel.app/rzirhnk8vi4q
 
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://tsneh.vercel.app/rzirhnk8vi4q' },
-  //{name:'IND vs AUS',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh1nZCaMgPwHKNX846fgnjzrE36T3-OPmBEIH1-nxrorkWbaSXrguIA59&s=10',link:'https://tsneh.vercel.app/iu6ja-fckdho'},
+{name:'PAK W vs NZ W',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh1nZCaMgPwHKNX846fgnjzrE36T3-OPmBEIH1-nxrorkWbaSXrguIA59&s=10',link:'https://tsneh.vercel.app/iu6ja-fckdho'},
 //  { name:'WI vs SL',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5124ct8vWZkAOLCgghuSwB2MyZNbdMdttwfTPWVvh0Vo3wUljUd0NHEw&s=10',link:'https://dai.google.com/ssai/event/NVkw1vF1SImKE2QAWVwfBA/master.m3u8'},
  // { name:'UP vs BEN',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-cf.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m3_131024/mobile_master.m3u8'},
  //{ name:'MP vs KAR',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-cf.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m1_131024/mobile_master.m3u8'},
@@ -19,7 +19,7 @@ const stream = [
   //{ name: 'CPL', image: 'https://static.toiimg.com/thumb/msid-74774461,width-400,resizemode-4/74774461.jpg', link: 'https://dai.google.com/linear/hls/event/28y3xpzkQ2qZ7L6F4tlxXA/master.m3u8' },
   //{ name: 'Laver Cup', image: 'https://us.kit-kat.top/king-include/uploads/2024/09/976720-laver-cup-0924-fb-post-1200x628.png', link: 'https://dai.google.com/ssai/event/8cov9tHQRj26xm-Qz6uWzQ/master.m3u8' },
   //{ name: 'Bundesliga', image: 'https://football-industry.com/wp-content/uploads/2020/07/logo_bundesliga.png', link: 'https://dai.google.com/ssai/event/b4syULaIS9uJBor6MB0Gcg/master.m3u8' },
-//  { name: 'LLC', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFyb13fqLad86erEnIpZ5-DCStmwQt9SNwjA&s', link: 'https://dai.fancode.com/primary/109303_english_hls_6367ta-di/index.m3u8' },
+{ name: 'LLC', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFyb13fqLad86erEnIpZ5-DCStmwQt9SNwjA&s', link: 'https://dai.fancode.com/linear/hls/pb/event/eGl_lOilRBibna8cSSmFEA/stream/0bb16c36-f375-4df5-8dae-8b730a5fbed6:SIN2/variant/90bed86f44297a756c356b62504d8c09/bandwidth/3289416.m3u8' },
 
 ];
 const movies = [
