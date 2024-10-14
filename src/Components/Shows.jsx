@@ -9,6 +9,7 @@ const shows = [
     name:"BB",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",
     shows:[
+      { name:'Day 7',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:'https://tsneh.vercel.app/1gtyrjdd8sve'},
       { name:'Day 6',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:"https://tsneh.vercel.app/ypaaumturiww"},
       { name:'Day 5',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:"https://tsneh.vercel.app/h3ypiedh5kus"},
       { name:'Day 4',img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",link:"https://tsneh.vercel.app/1pq54eiorltn"},
