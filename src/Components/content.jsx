@@ -5,7 +5,7 @@ const stream = [
   //https://live.tamiltool.online/livestream-source.m3u8
   //https://tsneh.vercel.app/rzirhnk8vi4q
 
-  { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream-source.m3u8' },
+  { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://tsneh.vercel.app/rzirhnk8vi4q' },
   //{name:'IND vs AUS',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh1nZCaMgPwHKNX846fgnjzrE36T3-OPmBEIH1-nxrorkWbaSXrguIA59&s=10',link:'https://tsneh.vercel.app/iu6ja-fckdho'},
 //  { name:'WI vs SL',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5124ct8vWZkAOLCgghuSwB2MyZNbdMdttwfTPWVvh0Vo3wUljUd0NHEw&s=10',link:'https://dai.google.com/ssai/event/NVkw1vF1SImKE2QAWVwfBA/master.m3u8'},
  // { name:'UP vs BEN',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-cf.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m3_131024/mobile_master.m3u8'},
