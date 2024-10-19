@@ -8,7 +8,7 @@ const shows = [
     name: 'Harry Potter',
     image: 'https://i5.walmartimages.com/asr/11a9f800-47ff-4ba4-ac8d-43bd0be5c2e4.b86b11aa6cb832d3761845fe5b3076c1.jpeg',
     shows: [
-        { name: "Sorcerer's Stone", img: "https://tinyurl.com/2jubhwaz", link: "https://tsneh.vercel.app/ptwdv33cg6qb" },
+        { name: "Sorcerer's Stone", img: "https://tinyurl.com/7j795tmh", link: "https://tsneh.vercel.app/ptwdv33cg6qb" },
         { name: "Chamber of Secrets", img: "https://tinyurl.com/bd4m5tk8", link: "https://tsneh.vercel.app/345i8jirmm9z" },
         { name: "Prisoner of Azkaban", img: "https://tinyurl.com/5655uwsu", link: "https://tsneh.vercel.app/bkkucadkilg2" },
         { name: "Goblet of Fire", img: "https://tinyurl.com/3a8fcukr", link: "https://tsneh.vercel.app/npjd3s7lan6m" },
