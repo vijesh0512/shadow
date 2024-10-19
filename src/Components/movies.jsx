@@ -2,11 +2,20 @@ import React, { useState } from 'react';
 import ReactPlayer from 'react-player';
 import './live.css';
 const channels = [
+<<<<<<< HEAD
     { name:"Vettaiyan",image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQULrTu7hLs5ggDAet-gSB2-ujfUA4nqb1U40cpUO0qihy1Cliz4HufKAHM&s=10',link:'https://tsneh.vercel.app/6nyeimh4hufq'},
     { name: 'Meiyazhagan', image: 'https://i.scdn.co/image/ab67616d0000b2737e86df2b3a35c59564738524', link: 'https://tsneh.vercel.app/hmzrqev4e1cs' },
     { name: 'Petta Rap', image: 'https://m.media-amazon.com/images/M/MV5BZDZiNjRlOTQtNDBkNy00MDgxLTgxZDQtNTc5Zjg2NWM2NGZlXkEyXkFqcGc@._V1_QL75_UX218_.jpg', link: 'https://tsneh.vercel.app/7cs6axa16oef' },
     { name: 'Hitler', image: 'https://assets.gadgets360cdn.com/pricee/assets/product/202312/Hitler1_1703675553.jpg', link: 'https://tsneh.vercel.app/unaqmn-e4js1' },
     //{ name: 'Devara', image: 'https://cdn.gulte.com/wp-content/uploads/2024/01/Devara-scaled.jpg', link: 'https://tsneh.vercel.app/xicbju9ejwyy' },
+=======
+    { name:'Black',image:'https://upload.wikimedia.org/wikipedia/en/3/3a/Black_%282024_film%29.jpg',link:'https://tsneh.vercel.app/mocavfnz8dgj'},
+    { name:"Vettaiyan",image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQULrTu7hLs5ggDAet-gSB2-ujfUA4nqb1U40cpUO0qihy1Cliz4HufKAHM&s=10',link:'https://tsneh.vercel.app/7zgz_khl0hlh'},
+    { name: 'Meiyazhagan', image: 'https://i.scdn.co/image/ab67616d0000b2737e86df2b3a35c59564738524', link: 'https://tsneh.vercel.app/hmzrqev4e1cs' },
+    { name: 'Petta Rap', image: 'https://m.media-amazon.com/images/M/MV5BZDZiNjRlOTQtNDBkNy00MDgxLTgxZDQtNTc5Zjg2NWM2NGZlXkEyXkFqcGc@._V1_QL75_UX218_.jpg', link: 'https://tsneh.vercel.app/7cs6axa16oef' },
+    { name: 'Hitler', image: 'https://assets.gadgets360cdn.com/pricee/assets/product/202312/Hitler1_1703675553.jpg', link: 'https://tsneh.vercel.app/unaqmn-e4js1' },
+    //{ name: 'Devar', image: 'https://cdn.gulte.com/wp-content/uploads/2024/01/Devara-scaled.jpg', link: 'https://d2.uptocdn.com/dl/ZX6YBdWEONd8o5BzzE0Hdw/1729685532/p/Tamil%20Dubbed%20Collections/Harry%20Potter%20Movie%20Collections/Harry%20Potter%20and%20The%20Sorcerers%20Stone%20%282001%29/The%20Sorcerers%20Stone%20%28640x360%29/Harry%20Potter%20and%20The%20Sorcerers%20Stone%20HD.mp4' },
+>>>>>>> 141226fac69dde7ec340800123785e7c0984f9e4
     { name: 'KP chelladurai', image: 'https://m.media-amazon.com/images/M/MV5BN2JmODY2NDYtNDk0Zi00ZDM1LTlkYjktNDFkMmUzZDlmODA3XkEyXkFqcGc@._V1_.jpg', link: 'https://tsneh.vercel.app/fbg71niwtq5u' },
     { name: 'tholar cheguevara', image: 'https://m.media-amazon.com/images/M/MV5BMjNkNWM4NDItZDBjNi00N2EzLTg4YmYtMTNkYzJlMjE3ZWRjXkEyXkFqcGc@._V1_.jpg', link: 'https://tsneh.vercel.app/vhy7_dipwhlz' },
     { name: 'Kadaisi Ulaga Por', image: 'https://m.media-amazon.com/images/M/MV5BODYzOGY4NmEtYjRiNi00OGI3LWE4MWItZWJlM2MwNDUwMDM1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg', link: 'https://tsneh.vercel.app/znzcrhg15d7_' },

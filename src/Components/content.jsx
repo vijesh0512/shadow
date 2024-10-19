@@ -2,26 +2,38 @@ import React, { useEffect, useState, useRef } from 'react';
 const stream = [
   
   //https://stream.vstartv.org:3511/hybrid/play.m3u8
+<<<<<<< HEAD
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream-source.m3u8' },
   //{ name:'UP vs BEN',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-cf.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m3_121024/mobile_master.m3u8'},
   //{ name:'MP vs KAR',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-cf.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m1_121024/mobile_master.m3u8'},
   //{ name:'BAR vs MUM',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-cf.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m2_121024/mobile_master.m3u8'},
 
+=======
+  //https://live.tamiltool.online/livestream-source.m3u8
+  //https://tsneh.vercel.app/rzirhnk8vi4q
+
+  { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livetamil/index.m3u8' },
+//{name:'PAK W vs NZ W',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh1nZCaMgPwHKNX846fgnjzrE36T3-OPmBEIH1-nxrorkWbaSXrguIA59&s=10',link:'https://tsneh.vercel.app/iu6ja-fckdho'},
+// { name:'WI vs SL',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5124ct8vWZkAOLCgghuSwB2MyZNbdMdttwfTPWVvh0Vo3wUljUd0NHEw&s=10',link:'https://dai.google.com/ssai/event/NVkw1vF1SImKE2QAWVwfBA/master.m3u8'},
+ // { name:'UP vs BEN',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-cf.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m3_131024/mobile_master.m3u8'},
+ //{ name:'MP vs KAR',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-cf.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m1_131024/mobile_master.m3u8'},
+// { name:'BAR vs MUM',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-cf.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m2_131024/mobile_master.m3u8'},
+>>>>>>> 141226fac69dde7ec340800123785e7c0984f9e4
   //{name: 'ISL', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://prod-sports-eng-gm.jiocinema.com/hls/live/2112600/hd_akamai_merged_avc_isl_eng_m2280924/master.m3u8' },
-  //{ name: 'IND vs BAN', image: 'https://sm.ign.com/t/ign_in/screenshot/default/india-vs-bangladesh_9cjt.1280.jpg', link: 'https://prod-sports-south-gm.jiocinema.com/hls/live/2109711/hd_akamai_iosmob_avc_tam_indvsban_091024/master.m3u8' },
+  { name: 'IND vs NZ', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLYVJUGkg62XC1NNS3oD7ZS-0XB6wt5oxDow&s', link: 'https://prod-sports-south-cf.jiocinema.com/hls/live/2109709/uhd_akamai_ctv_avc_tam_indvsnz_181024/master.m3u8' },
   //{ name: 'AUS vs ENG', image: 'https://fancode.com/skillup-uploads/prod-images/2024/09/ENG-vs-AUS.png', link: 'https://tsneh.vercel.app/8rmeupsekdn9' },
   //{ name: 'SL vs NZ', image: 'https://www.india.com/wp-content/uploads/2015/02/sri-and-new-flag.jpg', link: 'https://pubads.g.doubleclick.net/ssai/event/biQJgf06SJCitj-nd502ow/master.m3u8' },
   //{ name: 'AFG vs SA', image: 'https://www.shutterstock.com/image-vector/afghanistan-vs-south-africa-icc-260nw-2378122757.jpg', link: 'https://dai.google.com/linear/hls/event/Ek_Vtm5jRaWpjVxANvOhng/master.m3u8' },
   //{ name: 'CPL', image: 'https://static.toiimg.com/thumb/msid-74774461,width-400,resizemode-4/74774461.jpg', link: 'https://dai.google.com/linear/hls/event/28y3xpzkQ2qZ7L6F4tlxXA/master.m3u8' },
   //{ name: 'Laver Cup', image: 'https://us.kit-kat.top/king-include/uploads/2024/09/976720-laver-cup-0924-fb-post-1200x628.png', link: 'https://dai.google.com/ssai/event/8cov9tHQRj26xm-Qz6uWzQ/master.m3u8' },
   //{ name: 'Bundesliga', image: 'https://football-industry.com/wp-content/uploads/2020/07/logo_bundesliga.png', link: 'https://dai.google.com/ssai/event/b4syULaIS9uJBor6MB0Gcg/master.m3u8' },
-  //{ name: 'LLC', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFyb13fqLad86erEnIpZ5-DCStmwQt9SNwjA&s', link: 'https://dai.google.com/linear/hls/event/5mv1HYpGS7KG6fz9TSh1gw/master.m3u8' },
+//{ name: 'LLC', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFyb13fqLad86erEnIpZ5-DCStmwQt9SNwjA&s', link: 'https://dai.fancode.com/linear/hls/pb/event/eGl_lOilRBibna8cSSmFEA/stream/0bb16c36-f375-4df5-8dae-8b730a5fbed6:SIN2/variant/90bed86f44297a756c356b62504d8c09/bandwidth/3289416.m3u8' },
 
 ];
 const movies = [
     { name: 'Goat', image: 'https://images.news18.com/ibnlive/uploads/2024/06/fotojet-2024-06-22t145736.232-2024-06-713c0097066abbd6ee404f96ef27a872.jpg?impolicy=website', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Goat.mp4' },
     { name: 'Raayan', image: 'https://multicinema.in/assets1/2021MoviesPoster/Raayan.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Raayan.mp4' },
-    { name: 'Joe', image: 'https://tinyurl.com/y8bz26nm', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Joe.mp4' },
+    { name: 'Vaazhai', image: 'https://img1.imageride.net/images/2024/08/24/GNfbjytfJh4TYJb.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Vaazhai.mp4' },
     { name: 'Thangalan', image: 'https://multicinema.in/assets1/2021MoviesPoster/Thangalaan.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Ayalaan.mp4' },
     { name: 'Aavesham', image: 'https://static.moviecrow.com/gallery/20240223/226542-aavesham.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Thangalaan.mp4' },
     { name: 'Hi Nanna', image: 'https://tinyurl.com/ye76f2r4', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Hi_Nanna.mp4' },
@@ -40,7 +52,11 @@ const others = [
   { name: 'Video Songs', image: 'https://raw.githubusercontent.com/vijesh0512/image/refs/heads/main/DALL%C2%B7E%202024-09-28%2020.05.16%20-%20A%20black%20and%20white%20pitbull%20dog%20wearing%20a%20gold%20chain%20and%20headphones%2C%20sitting%20in%20a%20dimly%20lit%20movie%20theater%2C%20facing%20the%20large%20screen%20playing%20a%20video%20song.webp', link: 'Vid' },
 ];
 const channels = [
+<<<<<<< HEAD
   //{ name: 'SS Tamil', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop8ucdt1JVIfgEzRt4K8A6AoRZ-DfftdXvSBfE2Pm8IBKBfA9Jwo61Es4&s=10',link:'https://vaathala00.github.io/stream/tamil/master.m3u8?&play_token=join@vaathala1'},
+=======
+//  { name: 'SS Tamil', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop8ucdt1JVIfgEzRt4K8A6AoRZ-DfftdXvSBfE2Pm8IBKBfA9Jwo61Es4&s=10',link:'https://tsneh.vercel.app/ihfkdq-1wbx3'},
+>>>>>>> 141226fac69dde7ec340800123785e7c0984f9e4
   //{ name: 'Vijay Super', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjonzzKzBGJJKpe1_FrbiyAwiMGAEGftloixlGuyIqiS6rRIkFTDArP4&s=10', link: 'https://tinyurl.com/yc3mav2k' },
   { name: 'Star Vijay', image: 'https://tinyurl.com/2heavac5', link: 'https://tinyurl.com/ycxsyc5f'},
   { name: 'Sun TV', image: 'https://tinyurl.com/55rjk5ka', link: 'https://tinyurl.com/3upjsfn8'},

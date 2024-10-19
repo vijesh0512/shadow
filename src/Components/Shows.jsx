@@ -9,6 +9,12 @@ const shows = [
     name:"BB",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",
     shows:[
+<<<<<<< HEAD
+=======
+      { name:'Day 7',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:'https://tsneh.vercel.app/1gtyrjdd8sve'},
+      { name:'Day 6',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:"https://tsneh.vercel.app/ypaaumturiww"},
+      { name:'Day 5',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:"https://tsneh.vercel.app/h3ypiedh5kus"},
+>>>>>>> 141226fac69dde7ec340800123785e7c0984f9e4
       { name:'Day 4',img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",link:"https://tsneh.vercel.app/1pq54eiorltn"},
       { name:"Day 3",img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",link:"https://tsneh.vercel.app/lmmdtkcla7hc"},
       { name:"Day 2",img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",link:"https://tsneh.vercel.app/8czyqm4edezp"},

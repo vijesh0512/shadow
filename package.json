@@ -11,6 +11,10 @@
     "react-dom": "^18.2.0",
     "react-player": "^2.16.0",
     "react-scripts": "5.0.1",
+    "video.js": "^8.18.1",
+    "videojs-contrib-hls": "^5.15.0",
+    "videojs-contrib-quality-levels": "^4.1.0",
+    "videojs-hotkeys": "^0.2.30",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
