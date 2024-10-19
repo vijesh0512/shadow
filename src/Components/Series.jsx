@@ -5,6 +5,21 @@ import './album.css';
 
 const shows = [
   {
+    name: 'Harry Potter',
+    image: 'https://i5.walmartimages.com/asr/11a9f800-47ff-4ba4-ac8d-43bd0be5c2e4.b86b11aa6cb832d3761845fe5b3076c1.jpeg',
+    shows: [
+        { name: "Philosopher's Stone", img: "https://tinyurl.com/3f23cbr8", link: "" },
+        { name: "Chamber of Secrets", img: "https://tinyurl.com/bd4m5tk8", link: "" },
+        { name: "Prisoner of Azkaban", img: "https://tinyurl.com/5655uwsu", link: "" },
+        { name: "Goblet of Fire", img: "https://tinyurl.com/yxc4629b", link: "" },
+        { name: "Order of the Phoenix", img: "https://tinyurl.com/bdfrfpdp", link: "" },
+        { name: "Half-Blood Prince", img: "https://tinyurl.com/4jm2nnch", link: "" },
+        { name: "Deathly Hallows – Part 1", img: "https://tinyurl.com/mw2v2kv7", link: "" },
+        { name: "Deathly Hallows – Part 2", img: "https://tinyurl.com/yjb7jhn4", link: "" },
+
+    ],
+  },
+  {
     name: 'Goli Soda Rising',
     image: 'https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8676/1726163818676-i',
     shows: [
@@ -14,6 +29,8 @@ const shows = [
         { name: "E4", img: "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8676/1726163818676-i", link: "https://tsneh.vercel.app/hn6z-sx5qeny" },
         { name: "E5", img: "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8676/1726163818676-i", link: "https://tsneh.vercel.app/4titeglmmwbn" },
         { name: "E6", img: "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8676/1726163818676-i", link: "https://tsneh.vercel.app/0xilr9xpupdr" },
+        { name: "E7", img: "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8676/1726163818676-i", link: "https://tsneh.vercel.app/u3d7oejuksbs" },
+        { name: "E8", img: "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8676/1726163818676-i", link: "https://tsneh.vercel.app/yscjfbcbf0nd" },
     ],
   },
   {
