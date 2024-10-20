@@ -4,9 +4,10 @@ const stream = [
   //https://stream.vstartv.org:3511/hybrid/play.m3u8
   //https://live.tamiltool.online/livestream-source.m3u8
   //https://tsneh.vercel.app/rzirhnk8vi4q
+  
 
-  { name: 'BB 24*7', image: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png', link: 'https://live.tamiltool.online/livestream-source.m3u8' },
-  { name:'Pkl',image:'https://www.prokabaddi.com/static-assets/images/default-social-share.png?v=1.01?v=2.21',link:'https://allinonereborn.com/jiobe-1.m3u8/?id=363'},
+  { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream-source.m3u8' },
+  { name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://allinonereborn.com/jiobe-1.m3u8/?id=363'},
  //{ name: 'IND vs NZ', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLYVJUGkg62XC1NNS3oD7ZS-0XB6wt5oxDow&s', link: 'https://allinonereborn.com/jiobe-1.m3u8/?id=363' },
 //{name:'PAK W vs NZ W',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh1nZCaMgPwHKNX846fgnjzrE36T3-OPmBEIH1-nxrorkWbaSXrguIA59&s=10',link:'https://tsneh.vercel.app/iu6ja-fckdho'},
 // { name:'WI vs SL',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5124ct8vWZkAOLCgghuSwB2MyZNbdMdttwfTPWVvh0Vo3wUljUd0NHEw&s=10',link:'https://dai.google.com/ssai/event/NVkw1vF1SImKE2QAWVwfBA/master.m3u8'},
