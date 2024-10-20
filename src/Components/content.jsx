@@ -9,9 +9,9 @@ const stream = [
  { name: 'IND vs NZ', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLYVJUGkg62XC1NNS3oD7ZS-0XB6wt5oxDow&s', link: 'https://prod-sports-south-gm.jiocinema.com/hls/live/2109711/hd_akamai_iosmob_avc_tam_indvsnz_201024/master.m3u8' },
 //{name:'PAK W vs NZ W',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh1nZCaMgPwHKNX846fgnjzrE36T3-OPmBEIH1-nxrorkWbaSXrguIA59&s=10',link:'https://tsneh.vercel.app/iu6ja-fckdho'},
 // { name:'WI vs SL',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5124ct8vWZkAOLCgghuSwB2MyZNbdMdttwfTPWVvh0Vo3wUljUd0NHEw&s=10',link:'https://dai.google.com/ssai/event/NVkw1vF1SImKE2QAWVwfBA/master.m3u8'},
-// { name:'TN vs DEL',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m1_191024/mobile_master.m3u8'},
- //{ name:'SAU vs CHH',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m3_191024/mobile_master.m3u8'},
-//{ name:'HP vs RAJ',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m2_191024/mobile_master.m3u8'},
+{ name:'TN vs DEL',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m1_201024/mobile_master.m3u8'},
+ { name:'SAU vs CHH',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m3_201024/mobile_master.m3u8'},
+{ name:'HP vs RAJ',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m2_201024/mobile_master.m3u8'},
   //{name: 'ISL', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://prod-sports-eng-gm.jiocinema.com/hls/live/2112600/hd_akamai_merged_avc_isl_eng_m2191024/mobile_master.m3u8' },
   //{name:'IND vs PAK',image:'https://upload.wikimedia.org/wikipedia/en/2/21/2024_ACC_Emerging_Teams_Asia_Cup.png',link:'https://ams1.styxsports.com:5443/LiveApp/streams/2Oj0R1ALVUcjgJxt4332103373172931.m3u8'},
   
