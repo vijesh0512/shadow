@@ -13,6 +13,8 @@
   padding: 10px;
 }
 .navflex{
+  width:100%;
+  background-color:"black";
   position:fixed;
   display: flex;
   justify-content: space-between;
