@@ -14,8 +14,7 @@
 }
 .navflex{
   width:100%;
-  margin-top:-10px;
-  position:fixed;
+  position:sticky;
   display: flex;
   justify-content: space-between;
   align-items: center;
