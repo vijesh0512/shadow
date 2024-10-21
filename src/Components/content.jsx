@@ -15,7 +15,7 @@ const stream = [
 // { name:'SAU vs CHH',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m3_201024/mobile_master.m3u8'},
 //{ name:'HP vs RAJ',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m2_201024/mobile_master.m3u8'},
   //{name: 'ISL', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://prod-sports-eng-gm.jiocinema.com/hls/live/2112600/hd_akamai_merged_avc_isl_eng_m2191024/mobile_master.m3u8' },
-  //{name:'IND vs PAK',image:'https://upload.wikimedia.org/wikipedia/en/2/21/2024_ACC_Emerging_Teams_Asia_Cup.png',link:'https://ams1.styxsports.com:5443/LiveApp/streams/2Oj0R1ALVUcjgJxt4332103373172931.m3u8'},
+  {name:'IND vs UAE',image:'https://upload.wikimedia.org/wikipedia/en/2/21/2024_ACC_Emerging_Teams_Asia_Cup.png',link:'https://ams1.styxsports.com:5443/LiveApp/streams/2Oj0R1ALVUcjgJxt4332103373172931.m3u8'},
   
   //{ name: 'AUS vs ENG', image: 'https://fancode.com/skillup-uploads/prod-images/2024/09/ENG-vs-AUS.png', link: 'https://tsneh.vercel.app/8rmeupsekdn9' },
   //{ name: 'SL vs NZ', image: 'https://www.india.com/wp-content/uploads/2015/02/sri-and-new-flag.jpg', link: 'https://pubads.g.doubleclick.net/ssai/event/biQJgf06SJCitj-nd502ow/master.m3u8' },
