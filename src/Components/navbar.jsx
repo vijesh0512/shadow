@@ -35,7 +35,7 @@ const Navbar = ({ onNavClick }) => {
           alt="payment icon"  
           onClick={openPayment} 
         />
-        <h1 className='navbar'>SHADOW PLAYER</h1>
+        {/* <h1 className='navbar'>SHADOW PLAYER</h1> */}
       </div>
       {isSideOpen && <SideNav onNavClick={handleNavClick} />}
       {isPaymentOpen && <PaymentModal onClose={closePayment} onPay={redirectToUPI} />}
