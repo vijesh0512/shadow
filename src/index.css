@@ -14,7 +14,7 @@
 }
 .navflex{
   width:100%;
-  background-color:"black";
+  margin-top:"10px";
   position:fixed;
   display: flex;
   justify-content: space-between;
