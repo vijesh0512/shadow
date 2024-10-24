@@ -5,6 +5,21 @@ import './album.css';
 
 const shows = [
   {
+    name: 'Harry Potter',
+    image: 'https://i5.walmartimages.com/asr/11a9f800-47ff-4ba4-ac8d-43bd0be5c2e4.b86b11aa6cb832d3761845fe5b3076c1.jpeg',
+    shows: [
+        { name: "Sorcerer's Stone", img: "https://tinyurl.com/7j795tmh", link: "https://tsneh.vercel.app/ptwdv33cg6qb" },
+        { name: "Chamber of Secrets", img: "https://tinyurl.com/bd4m5tk8", link: "https://tsneh.vercel.app/345i8jirmm9z" },
+        { name: "Prisoner of Azkaban", img: "https://tinyurl.com/5655uwsu", link: "https://tsneh.vercel.app/bkkucadkilg2" },
+        { name: "Goblet of Fire", img: "https://tinyurl.com/3a8fcukr", link: "https://tsneh.vercel.app/npjd3s7lan6m" },
+        { name: "Order of the Phoenix", img: "https://tinyurl.com/2adn39xt", link: "https://tsneh.vercel.app/nrdbut0sdu_e" },
+        { name: "Half-Blood Prince", img: "https://tinyurl.com/4jm2nnch", link: "https://tsneh.vercel.app/kdx-2jges2d3" },
+        { name: "Deathly Hallows – Part 1", img: "https://tinyurl.com/mw2v2kv7", link: "https://tsneh.vercel.app/2t-crb4gwwhj" },
+        { name: "Deathly Hallows – Part 2", img: "https://tinyurl.com/yjb7jhn4", link: "https://tsneh.vercel.app/ornwescf5qhn" },
+
+    ],
+  },
+  {
     name: 'Goli Soda Rising',
     image: 'https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8676/1726163818676-i',
     shows: [
@@ -14,6 +29,8 @@ const shows = [
         { name: "E4", img: "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8676/1726163818676-i", link: "https://tsneh.vercel.app/hn6z-sx5qeny" },
         { name: "E5", img: "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8676/1726163818676-i", link: "https://tsneh.vercel.app/4titeglmmwbn" },
         { name: "E6", img: "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8676/1726163818676-i", link: "https://tsneh.vercel.app/0xilr9xpupdr" },
+        { name: "E7", img: "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8676/1726163818676-i", link: "https://tsneh.vercel.app/u3d7oejuksbs" },
+        { name: "E8", img: "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8676/1726163818676-i", link: "https://tsneh.vercel.app/yscjfbcbf0nd" },
     ],
   },
   {
