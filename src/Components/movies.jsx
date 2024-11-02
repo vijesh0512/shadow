@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import ReactPlayer from 'react-player';
 import './live.css';
 const channels = [
-    { name:'Black',image:'https://tsneh.vercel.app/hxjklbeumamm',link:'https://tsneh.vercel.app/rjssmpdmdm3w'},
+    { name:'Black',image:'https://upload.wikimedia.org/wikipedia/en/3/3a/Black_%282024_film%29.jpg',link:"https://tsneh.vercel.app/u8wry99scgon"},
     { name:"Vettaiyan",image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQULrTu7hLs5ggDAet-gSB2-ujfUA4nqb1U40cpUO0qihy1Cliz4HufKAHM&s=10',link:'https://tsneh.vercel.app/kybgedhlv-kv'},
-    { name: 'Meiyazhagan', image: 'https://i.scdn.co/image/ab67616d0000b2737e86df2b3a35c59564738524', link: 'https://tsneh.vercel.app/dipgh4kwik1x' },
+    { name: 'Meiyazhagan', image: 'https://i.scdn.co/image/ab67616d0000b2737e86df2b3a35c59564738524', link: 'https://tsneh.vercel.app/rki3yyxsgw8k' },
     { name: 'Petta Rap', image: 'https://m.media-amazon.com/images/M/MV5BZDZiNjRlOTQtNDBkNy00MDgxLTgxZDQtNTc5Zjg2NWM2NGZlXkEyXkFqcGc@._V1_QL75_UX218_.jpg', link: 'https://tsneh.vercel.app/7cs6axa16oef' },
     { name: 'Hitler', image: 'https://assets.gadgets360cdn.com/pricee/assets/product/202312/Hitler1_1703675553.jpg', link: 'https://tsneh.vercel.app/unaqmn-e4js1' },
     //{ name: 'Devar', image: 'https://cdn.gulte.com/wp-content/uploads/2024/01/Devara-scaled.jpg', link: 'https://jaws-stream.jiocloud.com/media/hls/MmFqYXdzLWpjMS1zMy1wZC1lbmM6NzVjODNiNTk0Njc5NDI0NDgxMTMyMTg1YzIxYTdiOGZfeHMubTN1OA==.m3u8?token=b3e63177d6f14d60af5206c0318faa71' },
