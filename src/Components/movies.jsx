@@ -155,12 +155,12 @@ const Movies = () => {
       <div className='content'>
         {selectedAlbum ? (
           <div className='album-details'>
-            <button onClick={handleBackClick} className='back-button'>Back to Shows</button>
+            <button onClick={handleBackClick} className='back-button'>Back to Movies</button>
             <h2>{selectedAlbum.name}</h2>
             <div className='play'>
               {selectedAlbum.shows.map((video, index) => (
                 <div key={index} className='son' onClick={() => handleVideoClick(video)}>
-                  <img src={video.img} alt={video.name} />
+                  <img src={video.image} alt={video.name} />
                   <p>{video.name}</p>
                 </div>
               ))}
