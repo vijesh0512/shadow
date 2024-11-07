@@ -1,10 +1,24 @@
 import React, { useState } from 'react';
 import ReactPlayer from 'react-player';
 import './live.css';
-const channels = [
-    { name:'Amaran',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzugiP-FGYgjDvKH0orm9a3csrkqljfNSwqVBS9yIeVA3_2EUNNAizHBMD&s=10',link:'https://tsneh.vercel.app/vldukqrbmmk8'},
+import './album.css';
+
+const shows = [
+  {
+    name: 'Theatre Print',
+    image: 'https://media.istockphoto.com/id/1494642262/photo/people-in-the-cinema-auditorium-with-empty-white-screen.jpg?s=2048x2048&w=is&k=20&c=XLSiHIO02doIcuaB8BJMTcoTsyeQtvbngcQlQZLkEW4=',
+    shows: [
+       { name:'Amaran',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzugiP-FGYgjDvKH0orm9a3csrkqljfNSwqVBS9yIeVA3_2EUNNAizHBMD&s=10',link:'https://tsneh.vercel.app/vldukqrbmmk8'},
     { name:'Bloody Beggar',image:'https://upload.wikimedia.org/wikipedia/en/4/40/Bloody_Beggar.jpg',link:'https://tsneh.vercel.app/s-aflbwombc4'},
         { name:'Brother',image:'https://timesofindia.indiatimes.com/photo/103798855.cms',link:'https://tsneh.vercel.app/j-ga7n3btddl'},
+    ],
+  },
+
+  {
+    name: 'HD Movies',
+    image: 'https://play-lh.googleusercontent.com/5lGwoUsh5Z1eopCpGQIQjfoGqUHTJU_tAXNkdm1eiBVGGKoXqk5jX8Vm7DiAn42Lwbk6',
+    shows: [
+         
     { name:'Black',image:'https://upload.wikimedia.org/wikipedia/en/3/3a/Black_%282024_film%29.jpg',link:"https://tsneh.vercel.app/u8wry99scgon"},
     { name:"Vettaiyan",image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQULrTu7hLs5ggDAet-gSB2-ujfUA4nqb1U40cpUO0qihy1Cliz4HufKAHM&s=10',link:'https://tsneh.vercel.app/kybgedhlv-kv'},
     { name: 'Meiyazhagan', image: 'https://i.scdn.co/image/ab67616d0000b2737e86df2b3a35c59564738524', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Meiyazhagan.mp4' },
@@ -96,34 +110,35 @@ const channels = [
     { name: 'Mankarathe', image: 'https://wallpapercave.com/wp/wp7501819.jpg', link: 'https://tinyurl.com/bdfzs46y' },
     { name: 'RajiniMurugan', image: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/54ea49e8c68cb4efd2200aa4ede5ae8e32098a643d61e072be278ba745dbe963._RI_V_TTW_.jpg', link: 'https://tinyurl.com/yc52yfmk' },
 
+     
+    ],
+  },
 ];
 
 const Movies = () => {
-    const [currentChannel, setCurrentChannel] = useState(null);
-    const [searchTerm, setSearchTerm] = useState('');
+  const [selectedAlbum, setSelectedAlbum] = useState(null);
+  const [currentVideo, setCurrentVideo] = useState(null);
 
-    const handleChannelClick = (link) => {
-        setCurrentChannel(link);
-    };
+  const handleAlbumClick = (album) => {
+    setSelectedAlbum(album);
+    setCurrentVideo(null);
+  };
 
-    const filteredChannels = channels.filter(channel =>
-        channel.name.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+  const handleBackClick = () => {
+    setSelectedAlbum(null);
+    setCurrentVideo(null);
+  };
 
-    return (
-        <div>
-            <h1 className='sideheading'>Movies</h1>
-            <input
-                type="text"
-                placeholder="Search movies..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className='search-bar'
-            />
-            {currentChannel && (
-                <div className="plr">
+  const handleVideoClick = (video) => {
+    setCurrentVideo(video.link);
+  };
+
+  return (
+    <>
+      {currentVideo && (
+        <div className='plr'>
             <ReactPlayer
-            url={currentChannel}
+            url={currentVideo}
             controls
             playing
             pip={true} // Enable picture-in-picture
@@ -135,22 +150,35 @@ const Movies = () => {
                 }
             }}
 />
-                </div>
-            )}
-            <div id='channel-player' className='play'>
-                {filteredChannels.map((channel, index) => (
-                    <div 
-                        key={index} 
-                        className='son'
-                        onClick={() => handleChannelClick(channel.link)}
-                    >
-                        <img src={channel.image} alt={channel.name} />
-                        <p>{channel.name}</p>
-                    </div>
-                ))}
-            </div>
         </div>
-    );
+      )}
+      <div className='content'>
+        {selectedAlbum ? (
+          <div className='album-details'>
+            <button onClick={handleBackClick} className='back-button'>Back to Shows</button>
+            <h2>{selectedAlbum.name}</h2>
+            <div className='play'>
+              {selectedAlbum.shows.map((video, index) => (
+                <div key={index} className='son' onClick={() => handleVideoClick(video)}>
+                  <img src={video.img} alt={video.name} />
+                  <p>{video.name}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <div id='channel-player' className='play'>
+            {shows.map((album, index) => (
+              <div key={index} className='son' onClick={() => handleAlbumClick(album)}>
+                <img src={album.image} alt={album.name} />
+                <p>{album.name}</p>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </>
+  );
 };
 
 export default Movies;
