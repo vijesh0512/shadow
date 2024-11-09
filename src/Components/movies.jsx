@@ -136,19 +136,16 @@ const Movies = () => {
   return (
     <>
       {currentVideo && (
-        <div className='plr'>
-            <ReactPlayer
+    <div className='plr'>
+        <ReactPlayer
             url={currentVideo}
             controls
             playing
             pip={true} // Enable picture-in-picture
-{/*             config={{
-                file: {
-                attributes: {
-                    controlsList: 'nodownload' // Remove download button
-                }
-                }
-            }} */}
+        />
+    </div>
+)}
+
 />
         </div>
       )}
