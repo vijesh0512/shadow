@@ -43,6 +43,8 @@ const albums = [
       },
     ] 
   },
+  {
+    name:"Amaran",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7E495mkbqZkL3k5mvSc9_PqyoZ-jUnWKU6mlpZJItsZiAZneU3sE-cYBN&s=10",songs:[{name:"Hey Minnale",image:"https://i.scdn.co/image/ab67616d0000b273d29a8598a39461ddb2a15953",audio:"https://aac.saavncdn.com/332/7bf562f6c87efd3a776aab5f35393801_160.mp4"},]},
 ];
 
 const AlbumSongs = () => {
