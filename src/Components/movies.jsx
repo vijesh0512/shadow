@@ -139,9 +139,6 @@ const Movies = () => {
     <div className='plr'>
         <ReactPlayer
             url={currentVideo}
-            controls
-           
-
         />
     </div>
 )}
