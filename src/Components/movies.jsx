@@ -142,13 +142,13 @@ const Movies = () => {
             controls
             playing
             pip={true} // Enable picture-in-picture
-            config={{
+{/*             config={{
                 file: {
                 attributes: {
                     controlsList: 'nodownload' // Remove download button
                 }
                 }
-            }}
+            }} */}
 />
         </div>
       )}
