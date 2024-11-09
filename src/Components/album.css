@@ -1,6 +1,6 @@
 
 .back-button {
-  margin-bottom: 20px;
+  margin-bottom:8px;
   padding: 10px;
   border: none;
   background-color: #007bff;
@@ -8,7 +8,9 @@
   cursor: pointer;
   border-radius: 5px; /* Optional: add rounded corners */
 }
-
+.hi{
+  color:white;
+}
 button {
   background-color: white;
   color: black;

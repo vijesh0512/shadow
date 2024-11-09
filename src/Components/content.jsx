@@ -3,18 +3,20 @@ const stream = [
   
   //https://live.tamiltool.online/livestream-source.m3u8
   //https://tsneh.vercel.app/rzirhnk8vi4q
+  //https://glb.bozztv.com/glb/ssh101/tultrabbtamil/index.m3u8
+  
 
 
-  { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://glb.bozztv.com/glb/ssh101/tultrabbtamil/index.m3u8' },
-  { name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://through-disorders-italiano-cpu.trycloudflare.com/web/?watch=670'},
-// { name: 'IND vs NZ', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLYVJUGkg62XC1NNS3oD7ZS-0XB6wt5oxDow&s', link: 'https://prod-sports-south-gm.jiocinema.com/hls/live/2109711/hd_akamai_iosmob_avc_tam_indvsnz_241024/master.m3u8' },
+  { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://tsneh.vercel.app/6esr_4mxpaxe' },
+  //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://tinyurl.com/57btpw94'},
+{ name: 'IND vs SA', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2X8ioKPH4-x1SjDHAvmLN4ZkJCccDHSyleAi2HBXzJAVj12bZyWfBrj0&s=10', link: 'https://prod-sports-south-gm.jiocinema.com/hls/live/2109681/fhd__akamai__iosmob__avc__ssaispot__indvssa__tam__m1__081124__dbeedb71-c6de-484c-8b7e-51cbb61645b4/master_1080p.m3u8' },
 //{name:'PAK W vs NZ W',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh1nZCaMgPwHKNX846fgnjzrE36T3-OPmBEIH1-nxrorkWbaSXrguIA59&s=10',link:'https://tsneh.vercel.app/iu6ja-fckdho'},
 // { name:'WI vs SL',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5124ct8vWZkAOLCgghuSwB2MyZNbdMdttwfTPWVvh0Vo3wUljUd0NHEw&s=10',link:'https://dai.google.com/ssai/event/NVkw1vF1SImKE2QAWVwfBA/master.m3u8'},
 //{ name:'TN vs DEL',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m1_201024/mobile_master.m3u8'},
 // { name:'SAU vs CHH',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m3_201024/mobile_master.m3u8'},
 //{ name:'HP vs RAJ',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m2_201024/mobile_master.m3u8'},
-  {name: 'ISL', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://prod-sports-eng-gm.jiocinema.com/hls/live/2112600/hd_akamai_merged_avc_isl_eng_m1241024/mobile_master.m3u8' },
-  //{name:'IND A vs OMAN',image:'https://upload.wikimedia.org/wikipedia/en/2/21/2024_ACC_Emerging_Teams_Asia_Cup.png',link:'https://through-disorders-italiano-cpu.trycloudflare.com/web/?watch=669'},
+//{name: 'Jamshedpur VS Chennaiyin', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://live.drmlive-02.workers.dev/jc/122.m3u8' },
+  //{name:'IND A vs AFG A',image:'https://upload.wikimedia.org/wikipedia/en/2/21/2024_ACC_Emerging_Teams_Asia_Cup.png',link:'https://through-disorders-italiano-cpu.trycloudflare.com/web/?watch=669'},
   
   //{ name: 'AUS vs ENG', image: 'https://fancode.com/skillup-uploads/prod-images/2024/09/ENG-vs-AUS.png', link: 'https://tsneh.vercel.app/8rmeupsekdn9' },
   //{ name: 'SL vs NZ', image: 'https://www.india.com/wp-content/uploads/2015/02/sri-and-new-flag.jpg', link: 'https://pubads.g.doubleclick.net/ssai/event/biQJgf06SJCitj-nd502ow/master.m3u8' },
@@ -26,14 +28,17 @@ const stream = [
 
 ];
 const movies = [
+    { name:'Amaran',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzugiP-FGYgjDvKH0orm9a3csrkqljfNSwqVBS9yIeVA3_2EUNNAizHBMD&s=10',link:'https://tsneh.vercel.app/vldukqrbmmk8'},
+    { name:'Bloody Beggar',image:'https://upload.wikimedia.org/wikipedia/en/4/40/Bloody_Beggar.jpg',link:'https://tsneh.vercel.app/s-aflbwombc4'},
+    { name:'Brother',image:'https://timesofindia.indiatimes.com/photo/103798855.cms',link:'https://tsneh.vercel.app/j-ga7n3btddl'},
     { name: 'Goat', image: 'https://images.news18.com/ibnlive/uploads/2024/06/fotojet-2024-06-22t145736.232-2024-06-713c0097066abbd6ee404f96ef27a872.jpg?impolicy=website', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Goat.mp4' },
     { name: 'Raayan', image: 'https://multicinema.in/assets1/2021MoviesPoster/Raayan.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Raayan.mp4' },
     { name: 'Vaazhai', image: 'https://img1.imageride.net/images/2024/08/24/GNfbjytfJh4TYJb.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Vaazhai.mp4' },
     { name: 'Thangalan', image: 'https://multicinema.in/assets1/2021MoviesPoster/Thangalaan.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Ayalaan.mp4' },
-    { name: 'Aavesham', image: 'https://static.moviecrow.com/gallery/20240223/226542-aavesham.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Thangalaan.mp4' },
+    //{ name: 'Aavesham', image: 'https://static.moviecrow.com/gallery/20240223/226542-aavesham.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Thangalaan.mp4' },
     { name: 'Hi Nanna', image: 'https://tinyurl.com/ye76f2r4', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Hi_Nanna.mp4' },
     //{ name: 'Aranmanai 4', image: 'https://tinurl.com/bdzam9p4', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Aranmanai_4.mp4'},
-    { name: 'Boat', image: 'https://multicinema.in/assets1/2021MoviesPoster/Boat.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Boat.mp4' },
+    //{ name: 'Boat', image: 'https://multicinema.in/assets1/2021MoviesPoster/Boat.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Boat.mp4' },
     { name: 'Premalu', image: 'https://tinyurl.com/yn5t9a9p', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Premalu.mp4' },
     // { name: 'Premalu', image: 'https://tinyurl.com/yn5t9a9p', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Premalu.mp4' },
     // { name: 'Premalu', image: 'https://tinyurl.com/yn5t9a9p', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Premalu.mp4' },
@@ -334,7 +339,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
       renderSongs(Years, 'others-player');
       rendermov(movies, 'movie-player');
       rendermov(stream, 'stream-player');
-      renderchannel(channels, 'live-player');
+      //renderchannel(channels, 'live-player');
       renderdog(others, 'dog-player');
     }
   },);
@@ -382,11 +387,11 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
               {/* <button onClick={() => onNavClick('stream')} className='btt'>See All</button> */}
           </div>
           <div id='dog-player' className='player'></div>
-          <div className="bt">
+          { /*<div className="bt">
               <h1 className='sideheading'>Live Tv (Install Vlc)</h1>
               <button onClick={() => onNavClick('vlc')} className='btt'>See All</button>
           </div>
-          <div id='live-player' className='player'></div>
+          <div id='live-player' className='player'></div>*/}
 
           {/* <h1 className='sideheading'>Video Songs</h1>
           <div id='video-player' className='player'></div> */}

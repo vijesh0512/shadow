@@ -1,22 +1,35 @@
-import React, { useState, useRef, useEffect } from 'react';
-import videojs from 'video.js';
-import 'video.js/dist/video-js.css';
+import React, { useState } from 'react';
+import ReactPlayer from 'react-player';
 import './live.css';
+import './album.css';
 
+const shows = [
+  {
+    name: 'Theatre Print',
+    image: 'https://media.istockphoto.com/id/1494642262/photo/people-in-the-cinema-auditorium-with-empty-white-screen.jpg?s=2048x2048&w=is&k=20&c=XLSiHIO02doIcuaB8BJMTcoTsyeQtvbngcQlQZLkEW4=',
+    shows: [
+       { name:'Amaran',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzugiP-FGYgjDvKH0orm9a3csrkqljfNSwqVBS9yIeVA3_2EUNNAizHBMD&s=10',link:'https://tsneh.vercel.app/vldukqrbmmk8'},
+    { name:'Bloody Beggar',image:'https://upload.wikimedia.org/wikipedia/en/4/40/Bloody_Beggar.jpg',link:'https://tsneh.vercel.app/s-aflbwombc4'},
+        { name:'Brother',image:'https://timesofindia.indiatimes.com/photo/103798855.cms',link:'https://tsneh.vercel.app/j-ga7n3btddl'},
+    ],
+  },
 
-
-const channels = [
-    //{ name: 'Devara', image: 'https://cdn.gulte.com/wp-content/uploads/2024/01/Devara-scaled.jpg', link: 'https://prod-sports-eng-gm.jiocinema.com/hls/live/2112600/hd_akamai_merged_avc_isl_eng_m1241024/mobile_master.m3u8' },
-    { name:'Black',image:'https://upload.wikimedia.org/wikipedia/en/3/3a/Black_%282024_film%29.jpg',link:'https://tsneh.vercel.app/mocavfnz8dgj'},
-    { name:"Vettaiyan",image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQULrTu7hLs5ggDAet-gSB2-ujfUA4nqb1U40cpUO0qihy1Cliz4HufKAHM&s=10',link:'https://tsneh.vercel.app/7zgz_khl0hlh'},
-    { name: 'Meiyazhagan', image: 'https://i.scdn.co/image/ab67616d0000b2737e86df2b3a35c59564738524', link: 'https://tsneh.vercel.app/hmzrqev4e1cs' },
-    { name: 'Petta Rap', image: 'https://m.media-amazon.com/images/M/MV5BZDZiNjRlOTQtNDBkNy00MDgxLTgxZDQtNTc5Zjg2NWM2NGZlXkEyXkFqcGc@._V1_QL75_UX218_.jpg', link: 'https://tsneh.vercel.app/7cs6axa16oef' },
+  {
+    name: 'HD Movies',
+    image: 'https://play-lh.googleusercontent.com/5lGwoUsh5Z1eopCpGQIQjfoGqUHTJU_tAXNkdm1eiBVGGKoXqk5jX8Vm7DiAn42Lwbk6',
+    shows: [
+         
+    { name:'Black',image:'https://upload.wikimedia.org/wikipedia/en/3/3a/Black_%282024_film%29.jpg',link:"https://tsneh.vercel.app/u8wry99scgon"},
+    { name:"Vettaiyan",image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQULrTu7hLs5ggDAet-gSB2-ujfUA4nqb1U40cpUO0qihy1Cliz4HufKAHM&s=10',link:'https://tsneh.vercel.app/kybgedhlv-kv'},
+    { name: 'Meiyazhagan', image: 'https://i.scdn.co/image/ab67616d0000b2737e86df2b3a35c59564738524', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Meiyazhagan.mp4' },
+    { name: 'Petta Rap', image: 'https://m.media-amazon.com/images/M/MV5BZDZiNjRlOTQtNDBkNy00MDgxLTgxZDQtNTc5Zjg2NWM2NGZlXkEyXkFqcGc@._V1_QL75_UX218_.jpg', link: 'https://tsneh.vercel.app/7j0fks8vo2fh' },
     { name: 'Hitler', image: 'https://assets.gadgets360cdn.com/pricee/assets/product/202312/Hitler1_1703675553.jpg', link: 'https://tsneh.vercel.app/unaqmn-e4js1' },
-    { name: 'KP chelladurai', image: 'https://m.media-amazon.com/images/M/MV5BN2JmODY2NDYtNDk0Zi00ZDM1LTlkYjktNDFkMmUzZDlmODA3XkEyXkFqcGc@._V1_.jpg', link: 'https://tsneh.vercel.app/fbg71niwtq5u' },
+    //{ name: 'Devar', image: 'https://cdn.gulte.com/wp-content/uploads/2024/01/Devara-scaled.jpg', link: 'https://jaws-stream.jiocloud.com/media/hls/MmFqYXdzLWpjMS1zMy1wZC1lbmM6NzVjODNiNTk0Njc5NDI0NDgxMTMyMTg1YzIxYTdiOGZfeHMubTN1OA==.m3u8?token=b3e63177d6f14d60af5206c0318faa71' },
+    { name: 'KP chelladurai', image: 'https://m.media-amazon.com/images/M/MV5BN2JmODY2NDYtNDk0Zi00ZDM1LTlkYjktNDFkMmUzZDlmODA3XkEyXkFqcGc@._V1_.jpg', link: 'https://tsneh.vercel.app/dw2-1z35rqaq' },
     { name: 'tholar cheguevara', image: 'https://m.media-amazon.com/images/M/MV5BMjNkNWM4NDItZDBjNi00N2EzLTg4YmYtMTNkYzJlMjE3ZWRjXkEyXkFqcGc@._V1_.jpg', link: 'https://tsneh.vercel.app/vhy7_dipwhlz' },
-    { name: 'Kadaisi Ulaga Por', image: 'https://m.media-amazon.com/images/M/MV5BODYzOGY4NmEtYjRiNi00OGI3LWE4MWItZWJlM2MwNDUwMDM1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg', link: 'https://tsneh.vercel.app/znzcrhg15d7_' },
+    { name: 'Kadaisi Ulaga Por', image: 'https://m.media-amazon.com/images/M/MV5BODYzOGY4NmEtYjRiNi00OGI3LWE4MWItZWJlM2MwNDUwMDM1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg', link: 'https://tsneh.vercel.app/px0-mvie8xno' },
     { name: 'Nandhan', image: 'https://chennaivision.com/wp-content/uploads/2024/09/post-7.png', link: 'https://tsneh.vercel.app/vs1qmtmnxail' },
-    { name: 'Lubber Pandhu', image: 'https://assetscdn1.paytm.com/images/cinema/_Lubber-Pandhu---Gallery-13cf1990-711b-11ef-a8ad-e19aad791794.jpg', link: 'https://tsneh.vercel.app/58l1cnau71oj' },
+    { name: 'Lubber Pandhu', image: 'https://assetscdn1.paytm.com/images/cinema/_Lubber-Pandhu---Gallery-13cf1990-711b-11ef-a8ad-e19aad791794.jpg', link: 'https://tsneh.vercel.app/hxjklbeumamm' },
     { name: 'GOAT', image: 'https://images.news18.com/ibnlive/uploads/2024/06/fotojet-2024-06-22t145736.232-2024-06-713c0097066abbd6ee404f96ef27a872.jpg?impolicy=website&width=640&height=480', link: 'https://tsneh.vercel.app/pfwkbnrzhe2z' },
     { name: 'Vazhai', image: 'https://img1.imageride.net/images/2024/08/24/GNfbjytfJh4TYJb.jpg', link: 'https://tsneh.vercel.app/lngpnsrf9x76' },
     { name: 'Kotukali', image: 'https://img.imageride.net/images/2024/08/24/GNRGfbjF4hKN.jpg', link: 'https://tsneh.vercel.app/i7_7r8ly-x1s' },
@@ -97,77 +110,75 @@ const channels = [
     { name: 'Mankarathe', image: 'https://wallpapercave.com/wp/wp7501819.jpg', link: 'https://tinyurl.com/bdfzs46y' },
     { name: 'RajiniMurugan', image: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/54ea49e8c68cb4efd2200aa4ede5ae8e32098a643d61e072be278ba745dbe963._RI_V_TTW_.jpg', link: 'https://tinyurl.com/yc52yfmk' },
 
+     
+    ],
+  },
 ];
-const VideoPlayer = ({ url, onPlayerReady }) => {
-    const videoNode = useRef(null);
-    const [player, setPlayer] = useState(null);
 
-    useEffect(() => {
-        const options = {
-            autoplay: true,
-            controls: true,
-            responsive: true,
-            fluid: true,
-            sources: [{ src: url, type: 'video/mp4' }],
-        };
+const Movies = () => {
+  const [selectedAlbum, setSelectedAlbum] = useState(null);
+  const [currentVideo, setCurrentVideo] = useState(null);
 
-        const vjsPlayer = videojs(videoNode.current, options, () => {
-            console.log('Player ready');
-            onPlayerReady(vjsPlayer); // Call the callback to set the player
-        });
+  const handleAlbumClick = (album) => {
+    setSelectedAlbum(album);
+    setCurrentVideo(null);
+  };
 
-        setPlayer(vjsPlayer);
+  const handleBackClick = () => {
+    setSelectedAlbum(null);
+    setCurrentVideo(null);
+  };
 
-        return () => {
-            if (player) {
-                player.dispose();
-            }
-        };
-    }, [url, onPlayerReady]);
+  const handleVideoClick = (video) => {
+    setCurrentVideo(video.link);
+  };
 
-    return (
-        <div data-vjs-player>
-            <video ref={videoNode} className="video-js vjs-big-play-centered" />
+  return (
+    <>
+      {currentVideo && (
+        <div className='plr'>
+            <ReactPlayer
+            url={currentVideo}
+            controls
+            playing
+            pip={true} // Enable picture-in-picture
+            config={{
+                file: {
+                attributes: {
+                    controlsList: 'nodownload' // Remove download button
+                }
+                }
+            }}
+/>
         </div>
-    );
-};
-
-const MovieList = () => {
-    const [selectedMovie, setSelectedMovie] = useState(null);
-    const playerRef = useRef(null);
-
-    const handlePlayerReady = (player) => {
-        playerRef.current = player; // Store the player reference
-    };
-
-    const handleMovieSelect = (link) => {
-        // Check if a movie is already selected
-        if (playerRef.current) {
-            playerRef.current.pause(); // Pause the current video
-            setSelectedMovie(link);
-        }
-
-        // Update the state to play the new movie
-        setSelectedMovie(link); // Set the selected movie
-    };
-
-    return (
-        <div>
-            {selectedMovie && (
-                <div className="plr">
-                    <VideoPlayer url={selectedMovie} onPlayerReady={handlePlayerReady} />
+      )}
+      <div className='content'>
+        {selectedAlbum ? (
+          <div className='album-details'>
+            <button onClick={handleBackClick} className='back-button'>Back to Movies</button>
+            <h2 className='hi'>{selectedAlbum.name}</h2>
+            <div className='play'>
+              {selectedAlbum.shows.map((video, index) => (
+                <div key={index} className='son' onClick={() => handleVideoClick(video)}>
+                  <img src={video.image} alt={video.name} />
+                  <p>{video.name}</p>
                 </div>
-            )}
-            <div className="play">
-                {channels.map((channel, index) => (
-                    <div key={index} className="son" onClick={() => setSelectedMovie(channel.link)}>
-                        <img src={channel.image} alt={`Poster for ${channel.name}`} />
-                        <h3>{channel.name}</h3>
-                    </div>
-                ))}
+              ))}
             </div>
-        </div>
-    );
+          </div>
+        ) : (
+          <div id='channel-player' className='play'>
+            {shows.map((album, index) => (
+              <div key={index} className='son' onClick={() => handleAlbumClick(album)}>
+                <img src={album.image} alt={album.name} />
+                <p>{album.name}</p>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </>
+  );
 };
 
-export default MovieList;
+export default Movies;
