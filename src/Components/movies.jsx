@@ -140,12 +140,10 @@ const Movies = () => {
             <ReactPlayer
             url={currentVideo}
             controls
-              playing
+            playing
+            muted={false}
+            
             pip={true} // Enable picture-in-picture
-/>
-    </div>
-)}
-
 />
         </div>
       )}
