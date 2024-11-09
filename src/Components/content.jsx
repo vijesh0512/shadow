@@ -70,6 +70,10 @@ const channels = [
 //     // { name: 'Romantic', image: 'https://tse1.mm.bing.net/th?id=OIP.DV5kBw14-70B990kJ09frgHaEK&pid=Api&P=0&h=220', link: 'https://allinonereborn.in/spice11.m3u8/?id=9272' },
 //     { name: 'Tamil', image: 'https://tse1.mm.bing.net/th?id=OIP.DV5kBw14-70B990kJ09frgHaEK&pid=Api&P=0&h=220', link: 'https://allinonereborn.com/tatatv.php?id=60115'},
 // ]
+const games=[
+  {name:"Tic Tac Toe",image:"https://s3-alpha.figma.com/hub/file/479379372/7e6df39f-585d-4a9e-9bf3-4ef4c00f816b-cover.png",link:"https://vijesh-x-o.netlify.app/"},
+  {name:"2048",image:"https://www.coolmathgames.com/sites/default/files/2048_OG-logo.jpg",link:"https://vijesh2048.netlify.app/"},
+  ];
 const hero = [
     {
         name: "Ajith Hits",
@@ -337,6 +341,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
       renderSongs(singer, 'singer-player');
       renderSongs(Years, 'others-player');
       rendermov(movies, 'movie-player');
+      rendermov(games, 'game-player');
       rendermov(stream, 'stream-player');
       //renderchannel(channels, 'live-player');
       renderdog(others, 'dog-player');
@@ -380,6 +385,11 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
               <button onClick={() => onNavClick('Movies')} className='btt'>See All</button>
           </div>
           <div id='movie-player' className='player'></div>
+
+         <div className="bt">
+          <h1 className='sideheading'>Games</h1>
+          </div>
+        <div id='game-player' className='player'></div>
 
           <div className="bt">
               <h1 className='sideheading'>Others</h1>
