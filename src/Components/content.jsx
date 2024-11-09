@@ -11,12 +11,12 @@ const stream = [
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://tsneh.vercel.app/6esr_4mxpaxe' },
   //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://tinyurl.com/57btpw94'},
 //{ name: 'IND vs SA', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2X8ioKPH4-x1SjDHAvmLN4ZkJCccDHSyleAi2HBXzJAVj12bZyWfBrj0&s=10', link: 'https://prod-sports-south-gm.jiocinema.com/hls/live/2109681/fhd__akamai__iosmob__avc__ssaispot__indvssa__tam__m1__081124__dbeedb71-c6de-484c-8b7e-51cbb61645b4/master_1080p.m3u8' },
-  {name:"NZ vs SL",image:"https://png.pngtree.com/png-vector/20230921/ourmid/pngtree-south-africa-vs-sri-lanka-vector-png-image_10148198.png",link:"https://dai.google.com/ssai/event/7044GU7mRL2-99W6nrnbzA/master.m3u8"},
+  //{name:"NZ vs SL",image:"https://png.pngtree.com/png-vector/20230921/ourmid/pngtree-south-africa-vs-sri-lanka-vector-png-image_10148198.png",link:"https://dai.google.com/ssai/event/7044GU7mRL2-99W6nrnbzA/master.m3u8"},
 
 //{ name:'TN vs DEL',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m1_201024/mobile_master.m3u8'},
 // { name:'SAU vs CHH',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m3_201024/mobile_master.m3u8'},
 //{ name:'HP vs RAJ',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m2_201024/mobile_master.m3u8'},
-{name: 'EBFC VS MBFC', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://live.drmlive-02.workers.dev/jc/122.m3u8' },
+//{name: 'EBFC VS MBFC', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://live.drmlive-02.workers.dev/jc/122.m3u8' },
  
 
 ];
@@ -66,6 +66,7 @@ const games=[
   {name:"Tic Tac Toe",image:"https://s3-alpha.figma.com/hub/file/479379372/7e6df39f-585d-4a9e-9bf3-4ef4c00f816b-cover.png",link:"https://vijesh-x-o.netlify.app/"},
   {name:"2048",image:"https://www.coolmathgames.com/sites/default/files/2048_OG-logo.jpg",link:"https://vijesh2048.netlify.app/"},
     {name:"Mmemory",image:"https://tcgtoys.com/cdn/shop/products/13410_LittleTikes_MatchingMemoryGame_LIFE_lr_2048x.jpg?v=1643941358",link:"https://vijesh-memory.netlify.app/"},
+  {name:"Whack",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4I87IpLI8e_sKFuCk5XqyszNeDZfdUBADoA&usqp=CAU",link:"https://whack-me.netlify.app/"},
   
   ];
 const hero = [
