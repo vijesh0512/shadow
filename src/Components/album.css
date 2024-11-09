@@ -25,32 +25,29 @@ button:hover {
 }
 /* Container for the video player */
 .plr {
-  position:sticky;
+  position: sticky;
   top: 0;
   z-index: 1000;
   background-color: #000;
   padding: 0; /* Remove padding if it causes overflow */
-  width: auto; /* Reduce width on mobile */
-  height: 40vh; /* Adjust height for smaller screens */
-  max-width: 95%; /* Ensure it doesn’t exceed viewport width */
+  width: 100%; /* Full width */
+  height: 50vh; /* Adjust height as necessary */
+  max-width: 100%; /* Ensure it doesn’t exceed viewport width */
   max-height: 100vh; /* Ensure it doesn’t exceed viewport height */
-    margin: 0 auto; /* Center horizontally */
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
   overflow: hidden; /* Hide any overflow */
   display: flex; /* Flexbox centering */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
+  margin-top: 5px;
 }
 
 @media (max-width: 768px) {
   .plr {
-    width: auto; /* Reduce width on mobile */
+    width: 100%; /* Reduce width on mobile */
     height: 40vh; /* Adjust height for smaller screens */
-    max-width: 95%; /* Ensure it doesn’t exceed viewport width */
+    max-width: 100%; /* Ensure it doesn’t exceed viewport width */
     max-height: 100vh; /* Ensure it doesn’t exceed viewport height */
     margin: 0 auto; /* Center horizontally */
   }
 }
-
-
-
