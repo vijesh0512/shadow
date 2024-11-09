@@ -11,21 +11,13 @@ const stream = [
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://tsneh.vercel.app/6esr_4mxpaxe' },
   //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://tinyurl.com/57btpw94'},
 //{ name: 'IND vs SA', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2X8ioKPH4-x1SjDHAvmLN4ZkJCccDHSyleAi2HBXzJAVj12bZyWfBrj0&s=10', link: 'https://prod-sports-south-gm.jiocinema.com/hls/live/2109681/fhd__akamai__iosmob__avc__ssaispot__indvssa__tam__m1__081124__dbeedb71-c6de-484c-8b7e-51cbb61645b4/master_1080p.m3u8' },
-//{name:'PAK W vs NZ W',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh1nZCaMgPwHKNX846fgnjzrE36T3-OPmBEIH1-nxrorkWbaSXrguIA59&s=10',link:'https://tsneh.vercel.app/iu6ja-fckdho'},
-// { name:'WI vs SL',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5124ct8vWZkAOLCgghuSwB2MyZNbdMdttwfTPWVvh0Vo3wUljUd0NHEw&s=10',link:'https://dai.google.com/ssai/event/NVkw1vF1SImKE2QAWVwfBA/master.m3u8'},
+  {name:"NZ vs SL",image:"https://png.pngtree.com/png-vector/20230921/ourmid/pngtree-south-africa-vs-sri-lanka-vector-png-image_10148198.png",link:"https://dai.google.com/ssai/event/7044GU7mRL2-99W6nrnbzA/master.m3u8"},
+
 //{ name:'TN vs DEL',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m1_201024/mobile_master.m3u8'},
 // { name:'SAU vs CHH',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m3_201024/mobile_master.m3u8'},
 //{ name:'HP vs RAJ',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m2_201024/mobile_master.m3u8'},
-{name: 'Chennai VS Mumbai', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://live.drmlive-02.workers.dev/jc/122.m3u8' },
-  //{name:'IND A vs AFG A',image:'https://upload.wikimedia.org/wikipedia/en/2/21/2024_ACC_Emerging_Teams_Asia_Cup.png',link:'https://through-disorders-italiano-cpu.trycloudflare.com/web/?watch=669'},
-  
-  //{ name: 'AUS vs ENG', image: 'https://fancode.com/skillup-uploads/prod-images/2024/09/ENG-vs-AUS.png', link: 'https://tsneh.vercel.app/8rmeupsekdn9' },
-  //{ name: 'SL vs NZ', image: 'https://www.india.com/wp-content/uploads/2015/02/sri-and-new-flag.jpg', link: 'https://pubads.g.doubleclick.net/ssai/event/biQJgf06SJCitj-nd502ow/master.m3u8' },
-  //{ name: 'AFG vs SA', image: 'https://www.shutterstock.com/image-vector/afghanistan-vs-south-africa-icc-260nw-2378122757.jpg', link: 'https://dai.google.com/linear/hls/event/Ek_Vtm5jRaWpjVxANvOhng/master.m3u8' },
-  //{ name: 'CPL', image: 'https://static.toiimg.com/thumb/msid-74774461,width-400,resizemode-4/74774461.jpg', link: 'https://dai.google.com/linear/hls/event/28y3xpzkQ2qZ7L6F4tlxXA/master.m3u8' },
-  //{ name: 'Laver Cup', image: 'https://us.kit-kat.top/king-include/uploads/2024/09/976720-laver-cup-0924-fb-post-1200x628.png', link: 'https://dai.google.com/ssai/event/8cov9tHQRj26xm-Qz6uWzQ/master.m3u8' },
-  //{ name: 'Bundesliga', image: 'https://football-industry.com/wp-content/uploads/2020/07/logo_bundesliga.png', link: 'https://dai.google.com/ssai/event/b4syULaIS9uJBor6MB0Gcg/master.m3u8' },
-//{ name: 'LLC', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFyb13fqLad86erEnIpZ5-DCStmwQt9SNwjA&s', link: 'https://dai.fancode.com/linear/hls/pb/event/eGl_lOilRBibna8cSSmFEA/stream/0bb16c36-f375-4df5-8dae-8b730a5fbed6:SIN2/variant/90bed86f44297a756c356b62504d8c09/bandwidth/3289416.m3u8' },
+{name: 'EBFC VS MBFC', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://live.drmlive-02.workers.dev/jc/122.m3u8' },
+ 
 
 ];
 const movies = [
