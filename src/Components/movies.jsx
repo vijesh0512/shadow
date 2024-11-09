@@ -136,10 +136,13 @@ const Movies = () => {
   return (
     <>
       {currentVideo && (
-    <div className='plr'>
-        <ReactPlayer
+        <div className='plr'>
+            <ReactPlayer
             url={currentVideo}
-        />
+            controls
+              playing
+            pip={true} // Enable picture-in-picture
+/>
     </div>
 )}
 
