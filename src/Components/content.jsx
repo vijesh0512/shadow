@@ -48,14 +48,14 @@ const others = [
 ];
 const channels = [
 //  { name: 'SS Tamil', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop8ucdt1JVIfgEzRt4K8A6AoRZ-DfftdXvSBfE2Pm8IBKBfA9Jwo61Es4&s=10',link:'https://tsneh.vercel.app/ihfkdq-1wbx3'},
-  //{ name: 'Vijay Super', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjonzzKzBGJJKpe1_FrbiyAwiMGAEGftloixlGuyIqiS6rRIkFTDArP4&s=10', link: 'https://tinyurl.com/yc3mav2k' },
-  { name: 'Star Vijay', image: 'https://tinyurl.com/2heavac5', link: 'https://tinyurl.com/ycxsyc5f'},
-  { name: 'Sun TV', image: 'https://tinyurl.com/55rjk5ka', link: 'https://tinyurl.com/3upjsfn8'},
-  { name: 'K TV', image: 'https://seeklogo.com/images/K/ktv-logo-703754480A-seeklogo.com.png', link: 'https://tsneh.vercel.app/iooxgg8uize4'},
-  { name: 'Sun Music', image: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Sun_Music_%28No_Background%29.png', link: 'https://tsneh.vercel.app/wyhzfb6t-_xk' },
-  { name: 'Zee Tamil', image: 'https://www.ethnicchannels.com/images/channeldetail/zee-tamil/ZEE-TAMIL.png', link: 'https://tinyurl.com/yc5zn3hs' },
-  { name: 'Zee Thirai', image: 'https://vignette.wikia.nocookie.net/logopedia/images/c/c3/Zee_Thirai.png/revision/latest?cb=20200324034033', link: 'https://tsneh.vercel.app/6vqsrxjs_k9w' },
-  { name: 'Colors Tamil', image: 'https://tinyurl.com/yc2kz4ck', link: 'https://tinyurl.com/5ew7vkmj' },
+  { name: 'Vijay Super', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjonzzKzBGJJKpe1_FrbiyAwiMGAEGftloixlGuyIqiS6rRIkFTDArP4&s=10', link: 'https://tinyurl.com/ycxhrjsm' },
+  { name: 'Star Vijay', image: 'https://tinyurl.com/2heavac5', link: 'https://tinyurl.com/yhcynpch'},
+  { name: 'Sun TV', image: 'https://tinyurl.com/55rjk5ka', link: 'https://tinyurl.com/2e9ak5ds'},
+  { name: 'K TV', image: 'https://seeklogo.com/images/K/ktv-logo-703754480A-seeklogo.com.png', link: 'https://tinyurl.com/yrzdjydy'},
+  { name: 'Sun Music', image: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Sun_Music_%28No_Background%29.png', link: 'https://tinyurl.com/2s8c6ak2' },
+  { name: 'Zee Tamil', image: 'https://www.ethnicchannels.com/images/channeldetail/zee-tamil/ZEE-TAMIL.png', link: 'https://tinyurl.com/42xpvj8y' },
+  { name: 'Zee Thirai', image: 'https://vignette.wikia.nocookie.net/logopedia/images/c/c3/Zee_Thirai.png/revision/latest?cb=20200324034033', link: 'https://tinyurl.com/383n8rn5' },
+  { name: 'Colors Tamil', image: 'https://tinyurl.com/yc2kz4ck', link: 'https://tinyurl.com/4yheza4w' },
   
 ];
 // const video=[
@@ -342,6 +342,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
       rendermov(movies, 'movie-player');
       rendermov(games, 'game-player');
       rendermov(stream, 'stream-player');
+      rendermov(channels,'live-player');
       //renderchannel(channels, 'live-player');
       renderdog(others, 'dog-player');
     }
@@ -395,11 +396,11 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
               {/* <button onClick={() => onNavClick('stream')} className='btt'>See All</button> */}
           </div>
           <div id='dog-player' className='player'></div>
-          { /*<div className="bt">
-              <h1 className='sideheading'>Live Tv (Install Vlc)</h1>
-              <button onClick={() => onNavClick('vlc')} className='btt'>See All</button>
+          <div className="bt">
+              <h1 className='sideheading'>Live Tv</h1>
+            {/*<button onClick={() => onNavClick('vlc')} className='btt'>See All</button>*/}
           </div>
-          <div id='live-player' className='player'></div>*/}
+          <div id='live-player' className='player'></div>
 
           {/* <h1 className='sideheading'>Video Songs</h1>
           <div id='video-player' className='player'></div> */}
