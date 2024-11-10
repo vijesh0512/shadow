@@ -10,13 +10,13 @@ const stream = [
 
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://tsneh.vercel.app/6esr_4mxpaxe' },
   //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://tinyurl.com/57btpw94'},
-//{ name: 'IND vs SA', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2X8ioKPH4-x1SjDHAvmLN4ZkJCccDHSyleAi2HBXzJAVj12bZyWfBrj0&s=10', link: 'https://prod-sports-south-gm.jiocinema.com/hls/live/2109681/fhd__akamai__iosmob__avc__ssaispot__indvssa__tam__m1__081124__dbeedb71-c6de-484c-8b7e-51cbb61645b4/master_1080p.m3u8' },
-  {name:"NZ vs SL",image:"https://png.pngtree.com/png-vector/20230921/ourmid/pngtree-south-africa-vs-sri-lanka-vector-png-image_10148198.png",link:"https://dai.google.com/ssai/event/7044GU7mRL2-99W6nrnbzA/master.m3u8"},
+{ name: '2nd T20', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2X8ioKPH4-x1SjDHAvmLN4ZkJCccDHSyleAi2HBXzJAVj12bZyWfBrj0&s=10', link: 'https://prod-sports-south-gm.jiocinema.com/hls/live/2109681/fhd__akamai__iosmob__avc__ssaispot__indvssa__tam__m1__101124__5d882b6b-a27f-456c-bec2-abd8ed895cf2/master_1080p.m3u8' },
+  {name:"2nd T20",image:"https://png.pngtree.com/png-vector/20230921/ourmid/pngtree-south-africa-vs-sri-lanka-vector-png-image_10148198.png",link:"https://dai.google.com/ssai/event/7044GU7mRL2-99W6nrnbzA/master.m3u8"},
 
 //{ name:'TN vs DEL',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m1_201024/mobile_master.m3u8'},
 // { name:'SAU vs CHH',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m3_201024/mobile_master.m3u8'},
 //{ name:'HP vs RAJ',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m2_201024/mobile_master.m3u8'},
-//{name: 'EBFC VS MBFC', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://live.drmlive-02.workers.dev/jc/122.m3u8' },
+  {name: 'Odisha VS Mohun Bagan', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://live.drmlive-02.workers.dev/jc/122.m3u8' },
 
 
   //{name:'3rd ODI',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv_ADaI_RiY29m-Uz4m3ayR7MPnUc2DVUKrg&usqp=CAU',link:'http://195.90.209.41:7575/channel/n49361d2/index.m3u8?q=1731142068821'},
@@ -56,6 +56,9 @@ const channels = [
   { name: 'Zee Tamil', image: 'https://www.ethnicchannels.com/images/channeldetail/zee-tamil/ZEE-TAMIL.png', link: 'https://tinyurl.com/42xpvj8y' },
   { name: 'Zee Thirai', image: 'https://vignette.wikia.nocookie.net/logopedia/images/c/c3/Zee_Thirai.png/revision/latest?cb=20200324034033', link: 'https://tinyurl.com/383n8rn5' },
   { name: 'Colors Tamil', image: 'https://tinyurl.com/yc2kz4ck', link: 'https://tinyurl.com/4yheza4w' },
+  { name: 'Adithya',image:'https://jiotvimages.cdn.jio.com/dare_images/images/Adithya_TV.png',link:'https://tinyurl.com/4weykd2v'},
+  { name: 'Kalaignar TV', image: 'https://tsneh.vercel.app/fzqicp5wkped', link: 'https://segment.yuppcdn.net/240122/kalaignartv/playlist.m3u8' },
+  { name: 'Siripoli', image: 'https://tsneh.vercel.app/bril2azbth2y', link: 'https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8' },
   
 ];
 // const video=[
