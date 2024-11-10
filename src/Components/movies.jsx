@@ -135,6 +135,28 @@ const shows = [
 
     ],
   },
+  {
+    name: 'Harry Potter',
+    image: 'https://i5.walmartimages.com/asr/11a9f800-47ff-4ba4-ac8d-43bd0be5c2e4.b86b11aa6cb832d3761845fe5b3076c1.jpeg',
+    shows: [
+        { name: "Sorcerer's Stone", image: "https://tinyurl.com/7j795tmh", link: "https://tsneh.vercel.app/75rhzaeeyk2t" },
+        { name: "Chamber of Secrets", image: "https://tinyurl.com/bd4m5tk8", link: "https://tsneh.vercel.app/6ltfpkrebevz" },
+        { name: "Prisoner of Azkaban", image: "https://tinyurl.com/5655uwsu", link: "https://tsneh.vercel.app/bysb4ed82sp6" },
+        { name: "Goblet of Fire", image: "https://tinyurl.com/3a8fcukr", link: "https://tsneh.vercel.app/npjd3s7lan6m" },
+        { name: "Order of the Phoenix", image: "https://tinyurl.com/2adn39xt", link: "https://tsneh.vercel.app/sgkjswsd-czh" },
+        { name: "Half-Blood Prince", image: "https://tinyurl.com/4jm2nnch", link: "https://tsneh.vercel.app/h3rn3rjihw2n" },
+        { name: "Deathly Hallows Part 1", image: "https://tinyurl.com/mw2v2kv7", link: "https://tsneh.vercel.app/c2yaskvyveig" },
+        { name: "Deathly Hallows Part 2", image: "https://tinyurl.com/yjb7jhn4", link: "https://tsneh.vercel.app/vp9mkbibcn6q" },
+
+    ],
+  },
+  {
+    name:"Toy Story",image:"https://image.tmdb.org/t/p/original/dSr82KHmtgiWaMYx53QgtxQmbCw.jpg",shows:[
+      {name:"Toy Story 1",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnCdlRuLP67KQNBnZHm9eJaOqSPpBdSHfGtQ&s",link:"https://d5.uptocdn.com/dl/OnL0-13oIjDriY3tuNsULQ/1732070509/p/Tamil%20Dubbed%20Collections/Toy%20Story%20Trilogy%20Collections/Toy%20Story%201%20(1995)/Mp4%20HD%20(640x360)/Toy%20Story%201%20(1995)%20HD%20(640x360).mp4"},
+      {name:"Toy Story 2",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7UnVe5koWHuUSa4XRH482AvGCtWFoDEQbRw&s",link:"https://d5.uptocdn.com/dl/9YuSTwe9NyXT1u5tJ5MApQ/1732070940/p/Tamil%20Dubbed%20Collections/Toy%20Story%20Trilogy%20Collections/Toy%20Story%202%20(1999)/Mp4%20HD%20(640x360)/Toy%20Story%202%20(1999)%20HD%20(640x360).mp4"},
+      {name:"Toy Story 3",image:"https://m.media-amazon.com/images/I/81DOyQ93xmL._AC_UF1000,1000_QL80_.jpg",link:"https://d5.uptocdn.com/dl/mhyCWwH7wzHlA0LvhvUD4A/1732070972/p/Tamil%20Dubbed%20Collections/Toy%20Story%20Trilogy%20Collections/Toy%20Story%203%20(2010)/Mp4%20HD%20(640x360)/Toy%20Story%203%20(2010)%20HD%20(640x360).mp4"},
+    ],
+  },
 ];
 
 const Movies = () => {
