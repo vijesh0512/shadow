@@ -46,7 +46,7 @@ const shows = [
   { 
     name: 'RAYAN', 
     image:'https://m.media-amazon.com/images/M/MV5BODJhYjcwZTktZWY1Yy00ODNlLTg1MDQtOTdmZDliNWIyMmFhXkEyXkFqcGc@._V1_.jpg', 
-    songs: [
+    shows: [
       {
         name: "Adangatha Asuran",
         img: "https://i.ytimg.com/vi/rsouMX_N56E/maxresdefault.jpg",
@@ -68,7 +68,7 @@ const shows = [
   { 
     name: 'Jailer', 
     image:'https://upload.wikimedia.org/wikipedia/en/c/cb/Jailer_2023_Tamil_film_poster.jpg', 
-    songs: [
+    shows: [
       {
         name: "Kavala",
         img: "https://static.toiimg.com/thumb/msid-101548900,width-1280,resizemode-4/101548900.jpg",
