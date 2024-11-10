@@ -24,7 +24,7 @@ const shows = [
     { name: 'Meiyazhagan', image: 'https://i.scdn.co/image/ab67616d0000b2737e86df2b3a35c59564738524', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Meiyazhagan.mp4' },
     { name: 'Petta Rap', image: 'https://m.media-amazon.com/images/M/MV5BZDZiNjRlOTQtNDBkNy00MDgxLTgxZDQtNTc5Zjg2NWM2NGZlXkEyXkFqcGc@._V1_QL75_UX218_.jpg', link: 'https://tsneh.vercel.app/7j0fks8vo2fh' },
     { name: 'Hitler', image: 'https://assets.gadgets360cdn.com/pricee/assets/product/202312/Hitler1_1703675553.jpg', link: 'https://tsneh.vercel.app/unaqmn-e4js1' },
-    //{ name: 'Devar', image: 'https://cdn.gulte.com/wp-content/uploads/2024/01/Devara-scaled.jpg', link: 'https://jaws-stream.jiocloud.com/media/hls/MmFqYXdzLWpjMS1zMy1wZC1lbmM6NzVjODNiNTk0Njc5NDI0NDgxMTMyMTg1YzIxYTdiOGZfeHMubTN1OA==.m3u8?token=b3e63177d6f14d60af5206c0318faa71' },
+    
     { name: 'KP chelladurai', image: 'https://m.media-amazon.com/images/M/MV5BN2JmODY2NDYtNDk0Zi00ZDM1LTlkYjktNDFkMmUzZDlmODA3XkEyXkFqcGc@._V1_.jpg', link: 'https://tsneh.vercel.app/dw2-1z35rqaq' },
     { name: 'tholar cheguevara', image: 'https://m.media-amazon.com/images/M/MV5BMjNkNWM4NDItZDBjNi00N2EzLTg4YmYtMTNkYzJlMjE3ZWRjXkEyXkFqcGc@._V1_.jpg', link: 'https://tsneh.vercel.app/vhy7_dipwhlz' },
     { name: 'Kadaisi Ulaga Por', image: 'https://m.media-amazon.com/images/M/MV5BODYzOGY4NmEtYjRiNi00OGI3LWE4MWItZWJlM2MwNDUwMDM1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg', link: 'https://tsneh.vercel.app/px0-mvie8xno' },
@@ -54,10 +54,9 @@ const shows = [
     { name: 'Goat Life', image: 'https://tse1.mm.bing.net/th?id=OIP.J3vPn5YeOP8VVw5ZjgYv7AHaEK&pid=Api&P=0&h=220', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Aadujeevitham_The_Goat_Life.mp4' },
     { name: 'Maharaja', image: 'https://tse3.mm.bing.net/th?id=OIP.1xrCi3RgSNSgLWIxCCC89QHaEK&pid=Api&P=0&h=220', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Maharaja.mp4' },
     { name: 'Rathnam', image: 'https://tse4.mm.bing.net/th?id=OIP.dtFmkkf-VxhJ8acpQ8RYmAHaEK&pid=Api&P=0&h=220', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Rathnam.mp4' },
-    { name: 'Chutney Sambar', image: 'https://www.cinefry.co.in/wp-content/uploads/2024/07/Chutney-Sambar.webp', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Chutney_Sambar_S01_E01_06.mp4' },
+    //{ name: 'Chutney Sambar', image: 'https://www.cinefry.co.in/wp-content/uploads/2024/07/Chutney-Sambar.webp', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Chutney_Sambar_S01_E01_06.mp4' },
     { name: 'Garudan', image: 'https://tse2.mm.bing.net/th?id=OIP._cE5MahbnwAc3goANzq3VgHaEK&pid=Api&P=0&h=220', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Garudan.mp4' },
-    { name: 'Manjummel Boys', image: 'https://tinyurl.com/2nn9eydy', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Manjummel_Boys.mp4' },
-    { name: 'Premalu', image: 'https://tinyurl.com/yn5t9a9p', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Premalu.mp4' },
+    
     { name: 'Siren', image: 'https://tse2.mm.bing.net/th?id=OIP.FSqlTAY03jDjz6qFQLNeggHaEK&pid=Api&P=0&h=220', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Siren.mp4' },
     { name: 'Marakkuma Nenjam', image: 'https://c.saavncdn.com/336/Marakkuma-Nenjam-Tamil-2023-20230708184606-500x500.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Marakkuma_Nenjam.mp4' },
     { name: 'Misson C1', image: 'https://www.nowrunning.com/content/movie/2023/missi-27948/bg1_missionchapter1.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Mission_Chapter_1.mp4' },
@@ -69,9 +68,9 @@ const shows = [
     { name: 'Kalvan', image: 'https://multicinema.in/assets1/2021MoviesPoster/Kalvan.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Kalvan.mp4' },
     { name: 'Romeo', image: 'https://multicinema.in/assets1/2021MoviesPoster/Romeo.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Romeo.mp4' },
     { name: 'Dear', image: 'https://multicinema.in/assets1/2021MoviesPoster/DeAr.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/DeAr.mp4' },
-    { name: 'Family Star', image: 'https://multicinema.in/assets1/2021MoviesPoster/The_Family_Star.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/The_Family_Star.mp4' },
+   
     { name: 'J Baby', image: 'https://multicinema.in/assets1/2021MoviesPoster/J_Baby.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/J_Baby.mp4' },
-    { name: '12th Fail', image: 'https://multicinema.in/assets1/2021MoviesPoster/12th_Fail.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/12th_Fail.mp4' },
+  
     { name: 'Lover', image: 'https://multicinema.in/assets1/2021MoviesPoster/Lover.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Lover.mp4' },
     { name: 'Captain Miller', image: 'https://multicinema.in/assets1/2021MoviesPoster/Captain_Miller.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Captain_Miller.mp4' },
     { name: 'Salar', image: 'https://multicinema.in/assets1/2021MoviesPoster/Salaar_Cease_Fire_Part_1.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Salaar_Cease_Fire_Part_1.mp4' },
@@ -92,9 +91,9 @@ const shows = [
     { name: 'Por Thozhil', image: 'https://multicinema.in/assets1/2021MoviesPoster/Por_Thozhil.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Por_Thozhil.mp4' },
     { name: 'Appatha', image: 'https://multicinema.in/assets1/2021MoviesPoster/Appatha.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Appatha.mp4' },
     { name: 'Mamannan', image: 'https://multicinema.in/assets1/2021MoviesPoster/Maamannan.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Maamannan.mp4' },
-    { name: 'Adipurush', image: 'https://multicinema.in/assets1/2021MoviesPoster/Adipurush.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Adipurush.mp4' },
+    //{ name: 'Adipurush', image: 'https://multicinema.in/assets1/2021MoviesPoster/Adipurush.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Adipurush.mp4' },
     { name: 'Takkar', image: 'https://multicinema.in/assets1/2021MoviesPoster/Takkar.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Takkar.mp4' },
-    { name: 'Avatar 2', image: 'https://multicinema.in/assets1/2021MoviesPoster/Avatar_2.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Avatar_2.mp4' },
+   
     { name: 'PS 2', image: 'https://multicinema.in/assets1/2021MoviesPoster/Ponniyin_Selvan_2.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Ponniyin_Selvan_2.mp4' },
     { name: 'Aug 16 1947', image: 'https://multicinema.in/assets1/2021MoviesPoster/August_16,_1947.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/August_16,_1947.mp4' },
     { name: 'Rudhran', image: 'https://multicinema.in/assets1/2021MoviesPoster/Rudhran.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Rudhran.mp4' },
@@ -111,6 +110,29 @@ const shows = [
     { name: 'RajiniMurugan', image: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/54ea49e8c68cb4efd2200aa4ede5ae8e32098a643d61e072be278ba745dbe963._RI_V_TTW_.jpg', link: 'https://tinyurl.com/yc52yfmk' },
 
      
+    ],
+  },
+
+  {
+    name: 'Dubbed Movies',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbkn91GpNi88CicRs375878Z6hZWXOpU4gvg&s',shows:[
+      {name:"ARM",image:"https://multicinema.in/assets1/2021MoviesPoster/ARM.jpg",link:"https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/ARM.mp4"},
+      { name: 'Devara', image: 'https://cdn.gulte.com/wp-content/uploads/2024/01/Devara-scaled.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Devara.mp4' },
+      { name: 'Adipurush', image: 'https://multicinema.in/assets1/2021MoviesPoster/Adipurush.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Adipurush.mp4' },
+      {name:"Turbo",image:"https://multicinema.in/assets1/2021MoviesPoster/Turbo.jpg",link:"https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Turbo.mp4"},
+      {name:"Aavesham",image:"https://multicinema.in/assets1/2021MoviesPoster/Aavesham.jpg",link:"https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Aavesham.mp4"},
+      {name:"Chotta Bheem",image:"https://multicinema.in/assets1/2021MoviesPoster/Chhota_Bheem_and_the_Curse_of_Damyaan.jpg",link:"https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Chhota_Bheem_and_the_Curse_of_Damyaan.mp4"},
+      {name:"Goat Life",image:"https://multicinema.in/assets1/2021MoviesPoster/Aadujeevitham_The_Goat_Life.jpg",link:"https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Aadujeevitham_The_Goat_Life.mp4"},
+      // {name:"",image:"",link:""},
+      // {name:"",image:"",link:""},
+      // {name:"",image:"",link:""},
+      // {name:"",image:"",link:""},
+      // {name:"",image:"",link:""},
+      { name: 'Manjummel Boys', image: 'https://tinyurl.com/2nn9eydy', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Manjummel_Boys.mp4' },
+    { name: 'Premalu', image: 'https://tinyurl.com/yn5t9a9p', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Premalu.mp4' },
+    { name: 'Family Star', image: 'https://multicinema.in/assets1/2021MoviesPoster/The_Family_Star.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/The_Family_Star.mp4' },
+    { name: '12th Fail', image: 'https://multicinema.in/assets1/2021MoviesPoster/12th_Fail.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/12th_Fail.mp4' },
+    { name: 'Avatar 2', image: 'https://multicinema.in/assets1/2021MoviesPoster/Avatar_2.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Avatar_2.mp4' },
+
     ],
   },
 ];
@@ -141,14 +163,9 @@ const Movies = () => {
             url={currentVideo}
             controls
             playing
+            muted={false}
+            
             pip={true} // Enable picture-in-picture
-            config={{
-                file: {
-                attributes: {
-                    controlsList: 'nodownload' // Remove download button
-                }
-                }
-            }}
 />
         </div>
       )}
