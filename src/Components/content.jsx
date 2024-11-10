@@ -54,6 +54,7 @@ const channels = [
   { name: 'Zee Tamil', image: 'https://www.ethnicchannels.com/images/channeldetail/zee-tamil/ZEE-TAMIL.png', link: 'https://tinyurl.com/yc5zn3hs' },
   { name: 'Zee Thirai', image: 'https://vignette.wikia.nocookie.net/logopedia/images/c/c3/Zee_Thirai.png/revision/latest?cb=20200324034033', link: 'https://tsneh.vercel.app/6vqsrxjs_k9w' },
   { name: 'Colors Tamil', image: 'https://tinyurl.com/yc2kz4ck', link: 'https://tinyurl.com/5ew7vkmj' },
+  
 ];
 // const video=[
 //     // { name: 'Latest', image: 'https://tse1.mm.bing.net/th?id=OIP.DV5kBw14-70B990kJ09frgHaEK&pid=Api&P=0&h=220', link: 'https://allinonereborn.in/spice11.m3u8/?id=9269' },
@@ -67,6 +68,7 @@ const games=[
   {name:"2048",image:"https://www.coolmathgames.com/sites/default/files/2048_OG-logo.jpg",link:"https://vijesh2048.netlify.app/"},
     {name:"Mmemory",image:"https://tcgtoys.com/cdn/shop/products/13410_LittleTikes_MatchingMemoryGame_LIFE_lr_2048x.jpg?v=1643941358",link:"https://vijesh-memory.netlify.app/"},
   {name:"Whack",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4I87IpLI8e_sKFuCk5XqyszNeDZfdUBADoA&usqp=CAU",link:"https://whack-me.netlify.app/"},
+  {name:"Crossy road",image:"https://m.media-amazon.com/images/I/71zaNBSsjRL._SL500_.png",link:"https://vijesh-cross.netlify.app/"},
   
   ];
 const hero = [
