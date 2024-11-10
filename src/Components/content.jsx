@@ -19,7 +19,7 @@ const stream = [
 //{name: 'EBFC VS MBFC', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://live.drmlive-02.workers.dev/jc/122.m3u8' },
 
 
-  {name:'3rd ODI',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv_ADaI_RiY29m-Uz4m3ayR7MPnUc2DVUKrg&usqp=CAU',link:'http://195.90.209.41:7575/channel/n49361d2/index.m3u8?q=1731142068821'},
+  //{name:'3rd ODI',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv_ADaI_RiY29m-Uz4m3ayR7MPnUc2DVUKrg&usqp=CAU',link:'http://195.90.209.41:7575/channel/n49361d2/index.m3u8?q=1731142068821'},
 
 ];
 const movies = [
