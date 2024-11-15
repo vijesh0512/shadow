@@ -8,10 +8,10 @@ const stream = [
   
 
 
-  //{ name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://tsneh.vercel.app/6esr_4mxpaxe' },
+  { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://tsneh.vercel.app/6esr_4mxpaxe' },
   //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://tinyurl.com/57btpw94'},
-{ name: '3rd T20', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2X8ioKPH4-x1SjDHAvmLN4ZkJCccDHSyleAi2HBXzJAVj12bZyWfBrj0&s=10', link: 'https://prod-sports-south-cf.jiocinema.com/hls/live/2109679/uhd__akamai__ctv__avc__ssaispot__indvssa__tam__m1__131124__a6e29896-58b2-4487-9635-a7fa5a99e517/master.m3u8' },
-  {name:"1st ODI",image:"https://cricketvectors.akamaized.net/Series/1NL.png?impolicy=default_web",link:"https://dai.google.com/ssai/event/7044GU7mRL2-99W6nrnbzA/master.m3u8"},
+//{ name: '3rd T20', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2X8ioKPH4-x1SjDHAvmLN4ZkJCccDHSyleAi2HBXzJAVj12bZyWfBrj0&s=10', link: 'https://prod-sports-south-cf.jiocinema.com/hls/live/2109679/uhd__akamai__ctv__avc__ssaispot__indvssa__tam__m1__131124__a6e29896-58b2-4487-9635-a7fa5a99e517/master.m3u8' },
+  //{name:"1st ODI",image:"https://cricketvectors.akamaized.net/Series/1NL.png?impolicy=default_web",link:"https://dai.google.com/ssai/event/7044GU7mRL2-99W6nrnbzA/master.m3u8"},
 
 //{ name:'TN vs DEL',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m1_201024/mobile_master.m3u8'},
 // { name:'SAU vs CHH',image:'https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m3_201024/mobile_master.m3u8'},
@@ -347,7 +347,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
       renderSongs(Years, 'others-player');
       rendermov(movies, 'movie-player');
       rendermov(games, 'game-player');
-      //rendermov(stream, 'stream-player');
+      rendermov(stream, 'stream-player');
       //rendermov(channels,'live-player');
       //renderchannel(channels, 'live-player');
       renderdog(others, 'dog-player');
@@ -402,11 +402,11 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
               {/* <button onClick={() => onNavClick('stream')} className='btt'>See All</button> */}
           </div>
           <div id='dog-player' className='player'></div>
-          {/*<div className="bt">
+          <div className="bt">
               <h1 className='sideheading'>Live Tv</h1>
             <button onClick={() => onNavClick('vlc')} className='btt'>See All</button>
           </div>
-          <div id='live-player' className='player'></div>*/}
+          <div id='live-player' className='player'></div>
 
           {/* <h1 className='sideheading'>Video Songs</h1>
           <div id='video-player' className='player'></div> */}
