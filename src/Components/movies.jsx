@@ -11,7 +11,7 @@ const shows = [
     shows: [
       { name:'Kanguva',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUwqsHIIojmSJFVRY9gQlbY6NaQDNaUsu-b90mfCkI0PJHxf5nJzCJ-m0&s=10',link:'https://tinyurl.com/2yku43my'},
        { name:'Amaran',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzugiP-FGYgjDvKH0orm9a3csrkqljfNSwqVBS9yIeVA3_2EUNNAizHBMD&s=10',link:'https://tinyurl.com/2845a69z'},
-    { name:'Bloody Beggar',image:'https://upload.wikimedia.org/wikipedia/en/4/40/Bloody_Beggar.jpg',link:'https://tsneh.vercel.app/s-aflbwombc4'},
+    { name:'Bloody Beggar',image:'https://upload.wikimedia.org/wikipedia/en/4/40/Bloody_Beggar.jpg',link:'https://tamil.openmv.site/Bloody%20Beggar%20(2024)%20HDRip%20Single%20Part%20(720p).mp4'},
         { name:'Brother',image:'https://timesofindia.indiatimes.com/photo/103798855.cms',link:'https://tsneh.vercel.app/j-ga7n3btddl'},
     ],
   },
