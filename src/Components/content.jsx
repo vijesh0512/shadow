@@ -7,8 +7,7 @@ const stream = [
   //https://glb.bozztv.com/glb/ssh101/tultrabbtamil/index.m3u8
 
   
-  {name:'Paul vs Tyson',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Ud9874t15F_Z5l7cguwiWJif-eiu7F4rVBt77kMXCAC5y7Mw7sgm93I&s=10',link:'https://d1.jisdeshmaiganga.com:999/hls/hdchnl20.m3u8?md5=rkme00LlYVqGGxMUWUZEvg&expires=1731730908'},
-
+  {name:'Paul vs Tyson',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Ud9874t15F_Z5l7cguwiWJif-eiu7F4rVBt77kMXCAC5y7Mw7sgm93I&s=10',link:'https://instreamed.pro:8089/hls/NFLHD20/index.m3u8?st=JQOC1TTJg6k7EJ8DJrnqXUvCuSqhKeKQUv0yMQxduRI&e=1731734378'},
 
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://tsneh.vercel.app/6esr_4mxpaxe' },
   //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://tinyurl.com/57btpw94'},
