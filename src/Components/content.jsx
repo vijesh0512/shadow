@@ -10,7 +10,7 @@ const stream = [
   
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://tsneh.vercel.app/6esr_4mxpaxe' },
   //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://tinyurl.com/57btpw94'},
-//{ name: '4th T20', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2X8ioKPH4-x1SjDHAvmLN4ZkJCccDHSyleAi2HBXzJAVj12bZyWfBrj0&s=10', link: 'https://prod-sports-south-gm.jiocinema.com/hls/live/2109681/fhd__akamai__iosmob__avc__ssaispot__indvssa__tam__m1__151124__c8e9cc1b-eb9a-47bc-b525-e56767798c21/master.m3u8' },
+  { name: '2nd T20', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv_ADaI_RiY29m-Uz4m3ayR7MPnUc2DVUKrg&usqp=CAU', link: 'https://amitb3669.github.io/allinonereborn/tnt1.html' },
   //{name:"1st ODI",image:"https://cricketvectors.akamaized.net/Series/1NL.png?impolicy=default_web",link:"https://dai.google.com/ssai/event/7044GU7mRL2-99W6nrnbzA/master.m3u8"},
 
   //{name:'BBL',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk4x14C1uhxIej-KBuFWv9IeAdnh0vdSaUPfyvMaUq2enqbR1a4kgIe4c-&s=10',link:'https://allinonereborn.com/dd.m3u8/?id=5677'},
