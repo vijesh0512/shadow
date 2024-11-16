@@ -7,7 +7,7 @@ const stream = [
   //https://glb.bozztv.com/glb/ssh101/tultrabbtamil/index.m3u8
 
   
-  
+  {name:'Paul vs Tyson',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Ud9874t15F_Z5l7cguwiWJif-eiu7F4rVBt77kMXCAC5y7Mw7sgm93I&s=10',link'https://sparkforge.store/live/box/chunks.m3u8?bongls.com'},
 
 
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://tsneh.vercel.app/6esr_4mxpaxe' },
