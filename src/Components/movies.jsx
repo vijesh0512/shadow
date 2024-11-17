@@ -24,6 +24,7 @@ const shows = [
     { name:'Black',image:'https://upload.wikimedia.org/wikipedia/en/3/3a/Black_%282024_film%29.jpg',link:"https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Black.mp4"},
     { name:"Vettaiyan",image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQULrTu7hLs5ggDAet-gSB2-ujfUA4nqb1U40cpUO0qihy1Cliz4HufKAHM&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Vettaiyan.mp4'},
     { name: 'Meiyazhagan', image: 'https://i.scdn.co/image/ab67616d0000b2737e86df2b3a35c59564738524', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Meiyazhagan.mp4' },
+      {name:'Sattam',image:'https://multicinema.in/assets1/2021MoviesPoster/Sattam_En_Kaiyil.jpg',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Sattam_En_Kaiyil.mp4'},
   
     { name: 'Hitler', image: 'https://assets.gadgets360cdn.com/pricee/assets/product/202312/Hitler1_1703675553.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Hitler.mp4'},
     
@@ -124,6 +125,7 @@ const shows = [
       {name:"Aavesham",image:"https://multicinema.in/assets1/2021MoviesPoster/Aavesham.jpg",link:"https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Aavesham.mp4"},
       {name:"Chotta Bheem",image:"https://multicinema.in/assets1/2021MoviesPoster/Chhota_Bheem_and_the_Curse_of_Damyaan.jpg",link:"https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Chhota_Bheem_and_the_Curse_of_Damyaan.mp4"},
       {name:"Goat Life",image:"https://multicinema.in/assets1/2021MoviesPoster/Aadujeevitham_The_Goat_Life.jpg",link:"https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Aadujeevitham_The_Goat_Life.mp4"},
+      {name:'Suryas Saturday',image:'https://multicinema.in/assets1/2021MoviesPoster/Suryas_Saturday.jpg',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Suryas_Saturday.mp4'},
       // {name:"",image:"",link:""},
       // {name:"",image:"",link:""},
       // {name:"",image:"",link:""},
