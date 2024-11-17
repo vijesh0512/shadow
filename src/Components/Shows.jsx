@@ -7,7 +7,8 @@ import './album.css';
 const shows = [
   {
     name:'Season 3',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM9WVfFrWMjrtoI6N4gmZlbf2Oseuu6bLUGafR7CR5NGap2_psoDh1rD5s&s=10',shows:[
-      {name:'Day 0',img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fgml2ElsU6NFUNVJNTZqNcBUyTAV.jpg',link:'https://player1.mrfooll.xyz/V3/watch/221945/file.mkv?hash=AgADug'},
+      {name:'Day 0',img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fgml2ElsU6NFUNVJNTZqNcBUyTAV.jpg',link:'https://dls4.mrfooll.xyz/AgADug2901450'},
+      {name:'Day 1',img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fkm1gqgF74c8cZMVH6XaMvdYoxo8.jpg',link:'https://dls4.mrfooll.xyz/AgADvA2901441'},
     ]
   },
   {
