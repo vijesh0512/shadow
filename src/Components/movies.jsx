@@ -36,7 +36,7 @@ const shows = [
     { name: 'Vazhai', image: 'https://img1.imageride.net/images/2024/08/24/GNfbjytfJh4TYJb.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Vaazhai.mp4' },
     { name: 'Kottukkaali', image: 'https://img.imageride.net/images/2024/08/24/GNRGfbjF4hKN.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Kottukkaali.mp4' },
     { name: 'Rayan', image: 'https://tse3.mm.bing.net/th?id=OIP._F_HPMCsDiSPVHXOwXUhKQAAAA&pid=Api&P=0&h=220', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Raayan.mp4' },
-    { name: 'Kalki', image: 'https://images.news18.com/ibnlive/uploads/2024/06/kalki-2898-ad-movie-first-review-2024-06-74247ab144a1de861d9e034bf27aa133.jpg', link: 'https://tinyurl.com/j2xy6r9c' },
+    { name: 'Kalki', image: 'https://images.news18.com/ibnlive/uploads/2024/06/kalki-2898-ad-movie-first-review-2024-06-74247ab144a1de861d9e034bf27aa133.jpg', link: '-tbn0.gstatic.com/images?q=tbn:ANd9GcTzugiP-FGYgjDvKH0orm9a3csrkqljfNSwqVBS9yIeVA3_2EUNNAizHBMD&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Kalki_2898_AD.mp4' },
     { name: 'Thangalan', image: 'https://multicinema.in/assets1/2021MoviesPoster/Thangalaan.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Thangalaan.mp4' },
     { name: 'Raghu Thatha', image: 'https://multicinema.in/assets1/2021MoviesPoster/Raghu_Thatha.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Raghu_Thatha.mp4' },
     { name: 'Demonty 2', image: 'https://images.ottplay.com/images/a-poster-of-demonte-colony-2-279-1691154610.jpeg?impolicy=ottplay-20210210&width=1200&height=675', link: 'https://herokustreamapiiiiiii-75c3359a5ad7.herokuapp.com/AgADex2484570' },
