@@ -187,9 +187,14 @@ const Movies = () => {
             url={currentVideo}
             controls
             playing
-            muted={false}
-            
             pip={true} // Enable picture-in-picture
+            config={{
+                file: {
+                attributes: {
+                    controlsList: 'nodownload' // Remove download button
+                }
+                }
+            }}
 />
         </div>
       )}
