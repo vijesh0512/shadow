@@ -13,6 +13,8 @@ const shows = [
       {name:'Day 3',img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FtGjZTOsigKiVGNjwOlHg6MxVGeJ.jpg',link:'https://dls4.mrfooll.xyz/AgADxg2901493'},
       {name:'Day 4',img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fepisodes%2F352080%2F7229920.jpg',link:'https://dls4.mrfooll.xyz/AgADxw2901511'},
       {name:'Day 5',img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fepisodes%2F352080%2F7229922.jpg',link:'https://dls4.mrfooll.xyz/AgADzw2901526'},
+      {name:'Day 6',img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fepisodes%2F352080%2F7229923.jpg',link:'https://dls4.mrfooll.xyz/AgAD0Q2901547'},
+      {name:'Day 7',img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fepisodes%2F352080%2F7229924.jpg',link:'https://dls4.mrfooll.xyz/AgADEA2901561'},
     ]
   },
   {
