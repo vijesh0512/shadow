@@ -161,6 +161,18 @@ const shows = [
       {name:"Toy Story 3",image:"https://m.media-amazon.com/images/I/81DOyQ93xmL._AC_UF1000,1000_QL80_.jpg",link:"https://d5.uptocdn.com/dl/mhyCWwH7wzHlA0LvhvUD4A/1732070972/p/Tamil%20Dubbed%20Collections/Toy%20Story%20Trilogy%20Collections/Toy%20Story%203%20(2010)/Mp4%20HD%20(640x360)/Toy%20Story%203%20(2010)%20HD%20(640x360).mp4"},
     ],
   },
+
+  {
+    name:'Spiderman',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDiK8YB7TeXLsGYdUmDFkF9uyYOnQovvEicRMOy1Lvo4vK3uMyQgeYTxgZk52mvav3yhs&usqp=CAU',shows:[
+      
+      {name:'2002',image:'https://preview.redd.it/spider-man-2002-is-one-of-the-greatest-superhero-movies-v0-slnqljmzsyz91.jpg?width=640&crop=smart&auto=webp&s=c9e4e28792e8f630b445a17b0ce12179316fd3e3',link:'https://tsneh.vercel.app/c-atwrtlmcyx'}, 
+      {name:'2004',image:'https://www.metacritic.com/a/img/resize/755eb2129657e69870ee7213d93549532f144e79/catalog/provider/6/12/6-1-816262-52.jpg?auto=webp&fit=crop&height=675&width=1200',link:'https://tsneh.vercel.app/wsifirzfrcw2'}, 
+      {name:'2007',image:'https://www.sonypictures.ca/sites/canada/files/2022-01/DP_3861875_SpiderMan3_2007_LSR_2000x3000_CAN%20%281%29.jpg',link:'https://tsneh.vercel.app/aqdzc-c0mgol'}, 
+      {name:'2012',image:'https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_FMjpg_UX1000_.jpg',link:'https://tsneh.vercel.app/wb6jgjmlpgr1'}, 
+      {name:'2014',image:'https://m.media-amazon.com/images/I/91BMECfQUNL._AC_UF1000,1000_QL80_.jpg',link:'https://tsneh.vercel.app/ytbdvvvt4exy'}, 
+      //{name:'',image:'',link:''}, 
+    ]
+  }
 ];
 
 const Movies = () => {
