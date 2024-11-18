@@ -2,7 +2,10 @@ import React, { useState, useEffect } from 'react';
 import Plyr from 'plyr';
 import './live.css';
 import './album.css';
+<<<<<<< HEAD
 import 'plyr/dist/plyr.css';
+=======
+>>>>>>> ed6bf19eb98e8a03cc35b0363fe763e4081de75f
 
 const shows = [
   {
@@ -179,4 +182,8 @@ const Movies = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Movies;
+=======
+export default Movies;
+>>>>>>> ed6bf19eb98e8a03cc35b0363fe763e4081de75f
