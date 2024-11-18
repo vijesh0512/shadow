@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
-import ReactPlayer from 'react-player';
+import React, { useState, useEffect } from 'react';
+import Plyr from 'plyr';
+import 'plyr/dist/plyr.css';
 import './live.css';
 import './album.css';
+
 
 const shows = [
   {
@@ -98,51 +100,112 @@ const shows = [
   },
 ];
 
-const Kids = () => {
+const Movies = () => {
   const [selectedAlbum, setSelectedAlbum] = useState(null);
   const [currentVideo, setCurrentVideo] = useState(null);
+  const [loading, setLoading] = useState(true); // State to track loading
+  const playerRef = React.useRef(null);
+
+  useEffect(() => {
+    if (currentVideo) {
+      setLoading(true); // Show loading spinner when video is changing
+
+      if (playerRef.current) {
+        // Update the video source
+        playerRef.current.source = {
+          type: 'video',
+          sources: [
+            { src: currentVideo, type: 'video/mp4', size: 720 },
+            { src: currentVideo.replace('.mp4', '_480.mp4'), type: 'video/mp4', size: 480 },
+          ],
+        };
+      } else {
+        // Initialize Plyr with additional settings
+        playerRef.current = new Plyr('.video-player', {
+          controls: [
+            'play',
+            'progress',
+            'current-time',
+            'mute',
+            'volume',
+            'captions',
+            'settings',
+            'pip',
+            'airplay',
+            'fullscreen',
+          ],
+          settings: ['quality', 'speed'],
+          quality: {
+            default: 720,
+            options: [720, 480],
+            forced: true,
+            onChange: (quality) => {
+              console.log(`Quality changed to ${quality}`);
+            },
+          },
+        });
+
+        playerRef.current.source = {
+          type: 'video',
+          sources: [
+            { src: currentVideo, type: 'video/mp4', size: 720 },
+            { src: currentVideo.replace('.mp4', '_480.mp4'), type: 'video/mp4', size: 480 },
+          ],
+        };
+      }
+
+      // Event listener to hide loading when video starts playing
+      playerRef.current.on('playing', () => {
+        setLoading(false); // Hide loading spinner once the video starts playing
+      });
+    }
+
+    return () => {
+      if (playerRef.current) {
+        playerRef.current.destroy();
+        playerRef.current = null;
+      }
+    };
+  }, [currentVideo]);
 
   const handleAlbumClick = (album) => {
     setSelectedAlbum(album);
-    setCurrentVideo(null);
+    setCurrentVideo(null); // Reset video on album change
   };
 
   const handleBackClick = () => {
     setSelectedAlbum(null);
-    setCurrentVideo(null);
+    setCurrentVideo(null); // Reset video on back click
   };
 
   const handleVideoClick = (video) => {
-    setCurrentVideo(video.link);
+    setCurrentVideo(video.link); // Set the MP4 video source
   };
 
   return (
     <>
       {currentVideo && (
-        <div className='plr'>
-            <ReactPlayer
-            url={currentVideo}
-            controls
-            playing
-            pip={true} // Enable picture-in-picture
-            config={{
-                file: {
-                attributes: {
-                    controlsList: 'nodownload' // Remove download button
-                }
-                }
-            }}
-/>
+        <div className="plr">
+          {loading && (
+            <div className="loading-spinner">
+              <div className="spinner"></div> {/* Add spinner styles below */}
+            </div>
+          )}
+          <div className="video-wrapper">
+            <video className="video-player"></video>
+          </div>
         </div>
       )}
-      <div className='content'>
+      <div className="content">
         {selectedAlbum ? (
-          <div className='album-details'>
-            <button onClick={handleBackClick} className='back-button'>Back to Shows</button>
-            <h2>{selectedAlbum.name}</h2>
-            <div className='play'>
+          <div className="album-details">
+            <button onClick={handleBackClick} className="back-button">
+              Back to Movies
+            </button>
+            <h2 className="hi">{selectedAlbum.name}</h2>
+            <div className="play">
               {selectedAlbum.shows.map((video, index) => (
-                <div key={index} className='son' onClick={() => handleVideoClick(video)}>
+                <div key={index} className="son" onClick={() => handleVideoClick(video)}>
                   <img src={video.img} alt={video.name} />
                   <p>{video.name}</p>
                 </div>
@@ -150,9 +213,9 @@ const Kids = () => {
             </div>
           </div>
         ) : (
-          <div id='channel-player' className='play'>
+          <div id="channel-player" className="play">
             {shows.map((album, index) => (
-              <div key={index} className='son' onClick={() => handleAlbumClick(album)}>
+              <div key={index} className="son" onClick={() => handleAlbumClick(album)}>
                 <img src={album.image} alt={album.name} />
                 <p>{album.name}</p>
               </div>
@@ -164,4 +227,4 @@ const Kids = () => {
   );
 };
 
-export default Kids;
+export default Movies;
