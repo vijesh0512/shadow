@@ -237,10 +237,12 @@ const shows = [
   
   
    
-];const Movies = () => {
+];
+const Movies = () => {
   const [selectedAlbum, setSelectedAlbum] = useState(null);
   const [currentVideo, setCurrentVideo] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [thumbnail, setThumbnail] = useState(null);
   const playerRef = React.useRef(null);
 
   useEffect(() => {
@@ -323,6 +325,7 @@ const shows = [
 
   const handleVideoClick = (video) => {
     setCurrentVideo(video.link); // Set the MP4 video source
+    setThumbnail(video.img); // Set the video thumbnail
   };
 
   return (
@@ -335,7 +338,11 @@ const shows = [
             </div>
           )}
           <div className="video-wrapper">
-            <video className="video-player"></video>
+            {/* Show thumbnail while loading */}
+            <div className={`video-thumbnail ${loading ? 'visible' : 'hidden'}`}>
+              {thumbnail && <img src={thumbnail} alt="Loading..." />}
+            </div>
+            <video className="video-player" />
           </div>
         </div>
       )}
@@ -349,7 +356,7 @@ const shows = [
             <div className="play">
               {selectedAlbum.shows.map((video, index) => (
                 <div key={index} className="son" onClick={() => handleVideoClick(video)}>
-                  <img src={video.image} alt={video.name} />
+                  <img src={video.img} alt={video.name} />
                   <p>{video.name}</p>
                 </div>
               ))}
