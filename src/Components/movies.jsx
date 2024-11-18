@@ -154,12 +154,44 @@ const shows = [
 
     ],
   },
-  {
-    name:"Toy Story",image:"https://image.tmdb.org/t/p/original/dSr82KHmtgiWaMYx53QgtxQmbCw.jpg",shows:[
-      {name:"Toy Story 1",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnCdlRuLP67KQNBnZHm9eJaOqSPpBdSHfGtQ&s",link:"https://d5.uptocdn.com/dl/OnL0-13oIjDriY3tuNsULQ/1732070509/p/Tamil%20Dubbed%20Collections/Toy%20Story%20Trilogy%20Collections/Toy%20Story%201%20(1995)/Mp4%20HD%20(640x360)/Toy%20Story%201%20(1995)%20HD%20(640x360).mp4"},
-      {name:"Toy Story 2",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7UnVe5koWHuUSa4XRH482AvGCtWFoDEQbRw&s",link:"https://d5.uptocdn.com/dl/9YuSTwe9NyXT1u5tJ5MApQ/1732070940/p/Tamil%20Dubbed%20Collections/Toy%20Story%20Trilogy%20Collections/Toy%20Story%202%20(1999)/Mp4%20HD%20(640x360)/Toy%20Story%202%20(1999)%20HD%20(640x360).mp4"},
-      {name:"Toy Story 3",image:"https://m.media-amazon.com/images/I/81DOyQ93xmL._AC_UF1000,1000_QL80_.jpg",link:"https://d5.uptocdn.com/dl/mhyCWwH7wzHlA0LvhvUD4A/1732070972/p/Tamil%20Dubbed%20Collections/Toy%20Story%20Trilogy%20Collections/Toy%20Story%203%20(2010)/Mp4%20HD%20(640x360)/Toy%20Story%203%20(2010)%20HD%20(640x360).mp4"},
-    ],
+
+  {name:'Marvel',image:'https://pbs.twimg.com/profile_images/1837996521809211392/ZPfq2KOE_400x400.jpg',shows:[
+     
+
+  {name: 'Deadpool & Wolverine', image: 'https://images.moviesanywhere.com/b50aa533f5b431b818fa18bb7aa298eb/0f6ef9a6-23e6-47f7-b1ac-08e755eaf26a.webp?h=375&resize=fit&w=250', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/DW.mp4'},
+  {name: 'The Marvels', image: 'https://images.moviesanywhere.com/91c9dd5bf3087f966d0a60f709a8b09e/d22b7140-046b-42cc-81a9-b760160eb5ff.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/f7rjkupkzb9f'},
+  {name: 'Vol 3', image: 'https://images.moviesanywhere.com/e5158b7036cb6fb709889600f78f25e2/4a2b9db6-f8d7-47df-a6d3-9a093e6791a1.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/j9foqkpprqia'},
+  {name: 'Quantumania', image: 'https://images.moviesanywhere.com/91f18a89a01c903e7af188e9911f9c6e/7bce707a-684d-4c39-b125-3bbf2ff2412d.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/gm8q6bsyww1q'},
+  {name: 'Wakanda', image: 'https://images.moviesanywhere.com/19451f09463b439a7ec9937a29c37064/8b82ebaf-750d-4589-9425-e9726ee2a371.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/o6wvodkmxofu'},
+  {name: 'Multiverse', image: 'https://images.moviesanywhere.com/f9294f39c310425bc52732ae490549b4/9812ca94-e25f-46ee-9874-090857eb0ab7.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/tplwhvs7zcvs'},
+  {name: 'No Way Home', image: 'https://images.moviesanywhere.com/5a7e82e7749d6dd8e447fcfeec50c064/55462afc-41ad-4322-ad46-1caca29fcc36.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/trxzdgnocpfc'},
+  {name: 'Eternals', image: 'https://images.moviesanywhere.com/acdd3c73c67d756fb920845ad7c88c8f/eb62e721-3ce3-4ec0-b44c-1bd8bc073d87.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/tvnrxyfsqthz'},
+  {name: 'Shang-Chi', image: 'https://images.moviesanywhere.com/0c8c13d8b3f28e4e25192d4dc8364de2/014180d5-8ebb-4ec6-a84e-9332f9b4ec06.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/doprxq3kcljs'},
+  {name: 'Black Widow', image: 'https://images.moviesanywhere.com/ad9231fa430a47863531781333c6bb9f/b35f1409-eb17-4a81-985a-1fde3a087613.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/lzsefzdajeyp'},
+  {name: 'Far From Home', image: 'https://images.moviesanywhere.com/d280caf10458b1f6e476a2f9c2f7ae84/3bc8112b-904d-432a-9ba3-bd3dd85a381b.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/ji4dlei5nqie'},
+  {name: 'Endgame', image: 'https://images.moviesanywhere.com/4677177f6f0595289bc3e767e7b47459/1d6c6c73-ab1e-4453-969c-6a4e965ebb37.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/vnw_9o9a6cuc'},
+  {name: 'Captain Marvel', image: 'https://images.moviesanywhere.com/f6254a2654d750658f8df42332a5ce24/a30837cb-1bac-4a04-8603-f224fab8f480.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/vqsuismfbieb'},
+  {name: 'Ant-Man and Wasp', image: 'https://images.moviesanywhere.com/8f27781bd34070cf52f5a18bdc1a820c/5bff2157-7614-4183-a4a7-b9d14d3f9c9c.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/ewggl-hp82hm'},
+  {name: 'Infinity War', image: 'https://images.moviesanywhere.com/0473778fb19af5e749f06d249804ba13/887b650e-5661-4fd7-aa24-bf38179342a5.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/pjiu969tosyh'},
+  {name: 'Black Panther', image: 'https://images.moviesanywhere.com/3d3fd427d5b3a362e024933dbc203623/c37386d4-b7c2-49c9-b487-2ba6c0ec5879.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/3rm2oaumilpd'},
+  {name: 'Ragnarok', image: 'https://images.moviesanywhere.com/9b8962dc632962d879eb5f1e91fd75f7/cf721a74-d1f5-476c-95be-c443efe9a690.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/_et5_tm8tidg'},
+  {name: 'Homecoming', image: 'https://images.moviesanywhere.com/a96502b00a5e01ea17843dd02475caf0/6a605404-34c0-46c9-a9f9-29ee2d9e2303.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/atyqyyp8b7n9'},
+  {name: 'Vol 2', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQjU2jc21mmARPK2MVV8HMucRL5cOs1SnsOw&usqp=CAU', link: 'https://tsneh.vercel.app/nlvwij3cyjpp'},
+  {name: 'Doctor Strange', image: 'https://images.moviesanywhere.com/367e2c03ac2d0c9224edc86e8aa40c93/e2ec6244-9355-448f-baed-8e937ba8685e.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/vn26sfrx40fx'},
+  {name: 'Civil War', image: 'https://images.moviesanywhere.com/c6df1e5e0af0b0f6dc0af00fa54384fb/97bb58ff-b746-42f5-a61d-beb013a488e4.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/cdwx36piovxv'},
+  {name: 'Ant-Man', image: 'https://images.moviesanywhere.com/13421a5712257645b569175472983f39/7964cad0-bccf-4d88-8d4c-3dae3301de2b.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/7rfxulhvf6h9'},
+  {name: 'Age of Ultron', image: 'https://images.moviesanywhere.com/40b00f447b110238502723e4670df992/3b4c0c8c-2b01-4f0f-af09-98faf6e7bb0c.webp?h=375&resize=fit&w=250', link: 'https://dls4.mrfooll.xyz/2907705/12+Avengers+Age+of+Ultron+%282015%29+720p+BDRip+%5BTam%2BMulti%5D+.mkv?hash=AgADGw'},
+  {name: 'Vol 1', image: 'https://images.moviesanywhere.com/959ef1bcb5c9a8e31e384f8d20384efa/7b57798c-b6d2-4b46-8487-bc0ca59934ec.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/bfikmy__bbbq'},
+  {name: 'Winter Soldier', image: 'https://images.moviesanywhere.com/2cde825213e154ea76959084c78d026c/d1a27851-992c-4cd2-bf10-2228a8a77d8f.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/1yr42dwpdgqf'},
+  {name: 'Dark World', image: 'https://images.moviesanywhere.com/e2c77d0d2602acdc3cd56ff55ff4949c/f8e80326-7237-4ffb-9f54-d6504c5f9e32.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/6zr66k9j2j8l'},
+  {name: 'Iron Man 3', image: 'https://images.moviesanywhere.com/9e6a7d319487c4ef58543298ffdc2fb9/9cac9d6f-a5f5-4e3b-91b5-8ad8d538fbb4.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/b8t5xrxx6ywx'},
+  {name: 'Avengers', image: 'https://images.moviesanywhere.com/a36700f2ab20c7d495566843eea79dde/745c9b06-af55-4510-836d-9a320a3f26f9.webp?h=375&resize=fit&w=250', link: 'https://dls4.mrfooll.xyz/AgADIQ2907637'},
+  {name: 'First Avenger', image: 'https://images.moviesanywhere.com/fa9e94046ada1dba2df65ec7c328ec2a/f7455d8d-9288-4bd5-a283-586b8b4abe93.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/lvygketr67si'},
+  {name: 'Thor', image: 'https://images.moviesanywhere.com/d2c6e9c510b22933e69ca30f8ec6f5a3/4e9d04e3-787e-41bf-aaaf-98a78d5c9f9d.webp?h=375&resize=fit&w=250', link: 'https://dls4.mrfooll.xyz/AgADEA2907626'},
+  {name: 'Iron Man 2', image: 'https://images.moviesanywhere.com/f63168b72788f0d189548e7130d3ffac/78720b79-de19-4d10-b80b-1172b068328a.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/djhcyub2nsbq'},
+  {name: 'Incredible Hulk', image: 'https://images.moviesanywhere.com/af98bdeec9e6b9ea7ed3720e25429b29/865d13d3-da63-4174-ad69-e1fdd446de82.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/szr38isis7an'},
+  {name: 'Iron Man', image: 'https://images.moviesanywhere.com/45589cb573be13bb984b078ed3e1cf9e/a0652686-b625-4b41-bdf1-f32c3d9471a6.webp?h=375&resize=fit&w=250', link: 'https://tsneh.vercel.app/66czfsv5qcrf'},    
+  ],
   },
 
   {
@@ -175,57 +207,16 @@ const shows = [
       {name:'2021',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0PDsytA8OtOq6eW88VNu3_fEvUjaql3TiIMDhZ67rF-MtgXHiISC1yyt4&s=10',link:'https://tsneh.vercel.app/trxzdgnocpfc'}, 
     ],
   },
-  
-   {name:'Marvel',image:'https://pbs.twimg.com/profile_images/1837996521809211392/ZPfq2KOE_400x400.jpg',shows:[
-     
-   {name:'Iron Man',image:'https://images.moviesanywhere.com/45589cb573be13bb984b078ed3e1cf9e/a0652686-b625-4b41-bdf1-f32c3d9471a6.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/66czfsv5qcrf'},
-   {name:'Incredible Hulk',image:'https://images.moviesanywhere.com/af98bdeec9e6b9ea7ed3720e25429b29/865d13d3-da63-4174-ad69-e1fdd446de82.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/szr38isis7an'},
-   {name:'Iron Man 2',image:'https://images.moviesanywhere.com/f63168b72788f0d189548e7130d3ffac/78720b79-de19-4d10-b80b-1172b068328a.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/djhcyub2nsbq'},     
-   {name:'Thor',image:'https://images.moviesanywhere.com/d2c6e9c510b22933e69ca30f8ec6f5a3/4e9d04e3-787e-41bf-aaaf-98a78d5c9f9d.webp?h=375&resize=fit&w=250',link:'https://dls4.mrfooll.xyz/AgADEA2907626'},
-   {name:'First Avenger',image:'https://images.moviesanywhere.com/fa9e94046ada1dba2df65ec7c328ec2a/f7455d8d-9288-4bd5-a283-586b8b4abe93.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/lvygketr67si'},     
-   {name:'Avengers',image:'https://images.moviesanywhere.com/a36700f2ab20c7d495566843eea79dde/745c9b06-af55-4510-836d-9a320a3f26f9.webp?h=375&resize=fit&w=250',link:'https://dls4.mrfooll.xyz/AgADIQ2907637'},
-    
-   {name:'Iron Man 3',image:'https://images.moviesanywhere.com/9e6a7d319487c4ef58543298ffdc2fb9/9cac9d6f-a5f5-4e3b-91b5-8ad8d538fbb4.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/b8t5xrxx6ywx'},
-   {name:'Dark World',image:'https://images.moviesanywhere.com/e2c77d0d2602acdc3cd56ff55ff4949c/f8e80326-7237-4ffb-9f54-d6504c5f9e32.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/6zr66k9j2j8l'},
-   {name:'Winter Soldier',image:'https://images.moviesanywhere.com/2cde825213e154ea76959084c78d026c/d1a27851-992c-4cd2-bf10-2228a8a77d8f.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/1yr42dwpdgqf'},
-   {name:'Vol 1',image:'https://images.moviesanywhere.com/959ef1bcb5c9a8e31e384f8d20384efa/7b57798c-b6d2-4b46-8487-bc0ca59934ec.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/bfikmy__bbbq'},
-  {name:'Age of Ultron',image:'https://images.moviesanywhere.com/40b00f447b110238502723e4670df992/3b4c0c8c-2b01-4f0f-af09-98faf6e7bb0c.webp?h=375&resize=fit&w=250',link:'https://dls4.mrfooll.xyz/2907705/12+Avengers+Age+of+Ultron+%282015%29+720p+BDRip+%5BTam%2BMulti%5D+.mkv?hash=AgADGw'},
-  {name:'Ant-Man',image:'https://images.moviesanywhere.com/13421a5712257645b569175472983f39/7964cad0-bccf-4d88-8d4c-3dae3301de2b.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/7rfxulhvf6h9'},
 
-   {name:' Civil War',image:'https://images.moviesanywhere.com/c6df1e5e0af0b0f6dc0af00fa54384fb/97bb58ff-b746-42f5-a61d-beb013a488e4.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/cdwx36piovxv'},
-   {name:'Doctor Strange',image:'https://images.moviesanywhere.com/367e2c03ac2d0c9224edc86e8aa40c93/e2ec6244-9355-448f-baed-8e937ba8685e.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/vn26sfrx40fx'},
-   {name:'Vol 2 ',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQjU2jc21mmARPK2MVV8HMucRL5cOs1SnsOw&usqp=CAU',link:'https://tsneh.vercel.app/nlvwij3cyjpp'},
-   {name:'Homecoming',image:'https://images.moviesanywhere.com/a96502b00a5e01ea17843dd02475caf0/6a605404-34c0-46c9-a9f9-29ee2d9e2303.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/atyqyyp8b7n9'},
-   {name:'Ragnarok',image:'https://images.moviesanywhere.com/9b8962dc632962d879eb5f1e91fd75f7/cf721a74-d1f5-476c-95be-c443efe9a690.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/_et5_tm8tidg'},
-   {name:'Black Panther',image:'https://images.moviesanywhere.com/3d3fd427d5b3a362e024933dbc203623/c37386d4-b7c2-49c9-b487-2ba6c0ec5879.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/3rm2oaumilpd'},
-   {name:'Infinity War ',image:'https://images.moviesanywhere.com/0473778fb19af5e749f06d249804ba13/887b650e-5661-4fd7-aa24-bf38179342a5.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/pjiu969tosyh'},
-   {name:'Ant-Man and Wasp',image:'https://images.moviesanywhere.com/8f27781bd34070cf52f5a18bdc1a820c/5bff2157-7614-4183-a4a7-b9d14d3f9c9c.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/ewggl-hp82hm'},
-   {name:'Captain Marvel',image:'https://images.moviesanywhere.com/f6254a2654d750658f8df42332a5ce24/a30837cb-1bac-4a04-8603-f224fab8f480.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/vqsuismfbieb'},
-   {name:'Endgame ',image:'https://images.moviesanywhere.com/4677177f6f0595289bc3e767e7b47459/1d6c6c73-ab1e-4453-969c-6a4e965ebb37.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/vnw_9o9a6cuc'},
-   {name:'Far From Hiome ',image:'https://images.moviesanywhere.com/d280caf10458b1f6e476a2f9c2f7ae84/3bc8112b-904d-432a-9ba3-bd3dd85a381b.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/ji4dlei5nqie'},
-    
-   {name:'Black Widow',image:'https://images.moviesanywhere.com/ad9231fa430a47863531781333c6bb9f/b35f1409-eb17-4a81-985a-1fde3a087613.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/lzsefzdajeyp'},
-  {name:'Shang-Chi',image:'https://images.moviesanywhere.com/0c8c13d8b3f28e4e25192d4dc8364de2/014180d5-8ebb-4ec6-a84e-9332f9b4ec06.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/doprxq3kcljs'},
-  {name:'Eternals ',image:'https://images.moviesanywhere.com/acdd3c73c67d756fb920845ad7c88c8f/eb62e721-3ce3-4ec0-b44c-1bd8bc073d87.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/tvnrxyfsqthz'},
-   {name:'No Way Home ',image:'https://images.moviesanywhere.com/5a7e82e7749d6dd8e447fcfeec50c064/55462afc-41ad-4322-ad46-1caca29fcc36.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/trxzdgnocpfc'},
-   {name:'Multiverse',image:'https://images.moviesanywhere.com/f9294f39c310425bc52732ae490549b4/9812ca94-e25f-46ee-9874-090857eb0ab7.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/tplwhvs7zcvs'},
-   {name:'Wakanda',image:'https://images.moviesanywhere.com/19451f09463b439a7ec9937a29c37064/8b82ebaf-750d-4589-9425-e9726ee2a371.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/o6wvodkmxofu'},
-
-    
-    {name:'Quantumania',image:'https://images.moviesanywhere.com/91f18a89a01c903e7af188e9911f9c6e/7bce707a-684d-4c39-b125-3bbf2ff2412d.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/gm8q6bsyww1q'},
-  {name:'Vol 3 ',image:'https://images.moviesanywhere.com/e5158b7036cb6fb709889600f78f25e2/4a2b9db6-f8d7-47df-a6d3-9a093e6791a1.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/j9foqkpprqia'},
-  {name:'The Marvels ',image:'https://images.moviesanywhere.com/91c9dd5bf3087f966d0a60f709a8b09e/d22b7140-046b-42cc-81a9-b760160eb5ff.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/f7rjkupkzb9f'},
-   {name:'Deadpool & Wolverine ',image:'https://images.moviesanywhere.com/b50aa533f5b431b818fa18bb7aa298eb/0f6ef9a6-23e6-47f7-b1ac-08e755eaf26a.webp?h=375&resize=fit&w=250',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/DW.mp4'},
-      
-  //     //{name:'',image:'',link:''},
-  //     // {name:'',image:'',link:''},
-  //     // {name:'',image:'',link:''},
-  //     // {name:'',image:'',link:''},
-  //     // {name:'',image:'',link:''},
-  //     // {name:'',image:'',link:''},
-    
-  ],
+    {
+    name:"Toy Story",image:"https://image.tmdb.org/t/p/original/dSr82KHmtgiWaMYx53QgtxQmbCw.jpg",shows:[
+      {name:"Toy Story 1",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnCdlRuLP67KQNBnZHm9eJaOqSPpBdSHfGtQ&s",link:"https://d5.uptocdn.com/dl/OnL0-13oIjDriY3tuNsULQ/1732070509/p/Tamil%20Dubbed%20Collections/Toy%20Story%20Trilogy%20Collections/Toy%20Story%201%20(1995)/Mp4%20HD%20(640x360)/Toy%20Story%201%20(1995)%20HD%20(640x360).mp4"},
+      {name:"Toy Story 2",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7UnVe5koWHuUSa4XRH482AvGCtWFoDEQbRw&s",link:"https://d5.uptocdn.com/dl/9YuSTwe9NyXT1u5tJ5MApQ/1732070940/p/Tamil%20Dubbed%20Collections/Toy%20Story%20Trilogy%20Collections/Toy%20Story%202%20(1999)/Mp4%20HD%20(640x360)/Toy%20Story%202%20(1999)%20HD%20(640x360).mp4"},
+      {name:"Toy Story 3",image:"https://m.media-amazon.com/images/I/81DOyQ93xmL._AC_UF1000,1000_QL80_.jpg",link:"https://d5.uptocdn.com/dl/mhyCWwH7wzHlA0LvhvUD4A/1732070972/p/Tamil%20Dubbed%20Collections/Toy%20Story%20Trilogy%20Collections/Toy%20Story%203%20(2010)/Mp4%20HD%20(640x360)/Toy%20Story%203%20(2010)%20HD%20(640x360).mp4"},
+    ],
   },
+  
+   
 ];
 
 const Movies = () => {
