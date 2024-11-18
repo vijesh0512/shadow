@@ -194,7 +194,7 @@ const shows = [
 
    {name:' Civil War',image:'https://images.moviesanywhere.com/c6df1e5e0af0b0f6dc0af00fa54384fb/97bb58ff-b746-42f5-a61d-beb013a488e4.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/cdwx36piovxv'},
    {name:'Doctor Strange',image:'https://images.moviesanywhere.com/367e2c03ac2d0c9224edc86e8aa40c93/e2ec6244-9355-448f-baed-8e937ba8685e.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/vn26sfrx40fx'},
-   {name:'Vol 2 ',image:'https://images.moviesanywhere.com/367e2c03ac2d0c9224edc86e8aa40c93/e2ec6244-9355-448f-baed-8e937ba8685e.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/udxmsyratxls'},
+   {name:'Vol 2 ',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQjU2jc21mmARPK2MVV8HMucRL5cOs1SnsOw&usqp=CAU',link:'tsneh.vercel.app/udxmsyratxls'},
    {name:'Homecoming',image:'https://images.moviesanywhere.com/a96502b00a5e01ea17843dd02475caf0/6a605404-34c0-46c9-a9f9-29ee2d9e2303.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/atyqyyp8b7n9'},
    {name:'Ragnarok',image:'https://images.moviesanywhere.com/9b8962dc632962d879eb5f1e91fd75f7/cf721a74-d1f5-476c-95be-c443efe9a690.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/_et5_tm8tidg'},
    {name:'Black Panther',image:'https://images.moviesanywhere.com/3d3fd427d5b3a362e024933dbc203623/c37386d4-b7c2-49c9-b487-2ba6c0ec5879.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/3rm2oaumilpd'},
