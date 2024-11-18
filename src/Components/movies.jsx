@@ -256,6 +256,7 @@ const Movies = () => {
           sources: [
             { src: currentVideo, type: 'video/mp4', size: 720 },
             { src: currentVideo.replace('.mp4', '_480.mp4'), type: 'video/mp4', size: 480 },
+             { src: currentVideo.replace('.mp4', '_1080.mp4'), type: 'video/mp4', size: 1080 },
           ],
         };
 
