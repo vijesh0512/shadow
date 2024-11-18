@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Plyr from 'plyr';
-<<<<<<< HEAD
 import 'plyr/dist/plyr.css';
-=======
->>>>>>> ed6bf19eb98e8a03cc35b0363fe763e4081de75f
 import './live.css';
 import './album.css';
 
@@ -102,10 +99,6 @@ const shows = [
     ],
   },
 ];
-<<<<<<< HEAD
-=======
-
->>>>>>> ed6bf19eb98e8a03cc35b0363fe763e4081de75f
 const Movies = () => {
   const [selectedAlbum, setSelectedAlbum] = useState(null);
   const [currentVideo, setCurrentVideo] = useState(null);
@@ -239,8 +232,4 @@ const Movies = () => {
   );
 };
 
-<<<<<<< HEAD
 export default Movies;
-=======
-export default Movies;
->>>>>>> ed6bf19eb98e8a03cc35b0363fe763e4081de75f

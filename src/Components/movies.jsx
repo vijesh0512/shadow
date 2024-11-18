@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Plyr from 'plyr';
-<<<<<<< HEAD
-import 'plyr/dist/plyr.css';
-=======
->>>>>>> ed6bf19eb98e8a03cc35b0363fe763e4081de75f
 import './live.css';
 import './album.css';
 
