@@ -64,6 +64,7 @@ const Movies = () => {
           sources: [
             { src: currentVideo, type: 'video/mp4', size: 720 },
             { src: currentVideo.replace('.mp4', '_480.mp4'), type: 'video/mp4', size: 480 },
+            { src: currentVideo.replace('.mp4', '_1080.mp4'), type: 'video/mp4', size: 1080 },
           ],
         };
 
@@ -86,7 +87,7 @@ const Movies = () => {
           settings: ['quality', 'speed'],
           quality: {
             default: 720,
-            options: [720, 480],
+            options: [1080,720, 480],
             forced: true,
             onChange: (quality) => {
               console.log(`Quality changed to ${quality}`);
@@ -100,6 +101,7 @@ const Movies = () => {
           sources: [
             { src: currentVideo, type: 'video/mp4', size: 720 },
             { src: currentVideo.replace('.mp4', '_480.mp4'), type: 'video/mp4', size: 480 },
+            { src: currentVideo.replace('.mp4', '_1080.mp4'), type: 'video/mp4', size: 1080 },
           ],
         };
 
