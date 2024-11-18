@@ -28,7 +28,7 @@ const shows = [
   
     { name: 'Hitler', image: 'https://assets.gadgets360cdn.com/pricee/assets/product/202312/Hitler1_1703675553.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Hitler.mp4'},
     
-    { name: 'KP chelladurai', image: 'https://m.media-amazon.com/images/M/MV5BN2JmODY2NDYtNDk0Zi00ZDM1LTlkYjktNDFkMmUzZDlmODA3XkEyXkFqcGc@._V1_.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Kozhipannai_Chelladurai.mp4' },
+    { name: 'KP Chelladurai', image: 'https://m.media-amazon.com/images/M/MV5BN2JmODY2NDYtNDk0Zi00ZDM1LTlkYjktNDFkMmUzZDlmODA3XkEyXkFqcGc@._V1_.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Kozhipannai_Chelladurai.mp4' },
     { name: 'Tholar cheguevara', image: 'https://m.media-amazon.com/images/M/MV5BMjNkNWM4NDItZDBjNi00N2EzLTg4YmYtMTNkYzJlMjE3ZWRjXkEyXkFqcGc@._V1_.jpg', link: 'https://tsneh.vercel.app/vhy7_dipwhlz' },
     { name: 'Kadaisi Ulaga Por', image: 'https://m.media-amazon.com/images/M/MV5BODYzOGY4NmEtYjRiNi00OGI3LWE4MWItZWJlM2MwNDUwMDM1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Nandhan.mp4' },
     { name: 'Nandhan', image: 'https://chennaivision.com/wp-content/uploads/2024/09/post-7.png', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Kadaisi_Ulaga_Por.mp4'},
