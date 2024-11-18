@@ -215,6 +215,15 @@ const shows = [
       {name:"Toy Story 3",image:"https://m.media-amazon.com/images/I/81DOyQ93xmL._AC_UF1000,1000_QL80_.jpg",link:"https://d5.uptocdn.com/dl/mhyCWwH7wzHlA0LvhvUD4A/1732070972/p/Tamil%20Dubbed%20Collections/Toy%20Story%20Trilogy%20Collections/Toy%20Story%203%20(2010)/Mp4%20HD%20(640x360)/Toy%20Story%203%20(2010)%20HD%20(640x360).mp4"},
     ],
   },
+
+  {name:'Pirates Of Carribbean',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQxlZ783CdiGRVnsfalMn0ry2xTGO849fJyMoIPTahQXO_Dt4TE88eGNKn&s=10',shows:[
+       {name:'2003',image:'https://resizing.flixster.com/knmVWU12rMWrg5Ey8C1CDYzafwQ=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32093_p_v8_bd.jpg',link:'https://tsneh.vercel.app/s5ccpciewuqc'},
+       {name:'2006',image:'https://resizing.flixster.com/53B9VUV-d33Gpd1MQ-Z13pU-NO0=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p159655_p_v8_av.jpg',link:'https://tsneh.vercel.app/cf372xclyh_9'},
+       {name:'2007',image:'https://resizing.flixster.com/bSbueV2BY6YJaXdMSWHp5YT76zY=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p164907_p_v8_ar.jpg',link:'https://tsneh.vercel.app/czxfzfx3zxlk'},
+       {name:'2011',image:'https://resizing.flixster.com/70Wi90wBz9wnDa2rCcluDXfo2Y0=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7989366_p_v8_ab.jpg',link:'https://tsneh.vercel.app/ga6hj_c7arws'},  
+       {name:'2017',image:'https://resizing.flixster.com/c7mdkt7_KRwsuPVo7PilGSWPbg4=/fit-in/180x240/v2/https://resizing.flixster.com/pcRcLIYOuKQbSPZFVa-L5ldoHow=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2RkMzA5NDgxLWM3YzEtNDk0ZS1hMTY0LTRjMzBlMmQyYjQ1NC53ZWJw',link:'https://tsneh.vercel.app/fxz4xfi0zmqr'},
+    ],   
+  },
   
    
 ];
