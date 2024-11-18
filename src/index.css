@@ -1,11 +1,13 @@
 * {
   padding: 0;
   margin: 0;
-  background-color: black;
+
   margin-left: 0.5%;
   margin-right: 0.5%;
 }
-
+body{
+    background-color: black;
+}
 .navbar {
   color: white;
   font-size: 30px;
