@@ -356,7 +356,7 @@ const Movies = () => {
             <div className="play">
               {selectedAlbum.shows.map((video, index) => (
                 <div key={index} className="son" onClick={() => handleVideoClick(video)}>
-                  <img src={video.img} alt={video.name} />
+                  <img src={video.image} alt={video.name} />
                   <p>{video.name}</p>
                 </div>
               ))}
