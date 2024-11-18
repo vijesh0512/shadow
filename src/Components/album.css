@@ -102,7 +102,7 @@ button:hover {
 }
 
 .video-thumbnail.visible {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .video-thumbnail img {
