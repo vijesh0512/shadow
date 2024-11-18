@@ -224,6 +224,18 @@ const shows = [
        {name:'2017',image:'https://resizing.flixster.com/c7mdkt7_KRwsuPVo7PilGSWPbg4=/fit-in/180x240/v2/https://resizing.flixster.com/pcRcLIYOuKQbSPZFVa-L5ldoHow=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2RkMzA5NDgxLWM3YzEtNDk0ZS1hMTY0LTRjMzBlMmQyYjQ1NC53ZWJw',link:'https://tsneh.vercel.app/fxz4xfi0zmqr'},
     ],   
   },
+
+  {
+    {name:'Ice Age',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc88bN5HdY2lN33ACqftB2WrjIWljMmV7Jnfdo7jbDWK_h0XGI74uM730&s=10',shows:[
+      {name:'2002',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRM9pR8nUIbwfsoZ7Fhj1qwKeN6_W_waukq3QEa7Zh5osTGLpSvsOnhGg&s=10',link:''},
+      {name:'2006',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ15lnTRl368qxagDbJyL8osU8kTm0wOiHyckb_0t5UCHd4_Yx5-hU2Rlg&s=10',link:''},
+      {name:'2009',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23BpZHJBk-Fv-vTkjg7wo2mLpXGqw4WTlk7ZKoOfDzsUbVIn6gW7tXJGB&s=10',link:''},
+      {name:'2012',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMzCLz--aIbtMDDbBpfFea1AGNWcIEtTN_-7Zec0Haxy-sOqtN0XHgQOM&s=10',link:''},
+      {name:'2016',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMVnDLmDYcdHmw9b1c8_Li9mhzy1yTOr-0G9g0r5lBJdxjuGLr3BIjuOhv&s=10',link:''},
+      {name:'2021',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7hs5oKEHt_GOOH6xeuR2oevwjzXf2Xl1sHxz9PED_sUagt6Ku8SCsyio&s=10',link:''},
+      ],
+  },
+  
   
    
 ];
