@@ -172,20 +172,20 @@ const shows = [
       {name:'2014',image:'https://m.media-amazon.com/images/I/91BMECfQUNL._AC_UF1000,1000_QL80_.jpg',link:'https://tsneh.vercel.app/ytbdvvvt4exy'}, 
       {name:'2017',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWX1lRxBXfnPC0INO818Wz2C0aiPZMwxhixxrve7Yxl4I6ZYJrAHBEEVTu&s=10',link:'https://tsneh.vercel.app/atyqyyp8b7n9'}, 
       {name:'2019',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLCOza-uwxWG7RvSWUOJMbxH5ib5rpzM5hc4LHwf_4S2Ygfq3b3SOKXEzX&s=10',link:'https://tsneh.vercel.app/ji4dlei5nqie'}, 
-      {name:'2021',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0PDsytA8OtOq6eW88VNu3_fEvUjaql3TiIMDhZ67rF-MtgXHiISC1yyt4&s=10',link:'https://tsneh.vercel.app/dxbstvha0zvq'}, 
+      {name:'2021',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0PDsytA8OtOq6eW88VNu3_fEvUjaql3TiIMDhZ67rF-MtgXHiISC1yyt4&s=10',link:'https://tsneh.vercel.app/1hcqfjqctvl-'}, 
     ],
   },
   
    {name:'Marvel',image:'https://pbs.twimg.com/profile_images/1837996521809211392/ZPfq2KOE_400x400.jpg',shows:[
      
-   {name:'Iron Man',image:'https://images.moviesanywhere.com/45589cb573be13bb984b078ed3e1cf9e/a0652686-b625-4b41-bdf1-f32c3d9471a6.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/rmi5gutddh'},
+   {name:'Iron Man',image:'https://images.moviesanywhere.com/45589cb573be13bb984b078ed3e1cf9e/a0652686-b625-4b41-bdf1-f32c3d9471a6.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/66czfsv5qcrf'},
    {name:'The Incredible Hulk',image:'https://images.moviesanywhere.com/af98bdeec9e6b9ea7ed3720e25429b29/865d13d3-da63-4174-ad69-e1fdd446de82.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/szr38isis7an'},
-   {name:'Iron Man 2',image:'https://images.moviesanywhere.com/f63168b72788f0d189548e7130d3ffac/78720b79-de19-4d10-b80b-1172b068328a.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/km2aiujws9t7'},     
+   {name:'Iron Man 2',image:'https://images.moviesanywhere.com/f63168b72788f0d189548e7130d3ffac/78720b79-de19-4d10-b80b-1172b068328a.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/djhcyub2nsbq'},     
    {name:'Thor',image:'https://images.moviesanywhere.com/d2c6e9c510b22933e69ca30f8ec6f5a3/4e9d04e3-787e-41bf-aaaf-98a78d5c9f9d.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/ema6xoesiao3'},
    {name:'First Avenger',image:'https://images.moviesanywhere.com/fa9e94046ada1dba2df65ec7c328ec2a/f7455d8d-9288-4bd5-a283-586b8b4abe93.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/lvygketr67si'},     
    {name:'Avengers',image:'https://images.moviesanywhere.com/a36700f2ab20c7d495566843eea79dde/745c9b06-af55-4510-836d-9a320a3f26f9.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/mnij9-d0-ccw'},
     
-  //     {name:'Iron Man 3',image:'https://images.moviesanywhere.com/9e6a7d319487c4ef58543298ffdc2fb9/9cac9d6f-a5f5-4e3b-91b5-8ad8d538fbb4.webp?h=375&resize=fit&w=250',link:''},
+  //     {name:'Iron Man 3',image:'https://images.moviesanywhere.com/9e6a7d319487c4ef58543298ffdc2fb9/9cac9d6f-a5f5-4e3b-91b5-8ad8d538fbb4.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/b8t5xrxx6ywx'},
   //     {name:'Dark World',image:'https://images.moviesanywhere.com/e2c77d0d2602acdc3cd56ff55ff4949c/f8e80326-7237-4ffb-9f54-d6504c5f9e32.webp?h=375&resize=fit&w=250',link:''},
   //     {name:'Winter Soldier',image:'https://images.moviesanywhere.com/2cde825213e154ea76959084c78d026c/d1a27851-992c-4cd2-bf10-2228a8a77d8f.webp?h=375&resize=fit&w=250',link:''},
   //     {name:'Guardians of Galaxy',image:'https://images.moviesanywhere.com/959ef1bcb5c9a8e31e384f8d20384efa/7b57798c-b6d2-4b46-8487-bc0ca59934ec.webp?h=375&resize=fit&w=250',link:''},
