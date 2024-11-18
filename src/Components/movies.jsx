@@ -215,7 +215,7 @@ const shows = [
     {name:'Quantumania',image:'https://images.moviesanywhere.com/91f18a89a01c903e7af188e9911f9c6e/7bce707a-684d-4c39-b125-3bbf2ff2412d.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/gm8q6bsyww1q'},
   {name:'Vol 3 ',image:'https://images.moviesanywhere.com/e5158b7036cb6fb709889600f78f25e2/4a2b9db6-f8d7-47df-a6d3-9a093e6791a1.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/j9foqkpprqia'},
   {name:'The Marvels ',image:'https://images.moviesanywhere.com/91c9dd5bf3087f966d0a60f709a8b09e/d22b7140-046b-42cc-81a9-b760160eb5ff.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/f7rjkupkzb9f'},
-   {name:'Deadpool & Wolverine ',image:'https://images.moviesanywhere.com/b50aa533f5b431b818fa18bb7aa298eb/0f6ef9a6-23e6-47f7-b1ac-08e755eaf26a.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/axiegxerv-eg'},
+   {name:'Deadpool & Wolverine ',image:'https://images.moviesanywhere.com/b50aa533f5b431b818fa18bb7aa298eb/0f6ef9a6-23e6-47f7-b1ac-08e755eaf26a.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/02hhnz9dcqjy'},
       
   //     //{name:'',image:'',link:''},
   //     // {name:'',image:'',link:''},
