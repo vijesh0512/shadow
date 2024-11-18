@@ -3,7 +3,6 @@ import Navbar from './Components/navbar';
 import Home from './Components/content';
 import Livetv from './Components/live';
 import Movies from './Components/movies';
-import FT from './Components/tf';
 import Shows from './Components/Shows';
 import Kids from './Components/kids';
 import Livetwo from './Components/LIVETWO';
