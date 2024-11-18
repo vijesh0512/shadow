@@ -325,7 +325,7 @@ const Movies = () => {
 
   const handleVideoClick = (video) => {
     setCurrentVideo(video.link); // Set the MP4 video source
-    setThumbnail(video.img); // Set the video thumbnail
+    setThumbnail(video.image); // Set the video thumbnail
   };
 
   return (
