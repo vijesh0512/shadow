@@ -1,51 +1,20 @@
-import React, { useState } from 'react';
-import ReactPlayer from 'react-player';
+import React, { useState, useEffect } from 'react';
+import Plyr from 'plyr';
 import './live.css';
 import './album.css';
-
+import 'plyr/dist/plyr.css';
 
 const shows = [
   {
-    name:"BB",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",
-    shows:[
-      //{ name:'Day 13',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      //{ name:'Day 35',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''}
-      // { name:'Day 34',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 33',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 32',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 31',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 30',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 29',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 28',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 27',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 26',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 25',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 24',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 23',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 22',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 21',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 20',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 19',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 18',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 17',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 16',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 15',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 14',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      // { name:'Day 13',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:''},
-      { name:'Day 12',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:'https://tsneh.vercel.app/vys9uooagapd'},
-      { name:'Day 11',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:'https://tsneh.vercel.app/ubt7t040kg56'},
-      { name:'Day 10',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:'https://tsneh.vercel.app/yehqjxxnwdcr'},
-      { name:'Day 9',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:'https://tsneh.vercel.app/zi0xwhq_li17'},
-      { name:'Day 8',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:'https://tsneh.vercel.app/eputfvfaapm5'},
-      { name:'Day 7',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:'https://tsneh.vercel.app/1gtyrjdd8sve'},
-      { name:'Day 6',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:"https://tsneh.vercel.app/ypaaumturiww"},
-      { name:'Day 5',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10',link:"https://tsneh.vercel.app/h3ypiedh5kus"},
-      { name:'Day 4',img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",link:"https://tsneh.vercel.app/1pq54eiorltn"},
-      { name:"Day 3",img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",link:"https://tsneh.vercel.app/lmmdtkcla7hc"},
-      { name:"Day 2",img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",link:"https://tsneh.vercel.app/8czyqm4edezp"},
-      { name:"Day 1",img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",link:"https://tsneh.vercel.app/mjouto1dw2ub"},
-      { name:"Day 0",img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10",link:"https://tsneh.vercel.app/swfdtzxgzjgu"},
+    name:'Season 3',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM9WVfFrWMjrtoI6N4gmZlbf2Oseuu6bLUGafR7CR5NGap2_psoDh1rD5s&s=10',shows:[
+      {name:'Day 0',img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fgml2ElsU6NFUNVJNTZqNcBUyTAV.jpg',link:'https://dls4.mrfooll.xyz/AgADug2901450'},
+      {name:'Day 1',img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fkm1gqgF74c8cZMVH6XaMvdYoxo8.jpg',link:'https://dls4.mrfooll.xyz/AgADvA2901441'},
+      {name:'Day 2',img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fchk6437QStz0wwPOBGHmdRmSwR4.jpg',link:'https://dls4.mrfooll.xyz/AgADxA2901465'},
+      {name:'Day 3',img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FtGjZTOsigKiVGNjwOlHg6MxVGeJ.jpg',link:'https://dls4.mrfooll.xyz/AgADxg2901493'},
+      {name:'Day 4',img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fepisodes%2F352080%2F7229920.jpg',link:'https://dls4.mrfooll.xyz/AgADxw2901511'},
+      {name:'Day 5',img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fepisodes%2F352080%2F7229922.jpg',link:'https://dls4.mrfooll.xyz/AgADzw2901526'},
+      {name:'Day 6',img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fepisodes%2F352080%2F7229923.jpg',link:'https://dls4.mrfooll.xyz/AgAD0Q2901547'},
+      {name:'Day 7',img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fepisodes%2F352080%2F7229924.jpg',link:'https://dls4.mrfooll.xyz/AgADEA2901561'},
     ]
   },
   {
@@ -76,51 +45,119 @@ const shows = [
   },
 ];
 
-const Shows = () => {
+
+const Movies = () => {
   const [selectedAlbum, setSelectedAlbum] = useState(null);
   const [currentVideo, setCurrentVideo] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const playerRef = React.useRef(null);
+
+  useEffect(() => {
+    if (currentVideo) {
+      setLoading(true); // Show loading spinner when video is changing
+
+      if (playerRef.current) {
+        // Update the video source
+        playerRef.current.source = {
+          type: 'video',
+          sources: [
+            { src: currentVideo, type: 'video/mp4', size: 720 },
+            { src: currentVideo.replace('.mp4', '_480.mp4'), type: 'video/mp4', size: 480 },
+          ],
+        };
+
+        playerRef.current.play(); // Ensure the video starts playing automatically
+      } else {
+        // Initialize Plyr with additional settings
+        playerRef.current = new Plyr('.video-player', {
+          controls: [
+            'play',
+            'progress',
+            'current-time',
+            'mute',
+            'volume',
+            'captions',
+            'settings',
+            'pip',
+            'airplay',
+            'fullscreen',
+          ],
+          settings: ['quality', 'speed'],
+          quality: {
+            default: 720,
+            options: [720, 480],
+            forced: true,
+            onChange: (quality) => {
+              console.log(`Quality changed to ${quality}`);
+            },
+          },
+          autoplay: true, // Auto play the video once it's loaded
+        });
+
+        playerRef.current.source = {
+          type: 'video',
+          sources: [
+            { src: currentVideo, type: 'video/mp4', size: 720 },
+            { src: currentVideo.replace('.mp4', '_480.mp4'), type: 'video/mp4', size: 480 },
+          ],
+        };
+
+        // Automatically play the video once Plyr is initialized
+        playerRef.current.play();
+      }
+
+      // Event listener to hide loading when video starts playing
+      playerRef.current.on('playing', () => {
+        setLoading(false); // Hide loading spinner once the video starts playing
+      });
+    }
+
+    return () => {
+      if (playerRef.current) {
+        playerRef.current.destroy();
+        playerRef.current = null;
+      }
+    };
+  }, [currentVideo]);
 
   const handleAlbumClick = (album) => {
     setSelectedAlbum(album);
-    setCurrentVideo(null);
+    setCurrentVideo(null); // Reset video on album change
   };
 
   const handleBackClick = () => {
     setSelectedAlbum(null);
-    setCurrentVideo(null);
+    setCurrentVideo(null); // Reset video on back click
   };
 
   const handleVideoClick = (video) => {
-    setCurrentVideo(video.link);
+    setCurrentVideo(video.link); // Set the MP4 video source
   };
 
   return (
     <>
       {currentVideo && (
-        <div className='plr'>
-            <ReactPlayer
-            url={currentVideo}
-            controls
-            playing
-            pip={true} // Enable picture-in-picture
-            config={{
-                file: {
-                attributes: {
-                    controlsList: 'nodownload' // Remove download button
-                }
-                }
-            }}
-/>
+        <div className="plr">
+          {loading && (
+            <div className="loading-spinner">
+              <div className="spinner"></div> {/* Add spinner styles below */}
+            </div>
+          )}
+          <div className="video-wrapper">
+            <video className="video-player"></video>
+          </div>
         </div>
       )}
-      <div className='content'>
+      <div className="content">
         {selectedAlbum ? (
-          <div className='album-details'>
-            <button onClick={handleBackClick} className='back-button'>Back to Shows</button>
-            <h2>{selectedAlbum.name}</h2>
-            <div className='play'>
+          <div className="album-details">
+            <button onClick={handleBackClick} className="back-button">
+              Back to Movies
+            </button>
+            <h2 className="hi">{selectedAlbum.name}</h2>
+            <div className="play">
               {selectedAlbum.shows.map((video, index) => (
-                <div key={index} className='son' onClick={() => handleVideoClick(video)}>
+                <div key={index} className="son" onClick={() => handleVideoClick(video)}>
                   <img src={video.img} alt={video.name} />
                   <p>{video.name}</p>
                 </div>
@@ -128,9 +165,9 @@ const Shows = () => {
             </div>
           </div>
         ) : (
-          <div id='channel-player' className='play'>
+          <div id="channel-player" className="play">
             {shows.map((album, index) => (
-              <div key={index} className='son' onClick={() => handleAlbumClick(album)}>
+              <div key={index} className="son" onClick={() => handleAlbumClick(album)}>
                 <img src={album.image} alt={album.name} />
                 <p>{album.name}</p>
               </div>
@@ -142,4 +179,4 @@ const Shows = () => {
   );
 };
 
-export default Shows;
+export default Movies;
