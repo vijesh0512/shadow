@@ -207,15 +207,15 @@ const shows = [
    {name:'Black Widow',image:'https://images.moviesanywhere.com/ad9231fa430a47863531781333c6bb9f/b35f1409-eb17-4a81-985a-1fde3a087613.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/lzsefzdajeyp'},
   {name:'Shang-Chi',image:'https://images.moviesanywhere.com/0c8c13d8b3f28e4e25192d4dc8364de2/014180d5-8ebb-4ec6-a84e-9332f9b4ec06.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/doprxq3kcljs'},
   {name:'Eternals ',image:'https://images.moviesanywhere.com/acdd3c73c67d756fb920845ad7c88c8f/eb62e721-3ce3-4ec0-b44c-1bd8bc073d87.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/tvnrxyfsqthz'},
-   {name:'No Way Home ',image:'https://images.moviesanywhere.com/5a7e82e7749d6dd8e447fcfeec50c064/55462afc-41ad-4322-ad46-1caca29fcc36.webp?h=375&resize=fit&w=250',link:''},
+   {name:'No Way Home ',image:'https://images.moviesanywhere.com/5a7e82e7749d6dd8e447fcfeec50c064/55462afc-41ad-4322-ad46-1caca29fcc36.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/1hcqfjqctvl-'},
    {name:'Multiverse of Madness',image:'https://images.moviesanywhere.com/f9294f39c310425bc52732ae490549b4/9812ca94-e25f-46ee-9874-090857eb0ab7.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/tplwhvs7zcvs'},
    {name:'Wakanda Forever',image:'https://images.moviesanywhere.com/19451f09463b439a7ec9937a29c37064/8b82ebaf-750d-4589-9425-e9726ee2a371.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/o6wvodkmxofu'},
 
     
-  //     {name:'Quantumania',image:'https://images.moviesanywhere.com/91f18a89a01c903e7af188e9911f9c6e/7bce707a-684d-4c39-b125-3bbf2ff2412d.webp?h=375&resize=fit&w=250',link:''},
-  //     {name:'Vol 3 ',image:'https://images.moviesanywhere.com/e5158b7036cb6fb709889600f78f25e2/4a2b9db6-f8d7-47df-a6d3-9a093e6791a1.webp?h=375&resize=fit&w=250',link:''},
-  //     {name:'The Marvels ',image:'https://images.moviesanywhere.com/91c9dd5bf3087f966d0a60f709a8b09e/d22b7140-046b-42cc-81a9-b760160eb5ff.webp?h=375&resize=fit&w=250',link:''},
-  //     {name:'Deadpool & Wolverine ',image:'https://images.moviesanywhere.com/b50aa533f5b431b818fa18bb7aa298eb/0f6ef9a6-23e6-47f7-b1ac-08e755eaf26a.webp?h=375&resize=fit&w=250',link:''},
+    {name:'Quantumania',image:'https://images.moviesanywhere.com/91f18a89a01c903e7af188e9911f9c6e/7bce707a-684d-4c39-b125-3bbf2ff2412d.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/gm8q6bsyww1q'},
+  {name:'Vol 3 ',image:'https://images.moviesanywhere.com/e5158b7036cb6fb709889600f78f25e2/4a2b9db6-f8d7-47df-a6d3-9a093e6791a1.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/lpgkgw_katys'},
+  {name:'The Marvels ',image:'https://images.moviesanywhere.com/91c9dd5bf3087f966d0a60f709a8b09e/d22b7140-046b-42cc-81a9-b760160eb5ff.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/f7rjkupkzb9f'},
+   {name:'Deadpool & Wolverine ',image:'https://images.moviesanywhere.com/b50aa533f5b431b818fa18bb7aa298eb/0f6ef9a6-23e6-47f7-b1ac-08e755eaf26a.webp?h=375&resize=fit&w=250',link:'https://tsneh.vercel.app/cikwffthj8dt'},
       
   //     //{name:'',image:'',link:''},
   //     // {name:'',image:'',link:''},
