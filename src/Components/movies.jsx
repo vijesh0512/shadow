@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Plyr from 'plyr';
-import 'plyr/dist/plyr.css';
 import './live.css';
 import './album.css';
 
@@ -238,11 +237,10 @@ const shows = [
   
   
    
-];
-const Movies = () => {
+];const Movies = () => {
   const [selectedAlbum, setSelectedAlbum] = useState(null);
   const [currentVideo, setCurrentVideo] = useState(null);
-  const [loading, setLoading] = useState(true); // State to track loading
+  const [loading, setLoading] = useState(true);
   const playerRef = React.useRef(null);
 
   useEffect(() => {
@@ -258,6 +256,8 @@ const Movies = () => {
             { src: currentVideo.replace('.mp4', '_480.mp4'), type: 'video/mp4', size: 480 },
           ],
         };
+
+        playerRef.current.play(); // Ensure the video starts playing automatically
       } else {
         // Initialize Plyr with additional settings
         playerRef.current = new Plyr('.video-player', {
@@ -282,6 +282,7 @@ const Movies = () => {
               console.log(`Quality changed to ${quality}`);
             },
           },
+          autoplay: true, // Auto play the video once it's loaded
         });
 
         playerRef.current.source = {
@@ -291,6 +292,9 @@ const Movies = () => {
             { src: currentVideo.replace('.mp4', '_480.mp4'), type: 'video/mp4', size: 480 },
           ],
         };
+
+        // Automatically play the video once Plyr is initialized
+        playerRef.current.play();
       }
 
       // Event listener to hide loading when video starts playing
