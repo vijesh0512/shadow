@@ -9,7 +9,7 @@
     "dashjs": "^4.7.4",
     "plyr": "^3.7.8",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "^18.2.0",      
     "react-hls-player": "^3.0.7",
     "react-player": "^2.16.0",
     "react-scripts": "5.0.1",
