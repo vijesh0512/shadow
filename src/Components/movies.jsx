@@ -4,6 +4,7 @@ import 'plyr/dist/plyr.css';
 import './live.css';
 import './album.css';
 
+
 const shows = [
   {
     name: 'Theatre Print',
@@ -238,7 +239,6 @@ const shows = [
   
    
 ];
-
 const Movies = () => {
   const [selectedAlbum, setSelectedAlbum] = useState(null);
   const [currentVideo, setCurrentVideo] = useState(null);
@@ -293,9 +293,9 @@ const Movies = () => {
         };
       }
 
-      // Event listener to hide loading when video is ready
-      playerRef.current.on('loadeddata', () => {
-        setLoading(false); // Hide loading spinner when the video is loaded
+      // Event listener to hide loading when video starts playing
+      playerRef.current.on('playing', () => {
+        setLoading(false); // Hide loading spinner once the video starts playing
       });
     }
 
