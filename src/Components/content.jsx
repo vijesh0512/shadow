@@ -8,7 +8,7 @@ const stream = [
 
   
   
-  { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://tsneh.vercel.app/6esr_4mxpaxe' },
+  { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
  { name:'NYS vs MSA',image:'https://upload.wikimedia.org/wikipedia/en/0/05/T10_League_Logo.png',link:'https://fancode.cricsters.io/play.php?id=112587&worldwide'},
   //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://tinyurl.com/57btpw94'},
   //{ name: '2nd T20', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv_ADaI_RiY29m-Uz4m3ayR7MPnUc2DVUKrg&usqp=CAU', link: 'https://amitb3669.github.io/allinonereborn/tnt1.html' },
