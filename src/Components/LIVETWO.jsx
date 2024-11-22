@@ -53,7 +53,7 @@ const channels = [
           {channels.map((channel, index) => (
          <div key={index} className="son">
   <a
-    href={`intent://${channel.link}#Intent;action=android.intent.action.VIEW;category=android.intent.category.DEFAULT;package=com.genuine.leone;end`}
+    href={`intent://${channel.link}#Intent;action=android.intent.action.VIEW;category=android.intent.category.DEFAULT;package=com.genuine.leone;S.browser_fallback_url=https://play.google.com/store/apps/details?id=com.genuine.leone;end`}
     target="_self"
     rel="noopener noreferrer"
   >
@@ -61,6 +61,7 @@ const channels = [
   </a>
   <p>{channel.name}</p>
 </div>
+
 
 
 
