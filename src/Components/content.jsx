@@ -7,7 +7,7 @@ const stream = [
   //https://glb.bozztv.com/glb/ssh101/tultrabbtamil/index.m3u8
 
   
-  {name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://cricsterspkl.io/p2/?id=starsports1hd'},
+  {name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://cricsters.fun/?id=astro'},
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
 // { name:'NYS vs MSA',image:'https://upload.wikimedia.org/wikipedia/en/0/05/T10_League_Logo.png',link:'https://fancode.cricsters.io/play.php?id=112588'},
   //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://tinyurl.com/57btpw94'},
