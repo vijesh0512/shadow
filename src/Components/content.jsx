@@ -7,9 +7,9 @@ const stream = [
   //https://glb.bozztv.com/glb/ssh101/tultrabbtamil/index.m3u8
 
   
-  {name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://cricsters.fun/?id=astro'},
+  //{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://cricsters.fun/?id=astro'},
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
-// { name:'NYS vs MSA',image:'https://upload.wikimedia.org/wikipedia/en/0/05/T10_League_Logo.png',link:'https://fancode.cricsters.io/play.php?id=112588'},
+{ name:'T10',image:'https://upload.wikimedia.org/wikipedia/en/0/05/T10_League_Logo.png',link:'https://webott.viatv.com.np/v0t1/ASportsHD.stream/playlist.m3u8'},
   //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://tinyurl.com/57btpw94'},
   //{ name: '2nd T20', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv_ADaI_RiY29m-Uz4m3ayR7MPnUc2DVUKrg&usqp=CAU', link: 'https://amitb3669.github.io/allinonereborn/tnt1.html' },
   //{name:"2nd ODI",image:"https://cricketvectors.akamaized.net/Series/1NL.png?impolicy=default_web",link:"https://dai.google.com/ssai/event/7044GU7mRL2-99W6nrnbzA/master.m3u8"},
