@@ -27,6 +27,7 @@ const stream = [
 
 ];
 const movies = [
+  {name:'Enakku thozhil romance',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5hLzPszSvT9NZdZefnj-KAitr54EYeVHH-k9-fH5vi8jszxlpQF9zguA&s=10',link:'https://tsneh.vercel.app/t12wll2rzm-n'},
   { name:'Nirangal Moondru',image:'https://m.media-amazon.com/images/M/MV5BNDI3YTVhZTQtNjk5YS00OWFjLWI4NDEtNzBmYzMzODE1ODA3XkEyXkFqcGc@._V1_.jpg',link:'https://tsneh.vercel.app/99oyiq2fbasd'},
     { name:'Kanguva',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUwqsHIIojmSJFVRY9gQlbY6NaQDNaUsu-b90mfCkI0PJHxf5nJzCJ-m0&s=10',link:'https://tinyurl.com/2yku43my'},
  { name:'Amaran',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzugiP-FGYgjDvKH0orm9a3csrkqljfNSwqVBS9yIeVA3_2EUNNAizHBMD&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Amaran.mp4'},
