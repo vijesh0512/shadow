@@ -11,7 +11,7 @@ const stream = [
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
 { name:'T10',image:'https://upload.wikimedia.org/wikipedia/en/0/05/T10_League_Logo.png',link:'https://webott.viatv.com.np/v0t1/ASportsHD.stream/playlist.m3u8'},
   //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://tinyurl.com/57btpw94'},
-  { name: '1st Test', image: 'https://www.google.com/search?q=wi+vs+ban+png&client=ms-android-vivo-terr1-rso2&sca_esv=967cb4d33a83a1c2&udm=2&biw=420&bih=838&sxsrf=ADLYWILeMAti8E2fMchvu7WnF-sxcX60Eg%3A1732283498959&ei=aoxAZ9GkOr2ZseMPi8vU6Qg&oq=wi+vs+ban+png&gs_lp=EhJtb2JpbGUtZ3dzLXdpei1pbWciDXdpIHZzIGJhbiBwbmdIhwpQ7gNY2gdwAHgAkAEAmAGOAaAB9ASqAQMwLjW4AQPIAQD4AQGYAgSgAoQEwgIEECMYJ8ICBRAAGIAEwgIEEAAYA8ICBBAhGBWYAwCIBgGSBwMwLjSgB90I&sclient=mobile-gws-wiz-img#vhid=KKSbFcNcwF2xsM&vssid=mosaic', link: 'http://109.61.81.147:2080/cdn2/560/video.m3u8?token=4444' },
+  { name: '1st Test', image: 'https://tsneh.vercel.app/xl9ukh3bnaip', link: 'http://109.61.81.147:2080/cdn2/560/video.m3u8?token=4444' },
   //{name:"2nd ODI",image:"https://cricketvectors.akamaized.net/Series/1NL.png?impolicy=default_web",link:"https://dai.google.com/ssai/event/7044GU7mRL2-99W6nrnbzA/master.m3u8"},
 
 // {name:'WBBL',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk4x14C1uhxIej-KBuFWv9IeAdnh0vdSaUPfyvMaUq2enqbR1a4kgIe4c-&s=10',link:'https://allinonereborn.com/test/m3u.php?id=24016'},
