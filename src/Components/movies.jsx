@@ -9,6 +9,7 @@ const shows = [
     name: 'Theatre Print',
     image: 'https://media.istockphoto.com/id/1494642262/photo/people-in-the-cinema-auditorium-with-empty-white-screen.jpg?s=2048x2048&w=is&k=20&c=XLSiHIO02doIcuaB8BJMTcoTsyeQtvbngcQlQZLkEW4=',
     shows: [
+        {name:'Enakku thozhil romance',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5hLzPszSvT9NZdZefnj-KAitr54EYeVHH-k9-fH5vi8jszxlpQF9zguA&s=10',link:'https://tsneh.vercel.app/t12wll2rzm-n'},
       { name:'Nirangal Moondru',image:'https://m.media-amazon.com/images/M/MV5BNDI3YTVhZTQtNjk5YS00OWFjLWI4NDEtNzBmYzMzODE1ODA3XkEyXkFqcGc@._V1_.jpg',link:'https://tsneh.vercel.app/99oyiq2fbasd'},
       { name:'Kanguva',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUwqsHIIojmSJFVRY9gQlbY6NaQDNaUsu-b90mfCkI0PJHxf5nJzCJ-m0&s=10',link:'https://tinyurl.com/2yku43my'},
       
