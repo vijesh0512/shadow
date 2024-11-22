@@ -51,19 +51,17 @@ const channels = [
         </p>
         <div className='play'>
           {channels.map((channel, index) => (
-            <div key={index} className='son'>
+           <div key={index} className="son">
   <a
-    href={`vlc://${channel.link}`}
-    onClick={(e) => {
-      e.preventDefault(); // Prevent default browser behavior
-      window.location.href = `vlc://${channel.link}`; // Trigger VLC link
-    }}
+    href={`intent://${channel.link}#Intent;package=com.mxtech.videoplayer.ad;S.title=${channel.name};end`}
+    target="_self"
     rel="noopener noreferrer"
   >
     <img src={channel.image} alt={channel.name} />
   </a>
   <p>{channel.name}</p>
 </div>
+
 
           ))}
         </div>
