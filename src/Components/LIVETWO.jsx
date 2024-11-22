@@ -51,9 +51,9 @@ const channels = [
         </p>
         <div className='play'>
           {channels.map((channel, index) => (
-          <div key={index} className="son">
+         <div key={index} className="son">
   <a
-    href={`intent://${channel.link}#Intent;action=android.intent.action.VIEW;category=android.intent.category.DEFAULT;package=com.mxtech.videoplayer.ad;end`}
+    href={`intent://${channel.link}#Intent;action=android.intent.action.VIEW;category=android.intent.category.DEFAULT;package=com.genuine.leone;end`}
     target="_self"
     rel="noopener noreferrer"
   >
@@ -61,6 +61,7 @@ const channels = [
   </a>
   <p>{channel.name}</p>
 </div>
+
 
 
 
