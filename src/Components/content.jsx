@@ -27,6 +27,7 @@ const stream = [
 
 ];
 const movies = [
+  {name:'Jolly O Gymkhana',image:'https://assetscdn1.paytm.com/images/cinema/Jolly-O-Gymkhana--6baf0b40-a3fa-11ef-b945-57c02e367648.jpg',link:'https://tsneh.vercel.app/ppkrjxvu5c2b'},
   {name:'Enakku thozhil romance',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5hLzPszSvT9NZdZefnj-KAitr54EYeVHH-k9-fH5vi8jszxlpQF9zguA&s=10',link:'https://tsneh.vercel.app/t12wll2rzm-n'},
   { name:'Nirangal Moondru',image:'https://m.media-amazon.com/images/M/MV5BNDI3YTVhZTQtNjk5YS00OWFjLWI4NDEtNzBmYzMzODE1ODA3XkEyXkFqcGc@._V1_.jpg',link:'https://tsneh.vercel.app/99oyiq2fbasd'},
     { name:'Kanguva',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUwqsHIIojmSJFVRY9gQlbY6NaQDNaUsu-b90mfCkI0PJHxf5nJzCJ-m0&s=10',link:'https://tinyurl.com/2yku43my'},
