@@ -1,20 +1,4 @@
 import React, { useEffect, useState, useRef } from 'react';
-const ipl=[
-  
-  {name:'Auction',image:'https://m.economictimes.com/thumb/height-450,width-600,imgsize-53876,msid-115591309/ipl-2025-mega-auction.jpg',link:'https://prod-sports-south-gm.jiocinema.com/hls/live/2109711/hd_akamai_iosmob_avc_tam_ipl_auction_241124/master_1080p.m3u8'},
-  {name:'CSK',image:'https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Chennai_Super_Kings_Logo.svg/1200px-Chennai_Super_Kings_Logo.svg.png',link:'https://prod-sports-multiangle-gm.jiocinema.com/hls/live/2109673/hd_akamai_iosmob_avc_csktable_ipl_auction_241124/master_1080p.m3u8'},
-  {name:'RCB',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAGHbfv0xwheF1ZxiK9fg-0S6YSnHluNy9jgQzNghYeK1AwB5j3HXa6Rqn&s=10',link:'https://prod-sports-multiangle-gm.jiocinema.com/hls/live/2109673/hd_akamai_iosmob_avc_rcbtable_ipl_auction_241124/master_1080p.m3u8'},
-  {name:'MI',image:'https://i.pinimg.com/originals/29/2b/d5/292bd5c291ff709c415928ff94454259.png',link:'https://prod-sports-multiangle-gm.jiocinema.com/hls/live/2109673/hd_akamai_iosmob_avc_mitable_ipl_auction_241124/master_1080p.m3u8'},
-  {name:'SRH',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Qwq5to2WREgUA-Bk6tr9Xo64L0T5f6p_XHF8PM_eZC47SDRjm7lM3eA&s=10',link:'https://prod-sports-multiangle-gm.jiocinema.com/hls/live/2109673/hd_akamai_iosmob_avc_srhtable_ipl_auction_241124/master_1080p.m3u8'},
-  {name:'DC',image:'https://seeklogo.com/images/D/delhi-capitals-logo-52B6559423-seeklogo.com.png',link:'https://prod-sports-multiangle-gm.jiocinema.com/hls/live/2109673/hd_akamai_iosmob_avc_dctable_ipl_auction_241124/master_1080p.m3u8'},
-  {name:'PBKS',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZhYb4VE1kfHPJ7qyioQfVnr3AZ9nOEW5q2Q&usqp=CAU',link:'https://prod-sports-multiangle-gm.jiocinema.com/hls/live/2109673/hd_akamai_iosmob_avc_pbkstable_ipl_auction_241124/master_1080p.m3u8'},
-  {name:'GT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Tfr_Th-oDDh_Y1Gin3wtb5TXszhZz44v5AqgLH8mUKBsfKjFk0k9QE8&s=10',link:'https://prod-sports-multiangle-gm.jiocinema.com/hls/live/2109673/hd_akamai_iosmob_avc_gttable_ipl_auction_241124/master_1080p.m3u8'},
-  {name:'LSG',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTWw0EMlN0UbQCl83w-HKoWj784_0-qNKUTQ&usqp=CAU',link:'https://prod-sports-multiangle-gm.jiocinema.com/hls/live/2109673/hd_akamai_iosmob_avc_lsgtable_ipl_auction_241124/master_1080p.m3u8'},
-  {name:'KKR',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07Ue81AxU2_wdeXRl7hBn2WuDNy_8Krde3LV4yOxB_UqWydAg6cAniAI&s=10',link:'https://prod-sports-multiangle-gm.jiocinema.com/hls/live/2109673/hd_akamai_iosmob_avc_kkrtable_ipl_auction_241124/master_1080p.m3u8'},
-  {name:'RR',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGtBTuzg_I8E004mDPoOQnR0ocBxqnrBGHGQ&s',link:'https://prod-sports-multiangle-gm.jiocinema.com/hls/live/2109673/hd_akamai_iosmob_avc_rrtable_ipl_auction_241124/master_1080p.m3u8'},  
-
-  
-];
 const stream = [
   
   //https://stream.vstartv.org:3511/hybrid/play.m3u8
@@ -26,7 +10,7 @@ const stream = [
 { name:'T10',image:'https://upload.wikimedia.org/wikipedia/en/0/05/T10_League_Logo.png',link:'https://webott.viatv.com.np/v0t1/ASportsHD.stream/playlist.m3u8'},
   //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://tinyurl.com/57btpw94'},
 //  { name: '1st Test', image: 'https://tsneh.vercel.app/xl9ukh3bnaip', link: 'https://tinyurl.com/2m4c538m' },
-  {name:"1st ODI",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX3sMu3kcHdDx9WfYivNpJIqPtxJYwVX4j_A&usqp=CAU",link:"https://dai.fancode.com/primary/112355_english_hls_4838ta-no/1080p.m3u8"},
+ // {name:"1st ODI",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX3sMu3kcHdDx9WfYivNpJIqPtxJYwVX4j_A&usqp=CAU",link:"https://dai.fancode.com/primary/112355_english_hls_4838ta-no/1080p.m3u8"},
 
 // {name:'WBBL',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk4x14C1uhxIej-KBuFWv9IeAdnh0vdSaUPfyvMaUq2enqbR1a4kgIe4c-&s=10',link:'https://allinonereborn.com/test/m3u.php?id=24016'},
 //{ name:'TN vs DEL',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:''},
@@ -375,7 +359,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
       rendermov(channels,'live-player');
       //renderchannel(channels, 'live-player');
       renderdog(others, 'dog-player');
-      rendermov(ipl,'ipl-player');
+      
     }
   },);
 
@@ -405,10 +389,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
         </div>
       ) : (
         <>
-          <div className="bt">
-          <h1 className='sideheading'>IPL</h1>
-          </div>
-        <div id='ipl-player' className='player'></div>
+          
  
            <div className="bt">
           <h1 className='sideheading'>Live Events</h1>
