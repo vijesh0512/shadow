@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 const ipl=[
-  {
+  
   {name:'Auction',image:'https://m.economictimes.com/thumb/height-450,width-600,imgsize-53876,msid-115591309/ipl-2025-mega-auction.jpg',link:'https://prod-sports-south-gm.jiocinema.com/hls/live/2109711/hd_akamai_iosmob_avc_tam_ipl_auction_241124/master_1080p.m3u8'},
   {name:'CSK',image:'https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Chennai_Super_Kings_Logo.svg/1200px-Chennai_Super_Kings_Logo.svg.png',link:'https://prod-sports-multiangle-gm.jiocinema.com/hls/live/2109673/hd_akamai_iosmob_avc_csktable_ipl_auction_241124/master_1080p.m3u8'},
   {name:'RCB',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAGHbfv0xwheF1ZxiK9fg-0S6YSnHluNy9jgQzNghYeK1AwB5j3HXa6Rqn&s=10',link:'https://prod-sports-multiangle-gm.jiocinema.com/hls/live/2109673/hd_akamai_iosmob_avc_rcbtable_ipl_auction_241124/master_1080p.m3u8'},
