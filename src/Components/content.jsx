@@ -1,13 +1,20 @@
 import React, { useEffect, useState, useRef } from 'react';
 const ipl=[
+  {
+  {name:'Auction',image:'https://m.economictimes.com/thumb/height-450,width-600,imgsize-53876,msid-115591309/ipl-2025-mega-auction.jpg',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2112591/hd_akamai_iosmob_avc_eng_mock_auction_231124/master.m3u8'},
   {name:'CSK',image:'https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Chennai_Super_Kings_Logo.svg/1200px-Chennai_Super_Kings_Logo.svg.png',link:''},
   {name:'RCB',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAGHbfv0xwheF1ZxiK9fg-0S6YSnHluNy9jgQzNghYeK1AwB5j3HXa6Rqn&s=10',link:''},
   {name:'MI',image:'https://i.pinimg.com/originals/29/2b/d5/292bd5c291ff709c415928ff94454259.png',link:''},
   {name:'SRH',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Qwq5to2WREgUA-Bk6tr9Xo64L0T5f6p_XHF8PM_eZC47SDRjm7lM3eA&s=10,link:''},
   {name:'DC',image:'https://seeklogo.com/images/D/delhi-capitals-logo-52B6559423-seeklogo.com.png',link:''},
-  {name:'PUN',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZhYb4VE1kfHPJ7qyioQfVnr3AZ9nOEW5q2Q&usqp=CAU',link:''},
-  
-  
+  {name:'PK',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZhYb4VE1kfHPJ7qyioQfVnr3AZ9nOEW5q2Q&usqp=CAU',link:''},
+  {name:'GT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Tfr_Th-oDDh_Y1Gin3wtb5TXszhZz44v5AqgLH8mUKBsfKjFk0k9QE8&s=10',link:''},
+  {name:'LSG',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTWw0EMlN0UbQCl83w-HKoWj784_0-qNKUTQ&usqp=CAU',link:''},
+  {name:'KKR',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07Ue81AxU2_wdeXRl7hBn2WuDNy_8Krde3LV4yOxB_UqWydAg6cAniAI&s=10',link:''},
+  {name:'RR',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGtBTuzg_I8E004mDPoOQnR0ocBxqnrBGHGQ&s',link:''},  
+  {name:'LSG',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTWw0EMlN0UbQCl83w-HKoWj784_0-qNKUTQ&usqp=CAU',link:''},
+  {name:'KKR',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07Ue81AxU2_wdeXRl7hBn2WuDNy_8Krde3LV4yOxB_UqWydAg6cAniAI&s=10',link:''},
+  {name:'RR',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGtBTuzg_I8E004mDPoOQnR0ocBxqnrBGHGQ&s',link:''},  
   
 ]
 const stream = [
@@ -372,6 +379,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
       rendermov(channels,'live-player');
       //renderchannel(channels, 'live-player');
       renderdog(others, 'dog-player');
+      rendermov(ipl,'ipl-player');
     }
   },);
 
@@ -401,6 +409,10 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
         </div>
       ) : (
         <>
+          <div className="bt">
+          <h1 className='sideheading'>IPL</h1>
+          </div>
+        <div id='ipl-player' className='player'></div>
  
            <div className="bt">
           <h1 className='sideheading'>Live Events</h1>
