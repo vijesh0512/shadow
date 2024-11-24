@@ -6,7 +6,7 @@ const ipl=[
   {name:'SRH',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Qwq5to2WREgUA-Bk6tr9Xo64L0T5f6p_XHF8PM_eZC47SDRjm7lM3eA&s=10,link:''},
   {name:'DC',image:'https://seeklogo.com/images/D/delhi-capitals-logo-52B6559423-seeklogo.com.png',link:''},
   {name:'PUN',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZhYb4VE1kfHPJ7qyioQfVnr3AZ9nOEW5q2Q&usqp=CAU',link:''},
-  {
+  
   
   
 ]
