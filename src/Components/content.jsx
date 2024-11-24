@@ -21,9 +21,9 @@ const stream = [
   //https://live.tamiltool.online/livestream-source.m3u8
   //https://tsneh.vercel.app/rzirhnk8vi4q 
   //https://glb.bozztv.com/glb/ssh101/tultrabbtamil/index.m3u8
- {name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://tinyurl.com/3cuuuatu'},
+// {name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://tinyurl.com/3cuuuatu'},
   //{ name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
-//{ name:'T10',image:'https://upload.wikimedia.org/wikipedia/en/0/05/T10_League_Logo.png',link:'https://webott.viatv.com.np/v0t1/ASportsHD.stream/playlist.m3u8'},
+{ name:'T10',image:'https://upload.wikimedia.org/wikipedia/en/0/05/T10_League_Logo.png',link:'https://webott.viatv.com.np/v0t1/ASportsHD.stream/playlist.m3u8'},
   //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://tinyurl.com/57btpw94'},
 //  { name: '1st Test', image: 'https://tsneh.vercel.app/xl9ukh3bnaip', link: 'https://tinyurl.com/2m4c538m' },
   {name:"1st ODI",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX3sMu3kcHdDx9WfYivNpJIqPtxJYwVX4j_A&usqp=CAU",link:"https://dai.fancode.com/primary/112355_english_hls_4838ta-no/1080p.m3u8"},
