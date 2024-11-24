@@ -1,4 +1,15 @@
 import React, { useEffect, useState, useRef } from 'react';
+const ipl=[
+  {name:'CSK',image:'https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Chennai_Super_Kings_Logo.svg/1200px-Chennai_Super_Kings_Logo.svg.png',link:''},
+  {name:'RCB',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAGHbfv0xwheF1ZxiK9fg-0S6YSnHluNy9jgQzNghYeK1AwB5j3HXa6Rqn&s=10',link:''},
+  {name:'MI',image:'https://i.pinimg.com/originals/29/2b/d5/292bd5c291ff709c415928ff94454259.png',link:''},
+  {name:'SRH',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Qwq5to2WREgUA-Bk6tr9Xo64L0T5f6p_XHF8PM_eZC47SDRjm7lM3eA&s=10,link:''},
+  {name:'DC',image:'https://seeklogo.com/images/D/delhi-capitals-logo-52B6559423-seeklogo.com.png',link:''},
+  {name:'PUN',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZhYb4VE1kfHPJ7qyioQfVnr3AZ9nOEW5q2Q&usqp=CAU',link:''},
+  {
+  
+  
+]
 const stream = [
   
   //https://stream.vstartv.org:3511/hybrid/play.m3u8
