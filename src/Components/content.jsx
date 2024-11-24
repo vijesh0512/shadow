@@ -60,7 +60,7 @@ const channels = [
   //{ name: 'Zee Tamil', image: 'https://www.ethnicchannels.com/images/channeldetail/zee-tamil/ZEE-TAMIL.png', link: 'https://tinyurl.com/42xpvj8y' },
   //{ name: 'Zee Thirai', image: 'https://vignette.wikia.nocookie.net/logopedia/images/c/c3/Zee_Thirai.png/revision/latest?cb=20200324034033', link: 'https://tinyurl.com/383n8rn5' },
   //{ name: 'Colors Tamil', image: 'https://tinyurl.com/yc2kz4ck', link: 'https://tinyurl.com/4yheza4w' },
-  //{ name: 'Adithya',image:'https://jiotvimages.cdn.jio.com/dare_images/images/Adithya_TV.png',link:'https://tinyurl.com/4weykd2v'},
+  { name: 'Adithya',image:'https://jiotvimages.cdn.jio.com/dare_images/images/Adithya_TV.png',link:'https://o12.mainserver.ink/stream/sungo/adithyatv/master.m3u8?u=Admin&p=5ae679b566bc0b9140a913ae4f9f4515dd88d339b597e4b4bbcfb9eb93861fc7'},
    { name: 'Kalaignar TV', image: 'https://tsneh.vercel.app/fzqicp5wkped', link: 'https://segment.yuppcdn.net/240122/kalaignartv/playlist.m3u8' },
   { name: 'Siripoli', image: 'https://tsneh.vercel.app/bril2azbth2y', link: 'https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8' },
   { name: 'Isaiaruvi', image: 'https://tsneh.vercel.app/wjqhyyohoqcc', link: 'https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8' },
