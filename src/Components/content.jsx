@@ -5,17 +5,17 @@ const stream = [
   //https://live.tamiltool.online/livestream-source.m3u8
   //https://tsneh.vercel.app/rzirhnk8vi4q 
   //https://glb.bozztv.com/glb/ssh101/tultrabbtamil/index.m3u8
-{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://vijesh0512.github.io/suntv/'},
+//{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://vijesh0512.github.io/suntv/'},
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
-//{ name:'T10',image:'https://upload.wikimedia.org/wikipedia/en/0/05/T10_League_Logo.png',link:'https://webott.viatv.com.np/v0t1/ASportsHD.stream/playlist.m3u8'},
+{ name:'T10',image:'https://upload.wikimedia.org/wikipedia/en/0/05/T10_League_Logo.png',link:'https://webott.viatv.com.np/v0t1/ASportsHD.stream/playlist.m3u8'},
   //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://vijesh0512.github.io/suntv/'},
 //  { name: '1st Test', image: 'https://tsneh.vercel.app/xl9ukh3bnaip', link: 'https://tinyurl.com/2m4c538m' },
  // {name:"1st ODI",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX3sMu3kcHdDx9WfYivNpJIqPtxJYwVX4j_A&usqp=CAU",link:"https://dai.fancode.com/primary/112355_english_hls_4838ta-no/1080p.m3u8"},
 
 // {name:'WBBL',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk4x14C1uhxIej-KBuFWv9IeAdnh0vdSaUPfyvMaUq2enqbR1a4kgIe4c-&s=10',link:'https://allinonereborn.com/test/m3u.php?id=24016'},
-{ name:'BAR vs UTTAR',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m1_251124/master.m3u8'},
-{ name:'KER vs MAH',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m2_251124/master.m3u8'},
-{ name:'BIH vs PUN',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m3_251124/master.m3u8'},
+//{ name:'BAR vs UTTAR',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m1_251124/master.m3u8'},
+//{ name:'KER vs MAH',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m2_251124/master.m3u8'},
+//{ name:'BIH vs PUN',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100306/hd_akamai_merged_avc_eng_cricket_m3_251124/master.m3u8'},
   //{name: 'Odisha VS Mohun Bagan', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://live.drmlive-02.workers.dev/jc/122.m3u8' },
 //demo
  //{name: 'Odisha VS Mohun Bagan', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://prod-sports-eng-gm.jiocinema.com/hls/live/2112600/hd_akamai_merged_avc_isl_eng_m1101124/master_p2.m3u8' },
