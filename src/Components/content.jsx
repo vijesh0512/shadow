@@ -11,7 +11,7 @@ const stream = [
   
 //{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://tsneh.vercel.app/no1jiit61doa'},
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
-{ name:'T10',image:'https://upload.wikimedia.org/wikipedia/en/0/05/T10_League_Logo.png',link:'https://dai.fancode.com/primary/112604_english_hls_5278ta-no/1080p.m3u8'},
+{ name:'T10',image:'https://upload.wikimedia.org/wikipedia/en/0/05/T10_League_Logo.png',link:'http://darshan.glitch.me/play.html?manifest=https%3A%2F%2Fdai.fancode.com%2Fprimary%2F112605_english_hls_5885ta-di%2F1080p.m3u8&drmToggle=false&drmType=clearkey&keyId=&key=&licenseUrl='},
   //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://vijesh0512.github.io/suntv/'},
 //  { name: '1st Test', image: 'https://tsneh.vercel.app/xl9ukh3bnaip', link: 'https://tinyurl.com/2m4c538m' },
   //{name:"2nd ODI",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX3sMu3kcHdDx9WfYivNpJIqPtxJYwVX4j_A&usqp=CAU",link:"http://darshan.glitch.me/play.html?manifest=https%3A%2F%2Fdai.fancode.com%2Fprimary%2F112356_english_hls_5567ta-no%2Findex.m3u8&drmToggle=false&drmType=clearkey&keyId=&key=&licenseUrl="},
