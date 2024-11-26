@@ -54,7 +54,7 @@ const channels = [
   //{name: 'SS Tamil', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop8ucdt1JVIfgEzRt4K8A6AoRZ-DfftdXvSBfE2Pm8IBKBfA9Jwo61Es4&s=10',link:'https://allinonereborn.com/new-stalker/portal.php?id=12154'},
   //{ name: 'Vijay Super', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjonzzKzBGJJKpe1_FrbiyAwiMGAEGftloixlGuyIqiS6rRIkFTDArP4&s=10', link: 'https://tinyurl.com/ycxhrjsm' },
  // { name: 'Star Vijay', image: 'https://tinyurl.com/2heavac5', link: 'https://allinonereborn.com/test/m3u.php?id=951'},
-  //{ name: 'Sun TV', image: 'https://tinyurl.com/55rjk5ka', link: 'https://tinyurl.com/2e9ak5ds'},
+  { name: 'Sun TV', image: 'https://tinyurl.com/55rjk5ka', link: 'https://tsneh.vercel.app/shadow-suntv'},
   //{ name: 'K TV', image: 'https://seeklogo.com/images/K/ktv-logo-703754480A-seeklogo.com.png', link: 'https://tinyurl.com/yrzdjydy'},
   //{ name: 'Sun Music', image: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Sun_Music_%28No_Background%29.png', link: 'https://tinyurl.com/2s8c6ak2' },
   //{ name: 'Zee Tamil', image: 'https://www.ethnicchannels.com/images/channeldetail/zee-tamil/ZEE-TAMIL.png', link: 'https://tinyurl.com/42xpvj8y' },
