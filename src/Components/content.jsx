@@ -19,9 +19,9 @@ const stream = [
   //{name:"2nd ODI",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX3sMu3kcHdDx9WfYivNpJIqPtxJYwVX4j_A&usqp=CAU",link:"http://darshan.glitch.me/play.html?manifest=https%3A%2F%2Fdai.fancode.com%2Fprimary%2F112356_english_hls_5567ta-no%2Findex.m3u8&drmToggle=false&drmType=clearkey&keyId=&key=&licenseUrl="},
 
 // {name:'WBBL',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk4x14C1uhxIej-KBuFWv9IeAdnh0vdSaUPfyvMaUq2enqbR1a4kgIe4c-&s=10',link:'https://allinonereborn.com/test/m3u.php?id=24016'},
-{ name:'BARODA vs TN',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100307/hd_akamai_merged_avc_eng_cricket_m4_271124/master_p4.m3u8'},
-{ name:'MP vs PUNJAB',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100307/hd_akamai_merged_avc_eng_cricket_m5_271124/master_p4.m3u8'},
-{ name:'MAHARASHTRA vs MUMBAI',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100307/hd_akamai_merged_avc_eng_cricket_m6_271124/master_p4.m3u8'},
+{ name:'BARODA vs TamilNadu',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100307/hd_akamai_merged_avc_eng_cricket_m4_271124/master_p4.m3u8'},
+{ name:'MAH vs MUMBAI',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100307/hd_akamai_merged_avc_eng_cricket_m5_271124/master_p4.m3u8'},
+{ name:'MP vs PUNJAB',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100307/hd_akamai_merged_avc_eng_cricket_m6_271124/master_p4.m3u8'},
   //{name: 'Odisha VS Mohun Bagan', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://live.drmlive-02.workers.dev/jc/122.m3u8' },
 //demo
  //{name: 'Odisha VS Mohun Bagan', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://prod-sports-eng-gm.jiocinema.com/hls/live/2112600/hd_akamai_merged_avc_isl_eng_m1101124/master_p2.m3u8' },
