@@ -21,6 +21,7 @@ const shows = [
     name: 'HD Movies',
     image: 'https://play-lh.googleusercontent.com/5lGwoUsh5Z1eopCpGQIQjfoGqUHTJU_tAXNkdm1eiBVGGKoXqk5jX8Vm7DiAn42Lwbk6',
     shows: [
+      {name:'Lucky Baskhar',image:'https://tsneh.vercel.app/huef1u-3-e0p',link:'https://dls4.mrfooll.xyz/AgADvQ2965865'},
       {name:'Line Man',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4VYdC7jlraoiMX7Dg3EpV8AKv3dMduTHTBo3Dg68X5lJRbsjEfLe6rjSj&s=10',link:'https://tinyurl.com/hfft3kp3'},
     { name:'Amaran',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzugiP-FGYgjDvKH0orm9a3csrkqljfNSwqVBS9yIeVA3_2EUNNAizHBMD&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Amaran.mp4'},
    { name:'Bloody Beggar',image:'https://upload.wikimedia.org/wikipedia/en/4/40/Bloody_Beggar.jpg',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Bloody_Beggar.mp4'},
