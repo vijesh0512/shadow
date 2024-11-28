@@ -14,7 +14,7 @@ const stream = [
 //  {name:'1st Test',image:'https://tinyurl.com/9a3euv8m',link:'https://tsneh.vercel.app/tnt-4'},
 
   {name:'1st Test',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtJnQl0IQwtyNWVZBAwlv8cv7LCTsqkgAa8SYH78-jJfWi5Qj5CYPK_M&s=10',link:'https://tsneh.vercel.app/g4fi9mu-izji'},
-{ name:'T10',image:'https://tsneh.vercel.app/vd4ku1ip9vko',link:'https://tsneh.vercel.app/morxnkyibzvw'},
+{ name:'T10',image:'https://tsneh.vercel.app/vd4ku1ip9vko',link:'https://tsneh.vercel.app/atcbckrelqqv'},
   //sa vs eng womens
   //{name:'T20',image:'https://tinyurl.com/4buxxwcs',link:'https://tinyurl.com/yez88h9a'},
 //  {name:'ISL',image:'https://tinyurl.com/3xan68yf',link:'https://tinyurl.com/veezszbr'},
