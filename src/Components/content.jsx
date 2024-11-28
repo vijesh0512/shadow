@@ -20,7 +20,7 @@ const stream = [
 //  {name:'ISL',image:'https://tinyurl.com/3xan68yf',link:'https://tinyurl.com/veezszbr'},
   //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://vijesh0512.github.io/suntv/'},
 //  { name: '1st Test', image: 'https://tsneh.vercel.app/xl9ukh3bnaip', link: 'https://tinyurl.com/2m4c538m' },
-  //{name:"2nd ODI",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX3sMu3kcHdDx9WfYivNpJIqPtxJYwVX4j_A&usqp=CAU",link:"http://darshan.glitch.me/play.html?manifest=https%3A%2F%2Fdai.fancode.com%2Fprimary%2F112356_english_hls_5567ta-no%2Findex.m3u8&drmToggle=false&drmType=clearkey&keyId=&key=&licenseUrl="},
+  {name:"3rd ODI",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX3sMu3kcHdDx9WfYivNpJIqPtxJYwVX4j_A&usqp=CAU",link:"https://darshan.glitch.me/play.html?manifest=https%3A%2F%2Fdai.fancode.com%2Fprimary%2F112357_english_hls_6030ta-di%2F1080p.m3u8&drmToggle=false&drmType=clearkey&keyId=&key=&licenseUrl="},
 
 // {name:'WBBL',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk4x14C1uhxIej-KBuFWv9IeAdnh0vdSaUPfyvMaUq2enqbR1a4kgIe4c-&s=10',link:'https://allinonereborn.com/test/m3u.php?id=24016'},
 //{ name:'Baroda VS TamilNadu',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/smat_baroda_vs_tamil_nadu_vertical_3x4-1732698484423.jpg',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100307/hd_akamai_merged_avc_eng_cricket_m4_271124/master.m3u8'},
