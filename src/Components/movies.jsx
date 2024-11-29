@@ -9,7 +9,7 @@ const shows = [
     name: 'Theatre Print',
     image: 'https://media.istockphoto.com/id/1494642262/photo/people-in-the-cinema-auditorium-with-empty-white-screen.jpg?s=2048x2048&w=is&k=20&c=XLSiHIO02doIcuaB8BJMTcoTsyeQtvbngcQlQZLkEW4=',
     shows: [
-      {name:'Sorgavasal',image:'https://tinyurl.com/44wakenz',link:'https://dls4.mrfooll.xyz/AgADvQ2965865'},
+      {name:'Sorgavasal',image:'https://tinyurl.com/44wakenz',link:'https://dls4.mrfooll.xyz/AgAD_R2976155'},
        // {name:'Jolly O Gymkhana',image:'https://assetscdn1.paytm.com/images/cinema/Jolly-O-Gymkhana--6baf0b40-a3fa-11ef-b945-57c02e367648.jpg',link:'https://hi3thh5oxxww.acek-cdn.com/hls2/01/02861/cr3yjqz49q30_n/index-v1-a1.m3u8?t=B-W2mAIF_Yyy0fOZwSP9yLIY8VBPFpz0HPT-qhUsIFE&s=1732713454&e=129600&f=14308833&srv=0g7xgsanrz08&i=0.4&sp=500&p1=0g7xgsanrz08&p2=0g7xgsanrz08&asn=55836'},
        // {name:'Enakku thozhil romance',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5hLzPszSvT9NZdZefnj-KAitr54EYeVHH-k9-fH5vi8jszxlpQF9zguA&s=10',link:'https://tsneh.vercel.app/t12wll2rzm-n'},
      // { name:'Nirangal Moondru',image:'https://m.media-amazon.com/images/M/MV5BNDI3YTVhZTQtNjk5YS00OWFjLWI4NDEtNzBmYzMzODE1ODA3XkEyXkFqcGc@._V1_.jpg',link:'https://tsneh.vercel.app/99oyiq2fbasd'},
