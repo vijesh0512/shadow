@@ -9,7 +9,7 @@ const stream = [
 
 
   
-//{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://tsneh.vercel.app/no1jiit61doa'},
+  {name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://allinonereborn.com/dd.m3u8?id=23989'},
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
 //{name:'1st Test',image:'https://tinyurl.com/9a3euv8m',link:'https://tsneh.vercel.app/tnt-4'},
 
