@@ -20,6 +20,7 @@ const stream = [
 //{ name:'Baroda VS TamilNadu',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/smat_baroda_vs_tamil_nadu_vertical_3x4-1732698484423.jpg',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100307/hd_akamai_merged_avc_eng_cricket_m4_271124/master.m3u8'},
 //{ name:'Mah VS Mumbai',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100307/hd_akamai_merged_avc_eng_cricket_m5_271124/master.m3u8'},
 //{ name:'MP VS Punjab',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100307/hd_akamai_merged_avc_eng_cricket_m6_271124/master.m3u8'},
+  ];
   
 const movies = [
  
