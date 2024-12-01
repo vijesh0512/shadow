@@ -12,34 +12,19 @@ const stream = [
 //  {name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://allinonereborn.com/dd.m3u8?id=23989'},
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
 //  {name:'U19 Asia Cup',image:'https://tsneh.vercel.app/bgl0lder5dtp',link:'https://cricsters.io/event/play.php?id=1000299100'},
-//{name:'1st Test',image:'https://tinyurl.com/9a3euv8m',link:'https://tsneh.vercel.app/tnt-4'},
 
- // {name:'1st Test',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtJnQl0IQwtyNWVZBAwlv8cv7LCTsqkgAa8SYH78-jJfWi5Qj5CYPK_M&s=10',link:'https://tsneh.vercel.app/g4fi9mu-izji'},
 //{ name:'T10',image:'https://tinyurl.com/524jcpbd',link:'https://fancode.cricsters.io/play.php?id=112612&adsfree'},
-  //sa vs eng womens
-  //{name:'T20',image:'https://tinyurl.com/4buxxwcs',link:'https://tinyurl.com/yez88h9a'},
-//  {name:'ISL',image:'https://tinyurl.com/3xan68yf',link:'https://tinyurl.com/veezszbr'},
-  //{ name:'Pkl',image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/919-9198627_the-league-will-continue-its-existing-format-and.png',link:'https://vijesh0512.github.io/suntv/'},
-// { name: '1st Test', image: 'https://tsneh.vercel.app/xl9ukh3bnaip', link: 'https://tinyurl.com/2m4c538m' },
-  //{name:"3rd ODI",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX3sMu3kcHdDx9WfYivNpJIqPtxJYwVX4j_A&usqp=CAU",link:"https://darshan.glitch.me/play.html?manifest=https%3A%2F%2Fdai.fancode.com%2Fprimary%2F112357_english_hls_6030ta-di%2F1080p.m3u8&drmToggle=false&drmType=clearkey&keyId=&key=&licenseUrl="},
 
-// {name:'WBBL',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk4x14C1uhxIej-KBuFWv9IeAdnh0vdSaUPfyvMaUq2enqbR1a4kgIe4c-&s=10',link:'https://allinonereborn.com/test/m3u.php?id=24016'},
+//  {name:'ISL',image:'https://tinyurl.com/3xan68yf',link:'https://tinyurl.com/veezszbr'},
+
 //{ name:'Baroda VS TamilNadu',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/smat_baroda_vs_tamil_nadu_vertical_3x4-1732698484423.jpg',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100307/hd_akamai_merged_avc_eng_cricket_m4_271124/master.m3u8'},
 //{ name:'Mah VS Mumbai',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100307/hd_akamai_merged_avc_eng_cricket_m5_271124/master.m3u8'},
 //{ name:'MP VS Punjab',image:'https://cricketvectors.akamaized.net/Series/1M2.png?impolicy=default_web',link:'https://prod-sports-eng-gm.jiocinema.com/hls/live/2100307/hd_akamai_merged_avc_eng_cricket_m6_271124/master.m3u8'},
-  //{name: 'Odisha VS Mohun Bagan', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://live.drmlive-02.workers.dev/jc/122.m3u8' },
-//demo
- //{name: 'Odisha VS Mohun Bagan', image: 'https://www.indiansuperleague.com/static-assets/images/default-social-share.jpg', link: 'https://prod-sports-eng-gm.jiocinema.com/hls/live/2112600/hd_akamai_merged_avc_isl_eng_m1101124/master_p2.m3u8' },
-
-
-  //{name:'3rd ODI',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv_ADaI_RiY29m-Uz4m3ayR7MPnUc2DVUKrg&usqp=CAU',link:'http://195.90.209.41:7575/channel/n49361d2/index.m3u8?q=1731142068821'},
-
-];
+  
 const movies = [
- // {name:'Jolly O Gymkhana',image:'https://assetscdn1.paytm.com/images/cinema/Jolly-O-Gymkhana--6baf0b40-a3fa-11ef-b945-57c02e367648.jpg',link:'https://hi3thh5oxxww.acek-cdn.com/hls2/01/02861/cr3yjqz49q30_n/index-v1-a1.m3u8?t=B-W2mAIF_Yyy0fOZwSP9yLIY8VBPFpz0HPT-qhUsIFE&s=1732713454&e=129600&f=14308833&srv=0g7xgsanrz08&i=0.4&sp=500&p1=0g7xgsanrz08&p2=0g7xgsanrz08&asn=55836'},
- // {name:'Enakku thozhil romance',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5hLzPszSvT9NZdZefnj-KAitr54EYeVHH-k9-fH5vi8jszxlpQF9zguA&s=10',link:'https://tsneh.vercel.app/t12wll2rzm-n'},
-//  { name:'Nirangal Moondru',image:'https://m.media-amazon.com/images/M/MV5BNDI3YTVhZTQtNjk5YS00OWFjLWI4NDEtNzBmYzMzODE1ODA3XkEyXkFqcGc@._V1_.jpg',link:'https://tsneh.vercel.app/99oyiq2fbasd'},
+ 
 { name:'Kanguva',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUwqsHIIojmSJFVRY9gQlbY6NaQDNaUsu-b90mfCkI0PJHxf5nJzCJ-m0&s=10',link:'https://kanguva.vercel.app/'},
+  {name:'Lucky Bhaskar',image:'https://multicinema.in/assets1/2021MoviesPoster/Lucky_Baskhar.jpg',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Lucky_Baskhar.mp4'}.
  { name:'Amaran',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzugiP-FGYgjDvKH0orm9a3csrkqljfNSwqVBS9yIeVA3_2EUNNAizHBMD&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Amaran.mp4'},
     { name:'Bloody Beggar',image:'https://upload.wikimedia.org/wikipedia/en/4/40/Bloody_Beggar.jpg',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Bloody_Beggar.mp4'},
     { name:'Brother',image:'https://timesofindia.indiatimes.com/photo/103798855.cms',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Brother.mp4'},
@@ -49,7 +34,6 @@ const movies = [
     { name: 'Goat', image: 'https://images.news18.com/ibnlive/uploads/2024/06/fotojet-2024-06-22t145736.232-2024-06-713c0097066abbd6ee404f96ef27a872.jpg?impolicy=website', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Goat.mp4' },
     { name: 'Raayan', image: 'https://multicinema.in/assets1/2021MoviesPoster/Raayan.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Raayan.mp4' },
     { name: 'Vaazhai', image: 'https://img1.imageride.net/images/2024/08/24/GNfbjytfJh4TYJb.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Vaazhai.mp4' },
-    { name: 'Thangalan', image: 'https://multicinema.in/assets1/2021MoviesPoster/Thangalaan.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Ayalaan.mp4' },
     { name: 'Hi Nanna', image: 'https://tinyurl.com/ye76f2r4', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Hi_Nanna.mp4' },
     { name: 'Premalu', image: 'https://tinyurl.com/yn5t9a9p', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Premalu.mp4' },
 
