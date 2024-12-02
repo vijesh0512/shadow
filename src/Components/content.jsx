@@ -23,6 +23,7 @@ const stream = [
   ];
   
 const movies = [
+   {name:'Sorgavasal',image:'https://tinyurl.com/44wakenz',link:'https://sorgavasal.netlify.app/'},
  
 { name:'Kanguva',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUwqsHIIojmSJFVRY9gQlbY6NaQDNaUsu-b90mfCkI0PJHxf5nJzCJ-m0&s=10',link:'https://kanguva.vercel.app/'},
   {name:'Lucky Bhaskar',image:'https://multicinema.in/assets1/2021MoviesPoster/Lucky_Baskhar.jpg',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Lucky_Baskhar.mp4'},
