@@ -23,6 +23,7 @@ const stream = [
   ];
   
 const movies = [
+  {name:'Pushpa 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTheRlM_HeB2-5rRx8YV3zDdGWpelHHHX3XLbdsl62EUI5eszSjUKkHq61k&s=10',link:'https://shadow-pushpa2.netlify.app/'},
    {name:'Sorgavasal',image:'https://tinyurl.com/44wakenz',link:'https://sorgavasal.netlify.app/'},
  
 { name:'Kanguva',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUwqsHIIojmSJFVRY9gQlbY6NaQDNaUsu-b90mfCkI0PJHxf5nJzCJ-m0&s=10',link:'https://kanguva.netlify.app/'},
