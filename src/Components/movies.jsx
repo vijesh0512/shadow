@@ -130,6 +130,7 @@ const shows = [
       {name:'Bagheera',image:'https://multicinema.in/assets1/2021MoviesPoster/Bagheera.jpg',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Bagheera.mp4'},
       {name:"ARM",image:"https://multicinema.in/assets1/2021MoviesPoster/ARM.jpg",link:"https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/ARM.mp4"},
       { name: 'Devara', image: 'https://cdn.gulte.com/wp-content/uploads/2024/01/Devara-scaled.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Devara.mp4' },
+      {name:'Pushpa',image:'https://multicinema.in/assets1/2021MoviesPoster/Pushpa.jpg',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Pushpa.mp4'},
       { name: 'Adipurush', image: 'https://multicinema.in/assets1/2021MoviesPoster/Adipurush.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Adipurush.mp4' },
       {name:"Turbo",image:"https://multicinema.in/assets1/2021MoviesPoster/Turbo.jpg",link:"https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Turbo.mp4"},
       {name:"Aavesham",image:"https://multicinema.in/assets1/2021MoviesPoster/Aavesham.jpg",link:"https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Aavesham.mp4"},
