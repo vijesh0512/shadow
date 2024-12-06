@@ -145,8 +145,12 @@ const shows = [
     ],
   },
   {
-    name:'Vijay',image:'https://static.wikia.nocookie.net/althistory/images/5/5a/Vijay.jpg/revision/latest?cb=20240912112204',shows:[
+    name:'Vijay',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3itqcYZ6XyELlJRCxyLNQ8XmMCOoE17dRQA&s',shows:[
       {name:'Thulladha Manamum Thullum',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs9LfC1xF1zTBaoEwte4Oisif4JQB0RaXzCw&s',link:'https://b6.openfile.online/downloads/i6wmew_fY5YkvmhUiWufAw/1733710194/d/%20Actor%20Hits%20Collection/Vijay%20%20Movies%20Collection/Thulladha%20Manamum%20Thullum%20(1999)/Thulladha%20Manamum%20Thullum%20Mp4%20HD/Thulladha%20Manamum%20Thullum%20HD.mp4'},
+      {name:'Selva',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxSSAZRrL8jtxB0RPTsLDiNwMLvHRs01F-FA&s',link:'https://b6.openfile.online/downloads/gK_V7V8SG4Ylsz-ho73kHg/1733711251/d/%20Actor%20Hits%20Collection/Vijay%20%20Movies%20Collection/Selva%20(1996)/Selva%20Mp4%20HD/Selva%20HD.mp4'},
+      {name:"Rajavin Parvayile",image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxdvn_JjgdNAivhmXEgBgi_CCmDYRTz8LNuA&s',link:'https://b6.openfile.online/downloads/CFOgzFVOcbUVYZ1WnVSzkQ/1733711006/d/%20Actor%20Hits%20Collection/Vijay%20%20Movies%20Collection/Rajavin%20Parvayile%20(1995)/Rajavin%20Parvayile%20Mp4%20HD/Rajavin%20Parvayile%20HD.mp4'},
+      {name:'Rasigan',image:'https://a10.gaanacdn.com/gn_img/albums/DwPKOkBKqV/PKOxN0pj3q/size_m.jpg',link:'https://b6.openfile.online/downloads/genIRiqLG8vVIZll7i0Urw/1733710835/d/%20Actor%20Hits%20Collection/Vijay%20%20Movies%20Collection/Rasigan%20(1994)/Rasigan%20Mp4%20HD/Rasigan%20HD.mp4'},
+      {name:'Senthoora Pandi',image:'https://upload.wikimedia.org/wikipedia/en/2/26/Senthoorapandi_poster.jpg',link:'https://b6.openfile.online/downloads/6fI-x3q6b67cXyXsz-oW9A/1733710651/d/%20Actor%20Hits%20Collection/Vijay%20%20Movies%20Collection/Sendhoora%20Pandi%20(1993)/Sendhoora%20Pandi%20Mp4%20HD/Sendhoora%20Pandi%20HD.mp4'},
       
   ],
   },
