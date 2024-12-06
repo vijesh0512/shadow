@@ -14,7 +14,8 @@
   z-index: 2000;
 }
 .son {
-  min-width: 150px;
+  width: 200px;
+  height:auto;
   text-align: center;
   cursor: pointer;
   transition: transform 0.2s;
@@ -50,7 +51,7 @@
       gap: 9px;
   }
   .son {
-      width: 90px;
+      width: 70px;
       height:auto;
       margin-top: 30px;
   }
