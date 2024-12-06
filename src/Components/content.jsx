@@ -13,7 +13,7 @@ const stream = [
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
 // {name:'U19 Asia Cup',image:'https://images.slivcdn.com/videoasset_images/ac24_sf_sl_vs_ind_4dec_eng_landscape_thumb.jpg?w=360&q=low',link:'https://cricsters.fun/?id=sonyten5fhd'},
 //{name:'Tennis Premium League',image:'https://tsneh.vercel.app/7joamfh1g18-',link:'https://tsneh.vercel.app/vvd4vklzdd8l'},
-  {name:'SA vs SL',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/sa_v_sl_2_test_live_vertical_3x4_day_2-1733457726598.jpg',link:'https://tsneh.vercel.app/soum92-8vqce'},
+//{name:'SA vs SL',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/sa_v_sl_2_test_live_vertical_3x4_day_2-1733457726598.jpg',link:'https://tsneh.vercel.app/soum92-8vqce'},
 //{ name:'T10',image:'https://tinyurl.com/524jcpbd',link:'https://fancode.cricsters.io/play.php?id=112612&adsfree'},
 
 //  {name:'ISL',image:'https://tinyurl.com/3xan68yf',link:'https://tinyurl.com/veezszbr'},
