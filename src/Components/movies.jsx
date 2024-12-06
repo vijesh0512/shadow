@@ -10,12 +10,7 @@ const shows = [
     image: 'https://media.istockphoto.com/id/1494642262/photo/people-in-the-cinema-auditorium-with-empty-white-screen.jpg?s=2048x2048&w=is&k=20&c=XLSiHIO02doIcuaB8BJMTcoTsyeQtvbngcQlQZLkEW4=',
     shows: [
         {name:'Pushpa 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTheRlM_HeB2-5rRx8YV3zDdGWpelHHHX3XLbdsl62EUI5eszSjUKkHq61k&s=10',link:'https://tamil.openmv.site/Pushpa%202%20The%20Rule%20(2024)%20HQ%20DVDScr%20Single%20Part%20(720p)%20HEVC.mp4'},
-      {name:'Sorgavasal',image:'https://tinyurl.com/44wakenz',link:'https://tamil.openmv.site/Sorgavaasal%20(2024)%20HQ%20DVDScr%20Single%20Part%20(720p)%20HEVC.mp4'},
-       // {name:'Jolly O Gymkhana',image:'https://assetscdn1.paytm.com/images/cinema/Jolly-O-Gymkhana--6baf0b40-a3fa-11ef-b945-57c02e367648.jpg',link:'https://hi3thh5oxxww.acek-cdn.com/hls2/01/02861/cr3yjqz49q30_n/index-v1-a1.m3u8?t=B-W2mAIF_Yyy0fOZwSP9yLIY8VBPFpz0HPT-qhUsIFE&s=1732713454&e=129600&f=14308833&srv=0g7xgsanrz08&i=0.4&sp=500&p1=0g7xgsanrz08&p2=0g7xgsanrz08&asn=55836'},
-       // {name:'Enakku thozhil romance',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5hLzPszSvT9NZdZefnj-KAitr54EYeVHH-k9-fH5vi8jszxlpQF9zguA&s=10',link:'https://tsneh.vercel.app/t12wll2rzm-n'},
-     // { name:'Nirangal Moondru',image:'https://m.media-amazon.com/images/M/MV5BNDI3YTVhZTQtNjk5YS00OWFjLWI4NDEtNzBmYzMzODE1ODA3XkEyXkFqcGc@._V1_.jpg',link:'https://tsneh.vercel.app/99oyiq2fbasd'},
-    //
-      
+      {name:'Sorgavasal',image:'https://tinyurl.com/44wakenz',link:'https://tamil.openmv.site/Sorgavaasal%20(2024)%20HQ%20DVDScr%20Single%20Part%20(720p)%20HEVC.mp4'}, 
     ],
   },
 
@@ -26,7 +21,7 @@ const shows = [
       
         { name:'Kanguva',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUwqsHIIojmSJFVRY9gQlbY6NaQDNaUsu-b90mfCkI0PJHxf5nJzCJ-m0&s=10',link:'https://dls4.mrfooll.xyz/AgADzh2992347'},
       {name:'Lucky Baskhar',image:'https://tsneh.vercel.app/huef1u-3-e0p',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Lucky_Baskhar.mp4'},
-      {name:'Line Man',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4VYdC7jlraoiMX7Dg3EpV8AKv3dMduTHTBo3Dg68X5lJRbsjEfLe6rjSj&s=10',link:'https://tinyurl.com/hfft3kp3'},
+      {name:'Line Man',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4VYdC7jlraoiMX7Dg3EpV8AKv3dMduTHTBo3Dg68X5lJRbsjEfLe6rjSj&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Lineman.mp4'},
     { name:'Amaran',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzugiP-FGYgjDvKH0orm9a3csrkqljfNSwqVBS9yIeVA3_2EUNNAizHBMD&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Amaran.mp4'},
    { name:'Bloody Beggar',image:'https://upload.wikimedia.org/wikipedia/en/4/40/Bloody_Beggar.jpg',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Bloody_Beggar.mp4'},
     { name:'Brother',image:'https://timesofindia.indiatimes.com/photo/103798855.cms',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Brother.mp4'},
@@ -34,11 +29,10 @@ const shows = [
     { name:"Vettaiyan",image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQULrTu7hLs5ggDAet-gSB2-ujfUA4nqb1U40cpUO0qihy1Cliz4HufKAHM&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Vettaiyan.mp4'},
     { name: 'Meiyazhagan', image: 'https://i.scdn.co/image/ab67616d0000b2737e86df2b3a35c59564738524', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Meiyazhagan.mp4' },
       {name:'Sattam',image:'https://multicinema.in/assets1/2021MoviesPoster/Sattam_En_Kaiyil.jpg',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Sattam_En_Kaiyil.mp4'},
-      {name:'Petta rap',image:'https://m.media-amazon.com/images/M/MV5BZDZiNjRlOTQtNDBkNy00MDgxLTgxZDQtNTc5Zjg2NWM2NGZlXkEyXkFqcGc@._V1_.jpg',link:'https://tinyurl.com/438xf6st'},
+      {name:'Petta rap',image:'https://m.media-amazon.com/images/M/MV5BZDZiNjRlOTQtNDBkNy00MDgxLTgxZDQtNTc5Zjg2NWM2NGZlXkEyXkFqcGc@._V1_.jpg',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Petta_Rap.mp4'},
     { name: 'Hitler', image: 'https://assets.gadgets360cdn.com/pricee/assets/product/202312/Hitler1_1703675553.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Hitler.mp4'},
     
     { name: 'KP Chelladurai', image: 'https://m.media-amazon.com/images/M/MV5BN2JmODY2NDYtNDk0Zi00ZDM1LTlkYjktNDFkMmUzZDlmODA3XkEyXkFqcGc@._V1_.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Kozhipannai_Chelladurai.mp4' },
-    { name: 'Tholar cheguevara', image: 'https://m.media-amazon.com/images/M/MV5BMjNkNWM4NDItZDBjNi00N2EzLTg4YmYtMTNkYzJlMjE3ZWRjXkEyXkFqcGc@._V1_.jpg', link: 'https://tsneh.vercel.app/vhy7_dipwhlz' },
     { name: 'Kadaisi Ulaga Por', image: 'https://m.media-amazon.com/images/M/MV5BODYzOGY4NmEtYjRiNi00OGI3LWE4MWItZWJlM2MwNDUwMDM1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Nandhan.mp4' },
     { name: 'Nandhan', image: 'https://chennaivision.com/wp-content/uploads/2024/09/post-7.png', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Kadaisi_Ulaga_Por.mp4'},
     { name: 'Lubber Pandhu', image: 'https://assetscdn1.paytm.com/images/cinema/_Lubber-Pandhu---Gallery-13cf1990-711b-11ef-a8ad-e19aad791794.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Lubber_Pandhu.mp4' },
@@ -109,17 +103,17 @@ const shows = [
     { name: 'PS 2', image: 'https://multicinema.in/assets1/2021MoviesPoster/Ponniyin_Selvan_2.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Ponniyin_Selvan_2.mp4' },
     { name: 'Aug 16 1947', image: 'https://multicinema.in/assets1/2021MoviesPoster/August_16,_1947.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/August_16,_1947.mp4' },
     { name: 'Rudhran', image: 'https://multicinema.in/assets1/2021MoviesPoster/Rudhran.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Rudhran.mp4' },
-    { name: 'Indian', image: 'https://tse3.mm.bing.net/th?id=OIP.kIGZqDMSKxes8ZgTq5S4cwHaEK&pid=Api&P=0&h=220', link: 'https://tinyurl.com/bddjccbm' },
+ //   { name: 'Indian', image: 'https://tse3.mm.bing.net/th?id=OIP.kIGZqDMSKxes8ZgTq5S4cwHaEK&pid=Api&P=0&h=220', link: 'https://tinyurl.com/bddjccbm' },
     { name: 'Indian 2', image: 'https://tse3.mm.bing.net/th?id=OIP.Ua5_ZEp9dPl7t0MfPJHWEAHaJx&pid=Api&P=0&h=220', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Indian_2.mp4' },
-    { name: 'Gilli', image: 'https://tse1.mm.bing.net/th?id=OIP.9PcN-V68fxHcgzAD6m2KRgHaEK&pid=Api&P=0&h=220', link: 'https://tinyurl.com/3faf5733' },
+  //  { name: 'Gilli', image: 'https://tse1.mm.bing.net/th?id=OIP.9PcN-V68fxHcgzAD6m2KRgHaEK&pid=Api&P=0&h=220', link: 'https://tinyurl.com/3faf5733' },
     { name: 'Silunu oru kathal', image: 'https://tse2.mm.bing.net/th?id=OIP.tZC2NWAFN5eQPxmsq7k7VQHaHa&pid=Api&P=0&w=300&h=300', link: 'https://tinyurl.com/m24ykm8c' },
-    { name: 'Singam', image: 'https://tse2.mm.bing.net/th?id=OIP.A8DeQzl3jEMO0CrxPkI0QgHaK9&pid=Api&P=0&h=220', link: 'https://tinyurl.com/rzr9cyyr' },
-    { name: 'Singam 2', image: 'https://tse4.mm.bing.net/th?id=OIP.fwI3mpQ8MBt8c0WTwXrO1gHaLH&pid=Api&P=0&h=220', link: 'https://tinyurl.com/2f278ww5' },
-    { name: 'Singam 3', image: 'https://static1.showtimes.com/poster/660x980/singam-3-149662.jpg', link: 'https://tinyurl.com/4purxjhh' },
-    { name: 'Varanam Aayiram', image: 'https://tse4.mm.bing.net/th?id=OIP.D5omBps0JHW4awBpAFl2gQHaLH&pid=Api&P=0&h=220', link: 'https://tinyurl.com/yc6nkhwf' },
-    { name: 'Managaram', image: 'https://fr.web.img6.acsta.net/pictures/20/05/08/20/43/3400430.jpg', link: 'https://tinyurl.com/3e8z4rvr' },
-    { name: 'Mankarathe', image: 'https://wallpapercave.com/wp/wp7501819.jpg', link: 'https://tinyurl.com/bdfzs46y' },
-    { name: 'RajiniMurugan', image: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/54ea49e8c68cb4efd2200aa4ede5ae8e32098a643d61e072be278ba745dbe963._RI_V_TTW_.jpg', link: 'https://tinyurl.com/yc52yfmk' },
+    // { name: 'Singam', image: 'https://tse2.mm.bing.net/th?id=OIP.A8DeQzl3jEMO0CrxPkI0QgHaK9&pid=Api&P=0&h=220', link: 'https://tinyurl.com/rzr9cyyr' },
+    // { name: 'Singam 2', image: 'https://tse4.mm.bing.net/th?id=OIP.fwI3mpQ8MBt8c0WTwXrO1gHaLH&pid=Api&P=0&h=220', link: 'https://tinyurl.com/2f278ww5' },
+    // { name: 'Singam 3', image: 'https://static1.showtimes.com/poster/660x980/singam-3-149662.jpg', link: 'https://tinyurl.com/4purxjhh' },
+    // { name: 'Varanam Aayiram', image: 'https://tse4.mm.bing.net/th?id=OIP.D5omBps0JHW4awBpAFl2gQHaLH&pid=Api&P=0&h=220', link: 'https://tinyurl.com/yc6nkhwf' },
+    // { name: 'Managaram', image: 'https://fr.web.img6.acsta.net/pictures/20/05/08/20/43/3400430.jpg', link: 'https://tinyurl.com/3e8z4rvr' },
+    // { name: 'Mankarathe', image: 'https://wallpapercave.com/wp/wp7501819.jpg', link: 'https://tinyurl.com/bdfzs46y' },
+   // { name: 'RajiniMurugan', image: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/54ea49e8c68cb4efd2200aa4ede5ae8e32098a643d61e072be278ba745dbe963._RI_V_TTW_.jpg', link: 'https://tinyurl.com/yc52yfmk' },
 
      
     ],
@@ -149,6 +143,12 @@ const shows = [
     { name: 'Avatar 2', image: 'https://multicinema.in/assets1/2021MoviesPoster/Avatar_2.jpg', link: 'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Avatar_2.mp4' },
 
     ],
+  },
+  {
+    name:'Vijay',image:'https://static.wikia.nocookie.net/althistory/images/5/5a/Vijay.jpg/revision/latest?cb=20240912112204',shows:[
+      {name:'Thulladha Manamum Thullum',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs9LfC1xF1zTBaoEwte4Oisif4JQB0RaXzCw&s',link:'https://b6.openfile.online/downloads/i6wmew_fY5YkvmhUiWufAw/1733710194/d/%20Actor%20Hits%20Collection/Vijay%20%20Movies%20Collection/Thulladha%20Manamum%20Thullum%20(1999)/Thulladha%20Manamum%20Thullum%20Mp4%20HD/Thulladha%20Manamum%20Thullum%20HD.mp4'},
+      
+  ],
   },
   {
     name: 'Harry Potter',
