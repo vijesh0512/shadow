@@ -9,7 +9,7 @@ const stream = [
 
 
   
-// {name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://teal-brigadeiros-8a321a.netlify.app/'},
+{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://teal-brigadeiros-8a321a.netlify.app/'},
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
 // {name:'U19 Asia Cup',image:'https://images.slivcdn.com/videoasset_images/ac24_sf_sl_vs_ind_4dec_eng_landscape_thumb.jpg?w=360&q=low',link:'https://cricsters.fun/?id=sonyten5fhd'},
 //{name:'Tennis Premium League',image:'https://tsneh.vercel.app/7joamfh1g18-',link:'https://tsneh.vercel.app/vvd4vklzdd8l'},
