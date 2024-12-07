@@ -146,7 +146,7 @@ const shows = [
   },
   {
     name:'Vijay',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3itqcYZ6XyELlJRCxyLNQ8XmMCOoE17dRQA&s',shows:[
-      
+      {name:'Theri',image:'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcStWCQF-J2UddArBRO3Pw03SSDBnsGRmVb_-1XbVf277EKD5gA7vN7fWeWOUKkO6L403gAy',link:'https://b6.openfile.online/downloads/KjNmUxcpRF6gDp5NyHZi3w/1733801231/d/%20Actor%20Hits%20Collection/Vijay%20%20Movies%20Collection/Theri%20(2016)/Theri/Theri%20(2016)%20Single%20Part%20(640x360).mp4'},
       {name:'Thuppakki',image:'https://cinemachaat.com/wp-content/uploads/2013/05/thuppakki.jpg',link:'https://b6.openfile.online/downloads/in6CH1aEhyONhUqgnK1L7g/1733712646/d/%20Actor%20Hits%20Collection/Vijay%20%20Movies%20Collection/Thuppakki%20(2012)/Thuppakki%20Mp4%20HD/Thuppakki%20HD.mp4'},
       {name:'Nanban',image:'https://i.scdn.co/image/ab67616d00001e02a077a1d08548c2b716e5a307',link:'https://b6.openfile.online/downloads/wmR3M9VnMj2J8czk9IbUOg/1733798280/d/%20Actor%20Hits%20Collection/Vijay%20%20Movies%20Collection/Nanban%20(2012)/Nanban%20Mp4%20HD/Nanban%20HD.mp4'},
       {name:'Kuruvi',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtVYKAYcuVsiQYObiQNyzn5f3D27N0uEBjfQ&s',link:'https://b6.openfile.online/downloads/nKXbUOQSlbJXZCT9qHt3hg/1733740900/d/%20Actor%20Hits%20Collection/Vijay%20%20Movies%20Collection/Kuruvi%20(2008)/Kuruvi%20Mp4%20HD/Kuruvi%20HD.mp4'},
