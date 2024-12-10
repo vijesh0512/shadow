@@ -13,7 +13,7 @@ const stream = [
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
 
   {name:"2nd ODI",image:'https://www.fancode.com/skillup-uploads/cms-media/Bangladesh-tour-of-West-Indies-ODI--old-match-card.png',link:'https://dai.fancode.com/primary/112347_english_hls_7322ta-di/1080p.m3u8'},
-  {name:'1st T20;',image:'https://v3img.voot.com/resizeMedium,w_256,h_341/v3Storage/assets/1_t20i_sa_vs_pak_live_vertical_3x4-1733806006569.jpg',link:'https://tinyurl.com/42dnhnyk'},
+  {name:'1st T20',image:'https://v3img.voot.com/resizeMedium,w_256,h_341/v3Storage/assets/1_t20i_sa_vs_pak_live_vertical_3x4-1733806006569.jpg',link:'https://tinyurl.com/42dnhnyk'},
 
 //  {name:'ISL',image:'https://tinyurl.com/3xan68yf',link:'https://tinyurl.com/veezszbr'},
 
