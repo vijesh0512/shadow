@@ -21,6 +21,7 @@ const shows = [
       {name:'SIR', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqtRVLhfpC7jveOTXFVu0sG1Tt-dAfUIoA08ytB-VbIw&s',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Sir.mp4'},
         { name:'Kanguva',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUwqsHIIojmSJFVRY9gQlbY6NaQDNaUsu-b90mfCkI0PJHxf5nJzCJ-m0&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Kanguva.mp4'},
       {name:'Enakku Thozhil Romance',image:'https://1kuttymovies.com.co/poster/Emakku_Thozhil_Romance_(2024)_Movie_Poster.jpg',link:'https://dl2.hotshare.click/Moviesda.Mobi_-_Emakku_Thozhil_Romance_2024_HDRip_1080p_HD.mp4'},
+      {name:'Nirangal Moondru',image:'https://3moviesda.com/uploads/posters/nirangal-moondru-2024.webp',link:'https://dl4.hotshare.click/Moviesda.Mobi_-_Nirangal_Moondru_2024_Original_1080p_HD.mp4'},
       {name:'Lucky Baskhar',image:'https://tsneh.vercel.app/huef1u-3-e0p',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Lucky_Baskhar.mp4'},
       {name:'Line Man',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4VYdC7jlraoiMX7Dg3EpV8AKv3dMduTHTBo3Dg68X5lJRbsjEfLe6rjSj&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Lineman.mp4'},
     { name:'Amaran',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzugiP-FGYgjDvKH0orm9a3csrkqljfNSwqVBS9yIeVA3_2EUNNAizHBMD&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Amaran.mp4'},
