@@ -24,7 +24,7 @@ const stream = [
 //{ name:'SMAT 2024',image:'https://v3img.voot.com/resizeMedium,w_256,h_341/v3Storage/assets/smat_services_vs_mumbai_live_3x4_vertical-1733196576850.jpg',link:'https://darshan.glitch.me/play.html?manifest=https%3A%2F%2Fprod-sports-eng-gm.jiocinema.com%2Fhls%2Flive%2F2100306%2Fhd_akamai_merged_avc_eng_cricket_m3_031224%2Fmobile_master.m3u8%3F&drmToggle=false&drmType=clearkey&keyId=&key=&licenseUrl='},
 
 
-  {name:'E-Football',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdxgniZ4xkjYvHAnDcOOQPj_-kfmrm4HvJ1w&usqp=CAU',link:'https://www.youtube.com/live/rG7uSfWZOXs?si=zx3-wycLDP6BFEM8'},
+  {name:'E-Football',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdxgniZ4xkjYvHAnDcOOQPj_-kfmrm4HvJ1w&usqp=CAU',link:'https://www.youtube.com/live/a8fljT5qETM?si=b9h8PpQFrcWyzkFY'},
   ];
   
 const movies = [
