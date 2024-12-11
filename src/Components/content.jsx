@@ -16,10 +16,10 @@ const stream = [
 //  {name:'1st T20',image:'https://v3img.voot.com/resizeMedium,w_256,h_341/v3Storage/assets/1_t20i_sa_vs_pak_live_vertical_3x4-1733806006569.jpg',link:'https://tinyurl.com/42dnhnyk'},
 
   {name:'ISL',image:'https://img.theweek.in/content/dam/week/news/sports/images/2019/10/14/ISL-logo-pic.jpg',link:'https://tsneh.vercel.app/whupiyznmtgh'},
-{name:'T10',image:'https://www.fancode.com/skillup-uploads/cms-media/113990_4663_NEK_CJ_fc-web_1733813070590.jpg',link:'https://tinyurl.com/5cmdd2dh'},
+//{name:'T10',image:'https://www.fancode.com/skillup-uploads/cms-media/113990_4663_NEK_CJ_fc-web_1733813070590.jpg',link:'https://tinyurl.com/5cmdd2dh'},
 { name:'ISPL Auction',image:'https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/ispl_auction_live_clean_ctv-1733816805987.jpg',link:'https://darshan.glitch.me/play.html?manifest=https%3A%2F%2Fprod-sports-eng-cf.jiocinema.com%2Fhls%2Flive%2F2100307%2Fhd_akamai_merged_avc_eng_cricket_m6_111224%2Fmaster_p2.m3u8&drmToggle=false&drmType=clearkey&keyId=&key=&licenseUrl='},
-  {name:'1st T20',image:'https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-tour-of-Zimbabwe_old.jpg',link:'https://tsneh.vercel.app/xbu-naf-biol'},
-{ name:'SMAT 2024 QF',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/delhi_vs_up_latest_smat_live_vertical_3x4-1733843548418.jpg',link:'https://tinyurl.com/mvrmzk94'},
+  //{name:'1st T20',image:'https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-tour-of-Zimbabwe_old.jpg',link:'https://tsneh.vercel.app/xbu-naf-biol'},
+//{ name:'SMAT 2024 QF',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/delhi_vs_up_latest_smat_live_vertical_3x4-1733843548418.jpg',link:'https://tinyurl.com/mvrmzk94'},
 //{ name:'SMAT 2024 QF',image:'https://v3img.voot.com/resizeMedium,w_256,h_341/v3Storage/assets/baroda_vs_bengal_latest_smat_live_vertical_3x4-1733843370320.jpg',link:'https://tinyurl.com/4jrnbhp9'},
 //{ name:'SMAT 2024',image:'https://v3img.voot.com/resizeMedium,w_256,h_341/v3Storage/assets/smat_services_vs_mumbai_live_3x4_vertical-1733196576850.jpg',link:'https://darshan.glitch.me/play.html?manifest=https%3A%2F%2Fprod-sports-eng-gm.jiocinema.com%2Fhls%2Flive%2F2100306%2Fhd_akamai_merged_avc_eng_cricket_m3_031224%2Fmobile_master.m3u8%3F&drmToggle=false&drmType=clearkey&keyId=&key=&licenseUrl='},
 
