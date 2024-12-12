@@ -45,10 +45,10 @@ const channels = [
     return (
       <>
         <h1 className='sideheading'>Live TV</h1>
-{/*         <p className='vlc'>INSTALL VLC MEDIA PLAYER BEFORE USING THIS
-        <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc" target="_blank" rel="noopener noreferrer" className='vlc2'>Click here */}
-{/*         </a> */}
-        // </p>
+{/*        <p className='vlc'>INSTALL VLC MEDIA PLAYER BEFORE USING THIS
+        <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc" target="_blank" rel="noopener noreferrer" className='vlc2'>Click here 
+        </a> 
+        </p> */}
         <div className='play'>
           {channels.map((channel, index) => (
          <div key={index} className="son">
