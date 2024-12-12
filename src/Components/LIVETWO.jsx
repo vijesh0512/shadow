@@ -36,10 +36,23 @@ const channels = [
     { name: 'Raj Digital Plus', image: 'https://tvschedule.today/_next/image?url=https%3A%2F%2Fjiotvimages.cdn.jio.com%2Fdare_images%2Fimages%2F200%2F-%2FRaj_Digital_Plus.png&w=128&q=75', link: 'https://tp.yg048.workers.dev/ch/426.m3u8' },
     { name: 'Jaya Movies', image: 'https://jiotvimages.cdn.jio.com/dare_images/images/J_Movies.png', link: 'https://tp.yg048.workers.dev/ch/201.m3u8' },
     { name: 'Zee Thirai', image: 'https://yt3.googleusercontent.com/ytc/AIdro_naDONS2sIbXLEsOuPcSAtDfmIujuL4ZxPlesztsXDMow=s900-c-k-c0x00ffffff-no-rj', link: 'https://tp.yg048.workers.dev/ch/1182.m3u8' },
-    // { name: '', image: '', link: '' },
-    // { name: '', image: '', link: '' },
-    // { name: '', image: '', link: '' },
-    // { name: '', image: '', link: '' },
+    
+  
+     { name: 'DD SPORTS', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-941-j5mhk5fc-v1/imageContent-941-j5mhk5fc-m1.png', link: 'https://tp.yg048.workers.dev/ch/223.m3u8' },
+    { name: 'Star Sports 1 HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-8301-j7hc0820-v1/imageContent-8301-j7hc0820-m1.png', link: 'https://tp.yg048.workers.dev/ch/78.m3u8' },
+    { name: 'Star Sports 2 HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-1021-j5nj3c68-v1/imageContent-1021-j5nj3c68-m1.png', link: 'https://tp.yg048.workers.dev/ch/235.m3u8' },
+    { name: 'Star Sports Select 1 HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-7891-j75vq7k0-v1/imageContent-7891-j75vq7k0-m1.PNG', link: 'https://tp.yg048.workers.dev/ch/246.m3u8' },
+      { name: 'Star Sports Select 2 HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11791-j9kyqpy8-v1/imageContent-11791-j9kyqpy8-m1.png', link: 'https://tp.yg048.workers.dev/ch/463.m3u8' },
+      { name: 'SONY SPORTS TEN 1 HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-261-j5fz9bvk-v4/imageContent-261-j5fz9bvk-m4.png', link: 'https://tp.yg048.workers.dev/ch/81.m3u8' },
+      { name: 'SONY SPORTS TEN 2 HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11784-j9kylfd4-v2/imageContent-11784-j9kylfd4-m3.png', link: 'https://tp.yg048.workers.dev/ch/462.m3u8' },
+      { name: 'SONY SPORTS TEN 3 HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11787-j9kynnm0-v3/imageContent-11787-j9kynnm0-m3.png', link: 'https://tp.yg048.workers.dev/ch/464.m3u8' },
+      { name: 'SONY SPORTS TEN 5 HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-108-j5fl5wwg-v3/imageContent-108-j5fl5wwg-m3.png', link: 'https://tp.yg048.workers.dev/ch/35.m3u8' },
+      { name: 'Sports 18 1 HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-74232-la6z41u8-v3/imageContent-74232-la6z41u8-m5.png', link: 'https://tp.yg048.workers.dev/ch/1033.m3u8' },
+      { name: 'Eurosport HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-52842-k980h8vc-v1/imageContent-52842-k980h8vc-m2.png', link: 'https://tp.yg048.workers.dev/ch/812.m3u8' },
+
+      // { name: '', image: '', link: '' },
+      // { name: '', image: '', link: '' },
+  
   ];
   const Livetwo = () => {
     return (
