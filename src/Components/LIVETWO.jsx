@@ -30,12 +30,12 @@ const channels = [
   //{ name: 'Rasi Cinema', image: 'https://tse4.mm.bing.net/th?id=OIP.T3ZCC2aWZPwdJE7euzwyqAHaF4&pid=Api&P=0&h=220', link: 'https://tinyurl.com/59hj6atw' },
   //{ name: 'History', image: 'https://searchvectorlogo.com/wp-content/uploads/2020/04/history-tv18-logo-vector.png', link: 'https://tinyurl.com/4uvwdtm8' },
 
-    // { name: '', image: '', link: '' },
-    // { name: '', image: '', link: '' },
+    { name: 'Jaya TV', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZLbE5_4NKtis11wQ9PIMzGFlRWmZe6B0lMQ&s', link: 'https://tp.yg048.workers.dev/ch/708.m3u8' },
+    { name: 'Raj TV', image: 'https://indiantelevision.com/sites/default/files/styles/smartcrop_800x800/public/images/mam-images/2014/09/24/ik.jpg?itok=f7Nk4kCj', link: 'https://tp.yg048.workers.dev/ch/439.m3u8' },
 
-    // { name: '', image: '', link: '' },
-    // { name: '', image: '', link: '' },
-    // { name: '', image: '', link: '' },
+    { name: 'Raj Digital Plus', image: 'https://tvschedule.today/_next/image?url=https%3A%2F%2Fjiotvimages.cdn.jio.com%2Fdare_images%2Fimages%2F200%2F-%2FRaj_Digital_Plus.png&w=128&q=75', link: 'https://tp.yg048.workers.dev/ch/426.m3u8' },
+    { name: 'Jaya Movies', image: 'https://jiotvimages.cdn.jio.com/dare_images/images/J_Movies.png', link: 'https://tp.yg048.workers.dev/ch/201.m3u8' },
+    { name: 'Zee Thirai', image: 'https://yt3.googleusercontent.com/ytc/AIdro_naDONS2sIbXLEsOuPcSAtDfmIujuL4ZxPlesztsXDMow=s900-c-k-c0x00ffffff-no-rj', link: 'https://tp.yg048.workers.dev/ch/1182.m3u8' },
     // { name: '', image: '', link: '' },
     // { name: '', image: '', link: '' },
     // { name: '', image: '', link: '' },
