@@ -3,15 +3,15 @@ import './live.css';
 
 const channels = [
   //{ name: 'Vijay Takkar', image: 'https://news.indiantvinfo.com/media/2022/09/Logo-of-Vijay-Takkar-Channel-300x300.png', link: 'https://stream.vstartv.org:3511/hybrid/play.m3u8' },
- { name: 'SS Tamil', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop8ucdt1JVIfgEzRt4K8A6AoRZ-DfftdXvSBfE2Pm8IBKBfA9Jwo61Es4&s=10',link:'albaniaserver.com/play/live.php?mac=00:1A:79:5C:C1:11&stream=441095&extension=ts&play_token=zr3DwTDkQA'},
+// { name: 'SS Tamil', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop8ucdt1JVIfgEzRt4K8A6AoRZ-DfftdXvSBfE2Pm8IBKBfA9Jwo61Es4&s=10',link:'albaniaserver.com/play/live.php?mac=00:1A:79:5C:C1:11&stream=441095&extension=ts&play_token=zr3DwTDkQA'},
   //{ name: 'Vijay Super', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjonzzKzBGJJKpe1_FrbiyAwiMGAEGftloixlGuyIqiS6rRIkFTDArP4&s=10', link: 'https://tinyurl.com/yc3mav2k' },
-  { name: 'Star Vijay', image: 'https://tinyurl.com/2heavac5', link: 'https://tsneh.vercel.app/4ubvrtxrrc8z'},
-  { name: 'Sun TV', image: 'https://tinyurl.com/55rjk5ka', link: 'https://tsneh.vercel.app/e7nzbvsajd9s'},
-  { name: 'K TV', image: 'https://seeklogo.com/images/K/ktv-logo-703754480A-seeklogo.com.png', link: 'https://tsneh.vercel.app/pzcbfzzgscvb'},
-  { name: 'Sun Music', image: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Sun_Music_%28No_Background%29.png', link: 'https://tsneh.vercel.app/0p6utv7krmxb' },
-  { name: 'Zee Tamil', image: 'https://www.ethnicchannels.com/images/channeldetail/zee-tamil/ZEE-TAMIL.png', link: 'https://tsneh.vercel.app/cx4wnjwedrny' },
-  { name: 'Colors Tamil', image: 'https://tinyurl.com/yc2kz4ck', link: 'https://tsneh.vercel.app/aqs1jwfnunfn' },
-  { name: 'Thanthi One', image: 'https://pbs.twimg.com/profile_images/1782026072185339904/r41WPxGJ_400x400.jpg', link: 'https://249553662f3e.ap-south-1.playback.live-video.net/api/video/v1/ap-south-1.588204940461.channel.Sx8XPoik8VX2.m3u8' },
+  { name: 'Star Vijay', image: 'https://tinyurl.com/2heavac5', link: 'https://tp.yg048.workers.dev/ch/496.m3u8'},
+  { name: 'Sun TV', image: 'https://tinyurl.com/55rjk5ka', link: 'https://tp.yg048.workers.dev/ch/521.m3u8'},
+  { name: 'K TV', image: 'https://seeklogo.com/images/K/ktv-logo-703754480A-seeklogo.com.png', link: 'https://tp.yg048.workers.dev/ch/380.m3u8'},
+  //{ name: 'Sun Music', image: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Sun_Music_%28No_Background%29.png', link: 'https://tsneh.vercel.app/0p6utv7krmxb' },
+  { name: 'Zee Tamil', image: 'https://www.ethnicchannels.com/images/channeldetail/zee-tamil/ZEE-TAMIL.png', link: 'https://tp.yg048.workers.dev/ch/608.m3u8' },
+  { name: 'Colors Tamil', image: 'https://tinyurl.com/yc2kz4ck', link: 'https://tp.yg048.workers.dev/ch/674.m3u8' },
+  { name: 'Thanthi One', image: 'https://pbs.twimg.com/profile_images/1782026072185339904/r41WPxGJ_400x400.jpg', link: 'https://tp.yg048.workers.dev/ch/1322.m3u8' },
   { name: 'Kalaignar TV', image: 'https://tsneh.vercel.app/fzqicp5wkped', link: 'https://segment.yuppcdn.net/240122/kalaignartv/playlist.m3u8' },
   { name: 'Siripoli', image: 'https://tsneh.vercel.app/bril2azbth2y', link: 'https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8' },
   { name: 'Isaiaruvi', image: 'https://tsneh.vercel.app/wjqhyyohoqcc', link: 'https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8' },
@@ -52,11 +52,11 @@ const channels = [
         <div className='play'>
           {channels.map((channel, index) => (
          <div key={index} className="son">
-  <a
-    href={`intent://${channel.link}#Intent;action=android.intent.action.VIEW;category=android.intent.category.DEFAULT;package=com.genuine.leone;S.browser_fallback_url=https://play.google.com/store/apps/details?id=com.genuine.leone;end`}
-    target="_self"
-    rel="noopener noreferrer"
-  >
+<a
+  href={channel.link}
+  target="_blank"
+  rel="noopener noreferrer"
+>
     <img src={channel.image} alt={channel.name} />
   </a>
   <p>{channel.name}</p>
