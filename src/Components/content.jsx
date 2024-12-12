@@ -53,7 +53,7 @@ const others = [
 const channels = [
  { name: 'Star Vijay', image: 'https://tinyurl.com/2heavac5', link: 'https://tp.yg048.workers.dev/ch/496.m3u8'},
   { name: 'Sun TV', image: 'https://tinyurl.com/55rjk5ka', link: 'https://tp.yg048.workers.dev/ch/521.m3u8'},
-  { name: 'K TV', image: 'https://seeklogo.com/images/K/ktv-logo-703754480A-seeklogo.com.png', link: 'https://tp.yg048.workers.dev/ch/380.m3u8
+  { name: 'K TV', image: 'https://seeklogo.com/images/K/ktv-logo-703754480A-seeklogo.com.png', link: 'https://tp.yg048.workers.dev/ch/380.m3u8'},
      { name: 'Zee Tamil', image: 'https://www.ethnicchannels.com/images/channeldetail/zee-tamil/ZEE-TAMIL.png', link: 'https://tp.yg048.workers.dev/ch/608.m3u8' },
   { name: 'Colors Tamil', image: 'https://tinyurl.com/yc2kz4ck', link: 'https://tp.yg048.workers.dev/ch/674.m3u8' },
     { name: 'Star Sports 1 HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-8301-j7hc0820-v1/imageContent-8301-j7hc0820-m1.png', link: 'https://tp.yg048.workers.dev/ch/78.m3u8' },
