@@ -19,9 +19,8 @@ const stream = [
 //{name:'T10',image:'https://www.fancode.com/skillup-uploads/cms-media/113990_4663_NEK_CJ_fc-web_1733813070590.jpg',link:'https://tinyurl.com/5cmdd2dh'},
 
   //{name:'1st T20',image:'https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-tour-of-Zimbabwe_old.jpg',link:'https://tsneh.vercel.app/xbu-naf-biol'},
-//{ name:'SMAT 2024 QF',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/delhi_vs_up_latest_smat_live_vertical_3x4-1733843548418.jpg',link:'https://tinyurl.com/mvrmzk94'},
-//{ name:'SMAT 2024 QF',image:'https://v3img.voot.com/resizeMedium,w_256,h_341/v3Storage/assets/baroda_vs_bengal_latest_smat_live_vertical_3x4-1733843370320.jpg',link:'https://tinyurl.com/4jrnbhp9'},
-//{ name:'SMAT 2024',image:'https://v3img.voot.com/resizeMedium,w_256,h_341/v3Storage/assets/smat_services_vs_mumbai_live_3x4_vertical-1733196576850.jpg',link:'https://darshan.glitch.me/play.html?manifest=https%3A%2F%2Fprod-sports-eng-gm.jiocinema.com%2Fhls%2Flive%2F2100306%2Fhd_akamai_merged_avc_eng_cricket_m3_031224%2Fmobile_master.m3u8%3F&drmToggle=false&drmType=clearkey&keyId=&key=&licenseUrl='},
+{ name:'SMAT 2024 SF',image:'https://upload.wikimedia.org/wikipedia/en/1/1a/Paytm_Syed_Mushtaq_Ali_Trophy.jpg',link:'https://darshan.glitch.me/play.html?manifest=https%3A%2F%2Fprod-sports-eng-gm.jiocinema.com%2Fhls%2Flive%2F2100306%2Fhd_akamai_merged_avc_eng_cricket_m1_131224%2Fmaster_p2.m3u8&drmToggle=false&drmType=clearkey&keyId=&key=&licenseUrl='},
+
 
 
   //{name:'E-Football',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdxgniZ4xkjYvHAnDcOOQPj_-kfmrm4HvJ1w&usqp=CAU',link:'https://www.youtube.com/live/a8fljT5qETM?si=b9h8PpQFrcWyzkFY'},
