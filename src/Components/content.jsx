@@ -11,7 +11,7 @@ const stream = [
   
 //{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://teal-brigadeiros-8a321a.netlify.app/'},
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
-  {name:'BB 24*7',image:'https://v3img.voot.com/resizeMedium,w_150,h_200/v3Storage/assets/baroda_vs_mumbai_smat_live_vertical_3x4-1734014818931.jpg',link:'https://tsneh.vercel.app/oobpk0jvpgbj'},
+  {name:'BB 24*7',image:'https://upload.wikimedia.org/wikipedia/en/c/c1/Bigg_Boss_Poster.jpg',link:'https://tsneh.vercel.app/oobpk0jvpgbj'},
  // {name:"2nd ODI",image:'https://www.fancode.com/skillup-uploads/cms-media/Bangladesh-tour-of-West-Indies-ODI--old-match-card.png',link:'https://tinyurl.com/y3fhyxvc'},
 //  {name:'1st T20',image:'https://v3img.voot.com/resizeMedium,w_256,h_341/v3Storage/assets/1_t20i_sa_vs_pak_live_vertical_3x4-1733806006569.jpg',link:'https://tinyurl.com/42dnhnyk'},
 
@@ -19,7 +19,7 @@ const stream = [
 //{name:'T10',image:'https://www.fancode.com/skillup-uploads/cms-media/113990_4663_NEK_CJ_fc-web_1733813070590.jpg',link:'https://tinyurl.com/5cmdd2dh'},
 
   //{name:'1st T20',image:'https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-tour-of-Zimbabwe_old.jpg',link:'https://tsneh.vercel.app/xbu-naf-biol'},
-{ name:'SMAT 2024 SF',image:'https://upload.wikimedia.org/wikipedia/en/1/1a/Paytm_Syed_Mushtaq_Ali_Trophy.jpg',link:'https://darshan.glitch.me/play.html?manifest=https%3A%2F%2Fprod-sports-eng-gm.jiocinema.com%2Fhls%2Flive%2F2100306%2Fhd_akamai_merged_avc_eng_cricket_m1_131224%2Fmaster_p2.m3u8&drmToggle=false&drmType=clearkey&keyId=&key=&licenseUrl='},
+{ name:'SMAT 2024 SF',image:'https://v3img.voot.com/resizeMedium,w_150,h_200/v3Storage/assets/baroda_vs_mumbai_smat_live_vertical_3x4-1734014818931.jpg',link:'https://darshan.glitch.me/play.html?manifest=https%3A%2F%2Fprod-sports-eng-gm.jiocinema.com%2Fhls%2Flive%2F2100306%2Fhd_akamai_merged_avc_eng_cricket_m1_131224%2Fmaster_p2.m3u8&drmToggle=false&drmType=clearkey&keyId=&key=&licenseUrl='},
 
 
 
