@@ -50,8 +50,18 @@ const channels = [
       { name: 'Sports 18 1 HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-74232-la6z41u8-v3/imageContent-74232-la6z41u8-m5.png', link: 'https://tp.yg048.workers.dev/ch/1033.m3u8' },
       { name: 'Eurosport HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-52842-k980h8vc-v1/imageContent-52842-k980h8vc-m2.png', link: 'https://tp.yg048.workers.dev/ch/812.m3u8' },
 
+      { name: 'Movies Now HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-12095-j9ooixfs-v1/imageContent-12095-j9ooixfs-m1.png', link: 'https://tp.yg048.workers.dev/ch/562.m3u8' },
+      { name: 'MN+ HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-12095-j9ooixfs-v1/imageContent-12095-j9ooixfs-m1.png', link: 'https://tp.yg048.workers.dev/ch/210.m3u8' },
+      { name: 'MNX HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-12216-j9qm5hjs-v2/imageContent-12216-j9qm5hjs-m2.png', link: 'https://tp.yg048.workers.dev/ch/599.m3u8' },
+      { name: 'Romedy Now', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-751-j5l5kb9k-v3/imageContent-751-j5l5kb9k-m3.png', link: 'https://tp.yg048.workers.dev/ch/174.m3u8' },
       // { name: '', image: '', link: '' },
       // { name: '', image: '', link: '' },
+      // { name: '', image: '', link: '' },
+      // { name: '', image: '', link: '' },
+      // { name: '', image: '', link: '' },
+      // { name: '', image: '', link: '' },
+      // { name: '', image: '', link: '' },
+  
   
   ];
   const Livetwo = () => {
