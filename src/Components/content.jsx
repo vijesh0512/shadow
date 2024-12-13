@@ -18,7 +18,7 @@ const stream = [
  // {name:'ISL',image:'https://img.theweek.in/content/dam/week/news/sports/images/2019/10/14/ISL-logo-pic.jpg',link:'https://tsneh.vercel.app/whupiyznmtgh'},
 //{name:'T10',image:'https://www.fancode.com/skillup-uploads/cms-media/113990_4663_NEK_CJ_fc-web_1733813070590.jpg',link:'https://tinyurl.com/5cmdd2dh'},
 
-  //{name:'1st T20',image:'https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-tour-of-Zimbabwe_old.jpg',link:'https://tsneh.vercel.app/xbu-naf-biol'},
+  {name:'2nd T20',image:'https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-tour-of-Zimbabwe_old.jpg',link:'https://tsneh.vercel.app/dyz8q5q2oudg'},
 { name:'SMAT 2024 SF',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/delhi_vs_madhya_pradesh_smat_live_vertical_3x4-1734014919854.jpg',link:'darshan.glitch.me/play.html?manifest=https%3A%2F%2Fprod-sports-eng-gm.jiocinema.com%2Fhls%2Flive%2F2100306%2Fhd_akamai_merged_avc_eng_cricket_m2_131224%2Fmaster_p2.m3u8&drmToggle=false&drmType=clearkey&keyId=&key=&licenseUrl='},
 
 
