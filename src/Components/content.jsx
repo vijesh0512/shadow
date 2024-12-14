@@ -9,11 +9,11 @@ const stream = [
 
 
   
-{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://bgt-shadow.netlify.app/'},
+{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://tinyurl.com/yd4rnz9k'},
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
   {name:'BB 24*7',image:'https://upload.wikimedia.org/wikipedia/en/c/c1/Bigg_Boss_Poster.jpg',link:'https://tsneh.vercel.app/oobpk0jvpgbj'},
  // {name:"2nd ODI",image:'https://www.fancode.com/skillup-uploads/cms-media/Bangladesh-tour-of-West-Indies-ODI--old-match-card.png',link:'https://tinyurl.com/y3fhyxvc'},
-{name:'2nd T20',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/2nd_t20i_sa_vs_pak_live_vertical_3x4-1734076421684.jpg',link:'https://tsneh.vercel.app/uoveg1jjymog'},
+//{name:'2nd T20',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/2nd_t20i_sa_vs_pak_live_vertical_3x4-1734076421684.jpg',link:'https://tsneh.vercel.app/uoveg1jjymog'},
 
  // {name:'ISL',image:'https://img.theweek.in/content/dam/week/news/sports/images/2019/10/14/ISL-logo-pic.jpg',link:'https://tsneh.vercel.app/whupiyznmtgh'},
 //{name:'T10',image:'https://www.fancode.com/skillup-uploads/cms-media/113990_4663_NEK_CJ_fc-web_1733813070590.jpg',link:'https://tinyurl.com/5cmdd2dh'},
