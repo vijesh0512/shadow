@@ -18,7 +18,7 @@ const shows = [
     name: 'HD Movies',
     image: 'https://play-lh.googleusercontent.com/5lGwoUsh5Z1eopCpGQIQjfoGqUHTJU_tAXNkdm1eiBVGGKoXqk5jX8Vm7DiAn42Lwbk6',
     shows: [
-      {name:'Sorgavasal',image:'https://tinyurl.com/44wakenz',link:'https://tsneh.vercel.app/lcni7hdicnbe'}, 
+      {name:'Sorgavasal',image:'https://tinyurl.com/44wakenz',link:'https://dl.vdocdn.com/openload/bef2737586b80699334bdf3bc0891ffb/68a4cb37ce5a2dde815999d4e55b1aa520241212150148/0a37af/2f8a5e/1734140512?dl=1'}, 
       {name:'SIR', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqtRVLhfpC7jveOTXFVu0sG1Tt-dAfUIoA08ytB-VbIw&s',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Sir.mp4'},
       { name:'Kanguva',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUwqsHIIojmSJFVRY9gQlbY6NaQDNaUsu-b90mfCkI0PJHxf5nJzCJ-m0&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Kanguva.mp4'},
       {name:'Jolly O Gymkhana',image:'https://assetscdn1.paytm.com/images/cinema/Jolly-O-Gymkhana--6baf0b40-a3fa-11ef-b945-57c02e367648.jpg',link:'https://tsneh.vercel.app/zs4ozobq13-3'},
