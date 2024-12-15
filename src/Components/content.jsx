@@ -9,7 +9,7 @@ const stream = [
 
 
   
-//{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://tinyurl.com/yd4rnz9k'},
+{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://tinyurl.com/yd4rnz9k'},
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
   {name:'BB 24*7',image:'https://upload.wikimedia.org/wikipedia/en/c/c1/Bigg_Boss_Poster.jpg',link:'https://tsneh.vercel.app/oobpk0jvpgbj'},
  // {name:"2nd ODI",image:'https://www.fancode.com/skillup-uploads/cms-media/Bangladesh-tour-of-West-Indies-ODI--old-match-card.png',link:'https://tinyurl.com/y3fhyxvc'},
