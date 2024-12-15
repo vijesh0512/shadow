@@ -12,6 +12,7 @@ const stream = [
 //{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://allinonereborn.com/tatatv.php?id=206091'},
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
   {name:'BB 24*7',image:'https://upload.wikimedia.org/wikipedia/en/c/c1/Bigg_Boss_Poster.jpg',link:'https://tsneh.vercel.app/oobpk0jvpgbj'},
+  {name:'BB 24"7',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThxrY7X-VBQl3AJEvMy3hRXC5PHZmHiD5zrJUJn6AAznA01WN9mcDVrd4&s=10',link:'https://tsneh.vercel.app/vpewobkw0kha'},
 //  {name:'MLS vs PRS',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkaNjFqHKLIoqmOhx8KSXXG69AhjEngPkNZHCBjqrXRUa67hy8CHLMW1dA&s=10',link:'https://allinonereborn.com/tatatv.php?id=206091'},
  // {name:'ENGW vs SAW',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/day_1_test_women_sa_vs_eng_live_vertical_3x4-1734229369382.jpg',link:'https://tinyurl.com/4f78fbzh'},
  // {name:'INDW vs PAKW',image:'https://jiotvimages.cdn.jio.com/dare_images/shows/700/-/2024-12-19/241219155010.jpg',link:'https://cricsters.io/event/play.php?id=1000301123'},
