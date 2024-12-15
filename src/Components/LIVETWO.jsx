@@ -61,6 +61,8 @@ const channels = [
       { name: 'History TV18 HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-12267-j9qx2si0-v3/imageContent-12267-j9qx2si0-m3.png', link: 'https://tp.yg048.workers.dev/ch/616.m3u8' },
       { name: 'Sony BBC Earth', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-551-j5ky7ufk-v5/imageContent-551-j5ky7ufk-m7.png', link: 'https://tp.yg048.workers.dev/ch/158.m3u8' },
       // { name: '', image: '', link: '' },
+
+  {name:'Music',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB_A3T73MFVf3S_8HpZXx_eHZjYQi2HmrlQI_NuWIg1z_hyIt1sheZCm6S&s=10',link:'https://allinonereborn.com/tatatv.php?id=60115'},
   
   
   ];
