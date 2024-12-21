@@ -10,7 +10,7 @@ const shows = [
     image: 'https://media.istockphoto.com/id/1494642262/photo/people-in-the-cinema-auditorium-with-empty-white-screen.jpg?s=2048x2048&w=is&k=20&c=XLSiHIO02doIcuaB8BJMTcoTsyeQtvbngcQlQZLkEW4=',
     shows: [
       {name:'Miss You', image:'https://m.media-amazon.com/images/M/MV5BZjFlOTg1MDUtYTMwOS00MDBlLWE4ZjAtZjAzZWJjYzEyZWNjXkEyXkFqcGc@._V1_.jpg',link:'https://dls4.mrfooll.xyz/AgADpx3080984'},
-        {name:'Pushpa 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTheRlM_HeB2-5rRx8YV3zDdGWpelHHHX3XLbdsl62EUI5eszSjUKkHq61k&s=10',link:'https://tamil.openmv.site/Pushpa%202%20The%20Rule%20(2024)%20HQ%20DVDScr%20Single%20Part%20(720p)%20HEVC.mp4'},
+        
       {name:'Soodhu Kavvum 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF5A5s85hmdSY-b3Wfd_nR4O7jUHobQy3uBGiESgEFmmljs5hjU7buCWmz&s=10',link:'https://tsneh.vercel.app/de0uvhxkcoqr'},
     ],
   },
@@ -19,6 +19,7 @@ const shows = [
     name: 'HD Movies',
     image: 'https://play-lh.googleusercontent.com/5lGwoUsh5Z1eopCpGQIQjfoGqUHTJU_tAXNkdm1eiBVGGKoXqk5jX8Vm7DiAn42Lwbk6',
     shows: [
+      {name:'Pushpa 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTheRlM_HeB2-5rRx8YV3zDdGWpelHHHX3XLbdsl62EUI5eszSjUKkHq61k&s=10',link:'https://tsneh.vercel.app/9bikjlftszpc'},
       {name:'Sorgavasal',image:'https://tinyurl.com/44wakenz',link:'https://tsneh.vercel.app/w8ub8lbkmoxd'}, 
       {name:'SIR', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqtRVLhfpC7jveOTXFVu0sG1Tt-dAfUIoA08ytB-VbIw&s',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Sir.mp4'},
       { name:'Kanguva',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUwqsHIIojmSJFVRY9gQlbY6NaQDNaUsu-b90mfCkI0PJHxf5nJzCJ-m0&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Kanguva.mp4'},
