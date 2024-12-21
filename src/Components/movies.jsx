@@ -9,6 +9,7 @@ const shows = [
     name: 'Theatre Print',
     image: 'https://media.istockphoto.com/id/1494642262/photo/people-in-the-cinema-auditorium-with-empty-white-screen.jpg?s=2048x2048&w=is&k=20&c=XLSiHIO02doIcuaB8BJMTcoTsyeQtvbngcQlQZLkEW4=',
     shows: [
+      {name:'Viduthalai 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX7lrsHalT6c2XvmrNbOO3a3f0YFbKbpT5JEGyR1C00KhvdEShO9diMbw&s=10',link:'https://tsneh.vercel.app/kqbl7mnm_x1f'},
       {name:'Miss You', image:'https://m.media-amazon.com/images/M/MV5BZjFlOTg1MDUtYTMwOS00MDBlLWE4ZjAtZjAzZWJjYzEyZWNjXkEyXkFqcGc@._V1_.jpg',link:'https://dls4.mrfooll.xyz/AgADpx3080984'},
         
       {name:'Soodhu Kavvum 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF5A5s85hmdSY-b3Wfd_nR4O7jUHobQy3uBGiESgEFmmljs5hjU7buCWmz&s=10',link:'https://tsneh.vercel.app/de0uvhxkcoqr'},
