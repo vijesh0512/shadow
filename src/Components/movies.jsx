@@ -20,7 +20,7 @@ const shows = [
     name: 'HD Movies',
     image: 'https://play-lh.googleusercontent.com/5lGwoUsh5Z1eopCpGQIQjfoGqUHTJU_tAXNkdm1eiBVGGKoXqk5jX8Vm7DiAn42Lwbk6',
     shows: [
-      {name:'Pushpa 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTheRlM_HeB2-5rRx8YV3zDdGWpelHHHX3XLbdsl62EUI5eszSjUKkHq61k&s=10',link:'https://tsneh.vercel.app/9bikjlftszpc'},
+      {name:'Pushpa 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTheRlM_HeB2-5rRx8YV3zDdGWpelHHHX3XLbdsl62EUI5eszSjUKkHq61k&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Pushpa_2.mp4'},
       {name:'Sorgavasal',image:'https://tinyurl.com/44wakenz',link:'https://tsneh.vercel.app/w8ub8lbkmoxd'}, 
       {name:'SIR', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqtRVLhfpC7jveOTXFVu0sG1Tt-dAfUIoA08ytB-VbIw&s',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Sir.mp4'},
       { name:'Kanguva',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUwqsHIIojmSJFVRY9gQlbY6NaQDNaUsu-b90mfCkI0PJHxf5nJzCJ-m0&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Kanguva.mp4'},
