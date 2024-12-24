@@ -312,6 +312,11 @@ const Movies = () => {
     <>
       {currentVideo && (
         <div className="plr">
+          {loading && (
+            <div className="loading-spinner">
+              <div className="spinner"></div>
+            </div>
+          )}
 
           <div className="video-wrapper">
             <div className={`video-thumbnail ${loading ? 'visible' : 'hidden'}`}>
