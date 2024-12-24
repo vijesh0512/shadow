@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Plyr from 'plyr';
+import ReactPlayer from 'react-player';
 import './live.css';
 import './album.css';
 
@@ -286,108 +286,47 @@ const Movies = () => {
   const [currentVideo, setCurrentVideo] = useState(null);
   const [loading, setLoading] = useState(true);
   const [thumbnail, setThumbnail] = useState(null);
-  const playerRef = React.useRef(null);
 
   useEffect(() => {
     if (currentVideo) {
-      setLoading(true); // Show loading spinner when video is changing
-
-      if (playerRef.current) {
-        // Update the video source
-        playerRef.current.source = {
-          type: 'video',
-          sources: [
-            { src: currentVideo, type: 'video/mp4', size: 720 },
-            { src: currentVideo.replace('.mp4', '_480.mp4'), type: 'video/mp4', size: 480 },
-             { src: currentVideo.replace('.mp4', '_1080.mp4'), type: 'video/mp4', size: 1080 },
-          ],
-        };
-
-        playerRef.current.play(); // Ensure the video starts playing automatically
-      } else {
-        // Initialize Plyr with additional settings
-        playerRef.current = new Plyr('.video-player', {
-          controls: [
-            'play',
-            'progress',
-            'current-time',
-            'mute',
-            'volume',
-            'captions',
-            'settings',
-            'pip',
-            'airplay',
-            'fullscreen',
-          ],
-          settings: ['quality', 'speed'],
-          quality: {
-            default: 720,
-            options: [1080,720, 480],
-            forced: true,
-            onChange: (quality) => {
-              console.log(`Quality changed to ${quality}`);
-            },
-          },
-          autoplay: true, // Auto play the video once it's loaded
-        });
-
-        playerRef.current.source = {
-          type: 'video',
-          sources: [
-            { src: currentVideo, type: 'video/mp4', size: 720 },
-            { src: currentVideo.replace('.mp4', '_480.mp4'), type: 'video/mp4', size: 480 },
-            { src: currentVideo.replace('.mp4', '_1080.mp4'), type: 'video/mp4', size: 1080 },
-          ],
-        };
-
-        // Automatically play the video once Plyr is initialized
-        playerRef.current.play();
-      }
-
-      // Event listener to hide loading when video starts playing
-      playerRef.current.on('playing', () => {
-        setLoading(false); // Hide loading spinner once the video starts playing
-      });
+      setLoading(true);
     }
-
-    return () => {
-      if (playerRef.current) {
-        playerRef.current.destroy();
-        playerRef.current = null;
-      }
-    };
   }, [currentVideo]);
 
   const handleAlbumClick = (album) => {
     setSelectedAlbum(album);
-    setCurrentVideo(null); // Reset video on album change
+    setCurrentVideo(null);
   };
 
   const handleBackClick = () => {
     setSelectedAlbum(null);
-    setCurrentVideo(null); // Reset video on back click
+    setCurrentVideo(null);
   };
 
   const handleVideoClick = (video) => {
-    setCurrentVideo(video.link); // Set the MP4 video source
-    setThumbnail(video.image); // Set the video thumbnail
+    setCurrentVideo(video.link);
+    setThumbnail(video.image);
   };
 
   return (
     <>
       {currentVideo && (
         <div className="plr">
-          {loading && (
-            <div className="loading-spinner">
-              <div className="spinner"></div> {/* Add spinner styles below */}
-            </div>
-          )}
+
           <div className="video-wrapper">
-            {/* Show thumbnail while loading */}
             <div className={`video-thumbnail ${loading ? 'visible' : 'hidden'}`}>
               {thumbnail && <img src={thumbnail} alt="Loading..." />}
             </div>
-            <video className="video-player" />
+            <ReactPlayer
+              url={currentVideo}
+              className="video-player"
+              playing
+              controls
+              onReady={() => setLoading(false)}
+              onError={() => setLoading(false)}
+              width="100%"
+              height="100%"
+            />
           </div>
         </div>
       )}
