@@ -1,23 +1,22 @@
 import React, { useState, useEffect } from 'react';
-import Plyr from 'plyr';
+import ReactPlayer from 'react-player';
 import './live.css';
 import './album.css';
-import 'plyr/dist/plyr.css';
 
 const shows = [
   {
     name: 'Squid Game',
     image: 'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FjlbrV1Kl4Y8pWXu12SppebRs7On.jpg',
     shows: [
-        { name: "Red Light Green Light", img: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FvMFJS9LIUUAmQ1thq4vJ7iHKwRz.jpg", link: "https://tinyurl.com/5n95a6wf" },
-        { name: "Hell", img: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FuacNwki3PqXEFk9Pal9Ng5NwwAI.jpg", link: "https://tinyurl.com/3pb4h97j" },
-        { name: "The man with umbrella", img: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FxNtgrNEsMXvmRQQtcFuJdbXOjmP.jpg", link: "https://tinyurl.com/5f6zmx3b" },
-        { name: "Stick with the team", img: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F9cUGOdLN4gmnf3b9ILArnJsJI8Q.jpg", link: "https://tinyurl.com/m5x9v2ff" },
-        { name: "A Fair World", img: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F2pE9f6drlF7y9rwUw6dh1w6jF5M.jpg", link: "https://tinyurl.com/ycyn76cc" },
-        { name: "Gganbu", img: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FcohCCQzTe2ncdQczJDUsO0vzxPR.jpg", link: "https://tinyurl.com/4da97enp" },
-        { name: "VIPS", img: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F4pVfv4HaM5QpFJTHm19p2UI0StN.jpg", link: "https://tinyurl.com/mrxbw29s" },
-        { name: "Front man", img: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FlOgFVmykN9qlpAoiBSIV2lu7XCS.jpg", link: "https://tinyurl.com/3834ytdt" },
-        {name:"One lucky day",img:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FsKeQbHeEUQLyoSdopa0QXm604cz.jpg',link:'https://tinyurl.com/yphnhscj'},
+        { name: "Red Light Green Light", image: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FvMFJS9LIUUAmQ1thq4vJ7iHKwRz.jpg", link: "https://tinyurl.com/5n95a6wf" },
+        { name: "Hell", image: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FuacNwki3PqXEFk9Pal9Ng5NwwAI.jpg", link: "https://tinyurl.com/3pb4h97j" },
+        { name: "The man with umbrella", image: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FxNtgrNEsMXvmRQQtcFuJdbXOjmP.jpg", link: "https://tinyurl.com/5f6zmx3b" },
+        { name: "Stick with the team", image: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F9cUGOdLN4gmnf3b9ILArnJsJI8Q.jpg", link: "https://tinyurl.com/m5x9v2ff" },
+        { name: "A Fair World", image: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F2pE9f6drlF7y9rwUw6dh1w6jF5M.jpg", link: "https://tinyurl.com/ycyn76cc" },
+        { name: "Gganbu", image: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FcohCCQzTe2ncdQczJDUsO0vzxPR.jpg", link: "https://tinyurl.com/4da97enp" },
+        { name: "VIPS", image: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F4pVfv4HaM5QpFJTHm19p2UI0StN.jpg", link: "https://tinyurl.com/mrxbw29s" },
+        { name: "Front man", image: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FlOgFVmykN9qlpAoiBSIV2lu7XCS.jpg", link: "https://tinyurl.com/3834ytdt" },
+        {name:"One lucky day",image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FsKeQbHeEUQLyoSdopa0QXm604cz.jpg',link:'https://tinyurl.com/yphnhscj'},
 
     ],
   },
@@ -27,97 +26,31 @@ const shows = [
 
 
 
-
 const Movies = () => {
   const [selectedAlbum, setSelectedAlbum] = useState(null);
   const [currentVideo, setCurrentVideo] = useState(null);
   const [loading, setLoading] = useState(true);
   const [thumbnail, setThumbnail] = useState(null);
-  const playerRef = React.useRef(null);
 
   useEffect(() => {
     if (currentVideo) {
-      setLoading(true); // Show loading spinner when video is changing
-
-      if (playerRef.current) {
-        // Update the video source
-        playerRef.current.source = {
-          type: 'video',
-          sources: [
-            { src: currentVideo, type: 'video/mp4', size: 720 },
-            { src: currentVideo.replace('.mp4', '_480.mp4'), type: 'video/mp4', size: 480 },
-             { src: currentVideo.replace('.mp4', '_1080.mp4'), type: 'video/mp4', size: 1080 },
-          ],
-        };
-
-        playerRef.current.play(); // Ensure the video starts playing automatically
-      } else {
-        // Initialize Plyr with additional settings
-        playerRef.current = new Plyr('.video-player', {
-          controls: [
-            'play',
-            'progress',
-            'current-time',
-            'mute',
-            'volume',
-            'captions',
-            'settings',
-            'pip',
-            'airplay',
-            'fullscreen',
-          ],
-          settings: ['quality', 'speed'],
-          quality: {
-            default: 720,
-            options: [1080,720, 480],
-            forced: true,
-            onChange: (quality) => {
-              console.log(`Quality changed to ${quality}`);
-            },
-          },
-          autoplay: true, // Auto play the video once it's loaded
-        });
-
-        playerRef.current.source = {
-          type: 'video',
-          sources: [
-            { src: currentVideo, type: 'video/mp4', size: 720 },
-            { src: currentVideo.replace('.mp4', '_480.mp4'), type: 'video/mp4', size: 480 },
-             { src: currentVideo.replace('.mp4', '_1080.mp4'), type: 'video/mp4', size: 1080 },
-          ],
-        };
-
-        // Automatically play the video once Plyr is initialized
-        playerRef.current.play();
-      }
-
-      // Event listener to hide loading when video starts playing
-      playerRef.current.on('playing', () => {
-        setLoading(false); // Hide loading spinner once the video starts playing
-      });
+      setLoading(true);
     }
-
-    return () => {
-      if (playerRef.current) {
-        playerRef.current.destroy();
-        playerRef.current = null;
-      }
-    };
   }, [currentVideo]);
 
   const handleAlbumClick = (album) => {
     setSelectedAlbum(album);
-    setCurrentVideo(null); // Reset video on album change
+    setCurrentVideo(null);
   };
 
   const handleBackClick = () => {
     setSelectedAlbum(null);
-    setCurrentVideo(null); // Reset video on back click
+    setCurrentVideo(null);
   };
 
   const handleVideoClick = (video) => {
-    setCurrentVideo(video.link); // Set the MP4 video source
-    setThumbnail(video.img); // Set the video thumbnail
+    setCurrentVideo(video.link);
+    setThumbnail(video.image);
   };
 
   return (
@@ -126,15 +59,23 @@ const Movies = () => {
         <div className="plr">
           {loading && (
             <div className="loading-spinner">
-              <div className="spinner"></div> {/* Add spinner styles below */}
+              <div className="spinner"></div>
             </div>
           )}
           <div className="video-wrapper">
-            {/* Show thumbnail while loading */}
             <div className={`video-thumbnail ${loading ? 'visible' : 'hidden'}`}>
               {thumbnail && <img src={thumbnail} alt="Loading..." />}
             </div>
-            <video className="video-player" />
+            <ReactPlayer
+              url={currentVideo}
+              className="video-player"
+              playing
+              controls
+              onReady={() => setLoading(false)}
+              onError={() => setLoading(false)}
+              width="100%"
+              height="100%"
+            />
           </div>
         </div>
       )}
@@ -148,7 +89,7 @@ const Movies = () => {
             <div className="play">
               {selectedAlbum.shows.map((video, index) => (
                 <div key={index} className="son" onClick={() => handleVideoClick(video)}>
-                  <img src={video.img} alt={video.name} />
+                  <img src={video.image} alt={video.name} />
                   <p>{video.name}</p>
                 </div>
               ))}
