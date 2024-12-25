@@ -7,9 +7,9 @@ import 'plyr/dist/plyr.css';
 const shows = [
   {
     name: 'Squid Game',
-    image: 'https://i5.walmartimages.com/asr/11a9f800-47ff-4ba4-ac8d-43bd0be5c2e4.b86b11aa6cb832d3761845fe5b3076c1.jpeg',
+    image: 'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FjlbrV1Kl4Y8pWXu12SppebRs7On.jpg',
     shows: [
-        { name: "Red Light Green Light", img: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FvMFJS9LIUUAmQ1thq4vJ7iHKwRz.jpg", link: "https://tinyurl.com/366d3pck" },
+        { name: "Red Light Green Light", img: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FvMFJS9LIUUAmQ1thq4vJ7iHKwRz.jpg", link: "https://tinyurl.com/5n95a6wf" },
         { name: "Hell", img: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FuacNwki3PqXEFk9Pal9Ng5NwwAI.jpg", link: "https://tinyurl.com/3pb4h97j" },
         { name: "The man with umbrella", img: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FxNtgrNEsMXvmRQQtcFuJdbXOjmP.jpg", link: "https://tinyurl.com/5f6zmx3b" },
         { name: "Stick with the team", img: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F9cUGOdLN4gmnf3b9ILArnJsJI8Q.jpg", link: "https://tinyurl.com/m5x9v2ff" },
