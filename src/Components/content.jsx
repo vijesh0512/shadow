@@ -21,7 +21,7 @@ const stream = [
  //{name:"2nd ODI",image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/2nd_odi_sa_vs_pak_live_vertical_3x4-1734587771897.jpg',link:'https://tsneh.vercel.app/rl3_om0zxtom'},
 //{name:'2nd T20',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/2nd_t20i_sa_vs_pak_live_vertical_3x4-1734076421684.jpg',link:'https://tsneh.vercel.app/uoveg1jjymog'},
 
- // {name:'ISL',image:'https://img.theweek.in/content/dam/week/news/sports/images/2019/10/14/ISL-logo-pic.jpg',link:'https://tsneh.vercel.app/whupiyznmtgh'},
+{name:'PFC vs MBSG',image:'https://img.theweek.in/content/dam/week/news/sports/images/2019/10/14/ISL-logo-pic.jpg',link:'https://tsneh.vercel.app/_qn14yrdbybb'},
 //{name:'T10',image:'https://www.fancode.com/skillup-uploads/cms-media/113990_4663_NEK_CJ_fc-web_1733813070590.jpg',link:'https://tinyurl.com/5cmdd2dh'},
 
 //  {name:'2nd T20',image:'https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-tour-of-Zimbabwe_old.jpg',link:'https://tsneh.vercel.app/dyz8q5q2oudg'},
