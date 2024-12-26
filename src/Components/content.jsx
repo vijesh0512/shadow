@@ -236,12 +236,12 @@ const Years = [
     },
     {
         name: "90's Hits 1",
-        image: "https://tse4.mm.bing.net/th?id=OIP.tMgAeL7lZkFgDcTusvDRDwHaHa&pid=Api&P=0&h=220",
+        image: "https://listenapi.s3.amazonaws.com/img/ConfigLockScreenImageUrl/185.jpg?ver=1538670706",
         audio: "https://stream.zeno.fm/wmg76d4zc48uv"
     },
     {
         name: "90's Hits 2",
-        image: "https://tse4.mm.bing.net/th?id=OIP.tMgAeL7lZkFgDcTusvDRDwHaHa&pid=Api&P=0&h=220",
+        image: "https://listenapi.s3.amazonaws.com/img/ConfigLockScreenImageUrl/185.jpg?ver=1538670706",
         audio: "https://stream.zeno.fm/ss2u9f27a48uv"
     },
     {
