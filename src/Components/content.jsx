@@ -13,7 +13,7 @@ const stream = [
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
   {name:'BB 24*7',image:'https://upload.wikimedia.org/wikipedia/en/c/c1/Bigg_Boss_Poster.jpg',link:'https://tsneh.vercel.app/oobpk0jvpgbj'},
   {name:'1st Test DAY 1', image:'https://cricketvectors.akamaized.net/Series/1LE.png?impolicy=default_web',link:'https://tsneh.vercel.app/b46zf72c68dq'},
-  {name:'1st Test DAY 1',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE8HOG2EmIE19USzPh_I_ZFL6QuRd1iXI8_s-HSA80Tg&s',link:'https://tsneh.vercel.app/w2ocwrfoa-4o'},
+  {name:'1st Test DAY 1',image:'https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-tour-of-Zimbabwe_Test_old.jpg',link:'https://tsneh.vercel.app/w2ocwrfoa-4o'},
   
 //  {name:'MLS vs PRS',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkaNjFqHKLIoqmOhx8KSXXG69AhjEngPkNZHCBjqrXRUa67hy8CHLMW1dA&s=10',link:'https://allinonereborn.com/tatatv.php?id=206091'},
  // {name:'ENGW vs SAW',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/day_1_test_women_sa_vs_eng_live_vertical_3x4-1734229369382.jpg',link:'https://tinyurl.com/4f78fbzh'},
