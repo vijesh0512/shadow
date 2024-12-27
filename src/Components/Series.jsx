@@ -22,13 +22,13 @@ const shows = [
   },
   {
     name:'Squid Game s2',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',shows:[
-      {name:'Episode 1',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_01_.mp4'},
-      {name:'Episode 2',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_02_.mp4'},
-      {name:'Episode 3',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_03_.mp4'},
-      {name:'Episode 4',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_04_.mp4'},
-      {name:'Episode 5',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_05_.mp4'},
-      {name:'Episode 6',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_06_.mp4'},
-      {name:'Episode 7',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_07_.mp4'},
+      {name:'Bread and Lottery',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Ffmo7pOmLThRpUEKuMXnnpy6g6DU.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_01_.mp4'},
+      {name:'Halloween Party',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fv4%2Fepisode%2F10774412%2Fscreencap%2F676d12b9dd7a6.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_02_.mp4'},
+      {name:'001',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FyL7phVQmwbBr0IVrDnqsNiPrpwQ.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_03_.mp4'},
+      {name:'Six Legs',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FgbtaPIZeFwViB25zigpU42UALEE.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_04_.mp4'},
+      {name:'One More Game',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F575R0zTaCUtmLjLSsBp3hLl1DQn.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_05_.mp4'},
+      {name:'O X',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fv4%2Fepisode%2F10774416%2Fscreencap%2F676d12edf3409.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_06_.mp4'},
+      {name:'Friend or Foe',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FtO8hO3jWp4JveXmBbPikd4IQbss.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_07_.mp4'},
       ]
   },
   ]
