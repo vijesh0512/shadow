@@ -5,7 +5,7 @@ import './album.css';
 
 const shows = [
   {
-    name: 'Squid Game',
+    name: 'Squid Game S1',
     image: 'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FjlbrV1Kl4Y8pWXu12SppebRs7On.jpg',
     shows: [
         { name: "Red Light Green Light", image: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FvMFJS9LIUUAmQ1thq4vJ7iHKwRz.jpg", link: "https://tinyurl.com/5n95a6wf" },
@@ -19,6 +19,17 @@ const shows = [
         {name:"One lucky day",image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FsKeQbHeEUQLyoSdopa0QXm604cz.jpg',link:'https://tinyurl.com/yphnhscj'},
 
     ],
+  },
+  {
+    name:'Squid Game s2',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',shows:[
+      {name:'Episode 1',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_01_.mp4'},
+      {name:'Episode 2',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_02_.mp4'},
+      {name:'Episode 3',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_03_.mp4'},
+      {name:'Episode 4',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_04_.mp4'},
+      {name:'Episode 5',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_05_.mp4'},
+      {name:'Episode 6',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_06_.mp4'},
+      {name:'Episode 7',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_07_.mp4'},
+      ]
   },
   ]
   
