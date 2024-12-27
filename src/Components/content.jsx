@@ -9,7 +9,7 @@ const stream = [
 
 
   
-{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://allinonereborn.com/tatatv.php?id=12141'},
+//{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://allinonereborn.com/tatatv.php?id=12141'},
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
   {name:'BB 24*7',image:'https://upload.wikimedia.org/wikipedia/en/c/c1/Bigg_Boss_Poster.jpg',link:'https://tsneh.vercel.app/oobpk0jvpgbj'},
 //  {name:'1st Test DAY 1', image:'https://cricketvectors.akamaized.net/Series/1LE.png?impolicy=default_web',link:'https://tsneh.vercel.app/b46zf72c68dq'},
@@ -21,7 +21,7 @@ const stream = [
  //{name:"2nd ODI",image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/2nd_odi_sa_vs_pak_live_vertical_3x4-1734587771897.jpg',link:'https://tsneh.vercel.app/rl3_om0zxtom'},
 //{name:'2nd T20',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/2nd_t20i_sa_vs_pak_live_vertical_3x4-1734076421684.jpg',link:'https://tsneh.vercel.app/uoveg1jjymog'},
 
-{name:'PFC vs MBSG',image:'https://img.theweek.in/content/dam/week/news/sports/images/2019/10/14/ISL-logo-pic.jpg',link:'https://tsneh.vercel.app/_qn14yrdbybb'},
+//{name:'PFC vs MBSG',image:'https://img.theweek.in/content/dam/week/news/sports/images/2019/10/14/ISL-logo-pic.jpg',link:'https://tsneh.vercel.app/_qn14yrdbybb'},
 //{name:'T10',image:'https://www.fancode.com/skillup-uploads/cms-media/113990_4663_NEK_CJ_fc-web_1733813070590.jpg',link:'https://tinyurl.com/5cmdd2dh'},
 
 //  {name:'2nd T20',image:'https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-tour-of-Zimbabwe_old.jpg',link:'https://tsneh.vercel.app/dyz8q5q2oudg'},
