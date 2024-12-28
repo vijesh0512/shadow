@@ -94,7 +94,7 @@ const Movies = () => {
         {selectedAlbum ? (
           <div className="album-details">
             <button onClick={handleBackClick} className="back-button">
-              Back to Movies
+              Back to Series
             </button>
             <h2 className="hi">{selectedAlbum.name}</h2>
             <div className="play">
