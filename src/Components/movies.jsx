@@ -9,6 +9,7 @@ const shows = [
     name: 'Theatre Print',
     image: 'https://media.istockphoto.com/id/1494642262/photo/people-in-the-cinema-auditorium-with-empty-white-screen.jpg?s=2048x2048&w=is&k=20&c=XLSiHIO02doIcuaB8BJMTcoTsyeQtvbngcQlQZLkEW4=',
     shows: [
+      {name:'Alangu',image:'https://assets-in.bmscdn.com/discovery-catalog/events/et00423853-zxtespsxdv-landscape.jpg',link:'https://dl.vdocdn.com/openload/59a140438d0c19a3856cecc454d4c22f/895a67121e6faf14c43d24bdd8af63aa20241228100559/b172e0/c9d651/1735393852'},
       {name:'Viduthalai 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX7lrsHalT6c2XvmrNbOO3a3f0YFbKbpT5JEGyR1C00KhvdEShO9diMbw&s=10',link:'https://tamil.openmv.site/Viduthalai%20Part%202%20(2024)%20HQ%20DVDScr%20Single%20Part%20(720p)%20HEVC.mp4'},
       {name:'Miss You', image:'https://m.media-amazon.com/images/M/MV5BZjFlOTg1MDUtYTMwOS00MDBlLWE4ZjAtZjAzZWJjYzEyZWNjXkEyXkFqcGc@._V1_.jpg',link:'https://s02.hotshare.link/Moviesda.Mobi_-_Miss_You_2024_HDRip_1080p_HD.mp4'}, 
       {name:'Soodhu Kavvum 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF5A5s85hmdSY-b3Wfd_nR4O7jUHobQy3uBGiESgEFmmljs5hjU7buCWmz&s=10',link:'https://dl8.hotshare.online/Moviesda.Mobi_-_Soodhu_Kavvum_2_2024_HDRip_1080p_HD.mp4'},
