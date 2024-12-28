@@ -18,18 +18,9 @@ const shows = [
         { name: "Front man", image: "https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FlOgFVmykN9qlpAoiBSIV2lu7XCS.jpg", link: "https://tinyurl.com/3834ytdt" },
         {name:"One lucky day",image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FsKeQbHeEUQLyoSdopa0QXm604cz.jpg',link:'https://tinyurl.com/yphnhscj'},
     ],
-      name:'Squid Game s2',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',shows:[
-      {name:'Bread and Lottery',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Ffmo7pOmLThRpUEKuMXnnpy6g6DU.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_01_.mp4'},
-      {name:'Halloween Party',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fv4%2Fepisode%2F10774412%2Fscreencap%2F676d12b9dd7a6.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_02_.mp4'},
-      {name:'001',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FyL7phVQmwbBr0IVrDnqsNiPrpwQ.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_03_.mp4'},
-      {name:'Six Legs',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FgbtaPIZeFwViB25zigpU42UALEE.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_04_.mp4'},
-      {name:'One More Game',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F575R0zTaCUtmLjLSsBp3hLl1DQn.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_05_.mp4'},
-      {name:'O X',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fv4%2Fepisode%2F10774416%2Fscreencap%2F676d12edf3409.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_06_.mp4'},
-      {name:'Friend or Foe',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FtO8hO3jWp4JveXmBbPikd4IQbss.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_07_.mp4'},
-      ],
   },
   {
-    name:'Squid Game s2',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',shows:[
+    name:'Squid Game S2',image:'https://i.ytimg.com/vi/HKcOGaiUQv4/maxresdefault.jpg',shows:[
       {name:'Bread and Lottery',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Ffmo7pOmLThRpUEKuMXnnpy6g6DU.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_01_.mp4'},
       {name:'Halloween Party',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fv4%2Fepisode%2F10774412%2Fscreencap%2F676d12b9dd7a6.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_02_.mp4'},
       {name:'001',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FyL7phVQmwbBr0IVrDnqsNiPrpwQ.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_03_.mp4'},
@@ -39,11 +30,7 @@ const shows = [
       {name:'Friend or Foe',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FtO8hO3jWp4JveXmBbPikd4IQbss.jpg',link:'https://s10.dubshare.one/isaiDub.Me_-_Squid_Game_Season_02_Epi_07_.mp4'},
       ]
   },
-  // { name:'Stranger Things S1',image:'https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FuOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg',shows:[
-    
-  // ],
-    
-  // },
+  { name:'Stranger Things S1',image:'https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FrbnuP7hlynAMLdqcQRCpZW9qDkV.jpg',shows:[ {name:'The Vanishing of Will Byers',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FuLES7sRpy7Ih6Kr6XCaYj1GyfTw.jpg',link:'https://tsneh.vercel.app/oetwekdm_zt0'},{name:'The Weirdo on Maple Street',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F8iA56ugQyHZmX81wSsNqwXjCE6F.jpg',link:'https://tsneh.vercel.app/yxtzdf1rfjvj'},{name:"Holly, Jolly",image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F5snULpWQWp7aqFto7UbRcEkEyyS.jpg',link:"https://tsneh.vercel.app/qnssogkh_aza"},{name:" The Body",image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F60wmC1e20HV8gu688GAhsWxqxPx.jpg',link:"https://tsneh.vercel.app/8ltoyyu8yxuy"},{name:"The Flea and the Acrobat",image:"https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FexT4NW9EdXG1qLZHKJnRpq3gh1H.jpg",link:'https://tsneh.vercel.app/3n4iykgtbo1o'},{name:"The Monster",image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FlNS6qycyucewz3duTr1tf1LU688.jpg',link:'https://tsneh.vercel.app/zqiu2mhhevsc'},{name:'The Bathtub',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FmkZzUTNWYfGwRH2f1TzlRgouypa.jpg',link:'https://tsneh.vercel.app/uzakxwc83mgv'},{name:"The Upside Down",image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F1teJ5dbuepfqOOs9uYhYTUjr2qs.jpg',link:'https://tsneh.vercel.app/ovxwiwjiv9_f'},],},
   ]
   
 
