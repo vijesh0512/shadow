@@ -21,7 +21,7 @@ const stream = [
 //{name:'2nd T20',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/2nd_t20i_sa_vs_pak_live_vertical_3x4-1734076421684.jpg',link:'https://tsneh.vercel.app/uoveg1jjymog'},
 
 //{name:'PFC vs MBSG',image:'https://img.theweek.in/content/dam/week/news/sports/images/2019/10/14/ISL-logo-pic.jpg',link:'https://tsneh.vercel.app/_qn14yrdbybb'},
-  {name:'1st T20',image:"https://cricketvectors.akamaized.net/Series/1OW.png?impolicy=default_web",link:'https://allinonereborn.com/tatatv.php?id=206098'},
+  {name:'1st T20',image:"https://cricketvectors.akamaized.net/Series/1OW.png?impolicy=default_web",link:'https://tsneh.vercel.app/shadow-tnt1'},
   ];
   
 const movies = [
