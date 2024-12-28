@@ -9,27 +9,19 @@ const stream = [
 
 
   
-{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://m118753.protect-cdn.net/live/m4-720p.m3u8'},
+//{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://m118753.protect-cdn.net/live/m4-720p.m3u8'},
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
   {name:'BB 24*7',image:'https://upload.wikimedia.org/wikipedia/en/c/c1/Bigg_Boss_Poster.jpg',link:'https://tsneh.vercel.app/oobpk0jvpgbj'},
- //{name:'1st Test DAY 2', image:'https://cricketvectors.akamaized.net/Series/1LE.png?impolicy=default_web',link:'https://tsneh.vercel.app/eeri8lbt8s0c'},
-//{name:'1st Test DAY 2',image:'https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-tour-of-Zimbabwe_Test_old.jpg',link:'https://tsneh.vercel.app/lchldnlgzdd1'},
-  
-//  {name:'MLS vs PRS',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkaNjFqHKLIoqmOhx8KSXXG69AhjEngPkNZHCBjqrXRUa67hy8CHLMW1dA&s=10',link:'https://allinonereborn.com/tatatv.php?id=206091'},
+ {name:'1st Test DAY 2', image:'https://cricketvectors.akamaized.net/Series/1LE.png?impolicy=default_web',link:'https://tsneh.vercel.app/8dk8hcuxnp7d'},
+{name:'1st Test DAY 2',image:'https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-tour-of-Zimbabwe_Test_old.jpg',link:'https://tsneh.vercel.app/s2siz36oj3bn'},
+{name:'MLS vs PRS',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkaNjFqHKLIoqmOhx8KSXXG69AhjEngPkNZHCBjqrXRUa67hy8CHLMW1dA&s=10',link:'https://allinonereborn.com/tatatv.php?id=2085'},
  // {name:'ENGW vs SAW',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/day_1_test_women_sa_vs_eng_live_vertical_3x4-1734229369382.jpg',link:'https://tinyurl.com/4f78fbzh'},
   //{name:'INDW vs BANW',image:'https://jiotvimages.cdn.jio.com/dare_images/shows/700/-/2024-12-19/241219155010.jpg',link:'https://cricsters.io/event/play.php?id=1000301123'},
  //{name:"2nd ODI",image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/2nd_odi_sa_vs_pak_live_vertical_3x4-1734587771897.jpg',link:'https://tsneh.vercel.app/rl3_om0zxtom'},
 //{name:'2nd T20',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/2nd_t20i_sa_vs_pak_live_vertical_3x4-1734076421684.jpg',link:'https://tsneh.vercel.app/uoveg1jjymog'},
 
 //{name:'PFC vs MBSG',image:'https://img.theweek.in/content/dam/week/news/sports/images/2019/10/14/ISL-logo-pic.jpg',link:'https://tsneh.vercel.app/_qn14yrdbybb'},
-//{name:'T10',image:'https://www.fancode.com/skillup-uploads/cms-media/113990_4663_NEK_CJ_fc-web_1733813070590.jpg',link:'https://tinyurl.com/5cmdd2dh'},
-
-//  {name:'2nd T20',image:'https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-tour-of-Zimbabwe_old.jpg',link:'https://tsneh.vercel.app/dyz8q5q2oudg'},
-
-
-
-
-  //{name:'E-Football',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdxgniZ4xkjYvHAnDcOOQPj_-kfmrm4HvJ1w&usqp=CAU',link:'https://www.youtube.com/live/a8fljT5qETM?si=b9h8PpQFrcWyzkFY'},
+  {name:'1st T20',image:"https://cricketvectors.akamaized.net/Series/1OW.png?impolicy=default_web",link:'https://allinonereborn.com/tatatv.php?id=206098'},
   ];
   
 const movies = [
