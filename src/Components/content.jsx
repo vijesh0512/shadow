@@ -14,7 +14,7 @@ const stream = [
   {name:'BB 24*7',image:'https://upload.wikimedia.org/wikipedia/en/c/c1/Bigg_Boss_Poster.jpg',link:'https://tsneh.vercel.app/oobpk0jvpgbj'},
  {name:'1st Test DAY 3', image:'https://cricketvectors.akamaized.net/Series/1LE.png?impolicy=default_web',link:'https://tsneh.vercel.app/8dk8hcuxnp7d'},
 {name:'1st Test DAY 3',image:'https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-tour-of-Zimbabwe_Test_old.jpg',link:'https://tsneh.vercel.app/s2siz36oj3bn'},
-{name:'SYT vs MLS',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkaNjFqHKLIoqmOhx8KSXXG69AhjEngPkNZHCBjqrXRUa67hy8CHLMW1dA&s=10',link:'https://allinonereborn.com/tatatv.php?id=2085'},
+//{name:'SYT vs MLS',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkaNjFqHKLIoqmOhx8KSXXG69AhjEngPkNZHCBjqrXRUa67hy8CHLMW1dA&s=10',link:'https://allinonereborn.com/tatatv.php?id=2085'},
  // {name:'ENGW vs SAW',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/day_1_test_women_sa_vs_eng_live_vertical_3x4-1734229369382.jpg',link:'https://tinyurl.com/4f78fbzh'},
   //{name:'INDW vs BANW',image:'https://jiotvimages.cdn.jio.com/dare_images/shows/700/-/2024-12-19/241219155010.jpg',link:'https://cricsters.io/event/play.php?id=1000301123'},
  //{name:"2nd ODI",image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/2nd_odi_sa_vs_pak_live_vertical_3x4-1734587771897.jpg',link:'https://tsneh.vercel.app/rl3_om0zxtom'},
