@@ -14,11 +14,7 @@ const stream = [
   {name:'BB 24*7',image:'https://upload.wikimedia.org/wikipedia/en/c/c1/Bigg_Boss_Poster.jpg',link:'https://tsneh.vercel.app/oobpk0jvpgbj'},
 // {name:'1st Test DAY 4', image:'https://cricketvectors.akamaized.net/Series/1LE.png?impolicy=default_web',link:'https://tsneh.vercel.app/nmom8sti7oks'},
 //{name:'1st Test DAY 4',image:'https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-tour-of-Zimbabwe_Test_old.jpg',link:'https://tsneh.vercel.app/xjhvfhct9ahj'},
-//{name:'BRH vs SYS',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkaNjFqHKLIoqmOhx8KSXXG69AhjEngPkNZHCBjqrXRUa67hy8CHLMW1dA&s=10',link:'https://allinonereborn.com/tatatv.php?id=2085'},
- // {name:'ENGW vs SAW',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/day_1_test_women_sa_vs_eng_live_vertical_3x4-1734229369382.jpg',link:'https://tinyurl.com/4f78fbzh'},
-  //{name:'INDW vs BANW',image:'https://jiotvimages.cdn.jio.com/dare_images/shows/700/-/2024-12-19/241219155010.jpg',link:'https://cricsters.io/event/play.php?id=1000301123'},
- //{name:"2nd ODI",image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/2nd_odi_sa_vs_pak_live_vertical_3x4-1734587771897.jpg',link:'https://tsneh.vercel.app/rl3_om0zxtom'},
-//{name:'2nd T20',image:'https://v3img.voot.com/resizeMedium,w_300,h_400/v3Storage/assets/2nd_t20i_sa_vs_pak_live_vertical_3x4-1734076421684.jpg',link:'https://tsneh.vercel.app/uoveg1jjymog'},
+//{name:'BRH vs SYS',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkaNjFqHKLIoqmOhx8KSXXG69AhjEngPkNZHCBjqrXRUa67hy8CHLMW1dA&s=10',link:'https://allinonereborn.com/tatatv.php?id=2085''},
 
 //{name:'CFC vs BFC',image:'https://img.theweek.in/content/dam/week/news/sports/images/2019/10/14/ISL-logo-pic.jpg',link:'https://tsneh.vercel.app/zfshpoodr7i0'},
  // {name:'1st T20',image:"https://cricketvectors.akamaized.net/Series/1OW.png?impolicy=default_web",link:'https://tsneh.vercel.app/shadow-tnt1'},
@@ -28,7 +24,7 @@ const stream = [
   ];
   
 const movies = [
-        {name:'Pushpa 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTheRlM_HeB2-5rRx8YV3zDdGWpelHHHX3XLbdsl62EUI5eszSjUKkHq61k&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Pushpa_2.mp4'},
+       // {name:'Pushpa 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTheRlM_HeB2-5rRx8YV3zDdGWpelHHHX3XLbdsl62EUI5eszSjUKkHq61k&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Pushpa_2.mp4'},
 { name:'Kanguva',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUwqsHIIojmSJFVRY9gQlbY6NaQDNaUsu-b90mfCkI0PJHxf5nJzCJ-m0&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Kanguva.mp4'},
   {name:'Lucky Bhaskar',image:'https://multicinema.in/assets1/2021MoviesPoster/Lucky_Baskhar.jpg',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Lucky_Baskhar.mp4'},
  { name:'Amaran',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzugiP-FGYgjDvKH0orm9a3csrkqljfNSwqVBS9yIeVA3_2EUNNAizHBMD&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Amaran.mp4'},
