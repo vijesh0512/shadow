@@ -22,6 +22,9 @@ const stream = [
 
 //{name:'CFC vs BFC',image:'https://img.theweek.in/content/dam/week/news/sports/images/2019/10/14/ISL-logo-pic.jpg',link:'https://tsneh.vercel.app/zfshpoodr7i0'},
  // {name:'1st T20',image:"https://cricketvectors.akamaized.net/Series/1OW.png?impolicy=default_web",link:'https://tsneh.vercel.app/shadow-tnt1'},
+
+
+  {name:'Hockey India League 2024-25',image:'https://origin-staticv2.sonyliv.com/videoasset_images/hil_hyderabad_toofans_vs_bengal_tigers_26dec_rev_multilang_landscape_thumb.jpg',link:'https://dai.google.com/ssai/event/oZNVxALASVyYS4HMtTpRCw/master.m3u8'},
   ];
   
 const movies = [
