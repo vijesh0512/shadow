@@ -24,7 +24,7 @@ const stream = [
  // {name:'1st T20',image:"https://cricketvectors.akamaized.net/Series/1OW.png?impolicy=default_web",link:'https://tsneh.vercel.app/shadow-tnt1'},
 
 
-  {name:'Hockey India League',image:'https://origin-staticv2.sonyliv.com/videoasset_images/hil_hyderabad_toofans_vs_bengal_tigers_26dec_rev_multilang_landscape_thumb.jpg',link:'https://pubads.g.doubleclick.net/ssai/event/oZNVxALASVyYS4HMtTpRCw/master.m3u8'},
+  {name:'Hockey India League',image:'https://origin-staticv2.sonyliv.com/videoasset_images/hil_soormahc_vs_tamilnadudragons_26dec_multilang_live_portrait_thumb.jpg',link:'https://pubads.g.doubleclick.net/ssai/event/oZNVxALASVyYS4HMtTpRCw/master.m3u8'},
   ];
   
 const movies = [
