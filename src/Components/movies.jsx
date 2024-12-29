@@ -9,6 +9,7 @@ const shows = [
     name: 'Theatre Print',
     image: 'https://media.istockphoto.com/id/1494642262/photo/people-in-the-cinema-auditorium-with-empty-white-screen.jpg?s=2048x2048&w=is&k=20&c=XLSiHIO02doIcuaB8BJMTcoTsyeQtvbngcQlQZLkEW4=',
     shows: [
+      {name:'Rajakili',image:'https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/medium/rajakili-et00426302-1735196713.jpg',link:'https://dls4.mrfooll.xyz/AgAD7B3211510'},
       {name:'Smile Man',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT84db2w2b2wlqdeZnOqnkudhUcJ_imBfufJydGYUQp6W_9yGzCH4ST2IE&s=10',link:'https://dls4.mrfooll.xyz/AgAD5R3211493'},
       {name:'Thirumanickam',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qQj_kv4bGy8bGzfiSNGwzTKkq40phMx4GcZyu9Z4UNGYFf8yGHFPqQOX&s=10',link:'https://dls4.mrfooll.xyz/AgADMB3211474'},
       {name:'Alangu',image:'https://assets-in.bmscdn.com/discovery-catalog/events/et00423853-zxtespsxdv-landscape.jpg',link:'https://dls4.mrfooll.xyz/AgAD5B3209483'},
