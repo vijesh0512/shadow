@@ -9,6 +9,7 @@ const shows = [
     name: 'Theatre Print',
     image: 'https://media.istockphoto.com/id/1494642262/photo/people-in-the-cinema-auditorium-with-empty-white-screen.jpg?s=2048x2048&w=is&k=20&c=XLSiHIO02doIcuaB8BJMTcoTsyeQtvbngcQlQZLkEW4=',
     shows: [
+      {name:'Smile Man',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT84db2w2b2wlqdeZnOqnkudhUcJ_imBfufJydGYUQp6W_9yGzCH4ST2IE&s=10',link:'https://dls4.mrfooll.xyz/AgAD5R3211493'},
       {name:'Thirumanickam',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qQj_kv4bGy8bGzfiSNGwzTKkq40phMx4GcZyu9Z4UNGYFf8yGHFPqQOX&s=10',link:'https://dls4.mrfooll.xyz/AgADMB3211474'},
       {name:'Alangu',image:'https://assets-in.bmscdn.com/discovery-catalog/events/et00423853-zxtespsxdv-landscape.jpg',link:'https://dls4.mrfooll.xyz/AgAD5B3209483'},
       {name:'Viduthalai 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX7lrsHalT6c2XvmrNbOO3a3f0YFbKbpT5JEGyR1C00KhvdEShO9diMbw&s=10',link:'https://tamil.openmv.site/Viduthalai%20Part%202%20(2024)%20HQ%20DVDScr%20Single%20Part%20(720p)%20HEVC.mp4'}, 
