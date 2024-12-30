@@ -9,7 +9,7 @@ const stream = [
 
 
   
-{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://tsneh.vercel.app/shadow-tnt1'},
+//{name:'BGT',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVac-YFl-228U50PAvULH_bMEK8YJaPDFFOGthz54-dT5Lalc700E0MxI&s=10',link:'https://tsneh.vercel.app/shadow-tnt1'},
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
   {name:'BB 24*7',image:'https://upload.wikimedia.org/wikipedia/en/c/c1/Bigg_Boss_Poster.jpg',link:'https://tsneh.vercel.app/oobpk0jvpgbj'},
 // {name:'1st Test DAY 4', image:'https://cricketvectors.akamaized.net/Series/1LE.png?impolicy=default_web',link:'https://tsneh.vercel.app/nmom8sti7oks'},
@@ -17,7 +17,7 @@ const stream = [
 //{name:'BRH vs SYS',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkaNjFqHKLIoqmOhx8KSXXG69AhjEngPkNZHCBjqrXRUa67hy8CHLMW1dA&s=10',link:'https://allinonereborn.com/tatatv.php?id=2085''},
 
 //{name:'CFC vs BFC',image:'https://img.theweek.in/content/dam/week/news/sports/images/2019/10/14/ISL-logo-pic.jpg',link:'https://tsneh.vercel.app/zfshpoodr7i0'},
- // {name:'1st T20',image:"https://cricketvectors.akamaized.net/Series/1OW.png?impolicy=default_web",link:'https://tsneh.vercel.app/shadow-tnt1'},
+ {name:'2nd T20',image:"https://cricketvectors.akamaized.net/Series/1OW.png?impolicy=default_web",link:'https://pubads.g.doubleclick.net/ssai/event/biQJgf06SJCitj-nd502ow/master.m3u8'},
 
 
   //{name:'Hockey India League',image:'https://origin-staticv2.sonyliv.com/videoasset_images/hil_soormahc_vs_tamilnadudragons_26dec_multilang_live_portrait_thumb.jpg',link:'https://pubads.g.doubleclick.net/ssai/event/oZNVxALASVyYS4HMtTpRCw/master.m3u8'},
