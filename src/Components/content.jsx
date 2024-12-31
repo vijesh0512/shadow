@@ -406,11 +406,11 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
               {/* <button onClick={() => onNavClick('stream')} className='btt'>See All</button> */}
           </div>
           <div id='dog-player' className='player'></div>
-         <div className="bt">
+          {/*<div className="bt">
               <h1 className='sideheading'>Live Tv</h1>
             <button onClick={() => onNavClick('vlc')} className='btt'>See All</button>
           </div>
-          <div id='live-player' className='player'></div>
+          <div id='live-player' className='player'></div>*/}
 
           {/* <h1 className='sideheading'>Video Songs</h1>
           <div id='video-player' className='player'></div> */}
