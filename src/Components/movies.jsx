@@ -13,8 +13,8 @@ const shows = [
       {name:'Smile Man',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT84db2w2b2wlqdeZnOqnkudhUcJ_imBfufJydGYUQp6W_9yGzCH4ST2IE&s=10',link:'https://dls4.mrfooll.xyz/AgAD5R3211493'},
       {name:'Thirumanickam',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qQj_kv4bGy8bGzfiSNGwzTKkq40phMx4GcZyu9Z4UNGYFf8yGHFPqQOX&s=10',link:'https://dls4.mrfooll.xyz/AgADMB3211474'},
       {name:'Alangu',image:'https://assets-in.bmscdn.com/discovery-catalog/events/et00423853-zxtespsxdv-landscape.jpg',link:'https://dls4.mrfooll.xyz/AgAD5B3209483'},
-      {name:'Viduthalai 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX7lrsHalT6c2XvmrNbOO3a3f0YFbKbpT5JEGyR1C00KhvdEShO9diMbw&s=10',link:'https://tamil.openmv.site/Viduthalai%20Part%202%20(2024)%20HQ%20DVDScr%20Single%20Part%20(720p)%20HEVC.mp4'}, 
-      {name:'Mufasa',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yJpaTrFzHuiFC7L2wTo9C6-kzlDRFqNGAn5PuBYx5qkpNBq805GWRbUE&s=10',link:'https://dls4.mrfooll.xyz/AgADsh3233774'},
+  
+ 
     ],
   },
 
@@ -22,6 +22,7 @@ const shows = [
     name: 'HD Movies',
     image: 'https://play-lh.googleusercontent.com/5lGwoUsh5Z1eopCpGQIQjfoGqUHTJU_tAXNkdm1eiBVGGKoXqk5jX8Vm7DiAn42Lwbk6',
     shows: [
+      {name:'Viduthalai 2', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX7lrsHalT6c2XvmrNbOO3a3f0YFbKbpT5JEGyR1C00KhvdEShO9diMbw&s=10',link:'https://dls4.mrfooll.xyz/AgADRh3236047?open_in_chrome=true'}, 
        {name:'Miss You', image:'https://m.media-amazon.com/images/M/MV5BZjFlOTg1MDUtYTMwOS00MDBlLWE4ZjAtZjAzZWJjYzEyZWNjXkEyXkFqcGc@._V1_.jpg',link:'https://s02.hotshare.link/Moviesda.Mobi_-_Miss_You_2024_HDRip_1080p_HD.mp4'}, 
       {name:'Soodhu Kavvum 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF5A5s85hmdSY-b3Wfd_nR4O7jUHobQy3uBGiESgEFmmljs5hjU7buCWmz&s=10',link:'https://dl8.hotshare.online/Moviesda.Mobi_-_Soodhu_Kavvum_2_2024_HDRip_1080p_HD.mp4'},
       {name:'Sorgavasal',image:'https://tinyurl.com/44wakenz',link:'https://tsneh.vercel.app/w8ub8lbkmoxd'}, 
@@ -112,6 +113,7 @@ const shows = [
 
   {
     name: 'Dubbed Movies',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbkn91GpNi88CicRs375878Z6hZWXOpU4gvg&s',shows:[
+     {name:'Mufasa',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yJpaTrFzHuiFC7L2wTo9C6-kzlDRFqNGAn5PuBYx5qkpNBq805GWRbUE&s=10',link:'https://dls4.mrfooll.xyz/AgADsh3233774'},
       {name:'Pushpa 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTheRlM_HeB2-5rRx8YV3zDdGWpelHHHX3XLbdsl62EUI5eszSjUKkHq61k&s=10',link:'https://s06.hotshare.link/Moviesda.Mobi_-_Pushpa_2_The_Rule_2024_HDRip_1080p_HD.mp4'},
       {name:'Karataka Damanaka',image:'https://multicinema.in/assets1/2021MoviesPoster/Karataka_Damanaka.jpg',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Karataka_Damanaka.mp4'},
       {name:'Bagheera',image:'https://multicinema.in/assets1/2021MoviesPoster/Bagheera.jpg',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Bagheera.mp4'},
