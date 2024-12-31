@@ -14,7 +14,7 @@ const shows = [
       {name:'Thirumanickam',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qQj_kv4bGy8bGzfiSNGwzTKkq40phMx4GcZyu9Z4UNGYFf8yGHFPqQOX&s=10',link:'https://dls4.mrfooll.xyz/AgADMB3211474'},
       {name:'Alangu',image:'https://assets-in.bmscdn.com/discovery-catalog/events/et00423853-zxtespsxdv-landscape.jpg',link:'https://dls4.mrfooll.xyz/AgAD5B3209483'},
       {name:'Viduthalai 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX7lrsHalT6c2XvmrNbOO3a3f0YFbKbpT5JEGyR1C00KhvdEShO9diMbw&s=10',link:'https://tamil.openmv.site/Viduthalai%20Part%202%20(2024)%20HQ%20DVDScr%20Single%20Part%20(720p)%20HEVC.mp4'}, 
-      {name:'Mufasa',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yJpaTrFzHuiFC7L2wTo9C6-kzlDRFqNGAn5PuBYx5qkpNBq805GWRbUE&s=10',link:'https://s02.dubshare.one/Mufasa_The_Lion_King_2024_720p_DVDScr.mp4'},
+      {name:'Mufasa',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yJpaTrFzHuiFC7L2wTo9C6-kzlDRFqNGAn5PuBYx5qkpNBq805GWRbUE&s=10',link:'https://dls4.mrfooll.xyz/AgADsh3233774'},
     ],
   },
 
