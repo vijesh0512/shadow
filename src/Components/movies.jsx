@@ -11,7 +11,7 @@ const shows = [
     shows: [
       {name:'Rajakili',image:'https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/medium/rajakili-et00426302-1735196713.jpg',link:'https://s05.hotshare.link/Alangu_2024_PreDVD_720p_HD.mp4'},
       {name:'Smile Man',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT84db2w2b2wlqdeZnOqnkudhUcJ_imBfufJydGYUQp6W_9yGzCH4ST2IE&s=10',link:'https://dl8.hotshare.click/The_Smile_Man_2024_PreDVD_720p_HD.mp4'},
-      {name:'Thirumanickam',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qQj_kv4bGy8bGzfiSNGwzTKkq40phMx4GcZyu9Z4UNGYFf8yGHFPqQOX&s=10',link:'https://s02.hotshare.link/Thiru_Manickam_2024_PreDVD_720p_HD.mp4},
+      {name:'Thirumanickam',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qQj_kv4bGy8bGzfiSNGwzTKkq40phMx4GcZyu9Z4UNGYFf8yGHFPqQOX&s=10',link:'https://s02.hotshare.link/Thiru_Manickam_2024_PreDVD_720p_HD.mp4'},
       {name:'Alangu',image:'https://assets-in.bmscdn.com/discovery-catalog/events/et00423853-zxtespsxdv-landscape.jpg',link:'https://s05.hotshare.link/Alangu_2024_PreDVD_720p_HD.mp4'},
   
  
