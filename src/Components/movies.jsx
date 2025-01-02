@@ -9,10 +9,10 @@ const shows = [
     name: 'Theatre Print',
     image: 'https://media.istockphoto.com/id/1494642262/photo/people-in-the-cinema-auditorium-with-empty-white-screen.jpg?s=2048x2048&w=is&k=20&c=XLSiHIO02doIcuaB8BJMTcoTsyeQtvbngcQlQZLkEW4=',
     shows: [
-      {name:'Rajakili',image:'https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/medium/rajakili-et00426302-1735196713.jpg',link:'https://dls4.mrfooll.xyz/AgAD7B3211510'},
-      {name:'Smile Man',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT84db2w2b2wlqdeZnOqnkudhUcJ_imBfufJydGYUQp6W_9yGzCH4ST2IE&s=10',link:'https://dls4.mrfooll.xyz/AgAD5R3211493'},
-      {name:'Thirumanickam',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qQj_kv4bGy8bGzfiSNGwzTKkq40phMx4GcZyu9Z4UNGYFf8yGHFPqQOX&s=10',link:'https://dls4.mrfooll.xyz/AgADMB3211474'},
-      {name:'Alangu',image:'https://assets-in.bmscdn.com/discovery-catalog/events/et00423853-zxtespsxdv-landscape.jpg',link:'https://dls4.mrfooll.xyz/AgAD5B3209483'},
+      {name:'Rajakili',image:'https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/medium/rajakili-et00426302-1735196713.jpg',link:'https://s05.hotshare.link/Alangu_2024_PreDVD_720p_HD.mp4'},
+      {name:'Smile Man',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT84db2w2b2wlqdeZnOqnkudhUcJ_imBfufJydGYUQp6W_9yGzCH4ST2IE&s=10',link:'https://dl8.hotshare.click/The_Smile_Man_2024_PreDVD_720p_HD.mp4'},
+      {name:'Thirumanickam',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qQj_kv4bGy8bGzfiSNGwzTKkq40phMx4GcZyu9Z4UNGYFf8yGHFPqQOX&s=10',link:'https://s02.hotshare.link/Thiru_Manickam_2024_PreDVD_720p_HD.mp4},
+      {name:'Alangu',image:'https://assets-in.bmscdn.com/discovery-catalog/events/et00423853-zxtespsxdv-landscape.jpg',link:'https://s05.hotshare.link/Alangu_2024_PreDVD_720p_HD.mp4'},
   
  
     ],
@@ -114,7 +114,7 @@ const shows = [
   {
     name: 'Dubbed Movies',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbkn91GpNi88CicRs375878Z6hZWXOpU4gvg&s',shows:[
       {name:'Baroz',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrCNfQUAEl91jWxWO1DzCkv3f6lllt5f1Uog&usqp=CAU',link:'https://dls4.mrfooll.xyz/AgADzx3251623'},
-     {name:'Mufasa',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yJpaTrFzHuiFC7L2wTo9C6-kzlDRFqNGAn5PuBYx5qkpNBq805GWRbUE&s=10',link:'https://dls4.mrfooll.xyz/AgADsh3233774'},
+     {name:'Mufasa',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yJpaTrFzHuiFC7L2wTo9C6-kzlDRFqNGAn5PuBYx5qkpNBq805GWRbUE&s=10',link:'https://s02.dubshare.one/Mufasa_The_Lion_King_2024_HDRip_720p_HD.mp4'},
       {name:'Pushpa 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTheRlM_HeB2-5rRx8YV3zDdGWpelHHHX3XLbdsl62EUI5eszSjUKkHq61k&s=10',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Pushpa_2.mp4'},
       {name:'Karataka Damanaka',image:'https://multicinema.in/assets1/2021MoviesPoster/Karataka_Damanaka.jpg',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Karataka_Damanaka.mp4'},
       {name:'Bagheera',image:'https://multicinema.in/assets1/2021MoviesPoster/Bagheera.jpg',link:'https://pub-c112d6c4191e458db7adfadb97398a27.r2.dev/Bagheera.mp4'},
