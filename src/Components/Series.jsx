@@ -393,15 +393,99 @@ const shows = [
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
     "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP82.mp4?dl=true"
   },
+[
   {
     "name": "EP 83",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
     "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP83.mp4?dl=true"
-    ],
   },
- 
-
-
+  {
+    "name": "EP 84",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP84.mp4?dl=true"
+  },
+  {
+    "name": "EP 85",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP85.mp4?dl=true"
+  },
+  {
+    "name": "EP 86",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP86.mp4?dl=true"
+  },
+  {
+    "name": "EP 87",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP87.mp4?dl=true"
+  },
+  {
+    "name": "EP 88",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP88.mp4?dl=true"
+  },
+  {
+    "name": "EP 89",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP89.mp4?dl=true"
+  },
+  {
+    "name": "EP 90",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP90.mp4?dl=true"
+  },
+  {
+    "name": "EP 91",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP91.mp4?dl=true"
+  },
+  {
+    "name": "EP 92",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP92.mp4?dl=true"
+  },
+  {
+    "name": "EP 93",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP93.mp4?dl=true"
+  },
+  {
+    "name": "EP 94",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP94.mp4?dl=true"
+  },
+  {
+    "name": "EP 95",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP95.mp4?dl=true"
+  },
+  {
+    "name": "EP 96",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP96.mp4?dl=true"
+  },
+  {
+    "name": "EP 97",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP97.mp4?dl=true"
+  },
+  {
+    "name": "EP 98",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP98.mp4?dl=true"
+  },
+  {
+    "name": "EP 99",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP99.mp4?dl=true"
+  },
+  {
+    "name": "EP 100",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
+    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP100.mp4?dl=true"
+  }
+  ],
+  },
 ]
 
   
