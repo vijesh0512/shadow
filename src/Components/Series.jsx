@@ -485,7 +485,6 @@ const shows = [
     "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP100.mp4?dl=true"
   }
   ],
-  },
 ]
 
   
