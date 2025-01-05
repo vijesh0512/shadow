@@ -49,9 +49,9 @@ const others = [
 ];
 const channels = [
  { name: 'Star Vijay', image: 'https://tinyurl.com/2heavac5', link: 'allinonereborn.com/tatatv.php?id=924'},
-  { name: 'Sun TV', image: 'https://tinyurl.com/55rjk5ka', link: 'https://allinonereborn.com/tatatv.php?id=11806'},
-  { name: 'K TV', image: 'https://seeklogo.com/images/K/ktv-logo-703754480A-seeklogo.com.png', link: 'https://allinonereborn.com/tatatv.php?id=11818'},
-     { name: 'Zee Tamil', image: 'https://www.ethnicchannels.com/images/channeldetail/zee-tamil/ZEE-TAMIL.png', link: 'https://allinonereborn.com/tatatv.php?id=11807' },
+  { name: 'Sun TV', image: 'https://tinyurl.com/55rjk5ka', link: 'allinonereborn.com/tatatv.php?id=11806'},
+  { name: 'K TV', image: 'https://seeklogo.com/images/K/ktv-logo-703754480A-seeklogo.com.png', link: 'allinonereborn.com/tatatv.php?id=11818'},
+     { name: 'Zee Tamil', image: 'https://www.ethnicchannels.com/images/channeldetail/zee-tamil/ZEE-TAMIL.png', link: 'allinonereborn.com/tatatv.php?id=11807' },
   { name: 'Colors Tamil', image: 'https://tinyurl.com/yc2kz4ck', link: 'https://allinonereborn.com/tatatv.php?id=742' },
     { name: 'Star Sports 1 HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-8301-j7hc0820-v1/imageContent-8301-j7hc0820-m1.png', link: 'https://allinonereborn.com/tatatv.php?id=12148' },
     { name: 'Star Sports 2 HD', image: 'https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-1021-j5nj3c68-v1/imageContent-1021-j5nj3c68-m1.png', link: 'https://allinonereborn.com/tatatv.php?id=12150' },
