@@ -48,7 +48,7 @@ const others = [
   { name: 'Video Songs', image: 'https://raw.githubusercontent.com/vijesh0512/image/refs/heads/main/DALL%C2%B7E%202024-09-28%2020.05.16%20-%20A%20black%20and%20white%20pitbull%20dog%20wearing%20a%20gold%20chain%20and%20headphones%2C%20sitting%20in%20a%20dimly%20lit%20movie%20theater%2C%20facing%20the%20large%20screen%20playing%20a%20video%20song.webp', link: 'Vid' },
 ];
 const channels = [
- { name: 'Star Vijay', image: 'https://tinyurl.com/2heavac5', link: 'https://allinonereborn.com/tatatv.php?id=924'},
+ { name: 'Star Vijay', image: 'https://tinyurl.com/2heavac5', link: 'allinonereborn.com/tatatv.php?id=924'},
   { name: 'Sun TV', image: 'https://tinyurl.com/55rjk5ka', link: 'https://allinonereborn.com/tatatv.php?id=11806'},
   { name: 'K TV', image: 'https://seeklogo.com/images/K/ktv-logo-703754480A-seeklogo.com.png', link: 'https://allinonereborn.com/tatatv.php?id=11818'},
      { name: 'Zee Tamil', image: 'https://www.ethnicchannels.com/images/channeldetail/zee-tamil/ZEE-TAMIL.png', link: 'https://allinonereborn.com/tatatv.php?id=11807' },
