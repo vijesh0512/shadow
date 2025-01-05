@@ -33,31 +33,21 @@ const shows = [
   { name:'Stranger Things S1',image:'https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FrbnuP7hlynAMLdqcQRCpZW9qDkV.jpg',shows:[ {name:'The Vanishing of Will Byers',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FuLES7sRpy7Ih6Kr6XCaYj1GyfTw.jpg',link:'https://tsneh.vercel.app/oetwekdm_zt0'},{name:'The Weirdo on Maple Street',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F8iA56ugQyHZmX81wSsNqwXjCE6F.jpg',link:'https://tsneh.vercel.app/yxtzdf1rfjvj'},{name:"Holly, Jolly",image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F5snULpWQWp7aqFto7UbRcEkEyyS.jpg',link:"https://tsneh.vercel.app/qnssogkh_aza"},{name:" The Body",image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F60wmC1e20HV8gu688GAhsWxqxPx.jpg',link:"https://tsneh.vercel.app/8ltoyyu8yxuy"},{name:"The Flea and the Acrobat",image:"https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FexT4NW9EdXG1qLZHKJnRpq3gh1H.jpg",link:'https://tsneh.vercel.app/3n4iykgtbo1o'},{name:"The Monster",image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FlNS6qycyucewz3duTr1tf1LU688.jpg',link:'https://tsneh.vercel.app/zqiu2mhhevsc'},{name:'The Bathtub',image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FmkZzUTNWYfGwRH2f1TzlRgouypa.jpg',link:'https://tsneh.vercel.app/uzakxwc83mgv'},{name:"The Upside Down",image:'https://images.plex.tv/photo?size=medium-240&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F1teJ5dbuepfqOOs9uYhYTUjr2qs.jpg',link:'https://tsneh.vercel.app/ovxwiwjiv9_f'},],},
 
   {name:'Heart Beat S1',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10',shows:[
-  {
-    "name": "EP 11",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
-    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP11.mp4?dl=true"
-  },
-  {
-    "name": "EP 12",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
-    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP12.mp4?dl=true"
-  },
-  {
-    "name": "EP 13",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
-    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP13.mp4?dl=true"
-  },
-  {
-    "name": "EP 14",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
-    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP14.mp4?dl=true"
-  },
-  {
-    "name": "EP 15",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
-    "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP15.mp4?dl=true"
-  },
+  {name:'EP 1', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10', link:'https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP1.mp4?dl=true'},
+  {name:'EP 2', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10', link:'https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP2.mp4?dl=true'},
+  {name:'EP 3', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10', link:'https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP3.mp4?dl=true'},
+  {name:'EP 4', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10', link:'https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP4.mp4?dl=true'},
+  {name:'EP 5', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10', link:'https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP5.mp4?dl=true'},
+  {name:'EP 6', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10', link:'https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP6.mp4?dl=true'},
+  {name:'EP 7', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10', link:'https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP7.mp4?dl=true'},
+  {name:'EP 8', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10', link:'https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP8.mp4?dl=true'},
+  {name:'EP 9', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10', link:'https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP9.mp4?dl=true'},
+  {name:'EP 10', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10', link:'https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP10.mp4?dl=true'},
+  {"name": "EP 11","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10","link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP11.mp4?dl=true"},
+  {"name": "EP 12","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10","link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP12.mp4?dl=true"},
+  {"name": "EP 13","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10","link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP13.mp4?dl=true"},
+  {"name": "EP 14","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10","link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP14.mp4?dl=true"},
+  {"name": "EP 15","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10","link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP15.mp4?dl=true"},
   {
     "name": "EP 16",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
