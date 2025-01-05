@@ -393,7 +393,6 @@ const shows = [
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
     "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP82.mp4?dl=true"
   },
-[
   {
     "name": "EP 83",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HZLOv_6Z-kY_Sa2Tsjrct0RdX8ACzY14aih-UbMzTI4CVu1d-kYFWoNp&s=10",
@@ -485,6 +484,7 @@ const shows = [
     "link": "https://cdw.tamilcloud.pro/Heart%20Beat%20(2024)/Heart%20Beat%20(2024)%20S01%20EP100.mp4?dl=true"
   }
   ],
+  },
 ]
 
   
