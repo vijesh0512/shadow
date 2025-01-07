@@ -480,6 +480,11 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
              <button onClick={() => onNavClick('stream')} className='btt'>See All</button>
           </div>
         <div id='stream-player' className='player'></div>
+
+        <div className="bt">
+          <h1 className='sideheading'>Sports</h1>
+             <button onClick={() => onNavClick('stream')} className='btt'>See All</button>
+          </div>
      <div id='sports-player' className='player'></div> 
 
           <div className="bt">
