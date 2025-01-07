@@ -342,51 +342,59 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
   };
 
 
-  const fetchAndRenderMatches = async (url1, url2, containerId) => {
+const fetchAndRenderMatches = async (url1, url2, containerId) => {
     const container = document.getElementById(containerId);
-    if (!container) return;
-
-    container.innerHTML = '<p>Loading matches...</p>'; // Show a loading state
-
     try {
-        // Fetch both JSON files
-        const [response1, response2] = await Promise.all([fetch(url1), fetch(url2)]);
-        if (!response1.ok || !response2.ok) {
-            throw new Error("Failed to fetch match data");
-        }
+        // Fetch JSONs in parallel
+        const fetchPromises = [fetch(url1), fetch(url2)];
+        const responses = await Promise.all(fetchPromises);
 
-        // Parse JSON data
-        const data1 = await response1.json();
-        const data2 = await response2.json();
+        // Validate responses and parse JSON
+        const jsonPromises = responses.map(response => {
+            if (!response.ok) throw new Error("Failed to fetch match data");
+            return response.json();
+        });
 
-        // Render matches directly from the fetched data
+        const [data1, data2] = await Promise.all(jsonPromises);
+
         container.innerHTML = ''; // Clear the loading state
+
+        // Use DocumentFragment for efficient rendering
+        const fragment = document.createDocumentFragment();
 
         // Render matches from the first JSON
         data1.matches.forEach(match => {
             const matchDiv = document.createElement('div');
-            matchDiv.classList.add('song');
+            matchDiv.classList.add('match');
             matchDiv.innerHTML = `
                 <a href="${match.pub_url}" target="_blank">
                     <img src="${match.portraitThumb}" alt="${match.title}">
                 </a>
-                <p>${match.title}</p>
+                <h3>${match.title}</h3>
             `;
-            container.appendChild(matchDiv);
+            fragment.appendChild(matchDiv);
         });
 
         // Render matches from the second JSON
         data2.matches.forEach(match => {
             const matchDiv = document.createElement('div');
-            matchDiv.classList.add('song');
+            matchDiv.classList.add('match');
             matchDiv.innerHTML = `
                 <a href="${match.stream_link}" target="_blank">
                     <img src="${match.banner}" alt="${match.match_name}">
                 </a>
-                <p>${match.match_name}</p>
+                <h3>${match.match_name}</h3>
+                <p>
+                    <img src="${match.team_1_flag}" alt="${match.team_1}" width="25"> ${match.team_1} 
+                    vs 
+                    <img src="${match.team_2_flag}" alt="${match.team_2}" width="25"> ${match.team_2}
+                </p>
             `;
-            container.appendChild(matchDiv);
+            fragment.appendChild(matchDiv);
         });
+
+        // Append all matches to the container
+        container.appendChild(fragment);
     } catch (error) {
         console.error(error);
         container.innerHTML = '<p>Error loading matches. Please try again later.</p>';
@@ -398,7 +406,7 @@ fetchAndRenderMatches(
     'https://sony-eight.vercel.app/',
     'https://fancode-two.vercel.app/', // Replace with the actual URL of the first JSON file
      // Replace with the actual URL of the second JSON file
-    'stream-player' // Replace with the ID of your container
+    'sports-player' // Replace with the ID of your container
 );
 
 
@@ -452,7 +460,7 @@ fetchAndRenderMatches(
           <h1 className='sideheading'>Live Events</h1>
           </div>
         <div id='stream-player' className='player'></div>
-          <div id='sports-player' className='player'></div>
+        <div id='sports-player' className='player'></div>
 
           <div className="bt">
               <h1 className='sideheading'>Movies</h1>
