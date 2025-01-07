@@ -15,44 +15,50 @@ const FT = () => {
                     fetch('https://fancode-two.vercel.app/'), 
                 ]);
 
-                if (!response1.ok || !response2.ok || !response3.ok) {
-                    throw new Error("Failed to fetch matches");
-                }
+                const responses = [response1, response2, response3];
 
+                // Check if all responses are OK
+                responses.forEach((response, index) => {
+                    if (!response.ok) {
+                        throw new Error(`API ${index + 1} failed with status ${response.status}`);
+                    }
+                });
+
+                // Parse JSON responses
                 const data1 = await response1.json();
                 const data2 = await response2.json();
                 const data3 = await response3.json();
 
-                // Normalize the match data for each JSON
-                const matchesFromFirstJson = data1.matches.map((match) => ({
-                    match_id: match.contentId,
-                    match_name: match.title,
-                    banner: match.portraitThumb,
-                    stream_link: match.pub_url,
+                // Safeguard against unexpected data structures
+                const matchesFromFirstJson = (data1.matches || []).map((match) => ({
+                    match_id: match.contentId || `match-${Math.random()}`,
+                    match_name: match.title || "Unknown Match",
+                    banner: match.portraitThumb || "",
+                    stream_link: match.pub_url || "#",
                     team_1: match.homeTeam || "Team 1",
                     team_2: match.awayTeam || "Team 2",
-                    team_1_flag: "", // No team flag in this JSON
-                    team_2_flag: "", // No team flag in this JSON
+                    team_1_flag: "",
+                    team_2_flag: "",
                 }));
 
-                const matchesFromSecondJson = data2.matches.map((match) => ({
-                    match_id: match.id,
-                    match_name: match.title,
-                    banner: match.logo,
-                    stream_link: match.link,
-                    team_1: "", // No team info in this JSON
-                    team_2: "", // No team info in this JSON
-                    team_1_flag: "", // No team flag in this JSON
-                    team_2_flag: "", // No team flag in this JSON
+                const matchesFromSecondJson = (data2.matches || []).map((match) => ({
+                    match_id: match.id || `match-${Math.random()}`,
+                    match_name: match.title || "Unknown Match",
+                    banner: match.logo || "",
+                    stream_link: match.link || "#",
+                    team_1: "",
+                    team_2: "",
+                    team_1_flag: "",
+                    team_2_flag: "",
                 }));
 
-                const matchesFromThirdJson = data3
-                    .filter((match) => match.dai_url) // Filter matches with dai_url
+                const matchesFromThirdJson = (data3 || [])
+                    .filter((match) => match.dai_url)
                     .map((match) => ({
-                        match_id: match.match_id,
-                        match_name: match.title,
-                        banner: match.src,
-                        stream_link: match.dai_url,
+                        match_id: match.match_id || `match-${Math.random()}`,
+                        match_name: match.title || "Unknown Match",
+                        banner: match.src || "",
+                        stream_link: match.dai_url || "#",
                         team_1: match.team_1 || "Team 1",
                         team_2: match.team_2 || "Team 2",
                         team_1_flag: match.team_1_flag || "",
@@ -68,7 +74,7 @@ const FT = () => {
 
                 setMatches(allMatches);
             } catch (err) {
-                setError("Error fetching matches. Please try again later.");
+                setError(`Error fetching matches: ${err.message}`);
                 console.error(err);
             } finally {
                 setLoading(false);
@@ -84,6 +90,10 @@ const FT = () => {
 
     if (error) {
         return <div>{error}</div>;
+    }
+
+    if (matches.length === 0) {
+        return <div>No matches available at the moment.</div>;
     }
 
     return (
