@@ -346,24 +346,19 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
   const fetchAndRenderMatches = async (containerId) => {
     const container = document.getElementById(containerId);
     if (!container) return;
-
-    container.innerHTML = '<p>Loading matches...</p>';
-
+  container.innerHTML = '<p>Loading matches...</p>';
     try {
         const [response1, response2, response3] = await Promise.all([
             fetch('https://sony-eight.vercel.app/'),
             fetch('https://jiocinema-livid.vercel.app/'),
             fetch('https://fancode-two.vercel.app/'),
         ]);
-
         if (!response1.ok || !response2.ok || !response3.ok) {
             throw new Error('Failed to fetch matches');
         }
-
         const data1 = await response1.json();
         const data2 = await response2.json();
         const data3 = await response3.json();
-
         // Normalize data
         const matchesFromFirstJson = data1.matches.map((match) => ({
             match_id: match.contentId || 'unknown',
@@ -416,12 +411,6 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
         console.error(error);
     }
 };
-
-
-
-
-
-  
   useEffect(() => {
     if (!selectedAlbum) {
       // rendermov(video, 'video-player');
@@ -435,10 +424,8 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
     //  rendermov(channels,'live-player');
       renderchannel(channels, 'live-player');
       renderdog(others, 'dog-player');
-
         fetchAndRenderMatches('sports-player');
-);
-      
+); 
     }
   },);
 
