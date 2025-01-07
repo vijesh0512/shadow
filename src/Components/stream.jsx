@@ -10,9 +10,9 @@ const FT = () => {
         const fetchMatches = async () => {
             try {
                 const [response1, response2, response3] = await Promise.all([
-                    fetch('https://sony-eight.vercel.app/'),  
+                    fetch('https://sony-eight.vercel.app/'),
                     fetch('https://jiocinema-livid.vercel.app/'),
-                    fetch('https://fancode-two.vercel.app/'), 
+                    fetch('https://fancode-two.vercel.app/'),
                 ]);
 
                 const responses = [response1, response2, response3];
@@ -52,9 +52,10 @@ const FT = () => {
                     team_2_flag: "",
                 }));
 
-                const matchesFromThirdJson = (data3 || [])
-                    .filter((match) => match.dai_url)
-                    .map((match) => ({
+                // Ensure data3 is an array before applying .filter() and .map()
+                const matchesFromThirdJson =
+                    Array.isArray(data3) &&
+                    data3.filter((match) => match.dai_url).map((match) => ({
                         match_id: match.match_id || `match-${Math.random()}`,
                         match_name: match.title || "Unknown Match",
                         banner: match.src || "",
@@ -69,7 +70,7 @@ const FT = () => {
                 const allMatches = [
                     ...matchesFromFirstJson,
                     ...matchesFromSecondJson,
-                    ...matchesFromThirdJson,
+                    ...(matchesFromThirdJson || []), // Safeguard if data3 is not an array
                 ];
 
                 setMatches(allMatches);
