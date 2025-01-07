@@ -362,7 +362,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
         // Normalize data
         const matchesFromFirstJson = data1.matches.map((match) => ({
             match_id: match.contentId || 'unknown',
-            match_name: match.episodeTitle || 'Unnamed Match',
+            match_name: match.title || 'Unnamed Match',
             banner: match.portraitThumb || '',
             stream_link: match.pub_url || '',
         }));
