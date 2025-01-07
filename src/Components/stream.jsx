@@ -60,6 +60,7 @@ const FT = () => {
                         team_1_flag: match.team_1_flag,
                         team_2_flag: match.team_2_flag,
                         status: match.status,
+                        date: match.startTime,
                     }));
 
                 // Combine all matches
@@ -104,7 +105,8 @@ return (
                     }
                 >
                     <img src={match.banner} alt={match.match_name} />
-                    <h2>{match.status === 'UPCOMING' ? match.status : match.match_name}</h2>
+                    <h2>{match.status === 'UPCOMING' ? match.status match.date : match.match_name}</h2>
+{/*                     <p>{match.status === 'UPCOMING' ? match.date : match.match_name}</h2></p> */}
                 </div>
             ))}
         </div>
