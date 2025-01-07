@@ -39,12 +39,9 @@ const FT = () => {
             <h1 className='sideheading'>Live TV</h1>
             <div id='channel-player' className='play'>
                 {matches.map((match) => (
-                    <div key={match.contentId} className='son'>
+                    <div key={match.contentId} className='son' onClick={() => window.open(match.pub_url, '_blank')}>
                         <img src={match.portraitThumb} alt={match.title} />
                         <p>{match.title}</p>
-                        <button onClick={() => window.open(match.pub_url, '_blank')}>
-                            Watch Now
-                        </button>
                     </div>
                 ))}
             </div>
