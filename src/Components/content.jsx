@@ -343,88 +343,81 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
   };
 
 
-const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
+  const fetchAndRenderMatches = async (containerId) => {
     const container = document.getElementById(containerId);
+    if (!container) return;
+
+    container.innerHTML = '<p>Loading matches...</p>';
+
     try {
-        // Fetch JSONs in parallel
-        const fetchPromises = [fetch(url1), fetch(url2), fetch(url3)];
-        const responses = await Promise.all(fetchPromises);
+        const [response1, response2, response3] = await Promise.all([
+            fetch('https://sony-eight.vercel.app/'),
+            fetch('https://jiocinema-livid.vercel.app/'),
+            fetch('https://fancode-two.vercel.app/'),
+        ]);
 
-        // Validate responses and parse JSON
-        const jsonPromises = responses.map(response => {
-            if (!response.ok) throw new Error("Failed to fetch match data");
-            return response.json();
+        if (!response1.ok || !response2.ok || !response3.ok) {
+            throw new Error('Failed to fetch matches');
+        }
+
+        const data1 = await response1.json();
+        const data2 = await response2.json();
+        const data3 = await response3.json();
+
+        // Normalize data
+        const matchesFromFirstJson = data1.matches.map((match) => ({
+            match_id: match.contentId || 'unknown',
+            match_name: match.title || 'Unnamed Match',
+            banner: match.portraitThumb || '',
+            stream_link: match.pub_url || '',
+        }));
+
+          const matchesFromThirdJson = data2.map((match) => ({
+            match_id: match.id || 'unknown',
+            match_name: match.title || 'Unnamed Match',
+            banner: match.logo || '',
+            stream_link: match.link || '',
+        }));
+
+        const matchesFromSecondJson = data3.matches
+            .filter((match) => match.adfree_url) // Ensure the stream link exists
+            .map((match) => ({
+                match_id: match.match_id || 'unknown',
+                match_name: match.title || 'Unnamed Match',
+                banner: match.src || '',
+                stream_link: match.adfree_url || '',
+            }));
+
+
+
+        // Combine all matches
+        const allMatches = [
+            ...matchesFromFirstJson,
+            ...matchesFromSecondJson,
+            ...matchesFromThirdJson,
+        ];
+
+        container.innerHTML = '';
+
+        // Render matches
+        allMatches.forEach((match) => {
+            const matchDiv = document.createElement('div');
+            matchDiv.classList.add('song');
+            matchDiv.innerHTML = `
+                <a href="${match.stream_link}" target="_blank">
+                    <img src="${match.banner}" alt="${match.match_name}">
+                </a>
+                <p>${match.match_name}</p>
+            `;
+            container.appendChild(matchDiv);
         });
-
-        const [data1, data2, data3] = await Promise.all(jsonPromises);
-
-        container.innerHTML = ''; // Clear the loading state
-
-        // Use DocumentFragment for efficient rendering
-        const fragment = document.createDocumentFragment();
-
-        // Render matches from the first JSON (display all matches)
-        if (Array.isArray(data1.matches)) {
-            data1.matches.forEach(match => {
-                const matchDiv = document.createElement('div');
-                matchDiv.classList.add('song');
-                matchDiv.innerHTML = `
-                    <a href="${match.pub_url}" target="_blank">
-                        <img src="${match.portraitThumb}" alt="${match.title}">
-                    </a>
-                    <p>${match.title}</p>
-                `;
-                fragment.appendChild(matchDiv);
-            });
-        }
-
-        // Render matches from the second JSON (only those with `dai_url`)
-        if (Array.isArray(data2.matches)) {
-            data2.matches
-                .filter(match => match.dai_url) // Filter for valid stream links
-                .forEach(match => {
-                    const matchDiv = document.createElement('div');
-                    matchDiv.classList.add('song');
-                    matchDiv.innerHTML = `
-                        <a href="${match.dai_url}" target="_blank">
-                            <img src="${match.src}" alt="${match.match_name}">
-                        </a>
-                        <p>${match.match_name}</p>
-                    `;
-                    fragment.appendChild(matchDiv);
-                });
-        }
-
-        // Render matches from the third JSON (display all matches)
-        if (Array.isArray(data3.matches)) {
-            data3.matches.forEach(match => {
-                const matchDiv = document.createElement('div');
-                matchDiv.classList.add('song');
-                matchDiv.innerHTML = `
-                    <a href="${match.link}" target="_blank">
-                        <img src="${match.logo}" alt="${match.title}">
-                    </a>
-                    <p>${match.title}</p>
-                `;
-                fragment.appendChild(matchDiv);
-            });
-        }
-
-        // Append all matches to the container
-        container.appendChild(fragment);
     } catch (error) {
+        container.innerHTML = '<p>Error fetching matches. Please try again later.</p>';
         console.error(error);
-        container.innerHTML = '<p>Error loading matches. Please try again later.</p>';
     }
 };
 
 
-
-// Call the function with your URLs and container ID
-
-
-
-// Call the function with URLs and container ID
 
 
 
@@ -442,11 +435,8 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
     //  rendermov(channels,'live-player');
       renderchannel(channels, 'live-player');
       renderdog(others, 'dog-player');
-      fetchAndRenderMatches(
-    'https://sony-eight.vercel.app/',
-    'https://fancode-two.vercel.app/',
-    'https://jiocinema-livid.vercel.app/', // Replace with the actual URL of the third JSON file
-    'sports-player' // Replace with the ID of your container
+
+        fetchAndRenderMatches('sports-player');
 );
       
     }
@@ -485,6 +475,7 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
              <button onClick={() => onNavClick('stream')} className='btt'>See All</button>
           </div>
         <div id='stream-player' className='player'></div>
+                  <div id='sports-player' className='player'></div>
           <div className="bt">
               <h1 className='sideheading'>Others</h1>
               {/* <button onClick={() => onNavClick('stream')} className='btt'>See All</button> */}
