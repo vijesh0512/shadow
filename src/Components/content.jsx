@@ -368,7 +368,7 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
                 .filter(match => match.pub_url) // Filter for valid stream links
                 .forEach(match => {
                     const matchDiv = document.createElement('div');
-                    matchDiv.classList.add('match');
+                    matchDiv.classList.add('song');
                     matchDiv.innerHTML = `
                         <a href="${match.pub_url}" target="_blank">
                             <img src="${match.portraitThumb}" alt="${match.title}">
@@ -385,7 +385,7 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
                 .filter(match => match.dai_url) // Filter for valid stream links
                 .forEach(match => {
                     const matchDiv = document.createElement('div');
-                    matchDiv.classList.add('match');
+                    matchDiv.classList.add('song');
                     matchDiv.innerHTML = `
                         <a href="${match.dai_url}" target="_blank">
                             <img src="${match.src}" alt="${match.match_name}">
@@ -404,13 +404,13 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
         // Render matches from the third JSON (assuming similar structure)
         if (Array.isArray(data3.matches)) {
             data3.matches
-                .filter(match => match.stream_link) // Filter for valid stream links
+                .filter(match => match.link) // Filter for valid stream links
                 .forEach(match => {
                     const matchDiv = document.createElement('div');
-                    matchDiv.classList.add('match');
+                    matchDiv.classList.add('song');
                     matchDiv.innerHTML = `
-                        <a href="${match.stream_link}" target="_blank">
-                            <img src="${match.image}" alt="${match.title}">
+                        <a href="${match.link}" target="_blank">
+                            <img src="${match.logo}" alt="${match.title}">
                         </a>
                         <h3>${match.title}</h3>
                     `;
