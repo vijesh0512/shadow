@@ -397,7 +397,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
 fetchAndRenderMatches(
     'https://fancode-two.vercel.app/', // Replace with the actual URL of the first JSON file
     'https://sony-eight.vercel.app/', // Replace with the actual URL of the second JSON file
-    'stream-player' // Replace with the ID of your container
+    'sports-player' // Replace with the ID of your container
 );
 
 
@@ -451,6 +451,7 @@ fetchAndRenderMatches(
           <h1 className='sideheading'>Live Events</h1>
           </div>
         <div id='stream-player' className='player'></div>
+          <div id='sports-player' className='player'></div>
 
           <div className="bt">
               <h1 className='sideheading'>Movies</h1>
