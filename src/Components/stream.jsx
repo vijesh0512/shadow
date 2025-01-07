@@ -9,19 +9,21 @@ const FT = () => {
     useEffect(() => {
         const fetchMatches = async () => {
             try {
-                const [response1, response2] = await Promise.all([
+                const [response1, response2, response3] = await Promise.all([
                     fetch('https://sony-eight.vercel.app/'),  // First JSON file
-                    fetch('https://fancode-two.vercel.app/') ,    // Second JSON file
+                    fetch('https://fancode-two.vercel.app/'), // Second JSON file
+                    fetch('https://jio-onb63jbnx-vijesh-s-projects.vercel.app/'), // Third JSON file
                 ]);
 
-                if (!response1.ok || !response2.ok) {
+                if (!response1.ok || !response2.ok || !response3.ok) {
                     throw new Error("Failed to fetch matches");
                 }
 
                 const data1 = await response1.json();
                 const data2 = await response2.json();
-                
-                // Normalize the match data for both JSONs
+                const data3 = await response3.json();
+
+                // Normalize the match data for each JSON
                 const matchesFromFirstJson = data1.matches.map((match) => ({
                     match_id: match.contentId,
                     match_name: match.title,
@@ -44,8 +46,24 @@ const FT = () => {
                     team_2_flag: match.team_2_flag,
                 }));
 
-                // Merging both match arrays into one
-                const allMatches = [...matchesFromFirstJson, ...matchesFromSecondJson];
+                const matchesFromThirdJson = data3.map((match) => ({
+                    match_id: match.id,
+                    match_name: match.title,
+                    banner: match.logo,
+                    stream_link: match.link,
+                    team_1: "", // No team info in this JSON
+                    team_2: "", // No team info in this JSON
+                    team_1_flag: "", // No team flag in this JSON
+                    team_2_flag: "", // No team flag in this JSON
+                }));
+
+                // Combine all matches
+                const allMatches = [
+                    ...matchesFromFirstJson,
+                    ...matchesFromSecondJson,
+                    ...matchesFromThirdJson,
+                ];
+
                 setMatches(allMatches);
             } catch (err) {
                 setError("Error fetching matches. Please try again later.");
@@ -56,7 +74,7 @@ const FT = () => {
         };
 
         fetchMatches();
-    }, []); // Runs once when component mounts
+    }, []);
 
     if (loading) {
         return <div>Loading matches...</div>;
@@ -68,10 +86,10 @@ const FT = () => {
 
     return (
         <>
-            <h1 className='sideheading'>Live Matches</h1>
-            <div id='match-container' className='play'>
+            <h1 className="sideheading">Live Matches</h1>
+            <div id="match-container" className="play">
                 {matches.map((match) => (
-                    <div key={match.match_id} className='son' onClick={() => window.open(match.stream_link, '_blank')}>
+                    <div key={match.match_id} className="son" onClick={() => window.open(match.stream_link, "_blank")}>
                         <img src={match.banner} alt={match.match_name} />
                         <h2>{match.match_name}</h2>
                     </div>
