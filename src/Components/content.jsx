@@ -41,6 +41,7 @@ const movies = [
 
 ];
 const others = [
+  {name:'Sports',image:'https://raw.githubusercontent.com/vijesh0512/image/refs/heads/main/file-7WwFgYwgnfoP5MX5MbGAHc.webp',link:'Stream'},
   { name: 'Songs', image: 'https://raw.githubusercontent.com/vijesh0512/image/refs/heads/main/DALL%C2%B7E%202024-09-21%2012.26.50%20-%20A%20close-up%20of%20a%20black%20and%20white%20pitbull%20dog%20wearing%20a%20gold%20chain.%20The%20dog%20is%20sitting%20indoors%20and%20smiling%20with%20its%20tongue%20slightly%20out.%20The%20white%20fur%20o.webp', link: 'Albums' },
  { name: 'TV', image: 'https://raw.githubusercontent.com/vijesh0512/image/refs/heads/main/DALL%C2%B7E%202024-09-21%2012.38.22%20-%20A%20close-up%20of%20a%20black%20and%20white%20pitbull%20dog%20wearing%20a%20gold%20chain%2C%20sitting%20on%20a%20cozy%20couch%20in%20a%20modern%20living%20room.%20The%20dog%20is%20watching%20TV%2C%20with%20a%20colo.webp', link: 'vlc' },
   //{ name: 'Kids', image: 'https://github.com/vijesh0512/image/blob/main/e9cf8cc9-062e-4f62-8186-777aa9db4e6a_2.jpeg?raw=true', link: 'Kids' },
@@ -484,8 +485,11 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
              <button onClick={() => onNavClick('stream')} className='btt'>See All</button>
           </div>
         <div id='stream-player' className='player'></div>
-          <div></div>
-     <div id='sports-player' className='player'></div> 
+          <div className="bt">
+              <h1 className='sideheading'>Others</h1>
+              {/* <button onClick={() => onNavClick('stream')} className='btt'>See All</button> */}
+          </div>
+          <div id='dog-player' className='player'></div>
 
           <div className="bt">
               <h1 className='sideheading'>Movies</h1>
@@ -498,11 +502,7 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
           </div>
         <div id='game-player' className='player'></div>
 
-          <div className="bt">
-              <h1 className='sideheading'>Others</h1>
-              {/* <button onClick={() => onNavClick('stream')} className='btt'>See All</button> */}
-          </div>
-          <div id='dog-player' className='player'></div>
+          
           {/*<div className="bt">
               <h1 className='sideheading'>Live Tv</h1>
             <button onClick={() => onNavClick('vlc')} className='btt'>See All</button>
