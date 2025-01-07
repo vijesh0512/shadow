@@ -58,7 +58,7 @@
 .son:hover {
   transform: scale(1.05);
 }
-.son h2{
+.son h2,.stream h2{
     margin-top: 10px;
   font-size: 16px;
   font-weight: bold;
@@ -89,7 +89,7 @@
   }
   .stream img{
         width: 150px;
-      height: 130px;
+      height: 180px;
   }
 
   .son p,.stream p {
