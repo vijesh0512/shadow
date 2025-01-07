@@ -34,7 +34,7 @@ const FT = () => {
                     stream_link: match.pub_url,
                     team_1: match.homeTeam,
                     team_2: match.awayTeam,
-                    status:"",
+                    status:" ",
                     team_1_flag: "", // No team flag in this JSON
                     team_2_flag: "", // No team flag in this JSON
                 }));
@@ -43,8 +43,8 @@ const FT = () => {
                         match_id: match.id,
                         match_name: match.title,
                         banner: match.logo,
-                    status:"",
-                        stream_link: match.link,
+                    status:" ",
+                        stream_link: match.link || #,
                         team_1: "", // No team info in this JSON
                         team_2: "", // No team info in this JSON
                         team_1_flag: "", // No team flag in this JSON
@@ -106,7 +106,7 @@ const FT = () => {
                     <div key={match.match_id} className="stream" onClick={() => window.open(match.stream_link, "_blank")}>
                         <img src={match.banner} alt={match.match_name} />
                         <h2>{match.match_name}</h2>
-                        <h2>{maatch.status}</h2>
+                        <h2>{match.status}</h2>
                     </div>
                 ))}
             </div>
