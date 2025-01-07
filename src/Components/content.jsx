@@ -402,12 +402,7 @@ const fetchAndRenderMatches = async (url1, url2, containerId) => {
 };
 
 // Call the function with URLs and container ID
-fetchAndRenderMatches(
-    'https://sony-eight.vercel.app/',
-    'https://fancode-two.vercel.app/', // Replace with the actual URL of the first JSON file
-     // Replace with the actual URL of the second JSON file
-    'sports-player' // Replace with the ID of your container
-);
+
 
 
   
@@ -424,6 +419,12 @@ fetchAndRenderMatches(
     //  rendermov(channels,'live-player');
       renderchannel(channels, 'live-player');
       renderdog(others, 'dog-player');
+      fetchAndRenderMatches(
+    'https://sony-eight.vercel.app/',
+    'https://fancode-two.vercel.app/', // Replace with the actual URL of the first JSON file
+     // Replace with the actual URL of the second JSON file
+    'sports-player' // Replace with the ID of your container
+);
       
     }
   },);
