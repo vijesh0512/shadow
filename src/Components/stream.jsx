@@ -91,7 +91,7 @@ const FT = () => {
             <h1 className="sideheading">Live Matches</h1>
             <div id="match-container" className="play">
                 {matches.map((match) => (
-                    <div key={match.match_id} className="son" onClick={() => window.open(match.stream_link, "_blank")}>
+                    <div key={match.match_id} className="stream" onClick={() => window.open(match.stream_link, "_blank")}>
                         <img src={match.banner} alt={match.match_name} />
                         <h2>{match.match_name}</h2>
                     </div>
