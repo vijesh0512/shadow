@@ -1,19 +1,19 @@
 {
   "short_name": "Shadow",
-  "name": "Download App",
+  "name": "Shadow",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/vijesh0512/image/refs/heads/main/IMG_20250107_212838.jpg",
+      "src": "./WhatsApp Image 2024-08-02 at 4.15.18 PM.jpeg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "https://raw.githubusercontent.com/vijesh0512/image/refs/heads/main/IMG_20250107_212838.jpg",
+      "src": "./WhatsApp Image 2024-08-02 at 4.15.18 PM.jpeg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://raw.githubusercontent.com/vijesh0512/image/refs/heads/main/IMG_20250107_212838.jpg",
+      "src": "./WhatsApp Image 2024-08-02 at 4.15.18 PM.jpeg",
       "type": "image/png",
       "sizes": "512x512"
     }
@@ -21,5 +21,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "black"
 }
