@@ -460,14 +460,13 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
           <h1 className='sideheading'>Live Events</h1>
              <button onClick={() => onNavClick('stream')} className='btt'>See All</button>
           </div>
+          
         <div id='stream-player' className='player'></div>
-          <div className="bt">
+{/*           <div className="bt">
           <h1 className='sideheading'></h1>
-            
-          </div>
+          </div> */}
+          <br></br>
         <div id='sports-player' className='player'></div>
-          <div className="bt">
-           
 
           <div className="bt">
               <h1 className='sideheading'>Movies</h1>
@@ -479,6 +478,8 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
           <h1 className='sideheading'>Games</h1>
           </div>
         <div id='game-player' className='player'></div>
+        
+          <div className="bt">
          <h1 className='sideheading'>Others</h1>
               {/* <button onClick={() => onNavClick('stream')} className='btt'>See All</button> */}
           </div>
