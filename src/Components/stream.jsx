@@ -38,7 +38,7 @@ const FT = () => {
                     team_2_flag: "", // No team flag in this JSON
                 }));
 
-                const matchesFromThirdJson = data3.map((match) => ({
+                const matchesFromThirdJson = data2.map((match) => ({
                         match_id: match.id,
                         match_name: match.title,
                         banner: match.logo,
@@ -50,7 +50,7 @@ const FT = () => {
 
                 }));
 
-                const matchesFromSecondJson = data2.matches
+                const matchesFromSecondJson = data3.matches
                       .filter((match) => match.adfree_url) // Filter matches with dai_url
                     .map((match) => ({
                                                  
