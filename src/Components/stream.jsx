@@ -34,6 +34,7 @@ const FT = () => {
                     stream_link: match.pub_url,
                     team_1: match.homeTeam,
                     team_2: match.awayTeam,
+                    status:"",
                     team_1_flag: "", // No team flag in this JSON
                     team_2_flag: "", // No team flag in this JSON
                 }));
@@ -42,6 +43,7 @@ const FT = () => {
                         match_id: match.id,
                         match_name: match.title,
                         banner: match.logo,
+                    status:"",
                         stream_link: match.link,
                         team_1: "", // No team info in this JSON
                         team_2: "", // No team info in this JSON
@@ -51,12 +53,13 @@ const FT = () => {
                 }));
 
                 const matchesFromSecondJson = data3.matches
-                      .filter((match) => match.adfree_url) // Filter matches with dai_url
+                      //.filter((match) => match.adfree_url) // Filter matches with dai_url
                     .map((match) => ({
                                                  
                         match_id: match.match_id,
                         match_name: match.title,
                         banner: match.src,
+                        status:match.status,
                         stream_link: match.adfree_url,
                         team_1: match.team_1,
                         team_2: match.team_2,
@@ -103,6 +106,7 @@ const FT = () => {
                     <div key={match.match_id} className="stream" onClick={() => window.open(match.stream_link, "_blank")}>
                         <img src={match.banner} alt={match.match_name} />
                         <h2>{match.match_name}</h2>
+                        <h2>{maatch.status}</h2>
                     </div>
                 ))}
             </div>
