@@ -105,8 +105,8 @@ return (
                     }
                 >
                     <img src={match.banner} alt={match.match_name} />
-                    <h2>{match.status === 'UPCOMING' ? match.status match.date : match.match_name}</h2>
-                <p>{match.status === 'UPCOMING' ? match.date :  match.stream_link}</p> 
+                    <h2>{match.status === 'UPCOMING' ? `${match.status} ${match.date}` : match.match_name}</h2>
+
                 </div>
             ))}
         </div>
