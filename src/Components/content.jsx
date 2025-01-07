@@ -342,11 +342,11 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
   };
 
 
-const fetchAndRenderMatches = async (url1, url2, containerId) => {
+const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
     const container = document.getElementById(containerId);
     try {
         // Fetch JSONs in parallel
-        const fetchPromises = [fetch(url1), fetch(url2)];
+        const fetchPromises = [fetch(url1), fetch(url2), fetch(url3)];
         const responses = await Promise.all(fetchPromises);
 
         // Validate responses and parse JSON
@@ -355,43 +355,57 @@ const fetchAndRenderMatches = async (url1, url2, containerId) => {
             return response.json();
         });
 
-        const [data1, data2] = await Promise.all(jsonPromises);
+        const [data1, data2, data3] = await Promise.all(jsonPromises);
 
         container.innerHTML = ''; // Clear the loading state
 
         // Use DocumentFragment for efficient rendering
         const fragment = document.createDocumentFragment();
 
-        // Render matches from the first JSON
-        data1.matches.forEach(match => {
-            const matchDiv = document.createElement('div');
-            matchDiv.classList.add('match');
-            matchDiv.innerHTML = `
-                <a href="${match.pub_url}" target="_blank">
-                    <img src="${match.portraitThumb}" alt="${match.title}">
-                </a>
-                <h3>${match.title}</h3>
-            `;
-            fragment.appendChild(matchDiv);
-        });
+        // Render matches from the first JSON (only those with `pub_url`)
+        data1.matches
+            .filter(match => match.pub_url) // Filter for valid stream links
+            .forEach(match => {
+                const matchDiv = document.createElement('div');
+                matchDiv.classList.add('song');
+                matchDiv.innerHTML = `
+                    <a href="${match.pub_url}" target="_blank">
+                        <img src="${match.portraitThumb}" alt="${match.title}">
+                    </a>
+                    <h3>${match.title}</h3>
+                `;
+                fragment.appendChild(matchDiv);
+            });
 
-        // Render matches from the second JSON
-        data2.matches.forEach(match => {
-            const matchDiv = document.createElement('div');
-            matchDiv.classList.add('match');
-            matchDiv.innerHTML = `
-                <a href="${match.stream_link}" target="_blank">
-                    <img src="${match.banner}" alt="${match.match_name}">
-                </a>
-                <h3>${match.match_name}</h3>
-                <p>
-                    <img src="${match.team_1_flag}" alt="${match.team_1}" width="25"> ${match.team_1} 
-                    vs 
-                    <img src="${match.team_2_flag}" alt="${match.team_2}" width="25"> ${match.team_2}
-                </p>
-            `;
-            fragment.appendChild(matchDiv);
-        });
+        // Render matches from the second JSON (only those with `dai_url`)
+        data2.matches
+            .filter(match => match.dai_url) // Filter for valid stream links
+            .forEach(match => {
+                const matchDiv = document.createElement('div');
+                matchDiv.classList.add('song');
+                matchDiv.innerHTML = `
+                    <a href="${match.adfree_url}" target="_blank">
+                        <img src="${match.src}" alt="${match.match_name}">
+                    </a>
+                    <h3>${match.match_name}</h3>
+                `;
+                fragment.appendChild(matchDiv);
+            });
+
+        // Render matches from the third JSON (assuming similar structure)
+        data3.matches
+            .filter(match => match.stream_link) // Filter for valid stream links
+            .forEach(match => {
+                const matchDiv = document.createElement('div');
+                matchDiv.classList.add('song');
+                matchDiv.innerHTML = `
+                    <a href="${match.link}" target="_blank">
+                        <img src="${match.logo}" alt="${match.title}">
+                    </a>
+                    <h3>${match.title}</h3>
+                `;
+                fragment.appendChild(matchDiv);
+            });
 
         // Append all matches to the container
         container.appendChild(fragment);
@@ -400,6 +414,10 @@ const fetchAndRenderMatches = async (url1, url2, containerId) => {
         container.innerHTML = '<p>Error loading matches. Please try again later.</p>';
     }
 };
+
+// Call the function with your URLs and container ID
+
+
 
 // Call the function with URLs and container ID
 
@@ -421,9 +439,9 @@ const fetchAndRenderMatches = async (url1, url2, containerId) => {
       renderdog(others, 'dog-player');
       fetchAndRenderMatches(
     'https://sony-eight.vercel.app/',
-    'https://fancode-two.vercel.app/', // Replace with the actual URL of the first JSON file
-     // Replace with the actual URL of the second JSON file
-    'sports-player' // Replace with the ID of your container
+    'https://fancode-two.vercel.app/',
+    'https://jiocinema-livid.vercel.app/', // Replace with the actual URL of the third JSON file
+    'stream-player' // Replace with the ID of your container
 );
       
     }
@@ -459,9 +477,10 @@ const fetchAndRenderMatches = async (url1, url2, containerId) => {
  
            <div className="bt">
           <h1 className='sideheading'>Live Events</h1>
+             <button onClick={() => onNavClick('stream')} className='btt'>See All</button>
           </div>
         <div id='stream-player' className='player'></div>
-        <div id='sports-player' className='player'></div>
+{/*         <div id='sports-player' className='player'></div> */}
 
           <div className="bt">
               <h1 className='sideheading'>Movies</h1>
