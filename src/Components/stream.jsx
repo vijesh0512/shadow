@@ -36,7 +36,7 @@ const FT = () => {
 
     return (
         <>
-            <h1 className='sideheading'>Live TV</h1>
+            <h1 className='sideheading'>Sports</h1>
             <div id='channel-player' className='play'>
                 {matches.map((match) => (
                     <div key={match.contentId} className='son' onClick={() => window.open(match.pub_url, '_blank')}>
