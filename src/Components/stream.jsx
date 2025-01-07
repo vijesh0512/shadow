@@ -9,7 +9,7 @@ const FT = () => {
     useEffect(() => {
         const fetchMatches = async () => {
             try {
-                const response = await fetch('https://sony-9fx61vhk2-vijesh-s-projects.vercel.app/proxy');
+                const response = await fetch('https://sony-eight.vercel.app/');
                 if (!response.ok) {
                     throw new Error("Failed to fetch matches");
                 }
