@@ -340,6 +340,68 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
       container.appendChild(songDiv);
     });
   };
+
+
+  const fetchAndRenderMatches = async (url1, url2, containerId) => {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    container.innerHTML = '<p>Loading matches...</p>'; // Show a loading state
+
+    try {
+        // Fetch both JSON files
+        const [response1, response2] = await Promise.all([fetch(url1), fetch(url2)]);
+        if (!response1.ok || !response2.ok) {
+            throw new Error("Failed to fetch match data");
+        }
+
+        // Parse JSON data
+        const data1 = await response1.json();
+        const data2 = await response2.json();
+
+        // Render matches directly from the fetched data
+        container.innerHTML = ''; // Clear the loading state
+
+        // Render matches from the first JSON
+        data1.matches.forEach(match => {
+            const matchDiv = document.createElement('div');
+            matchDiv.classList.add('song');
+            matchDiv.innerHTML = `
+                <a href="${match.pub_url}" target="_blank">
+                    <img src="${match.portraitThumb}" alt="${match.title}">
+                </a>
+                <p>${match.title}</p>
+            `;
+            container.appendChild(matchDiv);
+        });
+
+        // Render matches from the second JSON
+        data2.matches.forEach(match => {
+            const matchDiv = document.createElement('div');
+            matchDiv.classList.add('song');
+            matchDiv.innerHTML = `
+                <a href="${match.stream_link}" target="_blank">
+                    <img src="${match.banner}" alt="${match.match_name}">
+                </a>
+                <p>${match.match_name}</p>
+            `;
+            container.appendChild(matchDiv);
+        });
+    } catch (error) {
+        console.error(error);
+        container.innerHTML = '<p>Error loading matches. Please try again later.</p>';
+    }
+};
+
+// Call the function with URLs and container ID
+fetchAndRenderMatches(
+    'https://fancode-two.vercel.app/', // Replace with the actual URL of the first JSON file
+    'https://sony-eight.vercel.app/', // Replace with the actual URL of the second JSON file
+    'stream-player' // Replace with the ID of your container
+);
+
+
+  
   useEffect(() => {
     if (!selectedAlbum) {
       // rendermov(video, 'video-player');
