@@ -368,7 +368,7 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
                 .filter(match => match.pub_url) // Filter for valid stream links
                 .forEach(match => {
                     const matchDiv = document.createElement('div');
-                    matchDiv.classList.add('song');
+                    matchDiv.classList.add('match');
                     matchDiv.innerHTML = `
                         <a href="${match.pub_url}" target="_blank">
                             <img src="${match.portraitThumb}" alt="${match.title}">
@@ -382,15 +382,20 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
         // Render matches from the second JSON (only those with `dai_url`)
         if (Array.isArray(data2.matches)) {
             data2.matches
-                .filter(match => match.adfree_url) // Filter for valid stream links
+                .filter(match => match.dai_url) // Filter for valid stream links
                 .forEach(match => {
                     const matchDiv = document.createElement('div');
-                    matchDiv.classList.add('song');
+                    matchDiv.classList.add('match');
                     matchDiv.innerHTML = `
-                        <a href="${match.adfree_url}" target="_blank">
+                        <a href="${match.dai_url}" target="_blank">
                             <img src="${match.src}" alt="${match.match_name}">
                         </a>
                         <h3>${match.match_name}</h3>
+                        <p>
+                            <img src="${match.team_1_flag || ''}" alt="${match.team_1}" width="25"> ${match.team_1} 
+                            vs 
+                            <img src="${match.team_2_flag || ''}" alt="${match.team_2}" width="25"> ${match.team_2}
+                        </p>
                     `;
                     fragment.appendChild(matchDiv);
                 });
@@ -398,18 +403,19 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
 
         // Render matches from the third JSON (assuming similar structure)
         if (Array.isArray(data3.matches)) {
-            .filter(match => match.stream_link) // Filter for valid stream links
-            .forEach(match => {
-                const matchDiv = document.createElement('div');
-                matchDiv.classList.add('song');
-                matchDiv.innerHTML = `
-                    <a href="${match.link}" target="_blank">
-                        <img src="${match.logo}" alt="${match.title}">
-                    </a>
-                    <h3>${match.title}</h3>
-                `;
-                fragment.appendChild(matchDiv);
-            });
+            data3.matches
+                .filter(match => match.stream_link) // Filter for valid stream links
+                .forEach(match => {
+                    const matchDiv = document.createElement('div');
+                    matchDiv.classList.add('match');
+                    matchDiv.innerHTML = `
+                        <a href="${match.stream_link}" target="_blank">
+                            <img src="${match.image}" alt="${match.title}">
+                        </a>
+                        <h3>${match.title}</h3>
+                    `;
+                    fragment.appendChild(matchDiv);
+                });
         }
 
         // Append all matches to the container
@@ -419,6 +425,7 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
         container.innerHTML = '<p>Error loading matches. Please try again later.</p>';
     }
 };
+
 
 // Call the function with your URLs and container ID
 
