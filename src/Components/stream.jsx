@@ -10,9 +10,10 @@ const FT = () => {
         const fetchMatches = async () => {
             try {
                 const [response1, response2, response3] = await Promise.all([
-                    fetch('https://sony-eight.vercel.app/'),  // First JSON file
-                    fetch('https://fancode-two.vercel.app/'), // Second JSON file
-                    fetch('https://jiocinema-livid.vercel.app/'), // Third JSON file
+                    fetch('https://sony-eight.vercel.app/'),  
+                     fetch('https://jiocinema-livid.vercel.app/'),
+                    fetch('https://fancode-two.vercel.app/'), 
+
                 ]);
 
                 if (!response1.ok || !response2.ok || !response3.ok) {
@@ -36,8 +37,22 @@ const FT = () => {
                 }));
 
                 const matchesFromSecondJson = data2.matches
-                    .filter((match) => match.adfree_url) // Filter matches with dai_url
+                    
                     .map((match) => ({
+                         match_id: match.id,
+                        match_name: match.title,
+                        banner: match.logo,
+                        stream_link: match.link,
+                        team_1: "", // No team info in this JSON
+                        team_2: "", // No team info in this JSON
+                        team_1_flag: "", // No team flag in this JSON
+                        team_2_flag: "", // No team flag in this JSON
+
+                    }));
+
+                const matchesFromThirdJson = data3.map((match) => ({
+                    .filter((match) => match.adfree_url) // Filter matches with dai_url
+                    .map((match) => ({     
                         match_id: match.match_id,
                         match_name: match.title,
                         banner: match.src,
@@ -46,17 +61,6 @@ const FT = () => {
                         team_2: match.team_2,
                         team_1_flag: match.team_1_flag,
                         team_2_flag: match.team_2_flag,
-                    }));
-
-                const matchesFromThirdJson = data3.map((match) => ({
-                    match_id: match.id,
-                    match_name: match.title,
-                    banner: match.logo,
-                    stream_link: match.link,
-                    team_1: "", // No team info in this JSON
-                    team_2: "", // No team info in this JSON
-                    team_1_flag: "", // No team flag in this JSON
-                    team_2_flag: "", // No team flag in this JSON
                 }));
 
                 // Combine all matches
