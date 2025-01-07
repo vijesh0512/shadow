@@ -51,7 +51,7 @@ const FT = () => {
                 }));
 
                 const matchesFromSecondJson = data3.matches
-                      //.filter((match) => match.adfree_url) // Filter matches with dai_url
+                      .filter((match) => match.adfree_url) // Filter matches with dai_url
                     .map((match) => ({
                                                  
                         match_id: match.match_id,
