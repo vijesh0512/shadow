@@ -78,14 +78,14 @@
       margin-top: 30px;
   }
   .stream {
-      width: 260px;
+      width: 100%;
       height:auto;
       margin-top: 30px
   }
 
   .son img {
-      width: 90px;
-      height: 130px;
+      width: 90%;
+      height: 150px;
   }
   .stream img{
         width: 150px;
