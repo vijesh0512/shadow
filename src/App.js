@@ -8,6 +8,7 @@ import Livetwo from './Components/LIVETWO';
 import Album from './Components/navalbums';
 import Series from './Components/Series';
 import Video from './Components/video';
+import Stream from './Components/stream';
 
 const App = () => {
   const [activeComponent, setActiveComponent] = useState('home');
@@ -79,6 +80,7 @@ const App = () => {
       {activeComponent === 'Albums' && <Album />}
       {activeComponent === 'Series' && <Series />}
       {activeComponent === 'Vid' && <Video />}
+      {activeComponent === 'stream' && <Stream />}
     </div>
   );
 };
