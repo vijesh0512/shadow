@@ -35,16 +35,18 @@ const FT = () => {
                     team_2_flag: "", // No team flag in this JSON
                 }));
 
-                const matchesFromSecondJson = data2.matches.map((match) => ({
-                    match_id: match.match_id,
-                    match_name: match.match_name,
-                    banner: match.banner,
-                    stream_link: match.stream_link,
-                    team_1: match.team_1,
-                    team_2: match.team_2,
-                    team_1_flag: match.team_1_flag,
-                    team_2_flag: match.team_2_flag,
-                }));
+                const matchesFromSecondJson = data2.matches
+                    .filter((match) => match.adfree_url) // Filter matches with dai_url
+                    .map((match) => ({
+                        match_id: match.match_id,
+                        match_name: match.match_name,
+                        banner: match.src,
+                        stream_link: match.dai_url,
+                        team_1: match.team_1,
+                        team_2: match.team_2,
+                        team_1_flag: match.team_1_flag,
+                        team_2_flag: match.team_2_flag,
+                    }));
 
                 const matchesFromThirdJson = data3.map((match) => ({
                     match_id: match.id,
