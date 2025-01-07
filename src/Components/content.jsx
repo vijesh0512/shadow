@@ -391,11 +391,6 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
                             <img src="${match.src}" alt="${match.match_name}">
                         </a>
                         <h3>${match.match_name}</h3>
-                        <p>
-                            <img src="${match.team_1_flag || ''}" alt="${match.team_1}" width="25"> ${match.team_1} 
-                            vs 
-                            <img src="${match.team_2_flag || ''}" alt="${match.team_2}" width="25"> ${match.team_2}
-                        </p>
                     `;
                     fragment.appendChild(matchDiv);
                 });
@@ -404,7 +399,6 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
         // Render matches from the third JSON (assuming similar structure)
         if (Array.isArray(data3.matches)) {
             data3.matches
-                .filter(match => match.link) // Filter for valid stream links
                 .forEach(match => {
                     const matchDiv = document.createElement('div');
                     matchDiv.classList.add('song');
