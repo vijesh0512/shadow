@@ -11,8 +11,9 @@ const FT = () => {
             try {
                 const [response1, response2, response3] = await Promise.all([
                     fetch('https://sony-eight.vercel.app/'),  
+                                        fetch('https://fancode-two.vercel.app/'), 
                      fetch('https://jiocinema-livid.vercel.app/'),
-                    fetch('https://fancode-two.vercel.app/'), 
+
 
                 ]);
 
@@ -52,8 +53,6 @@ const FT = () => {
                     }));
 
                 const matchesFromThirdJson = data3.map((match) => ({
-                  
-                    .map((match) => ({     
                         match_id: match.id,
                         match_name: match.title,
                         banner: match.logo,
