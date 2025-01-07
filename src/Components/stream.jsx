@@ -42,7 +42,7 @@ const FT = () => {
                         match_id: match.id,
                         match_name: match.title,
                         banner: match.logo,
-                        stream_link: match.link || #,
+                        stream_link: match.link,
                         team_1: "", // No team info in this JSON
                         team_2: "", // No team info in this JSON
                         team_1_flag: "", // No team flag in this JSON
