@@ -362,7 +362,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
         // Normalize data
         const matchesFromFirstJson = data1.matches.map((match) => ({
             match_id: match.contentId || 'unknown',
-            match_name: match.title || 'Unnamed Match',
+            match_name: match.episodeTitle || 'Unnamed Match',
             banner: match.portraitThumb || '',
             stream_link: match.pub_url || '',
         }));
@@ -378,7 +378,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
             .filter((match) => match.adfree_url) // Ensure the stream link exists
             .map((match) => ({
                 match_id: match.match_id || 'unknown',
-                match_name: match.title || 'Unnamed Match',
+                match_name: match.match_name || 'Unnamed Match',
                 banner: match.src || '',
                 stream_link: match.adfree_url || '',
             }));
@@ -461,12 +461,10 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
              <button onClick={() => onNavClick('stream')} className='btt'>See All</button>
           </div>
         <div id='stream-player' className='player'></div>
-                  <div id='sports-player' className='player'></div>
+        <br></br>
+        <div id='sports-player' className='player'></div>
           <div className="bt">
-              <h1 className='sideheading'>Others</h1>
-              {/* <button onClick={() => onNavClick('stream')} className='btt'>See All</button> */}
-          </div>
-          <div id='dog-player' className='player'></div>
+           
 
           <div className="bt">
               <h1 className='sideheading'>Movies</h1>
@@ -478,7 +476,10 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
           <h1 className='sideheading'>Games</h1>
           </div>
         <div id='game-player' className='player'></div>
-
+         <h1 className='sideheading'>Others</h1>
+              {/* <button onClick={() => onNavClick('stream')} className='btt'>See All</button> */}
+          </div>
+          <div id='dog-player' className='player'></div>
           
           {/*<div className="bt">
               <h1 className='sideheading'>Live Tv</h1>
