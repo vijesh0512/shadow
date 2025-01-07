@@ -55,6 +55,7 @@ const SideNav = ({ onNavClick }) => {
         <li onClick={() => onNavClick('Albums')}>Albums</li>
        <li onClick={() => onNavClick('Series')}>Series</li>
         <li onClick={() => onNavClick('Vid')}>Video Songs</li>
+        <li onClick={() => onNavClick('stream')}>Video Songs</li>
       </ul>
     </div>
   );
