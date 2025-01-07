@@ -373,7 +373,7 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
                         <a href="${match.pub_url}" target="_blank">
                             <img src="${match.portraitThumb}" alt="${match.title}">
                         </a>
-                        <h3>${match.title}</h3>
+                        <p>${match.title}</p>
                     `;
                     fragment.appendChild(matchDiv);
                 });
@@ -390,7 +390,7 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
                         <a href="${match.dai_url}" target="_blank">
                             <img src="${match.src}" alt="${match.match_name}">
                         </a>
-                        <h3>${match.match_name}</h3>
+                        <p>${match.match_name}</p>
                     `;
                     fragment.appendChild(matchDiv);
                 });
@@ -398,19 +398,20 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
 
         // Render matches from the third JSON (assuming similar structure)
         if (Array.isArray(data3.matches)) {
-            data3.matches
-                .forEach(match => {
-                    const matchDiv = document.createElement('div');
-                    matchDiv.classList.add('song');
-                    matchDiv.innerHTML = `
-                        <a href="${match.link}" target="_blank">
-                            <img src="${match.logo}" alt="${match.title}">
-                        </a>
-                        <h3>${match.title}</h3>
-                    `;
-                    fragment.appendChild(matchDiv);
-                });
-        }
+    data3.matches.forEach(match => {
+        const matchDiv = document.createElement('div');
+        matchDiv.classList.add('song');
+        matchDiv.innerHTML = `
+            <a href="${match.link}" target="_blank">
+                <img src="${match.logo}" alt="${match.title}">
+            </a>
+            <p>${match.title}</p>
+        `;
+        fragment.appendChild(matchDiv);
+    });
+}
+
+
 
         // Append all matches to the container
         container.appendChild(fragment);
