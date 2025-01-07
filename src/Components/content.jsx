@@ -398,7 +398,7 @@ fetchAndRenderMatches(
     'https://sony-eight.vercel.app/',
     'https://fancode-two.vercel.app/', // Replace with the actual URL of the first JSON file
      // Replace with the actual URL of the second JSON file
-    'sports-player' // Replace with the ID of your container
+    'stream-player' // Replace with the ID of your container
 );
 
 
