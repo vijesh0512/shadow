@@ -441,7 +441,7 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
     'https://sony-eight.vercel.app/',
     'https://fancode-two.vercel.app/',
     'https://jiocinema-livid.vercel.app/', // Replace with the actual URL of the third JSON file
-    'stream-player' // Replace with the ID of your container
+    'sports-player' // Replace with the ID of your container
 );
       
     }
@@ -479,7 +479,7 @@ const fetchAndRenderMatches = async (url1, url2, url3, containerId) => {
           <h1 className='sideheading'>Live Events</h1>
              <button onClick={() => onNavClick('stream')} className='btt'>See All</button>
           </div>
-        <div id='stream-player' className='player'></div>
+        <div id='sports-player' className='player'></div>
 {/*         <div id='sports-player' className='player'></div> */}
 
           <div className="bt">
