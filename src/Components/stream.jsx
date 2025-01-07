@@ -27,7 +27,7 @@ const FT = () => {
                 const matchesFromFirstJson = data1.matches.map((match) => ({
                     match_id: match.contentId,
                     match_name: match.status === 'upcoming' ? 'Upcoming' : match.title,
-                    banner: match.portraitThumb,
+                    banner: match.landscapeThumb,
                     stream_link: match.status === 'upcoming' ? null : match.pub_url,
                     team_1: match.homeTeam,
                     team_2: match.awayTeam,
