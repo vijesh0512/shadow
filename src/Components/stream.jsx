@@ -11,8 +11,9 @@ const FT = () => {
             try {
                 const [response1, response2, response3] = await Promise.all([
                     fetch('https://sony-eight.vercel.app/'),  
-                                        fetch('https://fancode-two.vercel.app/'), 
-                     fetch('https://jiocinema-livid.vercel.app/'),
+                                         fetch('https://jiocinema-livid.vercel.app/'),
+                    fetch('https://fancode-two.vercel.app/'), 
+
 
 
                 ]);
@@ -37,6 +38,18 @@ const FT = () => {
                     team_2_flag: "", // No team flag in this JSON
                 }));
 
+                const matchesFromThirdJson = data3.map((match) => ({
+                        match_id: match.id,
+                        match_name: match.title,
+                        banner: match.logo,
+                        stream_link: match.link,
+                        team_1: "", // No team info in this JSON
+                        team_2: "", // No team info in this JSON
+                        team_1_flag: "", // No team flag in this JSON
+                        team_2_flag: "", // No team flag in this JSON
+
+                }));
+
                 const matchesFromSecondJson = data2.matches
                       .filter((match) => match.adfree_url) // Filter matches with dai_url
                     .map((match) => ({
@@ -52,23 +65,14 @@ const FT = () => {
 
                     }));
 
-                const matchesFromThirdJson = data3.map((match) => ({
-                        match_id: match.id,
-                        match_name: match.title,
-                        banner: match.logo,
-                        stream_link: match.link,
-                        team_1: "", // No team info in this JSON
-                        team_2: "", // No team info in this JSON
-                        team_1_flag: "", // No team flag in this JSON
-                        team_2_flag: "", // No team flag in this JSON
 
-                }));
 
                 // Combine all matches
                 const allMatches = [
                     ...matchesFromFirstJson,
-                    ...matchesFromSecondJson,
                     ...matchesFromThirdJson,
+                    ...matchesFromSecondJson,
+      
                 ];
 
                 setMatches(allMatches);
