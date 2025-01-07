@@ -39,7 +39,7 @@ const FT = () => {
                     .filter((match) => match.adfree_url) // Filter matches with dai_url
                     .map((match) => ({
                         match_id: match.match_id,
-                        match_name: match.match_name,
+                        match_name: match.title,
                         banner: match.src,
                         stream_link: match.dai_url,
                         team_1: match.team_1,
