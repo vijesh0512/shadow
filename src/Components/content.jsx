@@ -425,7 +425,6 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
       renderchannel(channels, 'live-player');
       renderdog(others, 'dog-player');
         fetchAndRenderMatches('sports-player');
-); 
     }
   },);
 
