@@ -461,7 +461,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
              <button onClick={() => onNavClick('stream')} className='btt'>See All</button>
           </div>
         <div id='stream-player' className='player'></div>
-        <br></br>
+      <div> </div>
         <div id='sports-player' className='player'></div>
           <div className="bt">
            
