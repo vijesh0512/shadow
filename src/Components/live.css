@@ -21,6 +21,14 @@
   transition: transform 0.2s;
   box-shadow: 1px 1px 10px rgb(85, 83, 83);
 }
+.stream{
+  width: 400px;
+  height:auto;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+  box-shadow: 1px 1px 10px rgb(85, 83, 83);
+}
 .songs{
   display: flex;
   flex-wrap: wrap;
@@ -32,6 +40,14 @@
   height: 210px;
   border-radius: 10px;
   padding: 10px;
+}
+.stream img{
+    width: 400px;
+  height:auto;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+  box-shadow: 1px 1px 10px rgb(85, 83, 83);
 }
 .son p {
   margin-top: 10px;
