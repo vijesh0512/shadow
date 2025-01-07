@@ -96,9 +96,9 @@ const FT = () => {
                 {matches.map((match) => (
                     <div
                         key={match.match_id}
-                        className={`stream ${match.status === 'upcoming' ? 'upcoming' : ''}`}
+                        className={`stream ${match.status === 'UPCOMING' ? 'UPCOMING' : ''}`}
                         onClick={
-                            match.status === 'upcoming'
+                            match.status === 'UPCOMING'
                                 ? undefined
                                 : () => window.open(match.stream_link, "_blank")
                         }
