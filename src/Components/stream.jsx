@@ -12,7 +12,7 @@ const FT = () => {
                 const [response1, response2, response3] = await Promise.all([
                     fetch('https://sony-eight.vercel.app/'),  // First JSON file
                     fetch('https://fancode-two.vercel.app/'), // Second JSON file
-                    fetch('https://jio-onb63jbnx-vijesh-s-projects.vercel.app/'), // Third JSON file
+                    fetch('https://jiocinema-livid.vercel.app/'), // Third JSON file
                 ]);
 
                 if (!response1.ok || !response2.ok || !response3.ok) {
