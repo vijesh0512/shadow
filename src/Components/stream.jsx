@@ -89,27 +89,28 @@ const FT = () => {
         return <div>{error}</div>;
     }
 
-    return (
-        <>
-            <h1 className="sideheading">Live Matches</h1>
-            <div id="match-container" className="play">
-                {matches.map((match) => (
-                    <div
-                        key={match.match_id}
-                        className={`stream ${match.status === 'UPCOMING' ? 'UPCOMING' : ''}`}
-                        onClick={
-                            match.status === 'UPCOMING'
-                                ? undefined
-                                : () => window.open(match.stream_link, "_blank")
-                        }
-                    >
-                        <img src={match.banner} alt={match.match_name} />
-                        <h2>{match.match_name}</h2>
-                    </div>
-                ))}
-            </div>
-        </>
-    );
+return (
+    <>
+        <h1 className="sideheading">Live Matches</h1>
+        <div id="match-container" className="play">
+            {matches.map((match) => (
+                <div
+                    key={match.match_id}
+                    className={`stream ${match.status === 'UPCOMING' ? 'UPCOMING' : ''}`}
+                    onClick={
+                        match.status === 'UPCOMING'
+                            ? undefined
+                            : () => window.open(match.stream_link, "_blank")
+                    }
+                >
+                    <img src={match.banner} alt={match.match_name} />
+                    <h2>{match.status === 'UPCOMING' ? match.status : match.match_name}</h2>
+                </div>
+            ))}
+        </div>
+    </>
+);
+
 };
 
 export default FT;
