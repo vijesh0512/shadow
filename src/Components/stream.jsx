@@ -69,21 +69,11 @@ const FT = () => {
     return (
         <>
             <h1 className='sideheading'>Live Matches</h1>
-            <div id='match-container' className='match-container'>
+            <div id='match-container' className='play'>
                 {matches.map((match) => (
-                    <div key={match.match_id} className='card'>
+                    <div key={match.match_id} className='son' onClick={() => window.open(match.stream_link, '_blank')}>
                         <img src={match.banner} alt={match.match_name} />
                         <h2>{match.match_name}</h2>
-                        {match.team_1 && match.team_2 && (
-                            <p>
-                                <img src={match.team_1_flag} alt={match.team_1} width="25" /> {match.team_1} 
-                                vs 
-                                <img src={match.team_2_flag} alt={match.team_2} width="25" /> {match.team_2}
-                            </p>
-                        )}
-                        <button onClick={() => window.open(match.stream_link, '_blank')}>
-                            Watch Now
-                        </button>
                     </div>
                 ))}
             </div>
