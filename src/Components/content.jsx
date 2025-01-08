@@ -347,7 +347,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
   const fetchAndRenderMatches = async (containerId) => {
     const container = document.getElementById(containerId);
     if (!container) return;
-  container.innerHTML = '<p>Loading matches...</p>';
+    container.innerHTML = '<p>Loading matches...</p>';
     try {
         const [response1, response2, response3] = await Promise.all([
             fetch('https://sony-eight.vercel.app/'),
@@ -360,6 +360,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
         const data1 = await response1.json();
         const data2 = await response2.json();
         const data3 = await response3.json();
+
         // Normalize data
         const matchesFromFirstJson = data1.matches.map((match) => ({
             match_id: match.contentId || 'unknown',
@@ -368,7 +369,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
             stream_link: match.pub_url || '',
         }));
 
-          const matchesFromSecondJson = data2.map((match) => ({
+        const matchesFromSecondJson = data2.map((match) => ({
             match_id: match.id || 'unknown',
             match_name: match.title || 'Unnamed Match',
             banner: match.logo || '',
@@ -384,8 +385,6 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
                 stream_link: match.adfree_url || '',
             }));
 
-
-
         // Combine all matches
         const allMatches = [
             ...matchesFromFirstJson,
@@ -395,14 +394,16 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
 
         container.innerHTML = '';
 
-        // Render matches
+        // Render matches using div with onclick
         allMatches.forEach((match) => {
             const matchDiv = document.createElement('div');
             matchDiv.classList.add('song');
+            matchDiv.style.cursor = 'pointer'; // Make it look clickable
+            matchDiv.onclick = () => {
+                window.open(match.stream_link, '_blank');
+            };
             matchDiv.innerHTML = `
-                <a href="${match.stream_link}" target="_blank">
-                    <img src="${match.banner}" alt="${match.match_name}">
-                </a>
+                <img src="${match.banner}" alt="${match.match_name}">
                 <p>${match.match_name}</p>
             `;
             container.appendChild(matchDiv);
@@ -412,6 +413,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
         console.error(error);
     }
 };
+
   useEffect(() => {
     if (!selectedAlbum) {
       // rendermov(video, 'video-player');
