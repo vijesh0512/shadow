@@ -15,15 +15,6 @@ const App = () => {
   const [currentSong, setCurrentSong] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentAudio, setCurrentAudio] = useState(null);
-  const [isStandalone, setIsStandalone] = useState(false);
-
-  useEffect(() => {
-    const checkStandalone = () => {
-      const standalone = window.navigator.standalone || window.matchMedia('(display-mode: standalone)').matches;
-      setIsStandalone(standalone);
-    };
-    checkStandalone();
-  }, []);
 
   const handleNavClick = (component) => {
     setActiveComponent(component);
@@ -60,7 +51,7 @@ const App = () => {
 
   return (
     <div>
-      {!isStandalone && <Navbar onNavClick={handleNavClick} />}
+      <Navbar onNavClick={handleNavClick} />
       {activeComponent === 'home' && (
         <>
           <Home 
@@ -69,18 +60,21 @@ const App = () => {
             onAudioChange={handleAudioChange} 
           />
           {currentSong && currentSong.image && (
-            <div className="songg">
-              <h3>Now Playing</h3>
-              <img src={currentSong.image} alt={currentSong.name} /><br/>
-              <button onClick={togglePlayPause} className="player-button">
-                {isPlaying ? 'Pause' : 'Play'}
-              </button>
-            </div>
-          )}
+  <div className="songg">
+    <h3>Now Playing</h3>
+    <img src={currentSong.image} alt={currentSong.name} /><br/>
+    <button onClick={togglePlayPause} className="player-button">
+      {isPlaying ? 'Pause' : 'Play'}
+    </button>
+  </div>
+)}
+
         </>
       )}
+      {/* {activeComponent === 'live' && <Livetv />} */}
       {activeComponent === 'vlc' && <Livetwo />}
       {activeComponent === 'Movies' && <Movies />}
+      {/* {activeComponent === 'FT' && <FT />} */}
       {activeComponent === 'Shows' && <Shows />}
       {activeComponent === 'Kids' && <Kids />}
       {activeComponent === 'Albums' && <Album />}
