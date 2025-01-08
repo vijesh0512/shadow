@@ -26,14 +26,17 @@ const FT = () => {
                 // Normalize the match data for each JSON
                 const matchesFromFirstJson = data1.matches.map((match) => ({
                     match_id: match.contentId,
-                    match_name: match.status === 'upcoming' ? 'Upcoming' : match.title,
-                    banner: match.landscapeThumb,
-                    stream_link: match.status === 'upcoming' ? null : match.pub_url,
-                    team_1: match.homeTeam,
-                    team_2: match.awayTeam,
-                    team_1_flag: "", // No team flag in this JSON
-                    team_2_flag: "", // No team flag in this JSON
-                    status: match.status,
+                    match_name: match.isLive ? match.event_name : `Upcoming - ${match.event_name}`,
+                    banner: match.src,
+                    stream_link: match.isLive ? match.pub_url : null,
+                    team_1: "",
+                    team_2: "",
+                    team_1_flag: "",
+                    team_2_flag: "",
+                    status: match.isLive ? "LIVE" : "UPCOMING",
+                    category: match.event_category,
+                    broadcast_channel: match.broadcast_channel,
+                    date: match.isLive ? "Live Now" : match.event_name.split("-").pop().trim(),
                 }));
 
                 const matchesFromThirdJson = data2.map((match) => ({
@@ -41,34 +44,36 @@ const FT = () => {
                     match_name: match.status === 'upcoming' ? 'Upcoming' : match.title,
                     banner: match.logo,
                     stream_link: match.status === 'upcoming' ? null : match.link,
-                    team_1: "", // No team info in this JSON
-                    team_2: "", // No team info in this JSON
-                    team_1_flag: "", // No team flag in this JSON
-                    team_2_flag: "", // No team flag in this JSON
-                    status: match.status,
+                    team_1: "",
+                    team_2: "",
+                    team_1_flag: "",
+                    team_2_flag: "",
+                    status: match.status === 'upcoming' ? "UPCOMING" : "LIVE",
                 }));
 
-                const matchesFromSecondJson = data3.matches
-                    // .filter((match) => match.adfree_url) // Filter matches with dai_url
-                    .map((match) => ({
-                        match_id: match.match_id,
-                        match_name: match.status === 'upcoming' ? 'Upcoming' : match.title,
-                        banner: match.src,
-                        stream_link: match.status === 'upcoming' ? null : match.adfree_url,
-                        team_1: match.team_1,
-                        team_2: match.team_2,
-                        team_1_flag: match.team_1_flag,
-                        team_2_flag: match.team_2_flag,
-                        status: match.status,
-                        date: match.startTime,
-                    }));
+                const matchesFromSecondJson = data3.matches.map((match) => ({
+                    match_id: match.match_id,
+                    match_name: match.status === 'UPCOMING' ? 'UPCOMING' : match.title,
+                    banner: match.src,
+                    stream_link: match.status === 'UPCOMING' ? null : match.adfree_url,
+                    team_1: match.team_1,
+                    team_2: match.team_2,
+                    team_1_flag: match.team_1_flag,
+                    team_2_flag: match.team_2_flag,
+                    status: match.status === 'UPCOMING' ? "UPCOMING" : "LIVE",
+                    date: match.startTime,
+                }));
 
-                // Combine all matches
+                // Combine and sort matches
                 const allMatches = [
                     ...matchesFromFirstJson,
                     ...matchesFromThirdJson,
                     ...matchesFromSecondJson,
-                ];
+                ].sort((a, b) => {
+                    if (a.status === "LIVE" && b.status !== "LIVE") return -1;
+                    if (a.status !== "LIVE" && b.status === "LIVE") return 1;
+                    return 0;
+                });
 
                 setMatches(allMatches);
             } catch (err) {
@@ -90,30 +95,35 @@ const FT = () => {
         return <div>{error}</div>;
     }
 
-return (
-    <>
-        <h1 className="sideheading">Live Matches</h1>
-        <div id="match-container" className="play">
-            {matches.map((match) => (
-                <div
-                    key={match.match_id}
-                    className={`stream ${match.status === 'UPCOMING' ? 'UPCOMING' : ''}`}
-                    onClick={
-                        match.status === 'UPCOMING'
-                            ? undefined
-                            : () => window.open(match.stream_link, "_blank")
-                    }
-                >
-                    <img src={match.banner} alt={match.match_name} />
-                    <h2>{match.status === 'UPCOMING' ? ( <>{match.status} <br /> {match.date}</> ) : (match.match_name)}</h2>
-
-
-                </div>
-            ))}
-        </div>
-    </>
-);
-
+    return (
+        <>
+            <h1 className="sideheading">Live Matches</h1>
+            <div id="match-container" className="play">
+                {matches.map((match) => (
+                    <div
+                        key={match.match_id}
+                        className={`stream ${match.status === 'UPCOMING' ? 'UPCOMING' : ''}`}
+                        onClick={
+                            match.status === 'UPCOMING'
+                                ? undefined
+                                : () => window.open(match.stream_link, "_blank")
+                        }
+                    >
+                        <img src={match.banner} alt={match.match_name} />
+                        <h2>
+                            {match.status === 'UPCOMING' ? (
+                                <>
+                                    {match.status} <br /> {match.date}
+                                </>
+                            ) : (
+                                match.match_name
+                            )}
+                        </h2>
+                    </div>
+                ))}
+            </div>
+        </>
+    );
 };
 
 export default FT;
