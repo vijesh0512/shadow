@@ -59,7 +59,7 @@
 .son a{
   text-decoration:none;
 }
-.son:hover {
+.son:hover , .stream:hover{
   transform: scale(1.05);
 }
 .son h2,.stream h2{
