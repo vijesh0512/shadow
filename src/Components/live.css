@@ -23,7 +23,7 @@
 }
 .stream{
   width: 400px;
-  height:auto;
+  height:312px;
   text-align: center;
   cursor: pointer;
   transition: transform 0.2s;
@@ -91,7 +91,7 @@
       height: 150px;
   }
   .stream img{
-        width: 90%;
+      width: 90%;
       height: 180px;
   }
 
