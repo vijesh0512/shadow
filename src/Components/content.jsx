@@ -401,8 +401,8 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
             matchDiv.innerHTML = `
                 <a href="${match.stream_link}" target="_blank">
                     <img src="${match.banner}" alt="${match.match_name}">
-                </a>
                 <p>${match.match_name}</p>
+                </a>
             `;
             container.appendChild(matchDiv);
         });
