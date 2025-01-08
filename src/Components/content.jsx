@@ -367,14 +367,14 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
             stream_link: match.pub_url || '',
         }));
 
-          const matchesFromThirdJson = data2.map((match) => ({
+          const matchesFromSecondJson = data2.map((match) => ({
             match_id: match.id || 'unknown',
             match_name: match.title || 'Unnamed Match',
             banner: match.logo || '',
             stream_link: match.link || '',
         }));
 
-        const matchesFromSecondJson = data3.matches
+        const matchesFromThordJson = data3.matches
             .filter((match) => match.adfree_url) // Ensure the stream link exists
             .map((match) => ({
                 match_id: match.match_id || 'unknown',
