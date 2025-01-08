@@ -374,7 +374,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
             stream_link: match.link || '',
         }));
 
-        const matchesFromThordJson = data3.matches
+        const matchesFromThirdJson = data3.matches
             .filter((match) => match.adfree_url) // Ensure the stream link exists
             .map((match) => ({
                 match_id: match.match_id || 'unknown',
