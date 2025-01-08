@@ -23,11 +23,12 @@
 }
 .stream{
   width: 400px;
-  height:312px;
+  height:auto;
   text-align: center;
   cursor: pointer;
   transition: transform 0.2s;
   box-shadow: 1px 1px 10px rgb(85, 83, 83);
+  margin-bottom:5px;
 }
 .songs{
   display: flex;
@@ -43,7 +44,7 @@
 }
 .stream img{
   width: 400px;
-  height:auto;
+  height:312px;
   text-align: center;
   cursor: pointer;
   transition: transform 0.2s;
