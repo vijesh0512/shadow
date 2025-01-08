@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
+import './live.css';
 const stream = [
   
   //https://stream.vstartv.org:3511/hybrid/play.m3u8
