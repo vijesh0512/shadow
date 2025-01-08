@@ -56,7 +56,7 @@
   color: #b3a6a6;
 }
 .son a{
-  text-decoration:none
+  text-decoration:none;
 }
 .son:hover {
   transform: scale(1.05);
