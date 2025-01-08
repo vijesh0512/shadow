@@ -28,7 +28,7 @@
   cursor: pointer;
   transition: transform 0.2s;
   box-shadow: 1px 1px 10px rgb(85, 83, 83);
-  margin-bottom:5px;
+  margin-bottom:10px;
 }
 .songs{
   display: flex;
