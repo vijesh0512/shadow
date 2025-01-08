@@ -14,7 +14,7 @@
   z-index: 2000;
 }
 .son {
-  width: 300px;
+  width: 310px;
   height:auto;
   text-align: center;
   cursor: pointer;
@@ -42,7 +42,7 @@
   padding: 10px;
 }
 .stream img{
-    width: 400px;
+  width: 400px;
   height:auto;
   text-align: center;
   cursor: pointer;
@@ -70,7 +70,7 @@
 }
 @media (max-width: 768px) {
   .play {
-      gap: 6px;
+      gap: 5px;
   }
   .son {
       width: 115px;
@@ -84,7 +84,7 @@
   }
 
   .son img {
-      width: 100px;
+      width: 95px;
       height: 150px;
   }
   .stream img{
