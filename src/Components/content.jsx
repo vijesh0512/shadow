@@ -361,23 +361,26 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
         const data2 = await response2.json();
         const data3 = await response3.json();
 
-        // Normalize data
-        const matchesFromFirstJson = data1.matches.map((match) => ({
-            match_id: match.contentId || 'unknown',
-            match_name: match.title || 'Unnamed Match',
-            banner: match.portraitThumb || '',
-            stream_link: match.pub_url || '',
-        }));
+        // Normalize and filter live matches
+        const matchesFromFirstJson = data1.matches
+            .filter((match) => match.isLive) // Filter only live matches
+            .map((match) => ({
+                match_id: match.contentId || 'unknown',
+                match_name: match.event_name || 'Unnamed Match',
+                banner: match.src || '',
+                stream_link: match.pub_url || '',
+            }));
 
-        const matchesFromSecondJson = data2.map((match) => ({
-            match_id: match.id || 'unknown',
-            match_name: match.title || 'Unnamed Match',
-            banner: match.logo || '',
-            stream_link: match.link || '',
-        }));
+        const matchesFromSecondJson = data2
+            .map((match) => ({
+                match_id: match.id || 'unknown',
+                match_name: match.title || 'Unnamed Match',
+                banner: match.logo || '',
+                stream_link: match.link || '',
+            }));
 
         const matchesFromThirdJson = data3.matches
-            .filter((match) => match.adfree_url) // Ensure the stream link exists
+            .filter((match) => match.status === 'LIVE') // Filter only live matches
             .map((match) => ({
                 match_id: match.match_id || 'unknown',
                 match_name: match.match_name || 'Unnamed Match',
@@ -385,8 +388,8 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
                 stream_link: match.adfree_url || '',
             }));
 
-        // Combine all matches
-        const allMatches = [
+        // Combine live matches
+        const liveMatches = [
             ...matchesFromFirstJson,
             ...matchesFromSecondJson,
             ...matchesFromThirdJson,
@@ -394,8 +397,13 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
 
         container.innerHTML = '';
 
-        // Render matches using div with onclick
-        allMatches.forEach((match) => {
+        // Render only live matches
+        if (liveMatches.length === 0) {
+            container.innerHTML = '<p>No live matches available right now.</p>';
+            return;
+        }
+
+        liveMatches.forEach((match) => {
             const matchDiv = document.createElement('div');
             matchDiv.classList.add('song');
             matchDiv.style.cursor = 'pointer'; // Make it look clickable
@@ -413,6 +421,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
         console.error(error);
     }
 };
+
 
   useEffect(() => {
     if (!selectedAlbum) {
