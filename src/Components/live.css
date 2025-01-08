@@ -36,7 +36,7 @@
 }
 
 .son img {
-  width: 230px;
+  width: 0px;
   height: 210px;
   border-radius: 10px;
   padding: 10px;
@@ -84,7 +84,7 @@
   }
 
   .son img {
-      width: 90%;
+      width: 0px;
       height: 150px;
   }
   .stream img{
