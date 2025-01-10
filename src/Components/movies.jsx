@@ -3,13 +3,13 @@ import ReactPlayer from 'react-player';
 import './live.css';
 import './album.css';
 
-
+//https://dls4.mrfooll.xyz/AgAD7R3315981
 const shows = [
 {
     name: 'Theatre Print',
     image: 'https://media.istockphoto.com/id/1494642262/photo/people-in-the-cinema-auditorium-with-empty-white-screen.jpg?s=2048x2048&w=is&k=20&c=XLSiHIO02doIcuaB8BJMTcoTsyeQtvbngcQlQZLkEW4=',
     shows: [
-    {name:'Game Changer',image:'https://assetscdn1.paytm.com/images/cinema/WhatsApp%20Image%202025-01-06%20at%2013.39.30-ad954b40-cc05-11ef-912e-2154ccd78c0a.jpeg',link:'https://dls4.mrfooll.xyz/AgAD7R3315981'},
+    {name:'Game Changer',image:'https://assetscdn1.paytm.com/images/cinema/WhatsApp%20Image%202025-01-06%20at%2013.39.30-ad954b40-cc05-11ef-912e-2154ccd78c0a.jpeg',link:'https://cdp.tamilcloud.pro/Game%20Changer%20(2025)/Tamilkolly.Life%20-%20Game%20Changer%20(2025)%20Tamil%20HQ%20PreDVD%20720p%20900MB.mp4?dl=true'},
       {name:'Idendity', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIZIoLqoHAbhvmlxriYO4QWJVCHlEX8I5zVpCTHGXx7JLMbgK_v2yyK0mO&s=10',link:'https://dl8.hotshare.online/Identity_2025_PreDVD_720p_HD.mp4'},
       {name:'See Saw',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ4wpEJDzI-yrTc-9oRK7aZnsR9yJVeoIqTkuHBluGXQtvZGRdUxiHMh8&s=10',link:'https://dl2.hotshare.click/Seesaw_2025_PreDVD_720p_HD.mp4'},
       {name:'Xtreme',image:'https://in.bmscdn.com/events/moviecard/ET00422598.jpg',link:'https://s04.hotshare.link/Xtreme_2025_PreDVD_720p_HD.mp4'},
