@@ -12,7 +12,7 @@ const stream = [
   //{name:'Bwf Malaysia Open',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb1sQGdMWE_kfnElvqA6YOez3n8ahWVvq11ISQnneJXdHgTefZ6ncrMoc&s=10',link:'https://jiotvbpklive.cdn.jio.com/bpk-tv/IDCDemo_IPL23_Sports18_MOB/Fallback/IDCDemo_IPL23_Sports18_MOB-audio_98838_eng=98800-video=2293600-433371119.m3u8'},
   //{name:'STA vs SIX',image:'https://upload.wikimedia.org/wikipedia/en/c/c0/Big_Bash_League_%28logo%29.png',link:'https://m118753.protect-cdn.net/live/m4-720p.m3u8'},
 //  {name:'SEC vs MICT',image:'https://www.sports18.com/wp-content/themes/sports18/assets/images/SA20.png',link:'https://m118753.protect-cdn.net/live/m4-720p.m3u8'},
-  {name:'IND vs IRE',image:'https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9225/1736482019225-h',link:'https://tsneh.vercel.app/shadow-tnt1'},
+ // {name:'IND vs IRE',image:'https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9225/1736482019225-h',link:'https://tsneh.vercel.app/shadow-tnt1'},
   ];
   
 const movies = [
