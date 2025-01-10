@@ -10,7 +10,7 @@ const stream = [
   { name: 'BB 24*7', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvdIFaCYAcm_7BPwVQWaW6TKxbpvkTMvWswImFgaTwacr7G87XesElbHH&s=10', link: 'https://live.tamiltool.online/livestream/index.m3u8' },
   {name:'BB 24*7',image:'https://upload.wikimedia.org/wikipedia/en/c/c1/Bigg_Boss_Poster.jpg',link:'https://tsneh.vercel.app/lcqfyrnndltd'}, 
   //{name:'Bwf Malaysia Open',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb1sQGdMWE_kfnElvqA6YOez3n8ahWVvq11ISQnneJXdHgTefZ6ncrMoc&s=10',link:'https://jiotvbpklive.cdn.jio.com/bpk-tv/IDCDemo_IPL23_Sports18_MOB/Fallback/IDCDemo_IPL23_Sports18_MOB-audio_98838_eng=98800-video=2293600-433371119.m3u8'},
-  //{name:'STA vs SIX',image:'https://upload.wikimedia.org/wikipedia/en/c/c0/Big_Bash_League_%28logo%29.png',link:'https://m118753.protect-cdn.net/live/m4-720p.m3u8'},
+  //{name:'STA vs SIX',image:'https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/2214/1632214-a-c533aa830ef0',link:'https://m118753.protect-cdn.net/live/m4-720p.m3u8'},
 //{name:'DSG vs PC',image:'https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/532/1735025930532-a',link:'https://m118753.protect-cdn.net/live/m4-720p.m3u8'},
  // {name:'IND vs IRE',image:'https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9225/1736482019225-h',link:'https://tsneh.vercel.app/shadow-tnt1'},
   ];
