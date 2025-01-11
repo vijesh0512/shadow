@@ -25,7 +25,7 @@ const FT = () => {
 
                 // Normalize the match data for each JSON
                 const matchesFromFirstJson = data1.matches
-                .filter((match) => match.hmac_url !== null && match.hmac_url !== "")
+              
                 .map((match) => ({
                     match_id: match.contentId,
                     match_name: match.hmac_url !== null ? match.episodeTitle : `Upcoming - ${match.title}`,
