@@ -342,7 +342,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
     container.innerHTML = '<p>Loading matches...</p>';
     try {
         const [response1, response2, response3] = await Promise.all([
-            fetch('https://jiocinema-livid.vercel.app/'),
+            fetch('https://sony-eight.vercel.app/'),
             fetch('https://jiocinema-livid.vercel.app/'),
             fetch('https://fancode-two.vercel.app/'),
         ]);
@@ -355,13 +355,13 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
 
         // Normalize and filter live matches
         const matchesFromFirstJson = data1.matches
-            .filter((match) => match.isLive) // Filter only live matches
-            .map((match) => ({
-                match_id: match.contentId || 'unknown',
-                match_name: match.event_name || 'Unnamed Match',
-                banner: match.src || '',
-                stream_link: match.pub_url || '',
-            }));
+        .filter((match) => match.hmac_url !== null && match.hmac_url !== "") // Filter only live matches
+        .map((match) => ({
+          match_id: match.contentId || "unknown",
+          match_name: match.episodeTitle || "Unnamed Match",
+          banner: match.portraitThumb || "",
+          stream_link: match.pub_url || "",
+        }));
 
         const matchesFromSecondJson = data2
             .map((match) => ({
