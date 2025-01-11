@@ -342,7 +342,7 @@ const Heros = ({ onNavClick,onSongChange, onAudioChange }) => {
     container.innerHTML = '<p>Loading matches...</p>';
     try {
         const [response1, response2, response3] = await Promise.all([
-            fetch('https://sony-eight.vercel.app/'),
+            fetch('https://jiocinema-livid.vercel.app/'),
             fetch('https://jiocinema-livid.vercel.app/'),
             fetch('https://fancode-two.vercel.app/'),
         ]);
