@@ -24,19 +24,23 @@ const FT = () => {
                 const data3 = await response3.json();
 
                 // Normalize the match data for each JSON
-                const matchesFromFirstJson = data1.matches.map((match) => ({
+                const matchesFromFirstJson = data1.matches
+                .filter((match) => match.hmac_url !== null && match.hmac_url !== "")
+                .map((match) => ({
                     match_id: match.contentId,
-                    match_name: match.isLive ? match.event_name : `Upcoming - ${match.event_name}`,
-                    banner: match.src,
-                    stream_link: match.isLive ? match.pub_url : null,
-                    team_1: "",
-                    team_2: "",
-                    team_1_flag: "",
-                    team_2_flag: "",
-                    status: match.isLive ? "LIVE" : "UPCOMING",
-                    category: match.event_category,
-                    broadcast_channel: match.broadcast_channel,
-                    date: match.isLive ? "Live Now" : match.event_name.split("-").pop().trim(),
+                    match_name: match.hmac_url !== null ? match.episodeTitle : `Upcoming - ${match.title}`,
+                    banner: match.landscapeThumb,
+                    stream_link: match.hmac_url !== null ? match.hmac_url : null,
+                    team_1: match.homeTeam || "",
+                    team_2: match.awayTeam || "",
+                    team_1_flag: "", // Placeholder if team flags are available elsewhere
+                    team_2_flag: "", // Placeholder if team flags are available elsewhere
+                    status: match.hmac_url !== null ? "LIVE" : "UPCOMING",
+                    category: match.event_category || "",
+                    broadcast_channel: match.broadcastChannel || "",
+                    date: match.hmac_url !== null 
+                        ? "Live Now" 
+                        : match.title.split("-").pop().trim(),
                 }));
 
                 const matchesFromThirdJson = data2.map((match) => ({
