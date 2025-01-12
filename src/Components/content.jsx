@@ -13,7 +13,7 @@ const stream = [
   {name:'MLS vs MLR',image:'https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/2214/1632214-a-c533aa830ef0',link:'https://allinonereborn.com/tatatv1.php?id=8894'},
 //{name:'JSK vs MICT',image:'https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/532/1735025930532-a',link:'https://m118753.protect-cdn.net/live/m4-720p.m3u8'},
  // {name:'IND vs IRE',image:'https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9225/1736482019225-h',link:'https://tsneh.vercel.app/shadow-tnt1'},
-  {name:'24H DUBAI LIVE',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFVy1T9VeVLeVCwasgoOialqCvGAoKlRAgmw&usqp=CAU',link:'https://www.youtube.com/live/mAcFvHzGUg0?si=SFMsnQN89jxDD5ty'},
+ // {name:'24H DUBAI LIVE',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFVy1T9VeVLeVCwasgoOialqCvGAoKlRAgmw&usqp=CAU',link:'https://www.youtube.com/live/mAcFvHzGUg0?si=SFMsnQN89jxDD5ty'},
 ];
   
 const movies = [
