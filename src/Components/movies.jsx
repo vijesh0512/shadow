@@ -9,6 +9,7 @@ const shows = [
     name: 'Theatre Print',
     image: 'https://media.istockphoto.com/id/1494642262/photo/people-in-the-cinema-auditorium-with-empty-white-screen.jpg?s=2048x2048&w=is&k=20&c=XLSiHIO02doIcuaB8BJMTcoTsyeQtvbngcQlQZLkEW4=',
     shows: [
+        {name:'Madha Gaja Raja',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZErTiqkfmjiYGkulqkm9goap_Q7xVpuyRHIOgejmQvvxRWMA1dQc6yyDI&s=10',link:'https://dls4.mrfooll.xyz/3341077/Madha+Gaja+Raja+%282025%29+Tamil+HQ+PreDVD+-+720p+-+x264+-+HQ+Cl.mkv?hash=AgADkx'},
         {name:'Vanangan',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWLRwf4wNzWB6EaievUesfVk75IZKVsDHXIg&usqp=CAU', link:'https://dls3.mrfooll.xyz/AgADhx3340181'},
     {name:'Game Changer',image:'https://assetscdn1.paytm.com/images/cinema/WhatsApp%20Image%202025-01-06%20at%2013.39.30-ad954b40-cc05-11ef-912e-2154ccd78c0a.jpeg',link:'https://dls4.mrfooll.xyz/AgAD7R3315981'},
       {name:'Idendity', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIZIoLqoHAbhvmlxriYO4QWJVCHlEX8I5zVpCTHGXx7JLMbgK_v2yyK0mO&s=10',link:'https://dl8.hotshare.online/Identity_2025_PreDVD_720p_HD.mp4'},
