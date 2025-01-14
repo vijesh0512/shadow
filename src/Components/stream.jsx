@@ -30,7 +30,7 @@ const FT = () => {
                     match_id: match.contentId,
                     match_name: match.hmac_url !== null ? match.episodeTitle : `Upcoming - ${match.title}`,
                     banner: match.landscapeThumb,
-                    stream_link: match.hmac_url !== null ? match.hmac_url : null,
+                    stream_link: match.hmac_url !== null ? match.pub_url : null,
                     team_1: match.homeTeam || "",
                     team_2: match.awayTeam || "",
                     team_1_flag: "", // Placeholder if team flags are available elsewhere
